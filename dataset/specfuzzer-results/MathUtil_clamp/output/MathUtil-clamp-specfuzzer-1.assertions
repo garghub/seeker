@@ -1,0 +1,30 @@
+===========================================================================
+jts.MathUtil:::OBJECT
+===========================================================================
+jts.MathUtil.clamp(int, int, int):::ENTER
+===========================================================================
+jts.MathUtil.clamp(int, int, int):::EXIT
+FuzzedInvariant ( (Integer_Variable_0 != -1) or (Integer_Variable_1 != 1) ) holds for: <orig(max), return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 >= -1) ) holds for: <orig(max), return>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(x) , orig(min) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(x) , orig(min) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(x) , orig(min) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(x) , orig(min) , return>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(x) , orig(min) , return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(x) , orig(min) , return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(x) , orig(min) , return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(x) , orig(min) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(x) , orig(max) , return>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(x) , orig(max) , return>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(x) , orig(max) , return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(x) , orig(max) , return>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(min) , orig(max) , return>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(min) , orig(max) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(min) , orig(max) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(min) , orig(max) , return>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(min) , orig(max) , return>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(min) , orig(max) , return>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(min) , orig(max) , return>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(min) , orig(max) , return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(min) , orig(max) , return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(min) , orig(max) , return>

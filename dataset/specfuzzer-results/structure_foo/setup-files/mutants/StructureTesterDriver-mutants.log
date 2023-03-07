@@ -1,0 +1,27 @@
+1:STD:<CALL>:<NO-OP>:examples.Structure@<init>():8:clear() |==> <NO-OP>
+2:LVR:POS:0:examples.Structure@<init>(int):12:1 |==> 0
+3:LVR:POS:NEG:examples.Structure@<init>(int):12:1 |==> -1
+4:AOR:+(int,int):%(int,int):examples.Structure@<init>(int):12:(x) + 1 |==> (x) % 1
+5:AOR:+(int,int):*(int,int):examples.Structure@<init>(int):12:(x) + 1 |==> (x) * 1
+6:AOR:+(int,int):-(int,int):examples.Structure@<init>(int):12:(x) + 1 |==> (x) - 1
+7:AOR:+(int,int):/(int,int):examples.Structure@<init>(int):12:(x) + 1 |==> (x) / 1
+8:STD:<ASSIGN>:<NO-OP>:examples.Structure@<init>(int):12:var62 = ((x) + 1) |==> <NO-OP>
+9:LVR:0:POS:examples.Structure@clear():16:0 |==> 1
+10:LVR:0:NEG:examples.Structure@clear():16:0 |==> -1
+11:LVR:POS:0:examples.Structure@clear():16:1 |==> 0
+12:LVR:POS:NEG:examples.Structure@clear():16:1 |==> -1
+13:AOR:+(int,int):%(int,int):examples.Structure@clear():16:(0) + 1 |==> (0) % 1
+14:AOR:+(int,int):*(int,int):examples.Structure@clear():16:(0) + 1 |==> (0) * 1
+15:AOR:+(int,int):-(int,int):examples.Structure@clear():16:(0) + 1 |==> (0) - 1
+16:AOR:+(int,int):/(int,int):examples.Structure@clear():16:(0) + 1 |==> (0) / 1
+17:STD:<ASSIGN>:<NO-OP>:examples.Structure@clear():16:var62 = ((0) + 1) |==> <NO-OP>
+18:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.Structure@foo():20:var62 |==> 0
+19:LVR:TRUE:FALSE:examples.Structure@foo():21:true |==> false
+20:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.Structure@foo():22:result |==> 0
+21:LVR:POS:0:examples.Structure@setX(int):26:1 |==> 0
+22:LVR:POS:NEG:examples.Structure@setX(int):26:1 |==> -1
+23:AOR:+(int,int):%(int,int):examples.Structure@setX(int):26:(y) + 1 |==> (y) % 1
+24:AOR:+(int,int):*(int,int):examples.Structure@setX(int):26:(y) + 1 |==> (y) * 1
+25:AOR:+(int,int):-(int,int):examples.Structure@setX(int):26:(y) + 1 |==> (y) - 1
+26:AOR:+(int,int):/(int,int):examples.Structure@setX(int):26:(y) + 1 |==> (y) / 1
+27:STD:<ASSIGN>:<NO-OP>:examples.Structure@setX(int):26:var62 = ((y) + 1) |==> <NO-OP>

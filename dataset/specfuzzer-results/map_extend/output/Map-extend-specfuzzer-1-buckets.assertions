@@ -1,0 +1,19 @@
+buckets=14
+specs=13
+=====================================
+:::OBJECT
+this.keys != null
+this.data != null
+=====================================
+:::POSTCONDITION
+FuzzedInvariant ( Integer_Variable_0 != #(Map.keys) ) holds for: <orig(this), return>
+FuzzedInvariant ( Integer_Variable_0 < #(Map.keys) ) holds for: <orig(this), return>
+FuzzedInvariant ( Integer_Variable_0 <= #(Map.data) ) holds for: <orig(this), return>
+FuzzedInvariant ( Integer_Variable_0 < #(Map.data) ) holds for: <orig(this), return>
+FuzzedInvariant ( Integer_Variable_0 <= #(Map.keys) ) holds for: <orig(this), return>
+\result == 0 || \result == 1 || \result == 2
+daikon.Quant.size(this.keys) == 1 || daikon.Quant.size(this.keys) == 2 || daikon.Quant.size(this.keys) == 3
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: return
+daikon.Quant.size(this.data) == 1 || daikon.Quant.size(this.data) == 2 || daikon.Quant.size(this.data) == 3
+FuzzedInvariant ( Integer_Variable_0 != #(Map.data) ) holds for: <orig(this), return>
+daikon.Quant.memberOf(\old(v.getClass().getName()) , daikon.Quant.typeArray(this.data) )

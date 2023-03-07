@@ -1,0 +1,75 @@
+===========================================================================
+org.apache.commons.math3.util.FastMathNew:::OBJECT
+===========================================================================
+org.apache.commons.math3.util.FastMathNew.floor(double):::ENTER
+===========================================================================
+org.apache.commons.math3.util.FastMathNew.floor(double):::EXIT123
+===========================================================================
+org.apache.commons.math3.util.FastMathNew.floor(double):::EXIT
+FuzzedInvariant ( (Double_Variable_0 != -1.0) or (Double_Variable_1 < 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 != -1.0) or (Double_Variable_1 <= 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 != 0.0) or (Double_Variable_1 <= 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 != 0.0) or (Double_Variable_1 >= 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 != 1.0) or (Double_Variable_1 = 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 < -1.0) iff (Double_Variable_1 < -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 < 0.0) implies (Double_Variable_1 <= 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 < 0.0) xor (Double_Variable_1 > -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 < 1.0) implies (Double_Variable_1 != 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 < 1.0) xor (Double_Variable_1 > 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 < Double_Variable_1) implies (Double_Variable_1 != -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 < Double_Variable_1) implies (Double_Variable_1 < -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 < Double_Variable_1) implies (Double_Variable_1 < 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 < Double_Variable_1) implies (Double_Variable_1 = -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 < Double_Variable_1) implies (Double_Variable_1 = 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 < Double_Variable_1) implies (Double_Variable_1 > -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 < Double_Variable_1) implies (Double_Variable_1 > 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 < Double_Variable_1) implies (Double_Variable_1 >= 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 <= -1.0) or (Double_Variable_1 >= 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 <= 0.0) iff (Double_Variable_1 < 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 <= 0.0) or (Double_Variable_1 != -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 <= 1.0) implies (Double_Variable_1 <= 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 <= 1.0) or (Double_Variable_1 != -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 <= 1.0) or (Double_Variable_1 >= -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 <= Double_Variable_1) or (Double_Variable_1 != -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 = -1.0) iff (Double_Variable_1 = -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 = -1.0) implies (Double_Variable_1 < 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 = -1.0) implies (Double_Variable_1 >= -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 = 1.0) implies (Double_Variable_1 != -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 = Double_Variable_1) or (Double_Variable_1 != 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 > -1.0) iff (Double_Variable_1 >= 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 > -1.0) implies (Double_Variable_1 >= 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 > 0.0) iff (Double_Variable_1 > 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 > 0.0) iff (Double_Variable_1 >= 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 > 0.0) implies (Double_Variable_1 != -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 > 0.0) implies (Double_Variable_1 > 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 > 1.0) implies (Double_Variable_1 > 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 > Double_Variable_1) implies (Double_Variable_1 != 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 >= -1.0) iff (Double_Variable_1 >= -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 >= -1.0) or (Double_Variable_1 <= 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 >= 0.0) implies (Double_Variable_1 >= 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 >= 1.0) implies (Double_Variable_1 >= 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 >= 1.0) or (Double_Variable_1 <= 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 >= Double_Variable_1) or (Double_Variable_1 != 0.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 >= Double_Variable_1) or (Double_Variable_1 <= 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 >= Double_Variable_1) or (Double_Variable_1 >= -1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Double_Variable_0 >= Double_Variable_1) or (Double_Variable_1 >= 1.0) ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 != Double_Variable_1 * -1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 != Double_Variable_1 + -1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 != Double_Variable_1 + 1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 != Double_Variable_1 - -1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 != Double_Variable_1 - 1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 != Double_Variable_1 / -1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 < Double_Variable_1 + 1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 < Double_Variable_1 - -1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 <= Double_Variable_1 + 1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 <= Double_Variable_1 - -1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 > Double_Variable_1 + -1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 > Double_Variable_1 - 1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 >= Double_Variable_1 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 >= Double_Variable_1 * 1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 >= Double_Variable_1 + -1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 >= Double_Variable_1 + 0.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 >= Double_Variable_1 - 0.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 >= Double_Variable_1 - 1.0 ) holds for: <orig(x), return>
+FuzzedInvariant ( Double_Variable_0 >= Double_Variable_1 / 1.0 ) holds for: <orig(x), return>
+daikon.Quant.fuzzy.lte(\result, \old(x))

@@ -1,0 +1,689 @@
+> SpecFuzzer
+# Inference step (Daikon + Fuzzed Specs)
+Daikon version 5.8.2, released May 4, 2020; http://plse.cs.washington.edu/daikon.
+
+Loading invariants from file: invs_file.xml
+Loaded: 0
+
+Fuzzing specs:
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) in empty
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n != n.right
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : n = n.right.left
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) not in empty
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n != n.right
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n != null
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n = n.left.right
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) not in empty
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) not in empty
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n = n.left
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) in empty
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) in empty
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n != n.right
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) in empty
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n != null
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n = n.right
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n != n.right.left
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n = n.right
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) in empty
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n != null
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) in empty
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n != n.left.right
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) in empty
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) not in empty
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) in empty
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n = n.right
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n != n.right
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n != n.left
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : n != n.left
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n != null
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) in empty
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n != null
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) in empty
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n = n.right.right
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) not in empty
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) not in empty
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.right.*(left + right)) not in empty
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) in empty
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n != n.left
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) not in empty
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n = n.left
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n = null
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n = null
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n != n.right
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n != null
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) not in empty
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) in empty
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) in empty
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.right.*(left + right)) not in empty
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n = n.right
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n != null
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) not in empty
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n = null
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n != n.right
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) in empty
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : n = n.right.left
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) not in empty
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) in empty
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n != n.left.left
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n != n.right.right
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) not in empty
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n = null
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n = n.left
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : n != null
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : n != n.right
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) not in empty
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) in empty
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n = n.right.left
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n != null
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : n != n.right
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) not in empty
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n = n.left
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right)
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n = n.right
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n = null
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) in empty
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) in empty
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n != n.left
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) in empty
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n = n.right.right
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n != n.right
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) in empty
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right)
+Fuzzed spec: no n : DoublyLinkedListNode.^(left + right) : n = null
+Fuzzed spec: all n : DoublyLinkedListNode.*(left + right) : n = n.right
+Fuzzed spec: some n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) not in empty
+Fuzzed spec: some n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right)
+Unique fuzzed invariants: 63 (2000)
+Unary: 63 - Binary: 0 - Ternary: 0 - Discarded: 0
+Reading declaration files Processing trace data; reading 1 dtrace file:
+Loaded objects from file: /specfuzzer/experiments/doublylinkedlistnode_remove/setup-files/DoublyLinkedListNodeTesterDriver-objects.xml
+Total loaded objects: 30950
+
+No return from procedure observed 136 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.DoublyLinkedListNode.insertRight(examples.DoublyLinkedListNode) : 136 invocations
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+===========================================================================
+examples.DoublyLinkedListNode:::OBJECT
+FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) not in empty ) holds for: this
+FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n != null ) holds for: this
+FuzzedInvariant ( all n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) not in empty ) holds for: this
+FuzzedInvariant ( all n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.right.*(left + right)) not in empty ) holds for: this
+FuzzedInvariant ( all n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right) ) holds for: this
+FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) in empty ) holds for: this
+FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) in empty ) holds for: this
+FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) in empty ) holds for: this
+FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) in empty ) holds for: this
+FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : n = null ) holds for: this
+FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : n not in n.^(left + right) ) holds for: this
+FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) not in empty ) holds for: this
+FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) not in empty ) holds for: this
+FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : n != null ) holds for: this
+FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right) ) holds for: this
+FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) not in empty ) holds for: this
+FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) not in empty ) holds for: this
+FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : n = n.left.right ) holds for: this
+FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : n in n.^(left + right) ) holds for: this
+this.left != null
+this.left.left != null
+this.left.left.left != null
+this.left.left.right != null
+this.left.right != null
+this.left.right.left != null
+this.left.right.right != null
+this.right != null
+this.right.left != null
+this.right.left.left != null
+this.right.left.right != null
+this.right.right != null
+this.right.right.left != null
+this.right.right.right != null
+===========================================================================
+examples.DoublyLinkedListNode.DoublyLinkedListNode():::EXIT
+this.left == this.left.left
+this.left == this.left.left.left
+this.left == this.left.left.right
+this.left == this.left.right
+this.left == this.left.right.left
+this.left == this.left.right.right
+this.left == this.right
+this.left == this.right.left
+this.left == this.right.left.left
+this.left == this.right.left.right
+this.left == this.right.right
+this.left == this.right.right.left
+this.left == this.right.right.right
+===========================================================================
+examples.DoublyLinkedListNode.insertRight(examples.DoublyLinkedListNode):::ENTER
+this == this.left.right
+this.left == this.left.left.right
+this.left == this.left.right.left
+this.left == this.right.left.left
+this.left.right == this.right.left
+this.left.right.right == this.right
+this.right == this.right.left.right
+this.right == this.right.right.left
+n == n.left
+n == n.left.left
+n == n.left.right
+n == n.right
+n == n.right.left
+n == n.right.right
+FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right) ) holds for: this
+FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right) ) holds for: this
+n != null
+===========================================================================
+examples.DoublyLinkedListNode.insertRight(examples.DoublyLinkedListNode):::EXIT
+this.left == this.left.left.right
+this.left == this.left.right.left
+this.left == this.right.left.left
+this.left == n.left.left
+this.left.right == n.left
+this.left.right.right == this.right
+this.right == this.right.left.right
+this.right == this.right.right.left
+this.right == n.left.right
+this.right == n.right.left
+this.right == orig(n)
+this.right == orig(n.left)
+this.right == orig(n.left.left)
+this.right == orig(n.left.right)
+this.right == orig(n.right)
+this.right == orig(n.right.left)
+this.right == orig(n.right.right)
+this.right.left == n.left
+this.right.right == n.right
+this.right.right.right == n.right.right
+n.left == orig(this)
+n.left == orig(this.left.right)
+n.left == orig(this.right.left)
+n.right == orig(this.left.right.right)
+n.right == orig(this.right)
+n.right == orig(this.right.left.right)
+n.right == orig(this.right.right.left)
+n.left != null
+n.right != null
+n.right.right != null
+FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n != n.left ) holds for: orig(this)
+FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n != n.right ) holds for: orig(this)
+FuzzedInvariant ( all n : DoublyLinkedListNode.^(left + right) : n != n.left ) holds for: orig(this)
+FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : n != n.right ) holds for: orig(this)
+===========================================================================
+examples.DoublyLinkedListNode.remove():::ENTER
+this == this.left.right
+this.left == this.left.left.right
+this.left == this.left.right.left
+this.left == this.right.left.left
+this.left.right == this.right.left
+this.left.right.right == this.right
+this.right == this.right.left.right
+this.right == this.right.right.left
+FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right) ) holds for: this
+FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right) ) holds for: this
+===========================================================================
+examples.DoublyLinkedListNode.remove():::EXIT
+this.left == this.left.left
+this.left == this.left.left.left
+this.left == this.left.left.right
+this.left == this.left.right
+this.left == this.left.right.left
+this.left == this.left.right.right
+this.left == this.right
+this.left == this.right.left
+this.left == this.right.left.left
+this.left == this.right.left.right
+this.left == this.right.right
+this.left == this.right.right.left
+this.left == this.right.right.right
+this.left == orig(this)
+this.left == orig(this.left.right)
+this.left == orig(this.right.left)
+FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n = n.left ) holds for: orig(this)
+FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n = n.right ) holds for: orig(this)
+FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n = n.right.right ) holds for: orig(this)
+FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : n != n.right ) holds for: orig(this)
+FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : n != n.right ) holds for: orig(this)
+FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : n != n.right.right ) holds for: orig(this)
+FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : n = n.left ) holds for: orig(this)
+FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : n = n.right ) holds for: orig(this)
+FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : n = n.left ) holds for: orig(this)
+FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : n = n.right ) holds for: orig(this)
+===========================================================================
+examples.DoublyLinkedListNode.setLeft(examples.DoublyLinkedListNode):::ENTER
+n != null
+n.left != null
+n.left.left != null
+n.left.right != null
+n.right != null
+n.right.left != null
+n.right.right != null
+===========================================================================
+examples.DoublyLinkedListNode.setLeft(examples.DoublyLinkedListNode):::EXIT
+this.left == this.left.right.left
+this.left == n.right.left
+this.left == orig(n)
+this.left.left == n.left
+this.left.left.left == n.left.left
+this.left.left.right == n.left.right
+this.left.right == n.right
+this.left.right.right == n.right.right
+this.right == this.right.left.right
+this.right == orig(this.right)
+this.right.right == orig(this.right.right)
+this.right.right.right == orig(this.right.right.right)
+n.right == orig(n.right)
+n.right.right == orig(n.right.right)
+n.left != null
+n.left.left != null
+n.left.right != null
+n.right != null
+n.right.right != null
+===========================================================================
+examples.DoublyLinkedListNode.setRight(examples.DoublyLinkedListNode):::ENTER
+this.left == this.left.right.left
+this.right == this.right.left.right
+n != null
+n.left != null
+n.left.left != null
+n.left.right != null
+n.right != null
+n.right.left != null
+n.right.right != null
+===========================================================================
+examples.DoublyLinkedListNode.setRight(examples.DoublyLinkedListNode):::EXIT
+this.left == orig(this.left)
+this.left == orig(this.left.right.left)
+this.left.left == orig(this.left.left)
+this.left.left.left == orig(this.left.left.left)
+this.right == orig(n)
+this.right.left == n.left
+this.right.left.left == n.left.left
+this.right.left.right == n.left.right
+this.right.right == n.right
+this.right.right.left == n.right.left
+this.right.right.right == n.right.right
+n.left == orig(n.left)
+n.left.left == orig(n.left.left)
+n.right.left == orig(n.right.left)
+n.left != null
+n.left.left != null
+n.left.right != null
+n.right != null
+n.right.left != null
+n.right.right != null
+FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right) ) holds for: orig(this)
+FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right) ) holds for: orig(this)
+Exiting Daikon.
+
+# Filtering step
+
+- Mutation is: 1:STD:<ASSIGN>:<NO-OP>:examples.DoublyLinkedListNode@<init>():25:left = this |==> <NO-OP>
+Checking invs on mutant: experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m1.dtrace.gz
+Loaded invs from previous step: 0
+                                                                               [6:14:52 PM]:                                                                  Loaded objects from file: /specfuzzer/experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m1-objects.xml
+Total loaded objects: 1543
+[6:14:53 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan
+No return from procedure observed 314 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.DoublyLinkedListNode.insertRight(examples.DoublyLinkedListNode) : 128 invocations
+  examples.DoublyLinkedListNode.remove() : 186 invocations
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+DoublyLinkedListNodeTesterDriver.inv.gz: 16,364 errors found in 117,664 samples (13.91%)
+DoublyLinkedListNodeTesterDriver.inv.gz: 50 false positives, out of 504, which is 9.92%.
+Preserving 14 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 0
+Saving - Total: 14
+Saving mutants results file
+
+- Mutation is: 10:EVR:<IDENTIFIER(examples.DoublyLinkedListNode)>:<DEFAULT>:examples.DoublyLinkedListNode@remove():60:left |==> null
+Checking invs on mutant: experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m10.dtrace.gz
+Loaded invs from previous step: 14
+                                                                               [6:14:55 PM]:                                                                  Loaded objects from file: /specfuzzer/experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m10-objects.xml
+Total loaded objects: 3018
+[6:14:56 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:14:57 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:14:58 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan
+No return from procedure observed 312 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.DoublyLinkedListNode.remove() : 310 invocations
+  examples.DoublyLinkedListNode.insertRight(examples.DoublyLinkedListNode) : 2 invocations
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+DoublyLinkedListNodeTesterDriver.inv.gz: 0 errors found in 354,264 samples (0.00%)
+DoublyLinkedListNodeTesterDriver.inv.gz: 0 false positives, out of 796, which is 0.00%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 14
+Saving - Total: 14
+Saving mutants results file
+
+- Mutation is: 11:EVR:<IDENTIFIER(examples.DoublyLinkedListNode)>:<DEFAULT>:examples.DoublyLinkedListNode@remove():61:right |==> null
+Checking invs on mutant: experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m11.dtrace.gz
+Loaded invs from previous step: 14
+                                                                               [6:15:00 PM]:                                                                  Loaded objects from file: /specfuzzer/experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m11-objects.xml
+Total loaded objects: 3018
+[6:15:01 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:03 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan
+No return from procedure observed 312 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.DoublyLinkedListNode.remove() : 310 invocations
+  examples.DoublyLinkedListNode.insertRight(examples.DoublyLinkedListNode) : 2 invocations
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+DoublyLinkedListNodeTesterDriver.inv.gz: 5,934 errors found in 407,056 samples (1.46%)
+DoublyLinkedListNodeTesterDriver.inv.gz: 17 false positives, out of 796, which is 2.14%.
+Preserving 10 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 14
+Saving - Total: 24
+Saving mutants results file
+
+- Mutation is: 12:STD:<CALL>:<NO-OP>:examples.DoublyLinkedListNode@remove():62:setLeft(this) |==> <NO-OP>
+Checking invs on mutant: experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m12.dtrace.gz
+Loaded invs from previous step: 24
+                                                                               [6:15:04 PM]:                                                                  Loaded objects from file: /specfuzzer/experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m12-objects.xml
+Total loaded objects: 9016
+[6:15:05 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:06 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:07 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:08 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:09 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:10 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:11 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan
+No return from procedure observed 301 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.DoublyLinkedListNode.insertRight(examples.DoublyLinkedListNode) : 301 invocations
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+DoublyLinkedListNodeTesterDriver.inv.gz: 13,080 errors found in 1,491,664 samples (0.88%)
+DoublyLinkedListNodeTesterDriver.inv.gz: 50 false positives, out of 978, which is 5.11%.
+Preserving 8 new invariants to file /specfuzzer/invs_file.xml
+                                                                               Already preserved invariants: 24
+Saving - Total: 30
+Saving mutants results file
+
+- Mutation is: 13:STD:<CALL>:<NO-OP>:examples.DoublyLinkedListNode@remove():63:setRight(this) |==> <NO-OP>
+Checking invs on mutant: experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m13.dtrace.gz
+Loaded invs from previous step: 30
+                                                                               [6:15:14 PM]:                                                                  [6:15:15 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutanLoaded objects from file: /specfuzzer/experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m13-objects.xml
+Total loaded objects: 30954
+[6:15:16 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:17 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:18 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:19 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:20 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:21 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:22 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:23 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:24 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:25 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:26 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:27 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:28 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:29 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:30 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:31 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:32 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:33 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:34 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:35 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:36 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:37 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:38 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:39 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:40 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:41 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:42 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:44 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:45 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:46 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:47 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:48 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:49 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:50 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:51 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan
+No return from procedure observed 115 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.DoublyLinkedListNode.insertRight(examples.DoublyLinkedListNode) : 115 invocations
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+DoublyLinkedListNodeTesterDriver.inv.gz: 131,850 errors found in 8,197,376 samples (1.61%)
+DoublyLinkedListNodeTesterDriver.inv.gz: 103 false positives, out of 978, which is 10.53%.
+Preserving 11 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 30
+Saving - Total: 35
+Saving mutants results file
+
+- Mutation is: 14:STD:<CALL>:<NO-OP>:examples.DoublyLinkedListNode@remove():64:l.setRight(r) |==> <NO-OP>
+Checking invs on mutant: experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m14.dtrace.gz
+Loaded invs from previous step: 35
+                                                                               [6:15:54 PM]:                                                                  [6:15:56 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutanLoaded objects from file: /specfuzzer/experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m14-objects.xml
+Total loaded objects: 30950
+[6:15:57 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:58 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:15:59 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:00 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:01 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:02 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:03 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:04 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:05 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:06 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:07 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:08 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:09 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:10 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:11 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:12 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:13 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:14 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:15 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:16 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:17 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:18 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:19 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:20 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:21 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:22 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:23 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:24 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:25 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:26 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:27 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:28 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:29 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:30 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:31 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:32 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan
+No return from procedure observed 136 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.DoublyLinkedListNode.insertRight(examples.DoublyLinkedListNode) : 136 invocations
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+DoublyLinkedListNodeTesterDriver.inv.gz: 9,152 errors found in 8,172,512 samples (0.11%)
+DoublyLinkedListNodeTesterDriver.inv.gz: 4 false positives, out of 978, which is 0.41%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 35
+Saving - Total: 35
+Saving mutants results file
+
+- Mutation is: 15:STD:<CALL>:<NO-OP>:examples.DoublyLinkedListNode@remove():65:r.setLeft(l) |==> <NO-OP>
+Checking invs on mutant: experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m15.dtrace.gz
+Loaded invs from previous step: 35
+                                                                               [6:16:34 PM]:                                                                  [6:16:35 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutanLoaded objects from file: /specfuzzer/experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m15-objects.xml
+Total loaded objects: 30950
+[6:16:36 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:37 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:38 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:39 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:40 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:41 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:42 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:43 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:44 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:45 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:46 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:47 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:48 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:49 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:50 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:51 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:52 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:53 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:54 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:55 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:56 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:57 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:58 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:16:59 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:00 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:01 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:02 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:03 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:04 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:05 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:06 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:07 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:08 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:09 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:10 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:11 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:12 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:13 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan
+No return from procedure observed 136 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.DoublyLinkedListNode.insertRight(examples.DoublyLinkedListNode) : 136 invocations
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+DoublyLinkedListNodeTesterDriver.inv.gz: 0 errors found in 8,172,512 samples (0.00%)
+DoublyLinkedListNodeTesterDriver.inv.gz: 0 false positives, out of 978, which is 0.00%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 35
+Saving - Total: 35
+Saving mutants results file
+
+- Mutation is: 16:LVR:TRUE:FALSE:examples.DoublyLinkedListNode@remove():72:true |==> false
+Checking invs on mutant: experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m16.dtrace.gz
+Loaded invs from previous step: 35
+                                                                               [6:17:16 PM]:                                                                  Saving mutants results file
+
+- Mutation is: 2:STD:<ASSIGN>:<NO-OP>:examples.DoublyLinkedListNode@<init>():26:right = this |==> <NO-OP>
+Checking invs on mutant: experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m2.dtrace.gz
+Loaded invs from previous step: 35
+                                                                               [6:17:18 PM]:                                                                  Loaded objects from file: /specfuzzer/experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m2-objects.xml
+Total loaded objects: 2055
+[6:17:19 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan[6:17:20 PM]: Reading experiments/doublylinkedlistnode_remove/setup-files/mutan
+No return from procedure observed 314 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.DoublyLinkedListNode.insertRight(examples.DoublyLinkedListNode) : 128 invocations
+  examples.DoublyLinkedListNode.remove() : 186 invocations
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+DoublyLinkedListNodeTesterDriver.inv.gz: 33,267 errors found in 170,500 samples (19.51%)
+DoublyLinkedListNodeTesterDriver.inv.gz: 90 false positives, out of 468, which is 19.23%.
+Preserving 21 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 35
+Saving - Total: 41
+Saving mutants results file
+
+# Filtering step took minutes: 2
+# Mutation killing ability results saved in: experiments/doublylinkedlistnode_remove/output/DoublyLinkedListNode-remove-specfuzzer-1-invs-by-mutants.csv
+
+# Writing assertions to file: experiments/doublylinkedlistnode_remove/output/DoublyLinkedListNode-remove-specfuzzer-1.assertions
+
+# Filtering specs with buckets
+> Mutant filter from file: experiments/doublylinkedlistnode_remove/output/DoublyLinkedListNode-remove-specfuzzer-1-invs-by-mutants.csv
+Unique mutants: 6
+Loading assertions from: experiments/doublylinkedlistnode_remove/output/DoublyLinkedListNode-remove-specfuzzer-1.assertions
+Specs killing mutants: 41
+
+> Minimizing by exploring the bit vector of each spec
+Building bit vectors of size: 6
+Building buckets
+=====================================
+Buckets: 12
+Vector: [1. 0. 0. 0. 0. 0.]
+Mutants:
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m1.dtrace.gz
+Specs:
+	this.left != null l:  17  - Fails:  1156 Quality:  1156
+	FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) in empty ) holds for: this l:  142  - Fails:  663 Quality:  663
+	FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) in empty ) holds for: this l:  142  - Fails:  663 Quality:  663
+	FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) not in empty ) holds for: this l:  148  - Fails:  663 Quality:  663
+	FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.left.*(left + right)) not in empty ) holds for: this l:  148  - Fails:  663 Quality:  663
+	this.right.right.left != null l:  29  - Fails:  186 Quality:  186
+	this.right.left != null l:  23  - Fails:  186 Quality:  186
+Picked:
+	this.left != null
+
+Vector: [1. 0. 1. 1. 0. 1.]
+Mutants:
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m1.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m12.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m13.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m2.dtrace.gz
+Specs:
+	this.left == this.right l:  23  - Fails:  8538 Quality:  8538
+Picked:
+	this.left == this.right
+
+Vector: [1. 0. 1. 1. 0. 0.]
+Mutants:
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m1.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m12.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m13.dtrace.gz
+Specs:
+	this.left == this.right.right.right l:  35  - Fails:  7568 Quality:  7568
+	this.left == this.right.right l:  29  - Fails:  7568 Quality:  7568
+Picked:
+	this.left == this.right.right.right
+
+Vector: [1. 0. 0. 0. 0. 1.]
+Mutants:
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m1.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m2.dtrace.gz
+Specs:
+	FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) in empty ) holds for: this l:  143  - Fails:  1944 Quality:  1944
+	FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) in empty ) holds for: this l:  143  - Fails:  1944 Quality:  1944
+	FuzzedInvariant ( all n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) not in empty ) holds for: this l:  148  - Fails:  1944 Quality:  1944
+	FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) not in empty ) holds for: this l:  149  - Fails:  1944 Quality:  1944
+	FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : (n.right.*(left + right)) & (n.left.*(left + right)) not in empty ) holds for: this l:  148  - Fails:  1944 Quality:  1944
+	FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) not in empty ) holds for: this l:  149  - Fails:  1944 Quality:  1944
+Picked:
+	FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) & (n.right.*(left + right)) in empty ) holds for: this
+
+Vector: [1. 0. 1. 0. 0. 1.]
+Mutants:
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m1.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m12.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m2.dtrace.gz
+Specs:
+	FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : n = n.left.right ) holds for: this l:  100  - Fails:  2750 Quality:  2750
+Picked:
+	FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : n = n.left.right ) holds for: this
+
+Vector: [0. 1. 0. 0. 0. 1.]
+Mutants:
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m11.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m2.dtrace.gz
+Specs:
+	this.right != null l:  18  - Fails:  2504 Quality:  2504
+	this.left.right != null l:  23  - Fails:  1698 Quality:  1698
+	this.left.left.right != null l:  28  - Fails:  1698 Quality:  1698
+	n != null l:  9  - Fails:  624 Quality:  624
+Picked:
+	this.right != null
+
+Vector: [0. 0. 1. 1. 1. 0.]
+Mutants:
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m12.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m13.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m14.dtrace.gz
+Specs:
+	this.left == this.left.right.left l:  33  - Fails:  13254 Quality:  13254
+Picked:
+	this.left == this.left.right.left
+
+Vector: [0. 0. 1. 0. 0. 0.]
+Mutants:
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m12.dtrace.gz
+Specs:
+	this.left == \old(this) l:  23  - Fails:  974 Quality:  974
+Picked:
+	this.left == \old(this)
+
+Vector: [0. 0. 1. 1. 0. 0.]
+Mutants:
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m12.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m13.dtrace.gz
+Specs:
+	this.left == this.right.left.right l:  34  - Fails:  5800 Quality:  5800
+	this.left == this.left.right.right l:  34  - Fails:  5800 Quality:  5800
+	FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : n != n.right.right ) holds for: orig(this) l:  106  - Fails:  3249 Quality:  3249
+	FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n = n.right.right ) holds for: orig(this) l:  106  - Fails:  3249 Quality:  3249
+	FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : n != n.right ) holds for: orig(this) l:  100  - Fails:  3249 Quality:  3249
+	FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : n != n.right ) holds for: orig(this) l:  100  - Fails:  3249 Quality:  3249
+	FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n = n.right ) holds for: orig(this) l:  100  - Fails:  3249 Quality:  3249
+	FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n = n.left ) holds for: orig(this) l:  99  - Fails:  2354 Quality:  2354
+	this.left == \old(this.left.right) l:  34  - Fails:  2052 Quality:  2052
+	this.left == \old(this.right.left) l:  34  - Fails:  1428 Quality:  1428
+Picked:
+	this.left == this.right.left.right
+
+Vector: [0. 0. 1. 1. 0. 1.]
+Mutants:
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m12.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m13.dtrace.gz
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m2.dtrace.gz
+Specs:
+	this.left == this.left.left.right l:  33  - Fails:  8704 Quality:  8704
+	this.left == this.left.right l:  28  - Fails:  6770 Quality:  6770
+Picked:
+	this.left == this.left.left.right
+
+Vector: [0. 0. 0. 1. 0. 0.]
+Mutants:
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m13.dtrace.gz
+Specs:
+	this.left == this.right.right.left l:  34  - Fails:  5174 Quality:  5174
+	this.left == this.right.left.left l:  33  - Fails:  4921 Quality:  4921
+	this.left == this.right.left l:  28  - Fails:  4392 Quality:  4392
+	FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : n = n.right ) holds for: orig(this) l:  101  - Fails:  1147 Quality:  1147
+	FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : n = n.right ) holds for: orig(this) l:  101  - Fails:  1147 Quality:  1147
+Picked:
+	this.left == this.right.right.left
+
+Vector: [0. 0. 0. 0. 0. 1.]
+Mutants:
+	experiments/doublylinkedlistnode_remove/setup-files/mutants/DoublyLinkedListNodeTesterDriver-m2.dtrace.gz
+Specs:
+	FuzzedInvariant ( all n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.right.*(left + right)) not in empty ) holds for: this l:  149  - Fails:  1281 Quality:  1281
+Picked:
+	FuzzedInvariant ( all n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) & (n.right.*(left + right)) not in empty ) holds for: this
+
+Buckets: 12
+Specs: 12
+Saved in file: experiments/doublylinkedlistnode_remove/output/DoublyLinkedListNode-remove-specfuzzer-1-buckets.assertions
+

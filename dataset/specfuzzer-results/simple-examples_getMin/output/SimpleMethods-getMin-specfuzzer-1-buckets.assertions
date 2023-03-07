@@ -1,0 +1,15 @@
+buckets=9
+specs=9
+=====================================
+:::OBJECT
+=====================================
+:::POSTCONDITION
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 + 0 ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 = 0) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+\result <= \old(b)
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>

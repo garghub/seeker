@@ -1,0 +1,10 @@
+===========================================================================
+org.apache.commons.math3.util.ArithmeticUtilsNew:::OBJECT
+===========================================================================
+org.apache.commons.math3.util.ArithmeticUtilsNew.subAndCheck(long, long):::ENTER
+===========================================================================
+org.apache.commons.math3.util.ArithmeticUtilsNew.subAndCheck(long, long):::EXIT
+FuzzedInvariant ( Long_Variable_0 <= Long_Variable_1 + Long_Variable_2 ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( Long_Variable_0 = Long_Variable_1 + Long_Variable_2 ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( Long_Variable_0 >= Long_Variable_1 + Long_Variable_2 ) holds for: <orig(a) , orig(b) , return>
+\result - \old(a) + \old(b) == 0

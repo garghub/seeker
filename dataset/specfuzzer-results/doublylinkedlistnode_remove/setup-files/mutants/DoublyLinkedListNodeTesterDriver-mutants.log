@@ -1,0 +1,18 @@
+1:STD:<ASSIGN>:<NO-OP>:examples.DoublyLinkedListNode@<init>():25:left = this |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:examples.DoublyLinkedListNode@<init>():26:right = this |==> <NO-OP>
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):examples.DoublyLinkedListNode@insertRight(examples.DoublyLinkedListNode):37:n == null |==> false
+4:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):examples.DoublyLinkedListNode@insertRight(examples.DoublyLinkedListNode):38:n.left != n |==> true
+5:EVR:<IDENTIFIER(examples.DoublyLinkedListNode)>:<DEFAULT>:examples.DoublyLinkedListNode@insertRight(examples.DoublyLinkedListNode):40:right |==> null
+6:STD:<CALL>:<NO-OP>:examples.DoublyLinkedListNode@insertRight(examples.DoublyLinkedListNode):41:n.setRight(r) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:examples.DoublyLinkedListNode@insertRight(examples.DoublyLinkedListNode):42:n.setLeft(this) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:examples.DoublyLinkedListNode@insertRight(examples.DoublyLinkedListNode):43:r.setLeft(n) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:examples.DoublyLinkedListNode@insertRight(examples.DoublyLinkedListNode):44:setRight(n) |==> <NO-OP>
+10:EVR:<IDENTIFIER(examples.DoublyLinkedListNode)>:<DEFAULT>:examples.DoublyLinkedListNode@remove():60:left |==> null
+11:EVR:<IDENTIFIER(examples.DoublyLinkedListNode)>:<DEFAULT>:examples.DoublyLinkedListNode@remove():61:right |==> null
+12:STD:<CALL>:<NO-OP>:examples.DoublyLinkedListNode@remove():62:setLeft(this) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:examples.DoublyLinkedListNode@remove():63:setRight(this) |==> <NO-OP>
+14:STD:<CALL>:<NO-OP>:examples.DoublyLinkedListNode@remove():64:l.setRight(r) |==> <NO-OP>
+15:STD:<CALL>:<NO-OP>:examples.DoublyLinkedListNode@remove():65:r.setLeft(l) |==> <NO-OP>
+16:LVR:TRUE:FALSE:examples.DoublyLinkedListNode@remove():72:true |==> false
+17:STD:<ASSIGN>:<NO-OP>:examples.DoublyLinkedListNode@setLeft(examples.DoublyLinkedListNode):79:left = n |==> <NO-OP>
+18:STD:<ASSIGN>:<NO-OP>:examples.DoublyLinkedListNode@setRight(examples.DoublyLinkedListNode):86:right = n |==> <NO-OP>

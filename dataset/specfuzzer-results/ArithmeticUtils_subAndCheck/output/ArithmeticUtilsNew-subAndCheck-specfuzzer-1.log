@@ -1,0 +1,437 @@
+> SpecFuzzer
+# Inference step (Daikon + Fuzzed Specs)
+Daikon version 5.8.2, released May 4, 2020; http://plse.cs.washington.edu/daikon.
+
+Loading invariants from file: invs_file.xml
+Loaded: 0
+
+Fuzzing specs:
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Fuzzed spec: Long_Variable_0 != Long_Variable_1 + Long_Variable_2
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 / Long_Variable_2
+Fuzzed spec: (Long_Variable_0 > Long_Variable_1) implies (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 < Long_Variable_1) implies (Long_Variable_1 <= Long_Variable_2)
+Fuzzed spec: Long_Variable_0 < Long_Variable_1
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1 % Long_Variable_2
+Fuzzed spec: (Long_Variable_0 > Long_Variable_1) implies (Long_Variable_1 = Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 = Long_Variable_1) iff (Long_Variable_1 <= Long_Variable_2)
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 < Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 > Long_Variable_1
+Fuzzed spec: Long_Variable_0 < Long_Variable_1
+Fuzzed spec: Long_Variable_0 < Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 % Long_Variable_2
+Fuzzed spec: Long_Variable_0 < Long_Variable_1
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1
+Fuzzed spec: (Long_Variable_0 > Long_Variable_1) implies (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 > Long_Variable_1
+Fuzzed spec: (Long_Variable_0 <= Long_Variable_1) implies (Long_Variable_1 <= Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 <= Long_Variable_1) iff (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: Long_Variable_0 < Long_Variable_1
+Fuzzed spec: Long_Variable_0 > Long_Variable_1
+Fuzzed spec: Long_Variable_0 < Long_Variable_1
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 / Long_Variable_2
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1 / Long_Variable_2
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 / Long_Variable_2
+Fuzzed spec: Long_Variable_0 != Long_Variable_1 % Long_Variable_2
+Fuzzed spec: (Long_Variable_0 <= Long_Variable_1) iff (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: Long_Variable_0 = Long_Variable_1
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1
+Fuzzed spec: Long_Variable_0 > Long_Variable_1
+Fuzzed spec: (Long_Variable_0 = Long_Variable_1) iff (Long_Variable_1 >= Long_Variable_2)
+Fuzzed spec: Long_Variable_0 != Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 / Long_Variable_2
+Fuzzed spec: Long_Variable_0 > Long_Variable_1
+Fuzzed spec: Long_Variable_0 < Long_Variable_1
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1 + Long_Variable_2
+Fuzzed spec: (Long_Variable_0 != Long_Variable_1) iff (Long_Variable_1 <= Long_Variable_2)
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 / Long_Variable_2
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 - Long_Variable_2
+Fuzzed spec: (Long_Variable_0 != Long_Variable_1) or (Long_Variable_1 = Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 >= Long_Variable_1) or (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 / Long_Variable_2
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1
+Fuzzed spec: (Long_Variable_0 > Long_Variable_1) iff (Long_Variable_1 <= Long_Variable_2)
+Fuzzed spec: Long_Variable_0 < Long_Variable_1
+Fuzzed spec: (Long_Variable_0 = Long_Variable_1) iff (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1
+Fuzzed spec: (Long_Variable_0 = Long_Variable_1) or (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: Long_Variable_0 < Long_Variable_1 / Long_Variable_2
+Fuzzed spec: Long_Variable_0 = Long_Variable_1
+Fuzzed spec: (Long_Variable_0 >= Long_Variable_1) xor (Long_Variable_1 <= Long_Variable_2)
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1
+Fuzzed spec: (Long_Variable_0 <= Long_Variable_1) or (Long_Variable_1 <= Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 > Long_Variable_1) implies (Long_Variable_1 < Long_Variable_2)
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1
+Fuzzed spec: (Long_Variable_0 >= Long_Variable_1) or (Long_Variable_1 < Long_Variable_2)
+Fuzzed spec: Long_Variable_0 = Long_Variable_1
+Fuzzed spec: Long_Variable_0 < Long_Variable_1
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1 / Long_Variable_2
+Fuzzed spec: Long_Variable_0 > Long_Variable_1
+Fuzzed spec: (Long_Variable_0 >= Long_Variable_1) or (Long_Variable_1 < Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 != Long_Variable_1) iff (Long_Variable_1 >= Long_Variable_2)
+Fuzzed spec: Long_Variable_0 != Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1 % Long_Variable_2
+Fuzzed spec: (Long_Variable_0 = Long_Variable_1) implies (Long_Variable_1 != Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 < Long_Variable_1) or (Long_Variable_1 = Long_Variable_2)
+Fuzzed spec: Long_Variable_0 != Long_Variable_1 % Long_Variable_2
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 + Long_Variable_2
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 % Long_Variable_2
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 > Long_Variable_1
+Fuzzed spec: Long_Variable_0 != Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 + Long_Variable_2
+Fuzzed spec: Long_Variable_0 != Long_Variable_1 % Long_Variable_2
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 % Long_Variable_2
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 % Long_Variable_2
+Fuzzed spec: (Long_Variable_0 < Long_Variable_1) xor (Long_Variable_1 >= Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 >= Long_Variable_1) or (Long_Variable_1 <= Long_Variable_2)
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Fuzzed spec: (Long_Variable_0 = Long_Variable_1) implies (Long_Variable_1 = Long_Variable_2)
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 + Long_Variable_2
+Fuzzed spec: Long_Variable_0 < Long_Variable_1
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 % Long_Variable_2
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1 % Long_Variable_2
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 != Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1 / Long_Variable_2
+Fuzzed spec: (Long_Variable_0 < Long_Variable_1) implies (Long_Variable_1 <= Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 > Long_Variable_1) iff (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1 % Long_Variable_2
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1
+Fuzzed spec: Long_Variable_0 < Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 < Long_Variable_1 / Long_Variable_2
+Fuzzed spec: Long_Variable_0 < Long_Variable_1
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1 / Long_Variable_2
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 < Long_Variable_1 * Long_Variable_2
+Fuzzed spec: (Long_Variable_0 = Long_Variable_1) iff (Long_Variable_1 != Long_Variable_2)
+Fuzzed spec: Long_Variable_0 > Long_Variable_1
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Fuzzed spec: (Long_Variable_0 <= Long_Variable_1) or (Long_Variable_1 != Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 <= Long_Variable_1) implies (Long_Variable_1 <= Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 <= Long_Variable_1) xor (Long_Variable_1 <= Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 >= Long_Variable_1) xor (Long_Variable_1 = Long_Variable_2)
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 = Long_Variable_1
+Fuzzed spec: Long_Variable_0 = Long_Variable_1
+Fuzzed spec: (Long_Variable_0 = Long_Variable_1) iff (Long_Variable_1 >= Long_Variable_2)
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 < Long_Variable_1
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 < Long_Variable_1 / Long_Variable_2
+Fuzzed spec: (Long_Variable_0 = Long_Variable_1) iff (Long_Variable_1 != Long_Variable_2)
+Fuzzed spec: Long_Variable_0 < Long_Variable_1
+Fuzzed spec: Long_Variable_0 = Long_Variable_1
+Fuzzed spec: (Long_Variable_0 > Long_Variable_1) xor (Long_Variable_1 < Long_Variable_2)
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1 + Long_Variable_2
+Fuzzed spec: (Long_Variable_0 >= Long_Variable_1) iff (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 % Long_Variable_2
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 % Long_Variable_2
+Fuzzed spec: (Long_Variable_0 <= Long_Variable_1) xor (Long_Variable_1 < Long_Variable_2)
+Fuzzed spec: Long_Variable_0 != Long_Variable_1 / Long_Variable_2
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 % Long_Variable_2
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 > Long_Variable_1
+Fuzzed spec: (Long_Variable_0 != Long_Variable_1) implies (Long_Variable_1 >= Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 <= Long_Variable_1) or (Long_Variable_1 = Long_Variable_2)
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1 / Long_Variable_2
+Fuzzed spec: (Long_Variable_0 > Long_Variable_1) or (Long_Variable_1 != Long_Variable_2)
+Fuzzed spec: Long_Variable_0 = Long_Variable_1
+Fuzzed spec: (Long_Variable_0 < Long_Variable_1) or (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: Long_Variable_0 > Long_Variable_1 % Long_Variable_2
+Fuzzed spec: (Long_Variable_0 < Long_Variable_1) iff (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 <= Long_Variable_1) or (Long_Variable_1 < Long_Variable_2)
+Fuzzed spec: Long_Variable_0 > Long_Variable_1
+Fuzzed spec: Long_Variable_0 = Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 < Long_Variable_1 * Long_Variable_2
+Fuzzed spec: (Long_Variable_0 < Long_Variable_1) implies (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 <= Long_Variable_1) implies (Long_Variable_1 = Long_Variable_2)
+Fuzzed spec: (Long_Variable_0 != Long_Variable_1) implies (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1 * Long_Variable_2
+Fuzzed spec: Long_Variable_0 != Long_Variable_1 - Long_Variable_2
+Fuzzed spec: Long_Variable_0 != Long_Variable_1 % Long_Variable_2
+Fuzzed spec: Long_Variable_0 >= Long_Variable_1
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Fuzzed spec: Long_Variable_0 = Long_Variable_1
+Fuzzed spec: (Long_Variable_0 <= Long_Variable_1) implies (Long_Variable_1 > Long_Variable_2)
+Fuzzed spec: Long_Variable_0 <= Long_Variable_1
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Fuzzed spec: Long_Variable_0 != Long_Variable_1
+Unique fuzzed invariants: 74 (2000)
+Unary: 0 - Binary: 6 - Ternary: 68 - Discarded: 0
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+Loaded objects from file: /specfuzzer/experiments/ArithmeticUtils_subAndCheck/setup-files/ArithmeticUtilsNewTesterDriver-objects.xml
+Total loaded objects: 1346
+===========================================================================
+org.apache.commons.math3.util.ArithmeticUtilsNew:::OBJECT
+===========================================================================
+org.apache.commons.math3.util.ArithmeticUtilsNew.ArithmeticUtilsNew():::EXIT
+===========================================================================
+org.apache.commons.math3.util.ArithmeticUtilsNew.addAndCheck(long, long, org.apache.commons.math3.exception.util.Localizable):::ENTER
+pattern has only one value
+pattern != null
+pattern.getClass().getName() == org.apache.commons.math3.exception.util.LocalizedFormats.class
+===========================================================================
+org.apache.commons.math3.util.ArithmeticUtilsNew.addAndCheck(long, long, org.apache.commons.math3.exception.util.Localizable):::EXIT
+return - orig(a) - orig(b) == 0
+===========================================================================
+org.apache.commons.math3.util.ArithmeticUtilsNew.subAndCheck(long, long):::ENTER
+===========================================================================
+org.apache.commons.math3.util.ArithmeticUtilsNew.subAndCheck(long, long):::EXIT
+FuzzedInvariant ( Long_Variable_0 <= Long_Variable_1 + Long_Variable_2 ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( Long_Variable_0 = Long_Variable_1 + Long_Variable_2 ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( Long_Variable_0 >= Long_Variable_1 + Long_Variable_2 ) holds for: <orig(a) , orig(b) , return>
+return - orig(a) + orig(b) == 0
+Exiting Daikon.
+
+# Filtering step
+
+- Mutation is: 1:ROR:==(long,long):<=(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):49:b == Long.MIN_VALUE |==> b <= Long.MIN_VALUE
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m1.dtrace.gz
+Loaded invs from previous step: 0
+                                                                               [4:18:22 PM]:                                                                  [4:18:23 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:24 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:25 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:26 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:27 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:28 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:29 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:30 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:31 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:32 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:33 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:34 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:35 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:36 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:37 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:38 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:40 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:41 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:42 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:43 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:44 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:45 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:46 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:47 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:48 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:49 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:50 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 4,191 errors found in 619,411 samples (0.68%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 3 false positives, out of 445, which is 0.67%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 0
+Saving - Total: 0
+Saving mutants results file
+
+- Mutation is: 10:AOR:-(long,long):*(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):51:a - b |==> a ArithmeticUtilsNewTesterDriver.inv.gz base-invs-by-mutants.csv base_invs_file.xml experiments hs_err_pid1983241.log invs-by-mutants.csv invs.csv invs_file.xml lib literals mutants scripts testers b
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m10.dtrace.gz
+Loaded invs from previous step: 0
+                                                                               [4:18:54 PM]: Checking size of experiments/ArithmeticUtils_subAndCheck/setup-fi[4:18:55 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:56 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:57 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:58 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:18:59 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:00 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:01 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:02 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:03 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:04 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:05 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:06 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:07 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:08 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:09 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:10 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:11 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:12 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:13 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:14 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:15 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:16 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:17 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:18 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:19 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:20 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:21 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:22 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 4,191 errors found in 619,411 samples (0.68%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 3 false positives, out of 445, which is 0.67%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 0
+Saving - Total: 0
+Saving mutants results file
+
+- Mutation is: 11:AOR:-(long,long):+(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):51:a - b |==> a + b
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m11.dtrace.gz
+Loaded invs from previous step: 0
+                                                                               [4:19:23 PM]:                                                                  [4:19:24 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:25 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:26 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:27 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:28 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:29 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:30 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:31 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:32 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:33 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:34 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:35 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:36 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:37 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:38 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:39 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:40 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:41 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:42 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:43 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:44 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:45 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:47 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:48 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:49 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:50 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:51 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 4,191 errors found in 619,411 samples (0.68%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 3 false positives, out of 445, which is 0.67%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 0
+Saving - Total: 0
+Saving mutants results file
+
+- Mutation is: 12:AOR:-(long,long):/(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):51:a - b |==> a / b
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m12.dtrace.gz
+Loaded invs from previous step: 0
+                                                                               [4:19:52 PM]:                                                                  [4:19:53 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:54 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:55 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:56 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:57 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:58 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:19:59 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:00 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:01 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:02 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:03 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:04 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:06 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:07 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:08 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:09 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:10 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:11 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:12 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:13 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:14 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:16 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:17 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:18 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:19 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:20 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 4,191 errors found in 619,411 samples (0.68%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 3 false positives, out of 445, which is 0.67%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 0
+Saving - Total: 0
+Saving mutants results file
+
+- Mutation is: 13:ORU:-(long):+(long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):53:-b |==> +b
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m13.dtrace.gz
+Loaded invs from previous step: 0
+                                                                               [4:20:21 PM]:                                                                  [4:20:22 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:23 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:24 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:25 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:26 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:27 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:28 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:29 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:30 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:31 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:32 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:33 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:34 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:35 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:36 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:37 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:38 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:39 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:40 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:41 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:43 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:44 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:45 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:46 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:47 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:48 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:49 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:50 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 4,191 errors found in 619,411 samples (0.68%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 3 false positives, out of 445, which is 0.67%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 0
+Saving - Total: 0
+Saving mutants results file
+
+- Mutation is: 14:ORU:-(long):~(long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):53:-b |==> ~b
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m14.dtrace.gz
+Loaded invs from previous step: 0
+                                                                               [4:20:51 PM]:                                                                  [4:20:53 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:54 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:55 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:56 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:57 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:58 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:20:59 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:00 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:01 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:02 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:03 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:04 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:05 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:06 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:07 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:08 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:09 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:10 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:11 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:12 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:13 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:14 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:15 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:16 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:17 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:18 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:19 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:20 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 4,191 errors found in 619,411 samples (0.68%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 3 false positives, out of 445, which is 0.67%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 0
+Saving - Total: 0
+Saving mutants results file
+
+- Mutation is: 15:ORU:-(long):+(long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):57:-b |==> +b
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m15.dtrace.gz
+Loaded invs from previous step: 0
+                                                                               [4:21:22 PM]:                                                                  [4:21:23 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:24 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:25 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:26 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:27 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:28 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:29 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:30 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:31 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:32 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:33 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:34 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:35 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:36 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:37 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:38 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:39 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:40 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:41 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:42 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:43 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:44 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:45 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:46 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:47 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:48 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:49 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:50 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 12,121 errors found in 619,411 samples (1.96%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 11 false positives, out of 445, which is 2.47%.
+Preserving 3 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 0
+Saving - Total: 3
+Saving mutants results file
+
+- Mutation is: 16:ORU:-(long):~(long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):57:-b |==> ~b
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m16.dtrace.gz
+Loaded invs from previous step: 3
+                                                                               [4:21:52 PM]:                                                                  [4:21:53 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:54 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:55 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:56 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:57 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:58 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:21:59 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:00 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:01 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:02 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:03 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:04 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:05 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:06 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:07 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:08 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:09 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:10 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:11 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:12 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:13 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:14 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:15 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:16 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:17 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:18 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:19 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:20 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 12,571 errors found in 619,411 samples (2.03%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 9 false positives, out of 445, which is 2.02%.
+Preserving 2 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 3
+Saving - Total: 3
+Saving mutants results file
+
+- Mutation is: 2:ROR:==(long,long):>=(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):49:b == Long.MIN_VALUE |==> b >= Long.MIN_VALUE
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m2.dtrace.gz
+Loaded invs from previous step: 3
+                                                                               [4:22:22 PM]:                                                                  [4:22:23 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+No return from procedure observed 259 times.  Unmatched entries are ignored!
+Unterminated calls:
+  org.apache.commons.math3.util.ArithmeticUtilsNew.subAndCheck(long, long) : 259 invocations
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+ArithmeticUtilsNewTesterDriver.inv.gz: 0 errors found in 26,125 samples (0.00%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 0 false positives, out of 217, which is 0.00%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 3
+Saving - Total: 3
+Saving mutants results file
+
+- Mutation is: 3:ROR:==(long,long):FALSE(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):49:b == Long.MIN_VALUE |==> false
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m3.dtrace.gz
+Loaded invs from previous step: 3
+                                                                               [4:22:25 PM]:                                                                  [4:22:26 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:27 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:28 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:29 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:30 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:31 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:32 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:33 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:34 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:35 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:36 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:37 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:38 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:39 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:40 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:41 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:42 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:43 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:44 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:45 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:46 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:47 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:48 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:49 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:50 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:51 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:52 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:53 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:54 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:55 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 4,191 errors found in 619,411 samples (0.68%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 3 false positives, out of 445, which is 0.67%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 3
+Saving - Total: 3
+Saving mutants results file
+
+- Mutation is: 4:LVR:0:POS:org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):50:0 |==> 1
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m4.dtrace.gz
+Loaded invs from previous step: 3
+                                                                               [4:22:57 PM]:                                                                  [4:22:58 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:22:59 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:00 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:01 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:02 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:03 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:04 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:05 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:06 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:07 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:08 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:09 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:10 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:11 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:12 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:13 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:14 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:15 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:16 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:17 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:18 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:19 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:20 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:21 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:22 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:23 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:24 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:25 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:26 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 4,191 errors found in 619,411 samples (0.68%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 3 false positives, out of 445, which is 0.67%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 3
+Saving - Total: 3
+Saving mutants results file
+
+- Mutation is: 5:LVR:0:NEG:org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):50:0 |==> -1
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m5.dtrace.gz
+Loaded invs from previous step: 3
+                                                                               [4:23:28 PM]: Checking size of experiments/ArithmeticUtils_subAndCheck/setup-fi[4:23:29 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:30 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:31 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:32 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:33 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:34 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:35 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:36 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:37 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:38 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:39 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:40 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:41 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:42 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:43 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:44 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:45 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:46 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:47 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:48 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:49 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:50 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:51 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:52 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:53 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:54 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:55 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:56 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:23:57 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 4,191 errors found in 619,411 samples (0.68%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 3 false positives, out of 445, which is 0.67%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 3
+Saving - Total: 3
+Saving mutants results file
+
+- Mutation is: 6:ROR:<(long,long):!=(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):50:a < 0 |==> a != 0
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m6.dtrace.gz
+Loaded invs from previous step: 3
+                                                                               [4:23:59 PM]:                                                                  [4:24:00 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:01 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:02 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:03 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:04 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:05 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:06 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:07 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:08 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:09 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:10 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:11 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:12 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:13 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:14 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:15 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:16 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:17 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:18 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:19 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:20 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:21 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:22 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:23 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:24 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:25 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:26 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:27 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 4,191 errors found in 619,411 samples (0.68%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 3 false positives, out of 445, which is 0.67%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 3
+Saving - Total: 3
+Saving mutants results file
+
+- Mutation is: 7:ROR:<(long,long):<=(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):50:a < 0 |==> a <= 0
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m7.dtrace.gz
+Loaded invs from previous step: 3
+                                                                               [4:24:29 PM]:                                                                  [4:24:30 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:31 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:32 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:33 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:34 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:35 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:36 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:37 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:38 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:39 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:40 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:41 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:42 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:43 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:44 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:45 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:46 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:47 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:48 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:49 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:50 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:51 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:52 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:53 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:55 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:56 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:57 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:24:58 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 4,191 errors found in 619,411 samples (0.68%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 3 false positives, out of 445, which is 0.67%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 3
+Saving - Total: 3
+                                                                               Saving mutants results file
+
+- Mutation is: 8:ROR:<(long,long):FALSE(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):50:a < 0 |==> false
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m8.dtrace.gz
+Loaded invs from previous step: 3
+                                                                               [4:24:59 PM]:                                                                  [4:25:00 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:01 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:02 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:04 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:05 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:06 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:08 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:09 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:10 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:11 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:12 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:13 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:14 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:15 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:16 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:17 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:18 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:19 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:20 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:21 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:22 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:23 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:24 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:25 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:26 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:27 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 4,191 errors found in 619,411 samples (0.68%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 3 false positives, out of 445, which is 0.67%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 3
+Saving - Total: 3
+Saving mutants results file
+
+- Mutation is: 9:AOR:-(long,long):%(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):51:a - b |==> a % b
+Checking invs on mutant: experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m9.dtrace.gz
+Loaded invs from previous step: 3
+                                                                               [4:25:29 PM]:                                                                  [4:25:30 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:31 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:32 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:33 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:34 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:35 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:36 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:37 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:38 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:39 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:40 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:41 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:42 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:43 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:44 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:45 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:46 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:47 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:48 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:49 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:50 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:51 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:52 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:53 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:55 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:56 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:57 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:58 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan[4:25:59 PM]: Reading experiments/ArithmeticUtils_subAndCheck/setup-files/mutan
+ArithmeticUtilsNewTesterDriver.inv.gz: 4,191 errors found in 619,411 samples (0.68%)
+ArithmeticUtilsNewTesterDriver.inv.gz: 3 false positives, out of 445, which is 0.67%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 3
+Saving - Total: 3
+Saving mutants results file
+
+# Filtering step took minutes: 7
+# Mutation killing ability results saved in: experiments/ArithmeticUtils_subAndCheck/output/ArithmeticUtilsNew-subAndCheck-specfuzzer-1-invs-by-mutants.csv
+
+# Writing assertions to file: experiments/ArithmeticUtils_subAndCheck/output/ArithmeticUtilsNew-subAndCheck-specfuzzer-1.assertions
+
+# Filtering specs with buckets
+> Mutant filter from file: experiments/ArithmeticUtils_subAndCheck/output/ArithmeticUtilsNew-subAndCheck-specfuzzer-1-invs-by-mutants.csv
+Unique mutants: 15
+Loading assertions from: experiments/ArithmeticUtils_subAndCheck/output/ArithmeticUtilsNew-subAndCheck-specfuzzer-1.assertions
+Specs killing mutants: 3
+
+> Minimizing by exploring the bit vector of each spec
+Building bit vectors of size: 15
+Building buckets
+=====================================
+Buckets: 2
+Vector: [0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0.]
+Mutants:
+	experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m15.dtrace.gz
+	experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m16.dtrace.gz
+Specs:
+	FuzzedInvariant ( Long_Variable_0 = Long_Variable_1 + Long_Variable_2 ) holds for: <orig(a) , orig(b) , return> l:  111  - Fails:  5362 Quality:  5365
+	FuzzedInvariant ( Long_Variable_0 <= Long_Variable_1 + Long_Variable_2 ) holds for: <orig(a) , orig(b) , return> l:  112  - Fails:  3604 Quality:  3607
+Picked:
+	FuzzedInvariant ( Long_Variable_0 = Long_Variable_1 + Long_Variable_2 ) holds for: <orig(a) , orig(b) , return>
+
+Vector: [0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]
+Mutants:
+	experiments/ArithmeticUtils_subAndCheck/setup-files/mutants/ArithmeticUtilsNewTesterDriver-m15.dtrace.gz
+Specs:
+	FuzzedInvariant ( Long_Variable_0 >= Long_Variable_1 + Long_Variable_2 ) holds for: <orig(a) , orig(b) , return> l:  112  - Fails:  1758 Quality:  1761
+Picked:
+	FuzzedInvariant ( Long_Variable_0 >= Long_Variable_1 + Long_Variable_2 ) holds for: <orig(a) , orig(b) , return>
+
+Buckets: 2
+Specs: 2
+Saved in file: experiments/ArithmeticUtils_subAndCheck/output/ArithmeticUtilsNew-subAndCheck-specfuzzer-1-buckets.assertions
+

@@ -1,0 +1,2387 @@
+> SpecFuzzer
+# Inference step (Daikon + Fuzzed Specs)
+Daikon version 5.8.2, released May 4, 2020; http://plse.cs.washington.edu/daikon.
+
+Loading invariants from file: invs_file.xml
+Loaded: 0
+
+Fuzzing specs:
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > -1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * -1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 < -1) implies (Integer_Variable_1 <= -1)
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 = -1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 > 1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= -1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= -1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = 1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 < 1)
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < 1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 0
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 < 0)
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 != -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != 0) or (Integer_Variable_1 = -1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != 1)
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % -1
+Fuzzed spec: (Integer_Variable_0 < 0) xor (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 = 1)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 > 0)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= -1)
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 >= 1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 <= 1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 <= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = 1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 >= 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 > 0)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= -1) or (Integer_Variable_1 = 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 >= 0)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = 1)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > 1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % -1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 < 1)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 != 0)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 <= 0)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 1
+Fuzzed spec: (Integer_Variable_0 >= 0) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 != 1)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / 0
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != -1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 >= -1)
+Fuzzed spec: (Integer_Variable_0 < -1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * -1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= 0)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 0
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < 1) or (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= 1) iff (Integer_Variable_1 = -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= -1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 != 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 > -1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - 1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != -1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 = 1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 < 1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 >= 1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < 0)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 0
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 <= -1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / 0
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 < 0)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 <= 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 != 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 = 1) iff (Integer_Variable_1 >= -1)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 <= -1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % -1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= 1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 0
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 != 0) iff (Integer_Variable_1 = Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > 0)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 < 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 > -1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 >= -1)
+Fuzzed spec: (Integer_Variable_0 = -1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 > -1)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > -1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != -1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 > 0)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 > -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 = Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > -1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 > -1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= 0)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * -1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 = 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 0
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 = 0)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= -1) or (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - -1
+Fuzzed spec: (Integer_Variable_0 < 1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= -1)
+Fuzzed spec: (Integer_Variable_0 >= 1) xor (Integer_Variable_1 <= -1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / 0
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 < 0)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > 1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 != 0)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 <= -1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 0
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 0
+Fuzzed spec: (Integer_Variable_0 != 1) implies (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 = -1) iff (Integer_Variable_1 < 0)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = -1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 = -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Integer_Variable_0 >= 0) xor (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = 0)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 1
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= 0)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + -1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 != 0)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != 1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > 1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 <= -1)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 >= -1)
+Fuzzed spec: (Integer_Variable_0 <= -1) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 < 1) xor (Integer_Variable_1 > -1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 = -1)
+Fuzzed spec: (Integer_Variable_0 = -1) xor (Integer_Variable_1 != 1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= -1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 0) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 0
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 > -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 >= -1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < 0)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = 1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= 1)
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 < 1)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: (Integer_Variable_0 > -1) or (Integer_Variable_1 > 1)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 > 0)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != 1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 != -1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 = 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: (Integer_Variable_0 < 1) or (Integer_Variable_1 < 0)
+Fuzzed spec: (Integer_Variable_0 < 1) iff (Integer_Variable_1 != 0)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= 0)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 < -1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > 1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 != 0) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= -1) xor (Integer_Variable_1 >= -1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 1) or (Integer_Variable_1 >= -1)
+Fuzzed spec: (Integer_Variable_0 > 0) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 != 1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 >= 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / -1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 >= 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= 1)
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + -1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 < 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 < 0)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 != 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 1) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > 1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > 1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 > 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 >= Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 > -1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % -1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 = 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = 1)
+Fuzzed spec: (Integer_Variable_0 >= -1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= -1) iff (Integer_Variable_1 < Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > 1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = 1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 < -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 >= 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < -1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 = 0)
+Fuzzed spec: (Integer_Variable_0 >= 0) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % -1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= 0) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 = Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= -1) implies (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 0
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = -1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= -1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < -1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 <= 0) or (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 != 0)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > -1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 0
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= 1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 1)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < 1)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - -1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < 0) xor (Integer_Variable_1 >= -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 1)
+Fuzzed spec: (Integer_Variable_0 != 1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > -1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 < 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 = 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 != 1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 >= 1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < -1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 != 0)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 < -1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 != Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > 0) implies (Integer_Variable_1 >= 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % -1
+Fuzzed spec: (Integer_Variable_0 >= 1) xor (Integer_Variable_1 >= 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > -1) xor (Integer_Variable_1 < -1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 <= 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 >= 0) implies (Integer_Variable_1 >= 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= 1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 = 1)
+Fuzzed spec: (Integer_Variable_0 != -1) xor (Integer_Variable_1 < -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != -1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 <= -1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 > 1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < 1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > 0)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 > 1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 != 1)
+Fuzzed spec: (Integer_Variable_0 >= 0) implies (Integer_Variable_1 < -1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < -1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 <= -1)
+Fuzzed spec: (Integer_Variable_0 > 0) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 <= -1) xor (Integer_Variable_1 != -1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - -1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 < 0)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= 1) implies (Integer_Variable_1 != -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 = -1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 0
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 < -1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % -1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= 0)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= 1) iff (Integer_Variable_1 > 0)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 > 0)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 != 1)
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 < -1) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 0
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * -1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = -1)
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / -1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 < 1)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * -1
+Fuzzed spec: (Integer_Variable_0 = 0) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 < 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 0) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 >= 1) xor (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = -1)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % -1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= 0)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = 1)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = -1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= 1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 0
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 >= 0)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < 1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 >= -1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 >= 1)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 < 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 <= 1)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 = 1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - -1
+Fuzzed spec: Integer_Variable_0 <= 1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * -1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 != 1) or (Integer_Variable_1 = 1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = 0)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % -1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != 1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 > 0)
+Fuzzed spec: (Integer_Variable_0 > 0) or (Integer_Variable_1 = 0)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 != -1)
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: (Integer_Variable_0 >= 1) implies (Integer_Variable_1 <= -1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 > -1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 != 0)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: (Integer_Variable_0 != -1) implies (Integer_Variable_1 >= 1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 != 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = -1)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 = -1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 != -1) implies (Integer_Variable_1 > -1)
+Fuzzed spec: (Integer_Variable_0 <= -1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 != 1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + -1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % -1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != -1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 <= 1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > -1) or (Integer_Variable_1 = 0)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > 1)
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 = -1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != 0)
+Fuzzed spec: (Integer_Variable_0 <= 0) or (Integer_Variable_1 = -1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 1) iff (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 >= -1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 < 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 < -1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = -1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= 0) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= -1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= 1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > 1) iff (Integer_Variable_1 != 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 <= 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 >= 0)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 <= Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * -1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 != 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + -1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= -1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 > Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 >= 1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 <= 1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = 1)
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= 1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= 1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 0
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 != 0)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 <= 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > 0)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != 0)
+Fuzzed spec: (Integer_Variable_0 <= 1) or (Integer_Variable_1 <= 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 > 1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + -1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = 0) implies (Integer_Variable_1 = 1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 0)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Integer_Variable_0 = 1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 0
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 > -1)
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= 1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 != -1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + -1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 < 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 0
+Fuzzed spec: (Integer_Variable_0 < 1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 <= 1)
+Fuzzed spec: Integer_Variable_0 < -1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * -1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / -1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < -1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * -1
+Fuzzed spec: (Integer_Variable_0 > 1) implies (Integer_Variable_1 != -1)
+Fuzzed spec: (Integer_Variable_0 != -1) iff (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 > 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 <= 0)
+Fuzzed spec: (Integer_Variable_0 < 1) iff (Integer_Variable_1 >= 1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 = -1) iff (Integer_Variable_1 != 1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != 0) or (Integer_Variable_1 > -1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / -1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: (Integer_Variable_0 != -1) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= 1)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 = -1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > 0
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 != 0) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 = 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / 1
+Fuzzed spec: (Integer_Variable_0 < 1) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 1
+Fuzzed spec: (Integer_Variable_0 <= 1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * -1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != -1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 = -1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 > 0)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 > Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 != 0)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 = -1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % -1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != 0)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Integer_Variable_0 = -1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * -1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 >= -1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = 0)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / -1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < -1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 <= Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 != 0) or (Integer_Variable_1 < 1)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 < 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 0)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 <= -1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % -1
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / 0
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 >= 0) iff (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 0)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / -1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = -1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > 1) iff (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = -1)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 > -1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 = 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 < 1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = 1)
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 = Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= 1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= -1) iff (Integer_Variable_1 = 0)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 = 1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 != 0) or (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * 1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 >= 0)
+Fuzzed spec: (Integer_Variable_0 >= 1) xor (Integer_Variable_1 > -1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 > 0)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 != -1)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 <= -1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > 0)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 < 0)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 >= -1)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= -1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < -1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 <= 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > -1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 < 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= 1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + -1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + -1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= 1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 < 1)
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: (Integer_Variable_0 = -1) or (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 != 0) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % 0
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 < 1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 != -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 0
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = -1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 <= -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + -1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 < -1)
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > -1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= -1) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - -1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 = 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > -1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 >= 0)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 = 0)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 < -1) or (Integer_Variable_1 = 0)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 >= -1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != 0)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / -1
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= 1)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 != -1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != 1) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < 1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 = 0)
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= -1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > 1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 < Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 0
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < 1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 != 0)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != 0)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 > 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 0
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 <= -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= 0)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 >= Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Integer_Variable_0 < -1) or (Integer_Variable_1 < -1)
+Fuzzed spec: (Integer_Variable_0 < 1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 < -1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 >= -1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 <= 0) implies (Integer_Variable_1 <= -1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 <= 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 = 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= 1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 0
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 != -1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 >= -1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Integer_Variable_0 = 1) xor (Integer_Variable_1 >= -1)
+Fuzzed spec: (Integer_Variable_0 != 1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 != 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 >= -1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = -1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 >= -1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 != 1)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 < -1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > 1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 >= -1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < -1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 < -1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 <= 0)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= 1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= 0)
+Fuzzed spec: Integer_Variable_0 > 1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + -1
+Fuzzed spec: (Integer_Variable_0 >= 1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = -1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= -1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % 0
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= 1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= -1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 != -1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 0
+Fuzzed spec: (Integer_Variable_0 < 1) iff (Integer_Variable_1 = 0)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - -1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 != -1)
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 1) or (Integer_Variable_1 >= 1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > 1) implies (Integer_Variable_1 > -1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % -1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 <= 1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 < 0)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > -1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 < 0)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 >= -1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 != 0)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 0)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 != 1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 != -1) iff (Integer_Variable_1 < 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = 0)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 < 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 0) or (Integer_Variable_1 <= -1)
+Fuzzed spec: (Integer_Variable_0 < 1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 < 0)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != -1)
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: (Integer_Variable_0 > -1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 >= -1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 != -1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < 1) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 >= -1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 != 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 != Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= 1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - -1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 != -1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + -1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = -1) iff (Integer_Variable_1 < -1)
+Fuzzed spec: (Integer_Variable_0 >= -1) implies (Integer_Variable_1 <= -1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > 0)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / -1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= -1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 >= -1)
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < 0)
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 > 1)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 != -1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > 0) xor (Integer_Variable_1 < -1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 != 0)
+Fuzzed spec: (Integer_Variable_0 >= 0) xor (Integer_Variable_1 != 1)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 != 0)
+Fuzzed spec: (Integer_Variable_0 != -1) xor (Integer_Variable_1 = -1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= -1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 != 1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 != Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 < 1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 < 0)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= 0)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 <= 1)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - -1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 >= -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > -1) or (Integer_Variable_1 >= 1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 > 0)
+Fuzzed spec: Integer_Variable_0 > -1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 > 0)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 0
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 0
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != -1)
+Fuzzed spec: Integer_Variable_0 >= 1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= 0)
+Fuzzed spec: (Integer_Variable_0 < -1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 != 0)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 <= -1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 >= -1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 > 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < 0)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 = -1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 >= -1)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 = 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > -1) xor (Integer_Variable_1 != -1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 = 1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 0
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 <= -1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 0
+Fuzzed spec: (Integer_Variable_0 = 0) iff (Integer_Variable_1 <= -1)
+Fuzzed spec: (Integer_Variable_0 = -1) iff (Integer_Variable_1 <= -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 <= -1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 >= 0)
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / 0
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < -1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= -1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 <= -1)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 0
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = 0)
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 != -1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - -1
+Fuzzed spec: (Integer_Variable_0 != 1) xor (Integer_Variable_1 = 1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % -1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 0
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 = -1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - -1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = 0)
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= -1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 != -1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 < 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != 1) implies (Integer_Variable_1 != 0)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 < 0)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= -1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = 0)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < -1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 != -1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= -1) implies (Integer_Variable_1 != -1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < -1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - 1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 = -1) or (Integer_Variable_1 = 1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Integer_Variable_0 != -1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != 1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != -1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 != -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: (Integer_Variable_0 = -1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= -1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 >= -1)
+Fuzzed spec: (Integer_Variable_0 >= -1) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 > -1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 = 1)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 = -1)
+Fuzzed spec: (Integer_Variable_0 != 1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < -1)
+Fuzzed spec: (Integer_Variable_0 != -1) implies (Integer_Variable_1 >= 0)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 >= 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= 1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 != 1)
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 = -1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 > -1) or (Integer_Variable_1 > 1)
+Fuzzed spec: (Integer_Variable_0 >= -1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 < 0)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = 0
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= 1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 >= -1)
+Fuzzed spec: (Integer_Variable_0 < -1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > 0) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 <= 1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = 1)
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 = 1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % 1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > -1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 > 0)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 > 1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = -1)
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = -1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < 1) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= -1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * -1
+Unique fuzzed invariants: 637 (2000)
+Unary: 18 - Binary: 316 - Ternary: 303 - Discarded: 144
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+lang3.BooleanUtils:::OBJECT
+===========================================================================
+lang3.BooleanUtils.BooleanUtils():::EXIT
+===========================================================================
+lang3.BooleanUtils.compare(boolean, boolean):::ENTER
+===========================================================================
+lang3.BooleanUtils.compare(boolean, boolean):::EXIT
+return one of { -1, 0, 1 }
+FuzzedInvariant ( Integer_Variable_0 <= 1 ) holds for: return
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: return
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != -1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 <= 1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 > -1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 >= -1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 >= 0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != 1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 < 1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 <= 0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 <= 1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 >= -1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != 1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 < 1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 <= 0) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 <= 1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 >= -1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != -1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 <= 1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 > -1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 >= -1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 = 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != -1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 <= 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 >= -1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 >= -1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 != 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 != 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 <= 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 <= 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 <= 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 != -1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 = 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 >= 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 = 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 >= 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 <= 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 <= 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 = 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 != 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 <= 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 != -1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 != 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 > -1) ) holds for: <orig(x) , orig(y) , return>
+Exiting Daikon.
+
+# Filtering step
+
+- Mutation is: 1:ROR:==(boolean,boolean):FALSE(boolean,boolean):lang3.BooleanUtils@compare(boolean,boolean):45:x == y |==> false
+Checking invs on mutant: experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m1.dtrace.gz
+Loaded invs from previous step: 0
+                                                                               [4:26:17 PM]:                                                                  [4:26:18 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:19 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:20 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:21 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:22 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:23 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:24 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:25 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:26 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:27 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:28 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:29 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:30 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:31 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:32 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:33 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:34 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:35 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:36 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:37 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:38 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:39 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:40 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool
+BooleanUtilsTesterDriver.inv.gz: 25,500 errors found in 507,608 samples (5.02%)
+BooleanUtilsTesterDriver.inv.gz: 40 false positives, out of 265, which is 15.09%.
+Preserving 20 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 0
+Saving - Total: 20
+Saving mutants results file
+
+- Mutation is: 10:LVR:NEG:0:lang3.BooleanUtils@compare(boolean,boolean):48:-1 |==> 0
+Checking invs on mutant: experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m10.dtrace.gz
+Loaded invs from previous step: 20
+                                                                               [4:26:43 PM]:                                                                  [4:26:44 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:45 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:46 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:47 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:48 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:49 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:50 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:51 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:52 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:53 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:54 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:55 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:56 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:57 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:58 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:26:59 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:00 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:01 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:02 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:03 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:04 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:05 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:06 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:07 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool
+BooleanUtilsTesterDriver.inv.gz: 2,376 errors found in 507,608 samples (0.47%)
+BooleanUtilsTesterDriver.inv.gz: 6 false positives, out of 265, which is 2.26%.
+Preserving 3 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 20
+Saving - Total: 21
+Saving mutants results file
+
+- Mutation is: 11:LVR:NEG:POS:lang3.BooleanUtils@compare(boolean,boolean):48:-1 |==> 1
+Checking invs on mutant: experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m11.dtrace.gz
+Loaded invs from previous step: 21
+                                                                               [4:27:08 PM]: Checking size of experiments/BooleanUtils_compare/setup-files/mut[4:27:10 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:11 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:12 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:13 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:14 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:15 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:16 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:17 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:18 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:19 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:20 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:21 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:22 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:23 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:24 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:25 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:26 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:27 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:28 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:29 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:30 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:31 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool
+                                                                               BooleanUtilsTesterDriver.inv.gz: 9,504 errors found in 507,608 samples (1.87%)
+BooleanUtilsTesterDriver.inv.gz: 24 false positives, out of 265, which is 9.06%.
+Preserving 12 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 21
+Saving - Total: 24
+Saving mutants results file
+
+- Mutation is: 12:LVR:TRUE:FALSE:lang3.BooleanUtils@compare(boolean,boolean):50:true |==> false
+Checking invs on mutant: experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m12.dtrace.gz
+Loaded invs from previous step: 24
+                                                                               [4:27:33 PM]:                                                                  Saving mutants results file
+
+- Mutation is: 13:EVR:<IDENTIFIER(int)>:<DEFAULT>:lang3.BooleanUtils@compare(boolean,boolean):51:result |==> 0
+Checking invs on mutant: experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m13.dtrace.gz
+Loaded invs from previous step: 24
+                                                                               [4:27:34 PM]:                                                                  [4:27:35 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:36 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:37 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:38 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:39 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:40 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:41 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:42 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:43 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:44 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:45 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:46 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:47 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:48 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:49 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:50 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:51 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:52 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:53 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:54 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:55 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:56 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:27:57 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool
+BooleanUtilsTesterDriver.inv.gz: 9,848 errors found in 507,608 samples (1.94%)
+BooleanUtilsTesterDriver.inv.gz: 16 false positives, out of 265, which is 6.04%.
+Preserving 8 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 24
+Saving - Total: 25
+Saving mutants results file
+
+- Mutation is: 2:ROR:==(boolean,boolean):LHS(boolean,boolean):lang3.BooleanUtils@compare(boolean,boolean):45:x == y |==> x
+Checking invs on mutant: experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m2.dtrace.gz
+Loaded invs from previous step: 25
+                                                                               [4:27:59 PM]:                                                                  [4:28:00 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:01 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:02 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:03 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:04 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:05 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:06 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:07 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:08 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:09 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:10 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:11 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:12 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:13 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:14 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:15 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:16 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:17 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:18 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:19 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:20 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:21 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:22 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:23 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:24 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool
+BooleanUtilsTesterDriver.inv.gz: 13,232 errors found in 507,608 samples (2.61%)
+BooleanUtilsTesterDriver.inv.gz: 28 false positives, out of 265, which is 10.57%.
+Preserving 14 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 25
+Saving - Total: 25
+Saving mutants results file
+
+- Mutation is: 3:ROR:==(boolean,boolean):RHS(boolean,boolean):lang3.BooleanUtils@compare(boolean,boolean):45:x == y |==> y
+Checking invs on mutant: experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m3.dtrace.gz
+Loaded invs from previous step: 25
+                                                                               [4:28:25 PM]:                                                                  [4:28:26 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:27 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:28 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:29 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:30 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:31 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:32 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:33 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:34 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:35 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:36 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:37 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:38 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:39 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:40 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:41 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:42 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:43 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:44 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:45 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:46 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:47 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:48 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:49 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool
+BooleanUtilsTesterDriver.inv.gz: 8,136 errors found in 507,608 samples (1.60%)
+BooleanUtilsTesterDriver.inv.gz: 18 false positives, out of 265, which is 6.79%.
+Preserving 9 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 25
+Saving - Total: 25
+Saving mutants results file
+
+- Mutation is: 4:LVR:0:POS:lang3.BooleanUtils@compare(boolean,boolean):46:0 |==> 1
+Checking invs on mutant: experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m4.dtrace.gz
+Loaded invs from previous step: 25
+                                                                               [4:28:51 PM]:                                                                  [4:28:52 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:53 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:54 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:55 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:56 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:57 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:58 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:28:59 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:00 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:01 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:02 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:03 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:04 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:05 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:06 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:07 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:08 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:09 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:10 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:11 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:12 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:13 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:14 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:15 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool
+BooleanUtilsTesterDriver.inv.gz: 29,820 errors found in 507,608 samples (5.87%)
+BooleanUtilsTesterDriver.inv.gz: 36 false positives, out of 265, which is 13.58%.
+Preserving 18 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 25
+Saving - Total: 25
+Saving mutants results file
+
+- Mutation is: 5:LVR:0:NEG:lang3.BooleanUtils@compare(boolean,boolean):46:0 |==> -1
+Checking invs on mutant: experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m5.dtrace.gz
+Loaded invs from previous step: 25
+                                                                               [4:29:16 PM]:                                                                  [4:29:17 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:18 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:19 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:20 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:21 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:23 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:24 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:25 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:26 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:27 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:28 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:29 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:30 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:31 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:32 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:33 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:34 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:35 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:36 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:37 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:38 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:39 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:40 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:41 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:42 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool
+BooleanUtilsTesterDriver.inv.gz: 19,860 errors found in 507,608 samples (3.91%)
+BooleanUtilsTesterDriver.inv.gz: 26 false positives, out of 265, which is 9.81%.
+Preserving 13 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 25
+Saving - Total: 30
+Saving mutants results file
+
+- Mutation is: 6:COR:x:TRUE:lang3.BooleanUtils@compare(boolean,boolean):48:x |==> false
+Checking invs on mutant: experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m6.dtrace.gz
+Loaded invs from previous step: 30
+                                                                               [4:29:44 PM]:                                                                  [4:29:45 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:46 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:47 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:48 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:49 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:50 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:51 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:52 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:53 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:54 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:55 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:56 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:57 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:58 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:29:59 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:00 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:01 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:02 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:03 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:04 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:05 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:06 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:07 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:08 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool
+BooleanUtilsTesterDriver.inv.gz: 13,076 errors found in 507,608 samples (2.58%)
+BooleanUtilsTesterDriver.inv.gz: 28 false positives, out of 265, which is 10.57%.
+Preserving 14 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 30
+Saving - Total: 32
+Saving mutants results file
+
+- Mutation is: 7:COR:x:FALSE:lang3.BooleanUtils@compare(boolean,boolean):48:x |==> true
+Checking invs on mutant: experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m7.dtrace.gz
+Loaded invs from previous step: 32
+                                                                               [4:30:10 PM]: Checking size of experiments/BooleanUtils_compare/setup-files/mut[4:30:11 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:12 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:13 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:14 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:15 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:16 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:17 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:18 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:19 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:20 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:21 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:22 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:23 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:24 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:25 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:26 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:27 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:28 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:29 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:30 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:31 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:32 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:33 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:34 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:35 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool
+BooleanUtilsTesterDriver.inv.gz: 9,504 errors found in 507,608 samples (1.87%)
+BooleanUtilsTesterDriver.inv.gz: 24 false positives, out of 265, which is 9.06%.
+Preserving 12 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 32
+Saving - Total: 32
+Saving mutants results file
+
+- Mutation is: 8:LVR:POS:0:lang3.BooleanUtils@compare(boolean,boolean):48:1 |==> 0
+Checking invs on mutant: experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m8.dtrace.gz
+Loaded invs from previous step: 32
+                                                                               [4:30:37 PM]:                                                                  [4:30:38 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:39 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:40 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:41 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:42 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:43 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:44 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:46 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:47 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:48 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:49 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:50 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:51 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:52 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:53 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:54 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:55 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:56 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:57 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:58 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:30:59 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:00 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:01 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:02 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:03 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool
+BooleanUtilsTesterDriver.inv.gz: 7,472 errors found in 507,608 samples (1.47%)
+BooleanUtilsTesterDriver.inv.gz: 16 false positives, out of 265, which is 6.04%.
+Preserving 8 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 32
+Saving - Total: 32
+Saving mutants results file
+
+- Mutation is: 9:LVR:POS:NEG:lang3.BooleanUtils@compare(boolean,boolean):48:1 |==> -1
+Checking invs on mutant: experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m9.dtrace.gz
+Loaded invs from previous step: 32
+                                                                               [4:31:05 PM]:                                                                  [4:31:06 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:07 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:08 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:09 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:10 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:11 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:12 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:13 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:14 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:15 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:16 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:17 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:18 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:19 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:20 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:21 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:22 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:23 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:24 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:25 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:26 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:27 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool[4:31:28 PM]: Reading experiments/BooleanUtils_compare/setup-files/mutants/Bool
+BooleanUtilsTesterDriver.inv.gz: 13,076 errors found in 507,608 samples (2.58%)
+BooleanUtilsTesterDriver.inv.gz: 28 false positives, out of 265, which is 10.57%.
+Preserving 14 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 32
+Saving - Total: 32
+Saving mutants results file
+
+# Filtering step took minutes: 5
+# Mutation killing ability results saved in: experiments/BooleanUtils_compare/output/BooleanUtils-compare-specfuzzer-1-invs-by-mutants.csv
+
+# Writing assertions to file: experiments/BooleanUtils_compare/output/BooleanUtils-compare-specfuzzer-1.assertions
+
+# Filtering specs with buckets
+> Mutant filter from file: experiments/BooleanUtils_compare/output/BooleanUtils-compare-specfuzzer-1-invs-by-mutants.csv
+Unique mutants: 13
+Loading assertions from: experiments/BooleanUtils_compare/output/BooleanUtils-compare-specfuzzer-1.assertions
+Specs killing mutants: 29
+
+> Minimizing by exploring the bit vector of each spec
+Building bit vectors of size: 13
+Building buckets
+=====================================
+Buckets: 12
+Vector: [1. 0. 0. 0. 0. 1. 1. 0. 1. 1. 0. 0. 1.]
+Mutants:
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m1.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m2.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m3.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m5.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m6.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m9.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 > -1) ) holds for: <orig(y), return> l:  98  - Fails:  4748 Quality:  4749
+	FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != -1) ) holds for: <orig(y), return> l:  99  - Fails:  4748 Quality:  4749
+Picked:
+	FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 > -1) ) holds for: <orig(y), return>
+
+Vector: [1. 0. 0. 0. 0. 1. 1. 0. 1. 0. 0. 0. 0.]
+Mutants:
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m1.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m2.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m3.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m5.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != -1) ) holds for: <orig(x) , orig(y) , return> l:  138  - Fails:  4290 Quality:  4292
+	FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 > -1) ) holds for: <orig(x) , orig(y) , return> l:  132  - Fails:  4290 Quality:  4292
+	FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 != -1) ) holds for: <orig(x) , orig(y) , return> l:  133  - Fails:  4290 Quality:  4292
+Picked:
+	FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != -1) ) holds for: <orig(x) , orig(y) , return>
+
+Vector: [1. 0. 0. 0. 0. 1. 1. 1. 1. 0. 0. 0. 0.]
+Mutants:
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m1.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m2.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m3.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m4.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m5.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 = 0) ) holds for: <orig(x) , orig(y) , return> l:  130  - Fails:  3600 Quality:  3602
+Picked:
+	FuzzedInvariant ( (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 = 0) ) holds for: <orig(x) , orig(y) , return>
+
+Vector: [1. 1. 0. 0. 1. 1. 1. 1. 1. 0. 0. 1. 0.]
+Mutants:
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m1.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m10.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m13.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m2.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m3.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m4.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m5.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m8.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 = 0) ) holds for: <orig(x) , orig(y) , return> l:  132  - Fails:  13008 Quality:  13010
+	FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 != 0) ) holds for: <orig(x) , orig(y) , return> l:  133  - Fails:  13008 Quality:  13010
+Picked:
+	FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 = 0) ) holds for: <orig(x) , orig(y) , return>
+
+Vector: [1. 0. 1. 1. 0. 0. 0. 1. 0. 0. 1. 0. 0.]
+Mutants:
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m1.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m11.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m12.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m4.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m7.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 <= 0) ) holds for: <orig(x) , orig(y) , return> l:  141  - Fails:  5916 Quality:  5918
+	FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != 1) ) holds for: <orig(y), return> l:  103  - Fails:  5196 Quality:  5197
+	FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 <= 0) ) holds for: <orig(y), return> l:  103  - Fails:  5196 Quality:  5197
+	FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 < 1) ) holds for: <orig(y), return> l:  102  - Fails:  5196 Quality:  5197
+Picked:
+	FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 <= 0) ) holds for: <orig(x) , orig(y) , return>
+
+Vector: [1. 0. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1.]
+Mutants:
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m1.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m11.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m12.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m13.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m2.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m4.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m6.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m7.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m8.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m9.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 >= 1) ) holds for: <orig(x) , orig(y) , return> l:  137  - Fails:  10586 Quality:  10588
+	FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 = 1) ) holds for: <orig(x) , orig(y) , return> l:  136  - Fails:  10586 Quality:  10588
+	FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 != 1) ) holds for: <orig(x) , orig(y) , return> l:  137  - Fails:  10586 Quality:  10588
+	FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 <= 0) ) holds for: <orig(x) , orig(y) , return> l:  137  - Fails:  10586 Quality:  10588
+Picked:
+	FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 >= 1) ) holds for: <orig(x) , orig(y) , return>
+
+Vector: [1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]
+Mutants:
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m1.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m4.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != 1) ) holds for: <orig(x) , orig(y) , return> l:  137  - Fails:  3540 Quality:  3542
+	FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 <= 0) ) holds for: <orig(x) , orig(y) , return> l:  137  - Fails:  3540 Quality:  3542
+	FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 != 1) ) holds for: <orig(x) , orig(y) , return> l:  132  - Fails:  3540 Quality:  3542
+Picked:
+	FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != 1) ) holds for: <orig(x) , orig(y) , return>
+
+Vector: [0. 1. 0. 0. 1. 1. 1. 0. 0. 0. 0. 1. 0.]
+Mutants:
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m10.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m13.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m2.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m3.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m8.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 != 0) ) holds for: <orig(x) , orig(y) , return> l:  137  - Fails:  5178 Quality:  5180
+Picked:
+	FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 != 0) ) holds for: <orig(x) , orig(y) , return>
+
+Vector: [0. 0. 1. 1. 0. 0. 0. 1. 0. 0. 1. 0. 0.]
+Mutants:
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m11.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m12.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m4.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m7.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != 1) ) holds for: <orig(x), return> l:  98  - Fails:  3096 Quality:  3097
+	FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 <= 0) ) holds for: <orig(x), return> l:  98  - Fails:  3096 Quality:  3097
+	FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 < 1) ) holds for: <orig(x), return> l:  97  - Fails:  3096 Quality:  3097
+Picked:
+	FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != 1) ) holds for: <orig(x), return>
+
+Vector: [0. 0. 0. 0. 1. 1. 0. 0. 0. 1. 0. 1. 1.]
+Mutants:
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m13.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m2.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m6.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m8.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m9.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 = 1) ) holds for: <orig(x) , orig(y) , return> l:  135  - Fails:  4670 Quality:  4672
+Picked:
+	FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 = 1) ) holds for: <orig(x) , orig(y) , return>
+
+Vector: [0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 1.]
+Mutants:
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m5.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m6.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m9.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 > -1) ) holds for: <orig(x), return> l:  103  - Fails:  3278 Quality:  3279
+	FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 >= 0) ) holds for: <orig(x), return> l:  103  - Fails:  3278 Quality:  3279
+	FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != -1) ) holds for: <orig(x), return> l:  104  - Fails:  3278 Quality:  3279
+Picked:
+	FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 > -1) ) holds for: <orig(x), return>
+
+Vector: [0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1.]
+Mutants:
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m6.dtrace.gz
+	experiments/BooleanUtils_compare/setup-files/mutants/BooleanUtilsTesterDriver-m9.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 >= 0) ) holds for: <orig(x) , orig(y) , return> l:  136  - Fails:  1868 Quality:  1870
+	FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 != -1) ) holds for: <orig(x) , orig(y) , return> l:  137  - Fails:  1868 Quality:  1870
+Picked:
+	FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 >= 0) ) holds for: <orig(x) , orig(y) , return>
+
+Buckets: 12
+Specs: 12
+Saved in file: experiments/BooleanUtils_compare/output/BooleanUtils-compare-specfuzzer-1-buckets.assertions
+

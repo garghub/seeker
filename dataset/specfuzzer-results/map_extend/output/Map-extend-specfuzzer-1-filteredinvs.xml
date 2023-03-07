@@ -1,0 +1,58 @@
+<object-stream>
+  <set>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= 1 ) holds for: size(this.data[..])</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this.data[..])-1</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt; -1 ) holds for: return</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != #(Map.keys) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= 0 ) holds for: size(this.data[..])-1</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt; -1 ) holds for: size(this.data[..])-1</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= 0 ) holds for: size(this.keys[..])-1</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= 0 ) holds for: return</string>
+    <string>FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 &lt;= 1) ) holds for: &lt;return , return , size(this.data[..])-1&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: size(this.keys[..])</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= 0 ) holds for: size(this.data[..])-1</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 = #(Map.data) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != -1) ) holds for: &lt;return, size(this.keys[..])-1&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= 0 ) holds for: size(this.keys[..])-1</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: size(this.data[..])</string>
+    <string>FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != -1) ) holds for: &lt;return, size(this.data[..])-1&gt;</string>
+    <string>FuzzedInvariant ( some n : Map.keys : n != null ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt; 0 ) holds for: size(this.data[..])</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != #(Map.data) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( all n : Map.data : n != null ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= 1 ) holds for: size(this.keys[..])</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt; -1 ) holds for: size(this.keys[..])-1</string>
+    <string>FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 &gt; 1) ) holds for: &lt;return , return , size(this.keys[..])-1&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= #(Map.keys) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt; 0 ) holds for: size(this.keys[..])</string>
+    <string>FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 &gt;= 0) ) holds for: &lt;return, size(this.data[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 &gt; 1) ) holds for: &lt;return , return , size(this.keys[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 &gt;= 0) ) holds for: &lt;return, size(this.keys[..])-1&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= #(Map.data) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt; #(Map.keys) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: return</string>
+    <string>FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 &gt; 1) ) holds for: &lt;return , return , size(this.data[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 &gt; 1) ) holds for: &lt;return , return , size(this.data[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 &lt;= 1) ) holds for: &lt;return , return , size(this.data[..])-1&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= 1 ) holds for: orig(size(this.data[..]))-1</string>
+    <string>FuzzedInvariant ( some n : Map.data : n != null ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= 1 ) holds for: size(this.data[..])</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt; #(Map.data) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( no n : Map.data : n = null ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= 1 ) holds for: size(this.keys[..])</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this.keys[..])-1</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= 1 ) holds for: orig(size(this.keys[..]))-1</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt; 1 ) holds for: size(this.data[..])-1</string>
+    <string>FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 &lt;= 1) ) holds for: &lt;return , return , size(this.keys[..])-1&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= 1 ) holds for: size(this.data[..])-1</string>
+    <string>FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 &lt;= 1) ) holds for: &lt;return , return , size(this.keys[..])-1&gt;</string>
+    <string>FuzzedInvariant ( all n : Map.data : n != null ) holds for: this</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= 1 ) holds for: size(this.keys[..])-1</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt; 1 ) holds for: size(this.keys[..])-1</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != 1 ) holds for: size(this.keys[..])-1</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= #(Map.data) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 &lt;= 1) ) holds for: &lt;return, size(this.data[..])-1&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != 1 ) holds for: size(this.data[..])-1</string>
+    <string>FuzzedInvariant ( no n : Map.data : n = null ) holds for: this</string>
+  </set>
+</object-stream>

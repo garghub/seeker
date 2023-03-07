@@ -1,0 +1,170 @@
+===========================================================================
+examples.MaxBag:::OBJECT
+this._var4384._0 == this._var5992
+this._var4384._0 != null
+this._var4384._1 != null
+this._var4384._1.getClass().getName() == java.lang.Integer[].class.getName()
+daikon.Quant.eltsNotEqual(this._var66253, null)
+daikon.Quant.eltsEqual(daikon.Quant.typeArray(this._var66253), "java.lang.Integer")
+===========================================================================
+examples.MaxBag.add(java.lang.Integer):::ENTER
+FuzzedInvariant ( all n : MaxBag._var721.values : n != null ) holds for: this
+FuzzedInvariant ( no n : MaxBag._var721.values : n = null ) holds for: this
+this._var587 != null
+this._var721 != null
+this._var1457 != null
+this._var4384 != null
+this._var5992 != null
+this._var66253 != null
+x != null
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: <this, x>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != 1) ) holds for: <this, x>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 <= #(MaxBag._var721.values)) ) holds for: <this, x>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 <= 1) ) holds for: <this, x>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: <this, x>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = 0) ) holds for: <this, x>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 > #(MaxBag._var4384._1)) ) holds for: <this, x>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 > #(MaxBag._var721.values)) ) holds for: <this, x>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 > 1) ) holds for: <this, x>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 >= #(MaxBag._var721.keySet)) ) holds for: <this, x>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 >= -1) ) holds for: <this, x>
+===========================================================================
+examples.MaxBag.add(java.lang.Integer):::EXIT
+this._var721 == \old(this._var721)
+this._var4384 == \old(this._var4384)
+this._var4384._1.getClass().getName() == \old(this._var4384._1.getClass().getName())
+this._var66253 == \old(this._var66253)
+daikon.Quant.size(this._var66253)-1 == \old(daikon.Quant.size(this._var66253))
+this._var587 != null
+this._var721 != null
+this._var1457 != null
+this._var1457 != null
+this._var4384 != null
+this._var5992 != null
+this._var66253 != null
+FuzzedInvariant ( some n : MaxBag._var4384._1 : n != null ) holds for: orig(this)
+FuzzedInvariant ( some n : MaxBag._var721.values : n != null ) holds for: orig(this)
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var4384._1[])
+FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: size(this._var4384._1[])
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var4384._1[])
+FuzzedInvariant ( Integer_Variable_0 > 0 ) holds for: size(this._var4384._1[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var4384._1[])
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var4384._1[])
+daikon.Quant.size(this._var4384._1) >= 1
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var4384._1[])-1
+FuzzedInvariant ( Integer_Variable_0 != 1 ) holds for: size(this._var4384._1[])-1
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var4384._1[])-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var4384._1[])-1
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var4384._1[])-1
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var66253[])
+FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: size(this._var66253[])
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var66253[])
+FuzzedInvariant ( Integer_Variable_0 > 0 ) holds for: size(this._var66253[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var66253[])
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var66253[])
+daikon.Quant.size(this._var66253) >= 1
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var66253[])-1
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var66253[])-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var66253[])-1
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var66253[])-1
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: orig(size(this._var4384._1[]))
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: orig(size(this._var4384._1[]))
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this._var4384._1[]))
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: orig(size(this._var4384._1[]))
+FuzzedInvariant ( Integer_Variable_0 != 1 ) holds for: orig(size(this._var4384._1[]))-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this._var4384._1[]))-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this._var66253[]))-1
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var66253)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != 0) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 < #(MaxBag._var4384._1)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 < #(MaxBag._var721.keySet)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= #(MaxBag._var4384._1)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= #(MaxBag._var66253)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= #(MaxBag._var721.keySet)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= -1) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= 0) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= 1) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var66253)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = 1) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 > #(MaxBag._var721.values)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 > 0) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 > 1) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 >= #(MaxBag._var721.values)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != 1) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 <= #(MaxBag._var721.values)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 <= 1) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = 0) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 > #(MaxBag._var4384._1)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 > #(MaxBag._var721.values)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 > 1) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 >= #(MaxBag._var721.keySet)) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 >= -1) ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( all n : MaxBag._var66253 : n <= Integer_Variable_0 ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( all n : MaxBag._var721.keySet : n <= Integer_Variable_0 ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( no n : MaxBag._var66253 : n > Integer_Variable_0 ) holds for: <orig(this), this._var587>
+FuzzedInvariant ( some n : MaxBag._var721.keySet : n <= Integer_Variable_0 ) holds for: <orig(this), this._var587>
+daikon.Quant.memberOf(\old(x) , this._var4384._1 )
+FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 != -1) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 >= 0) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var66253)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != 0) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 < #(MaxBag._var4384._1)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 < #(MaxBag._var721.keySet)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= #(MaxBag._var4384._1)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= #(MaxBag._var66253)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= #(MaxBag._var721.keySet)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= -1) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= 0) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= 1) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var66253)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = 1) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 > #(MaxBag._var721.values)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 > 0) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 > 1) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 >= #(MaxBag._var721.values)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != 1) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 <= #(MaxBag._var721.values)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 <= 1) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = 0) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 > #(MaxBag._var4384._1)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 > #(MaxBag._var721.values)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 > 1) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 >= #(MaxBag._var721.keySet)) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 >= -1) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( Integer_Variable_0 <= #(MaxBag._var66253) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( Integer_Variable_0 >= #(MaxBag._var66253) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( Integer_Variable_0 >= #(MaxBag._var721.values) ) holds for: <orig(this), this._var5992>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var66253)) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != 0) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 < #(MaxBag._var4384._1)) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 < #(MaxBag._var721.keySet)) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= #(MaxBag._var4384._1)) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= #(MaxBag._var66253)) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= #(MaxBag._var721.keySet)) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= -1) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= 0) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 <= 1) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var66253)) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = 1) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 > #(MaxBag._var721.values)) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 > 0) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 > 1) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 >= #(MaxBag._var721.values)) ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( Integer_Variable_0 in MaxBag._var66253 ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( Integer_Variable_0 in MaxBag._var721.keySet ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( some n : MaxBag._var66253 : n >= Integer_Variable_0 ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( some n : MaxBag._var721.keySet : n <= Integer_Variable_0 ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( some n : MaxBag._var721.keySet : n = Integer_Variable_0 ) holds for: <orig(this), orig(x)>
+FuzzedInvariant ( some n : MaxBag._var721.keySet : n >= Integer_Variable_0 ) holds for: <orig(this), orig(x)>
+daikon.Quant.size(this._var4384._1) >= \old(daikon.Quant.size(this._var4384._1))
+daikon.Quant.size(this._var4384._1)-1 >= \old(daikon.Quant.size(this._var4384._1))-1

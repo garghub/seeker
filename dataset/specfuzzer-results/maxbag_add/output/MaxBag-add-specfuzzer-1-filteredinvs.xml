@@ -1,0 +1,346 @@
+<object-stream>
+  <set>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &lt;= #(MaxBag._var721.values)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n = 0 ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; 0) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &lt;= 0 ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var721.keySet)) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; #(MaxBag._var721.values)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 != -1) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &lt; #(MaxBag._var721.values) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt; #(MaxBag._var4384._1)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt; #(MaxBag._var4384._1)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != 1 ) holds for: orig(size(_1[..]))</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: size(this._var66253[..])</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var721.keySet)) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt; #(MaxBag._var721.keySet)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 &gt;= 0) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &lt;= -1 ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var66253)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var66253)) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var4384._1)) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &lt;= #(MaxBag._var721.values)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; 1) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &gt; #(MaxBag._var721.keySet) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != 1) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= #(MaxBag._var721.values) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 1) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 != -1) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt;= -1) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var66253)) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &lt; Integer_Variable_0 ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= 0 ) holds for: size(this._var66253[..])-1</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var4384._1 : n != null ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var66253)) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt; 0 ) holds for: size(this._var66253[..])</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt;= #(MaxBag._var721.values)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 0) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 != -1) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt; #(MaxBag._var4384._1)) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = 0) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n &lt;= #(MaxBag._var66253) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &lt;= 1 ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 != #(MaxBag._var721.keySet)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= #(MaxBag._var4384._1) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 != 1) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &lt;= 1) ) holds for: &lt;this, x&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt; #(MaxBag._var721.keySet)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 1) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var66253 : n &lt; #(MaxBag._var721.values) ) holds for: this</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n != #(MaxBag._var4384._1) ) holds for: this</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= #(MaxBag._var66253) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n != -1 ) holds for: this</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != #(MaxBag._var721.keySet) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var721.keySet)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt; #(MaxBag._var4384._1) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 in MaxBag._var721.keySet ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= #(MaxBag._var4384._1) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var4384._1)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n != Integer_Variable_0 ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 != 1) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n &gt; 1 ) holds for: this</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &gt; -1 ) holds for: this</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &gt;= -1 ) holds for: this</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n = 1 ) holds for: this</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.values : n != null ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= -1) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &gt;= 0 ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var721.keySet)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = 1) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 0) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= -1 ) holds for: size(_1[..])-1</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &lt;= Integer_Variable_0 ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var66253 : n &gt; Integer_Variable_0 ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &gt; Integer_Variable_0 ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var66253 : n != #(MaxBag._var721.keySet) ) holds for: this</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: size(_1[..])-1</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; #(MaxBag._var721.values)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var4384._1 : n = null ) holds for: this</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var66253 : n &gt; #(MaxBag._var4384._1) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = 0) ) holds for: &lt;this, x&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var66253 : n &gt;= Integer_Variable_0 ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var66253)) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var66253)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &lt;= 1) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n = #(MaxBag._var721.values) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &lt;= 1) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = 1) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; 0) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var66253)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 = 0 ) holds for: orig(size(_1[..]))</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt;= #(MaxBag._var721.keySet)) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var66253 : n &lt;= Integer_Variable_0 ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 = -1 ) holds for: size(_1[..])-1</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; #(MaxBag._var4384._1)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; 1) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n != 1 ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt;= #(MaxBag._var721.keySet)) ) holds for: &lt;this, x&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &lt; Integer_Variable_0 ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; #(MaxBag._var721.values)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt;= #(MaxBag._var721.values)) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt; #(MaxBag._var721.keySet)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; 1) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; #(MaxBag._var721.values)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 = -1 ) holds for: size(this._1[..])-1</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 &gt;= 0) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &lt; #(MaxBag._var4384._1) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; 0) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != 0) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= -1) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &gt;= Integer_Variable_0 ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != 0) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != 1) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &gt;= Integer_Variable_0 ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt;= #(MaxBag._var721.keySet)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; #(MaxBag._var4384._1)) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 != #(MaxBag._var721.keySet)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt;= -1) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != 1) ) holds for: &lt;this, x&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 in MaxBag._var721.keySet ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = 0) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 1) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n != 0 ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n &gt; -1 ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &lt;= 1) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var66253 : n != #(MaxBag._var721.values) ) holds for: this</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != #(MaxBag._var721.values) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.values : n != null ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= #(MaxBag._var66253) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != #(MaxBag._var721.keySet) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n != #(MaxBag._var721.values) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var66253)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= -1) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 = 0 ) holds for: size(_1[..])</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt; #(MaxBag._var721.keySet) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &gt; -1 ) holds for: this</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var66253[..])-1</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 = 0 ) holds for: size(this._1[..])</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.values : n = null ) holds for: this</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= #(MaxBag._var66253) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var721.keySet)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= #(MaxBag._var721.values) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = 0) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var66253)) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; 1) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt;= #(MaxBag._var721.values)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n &gt; #(MaxBag._var66253) ) holds for: this</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= #(MaxBag._var4384._1) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 != 1) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 != #(MaxBag._var721.keySet)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != #(MaxBag._var4384._1) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &gt;= #(MaxBag._var4384._1) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: &lt;this, x&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt;= #(MaxBag._var721.keySet)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &lt;= 1) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n != #(MaxBag._var721.values) ) holds for: this</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var66253 : n &gt;= #(MaxBag._var4384._1) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = 1) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != #(MaxBag._var721.values) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &lt;= Integer_Variable_0 ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &gt; Integer_Variable_0 ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var66253 : n &lt;= Integer_Variable_0 ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= -1) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var721.keySet)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; 1) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= #(MaxBag._var721.values) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.values : n = null ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 0) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &lt;= #(MaxBag._var721.values)) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= -1 ) holds for: size(this._1[..])-1</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n != Integer_Variable_0 ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt; 1 ) holds for: size(_1[..])</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 1) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var66253)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; #(MaxBag._var721.values)) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n &lt; #(MaxBag._var4384._1) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var4384._1)) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 0) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt; #(MaxBag._var721.keySet)) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &gt;= #(MaxBag._var721.keySet) ) holds for: this</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt; 0 ) holds for: size(this._1[..])-1</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var66253 : n != #(MaxBag._var4384._1) ) holds for: this</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= #(MaxBag._var721.values) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &lt;= #(MaxBag._var721.values) ) holds for: this</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != #(MaxBag._var721.keySet) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; 1) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 0) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &lt;= #(MaxBag._var721.values)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != 1 ) holds for: size(_1[..])</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var66253 : n &gt; Integer_Variable_0 ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt;= -1) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.values : n != null ) holds for: this</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.values : n != null ) holds for: this</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n = Integer_Variable_0 ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var66253)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &lt; Integer_Variable_0 ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: &lt;this, x&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != 1) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= #(MaxBag._var66253) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &lt;= Integer_Variable_0 ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var66253)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &gt; 0 ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = 0) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var66253 : n &gt; Integer_Variable_0 ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != 0) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt; #(MaxBag._var721.keySet)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var66253)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.values : n != null ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != 1) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != 1) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 1) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt;= -1) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var66253)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt; 1 ) holds for: size(this._1[..])</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt;= #(MaxBag._var721.values)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= 0 ) holds for: orig(size(_1[..]))</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; 1) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n != -1 ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var66253)) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var66253)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; 1) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != 1 ) holds for: orig(size(this._var4384._1[..]))-1</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var4384._1 : n != null ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt;= -1) ) holds for: &lt;this, x&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var66253 : n &gt;= #(MaxBag._var721.keySet) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var4384._1)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &gt; 0 ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; 1) ) holds for: &lt;this, x&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n &lt;= #(MaxBag._var721.values) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= -1) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; #(MaxBag._var721.values)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var4384._1 : n = null ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; 0) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n = Integer_Variable_0 ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = 1) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= 0 ) holds for: size(_1[..])</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 not in MaxBag._var721.keySet ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var66253 : n != #(MaxBag._var4384._1) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 in MaxBag._var66253 ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt; #(MaxBag._var721.keySet) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var66253 : n &lt;= Integer_Variable_0 ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt;= #(MaxBag._var721.keySet)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &lt;= #(MaxBag._var721.values)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var4384._1)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; 0) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt; #(MaxBag._var4384._1)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &gt;= Integer_Variable_0 ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt;= #(MaxBag._var721.keySet)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var66253)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; #(MaxBag._var721.values)) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &lt;= Integer_Variable_0 ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != #(MaxBag._var721.values) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n = 1 ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; #(MaxBag._var721.values)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var66253)) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 0) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; 1) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &lt;= Integer_Variable_0 ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; #(MaxBag._var721.values)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = 0) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; #(MaxBag._var4384._1)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 0) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &gt; #(MaxBag._var721.values) ) holds for: this</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != 1 ) holds for: size(this._1[..])</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var4384._1)) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &lt;= Integer_Variable_0 ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &lt;= Integer_Variable_0 ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var66253)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt; #(MaxBag._var4384._1)) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; 1) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt;= #(MaxBag._var66253) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n &lt; #(MaxBag._var721.keySet) ) holds for: this</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n &gt;= #(MaxBag._var66253) ) holds for: this</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var66253 : n &lt;= #(MaxBag._var721.values) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt;= #(MaxBag._var721.values)) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = 1) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var66253)) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt;= -1) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n = -1 ) holds for: this</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt; 0 ) holds for: size(_1[..])-1</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: size(this._1[..])-1</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; #(MaxBag._var4384._1)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.values : n = null ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt; #(MaxBag._var4384._1)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 &gt;= 0) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &lt;= 1) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt;= 0 ) holds for: size(this._1[..])</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt; -1 ) holds for: size(this._var66253[..])-1</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != 0) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n != Integer_Variable_0 ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; #(MaxBag._var721.values)) ) holds for: &lt;orig(this), this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= -1) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt;= #(MaxBag._var721.values)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 1) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &lt; 1 ) holds for: orig(size(_1[..]))</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &gt;= #(MaxBag._var721.values) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != #(MaxBag._var721.values)) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 &gt; #(MaxBag._var721.keySet) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n != Integer_Variable_0 ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 &gt;= 0) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= 1) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; #(MaxBag._var721.values)) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( no n : MaxBag._var721.keySet : n &gt; #(MaxBag._var721.values) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) implies (Integer_Variable_0 != -1) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt; #(MaxBag._var721.keySet)) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var4384._1 : n != null ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &gt;= Integer_Variable_0 ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = #(MaxBag._var721.values)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( Integer_Variable_0 != 1 ) holds for: size(this._var4384._1[..])-1</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &lt;= #(MaxBag._var721.keySet) ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 != 0) ) holds for: &lt;orig(this), orig(x)&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &lt;= #(MaxBag._var721.values)) ) holds for: &lt;this, x&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var721.keySet)) ) holds for: &lt;orig(this), return&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 = 1) ) holds for: &lt;this, this._var587&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var4384._1 : n != null ) holds for: this</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var4384._1 : n = null ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt;= #(MaxBag._var721.values)) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; #(MaxBag._var4384._1)) ) holds for: &lt;this, size(l[..])-1&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; #(MaxBag._var721.values)) ) holds for: &lt;this, x&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &gt; 1) ) holds for: &lt;orig(this), this._var587&gt;</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) or (Integer_Variable_0 &lt;= #(MaxBag._var4384._1)) ) holds for: &lt;this, this._var5992&gt;</string>
+    <string>FuzzedInvariant ( all n : MaxBag._var721.keySet : n &lt; 0 ) holds for: this</string>
+    <string>FuzzedInvariant ( (MaxBag._var1457.value) xor (Integer_Variable_0 &gt; #(MaxBag._var4384._1)) ) holds for: &lt;this, x&gt;</string>
+    <string>FuzzedInvariant ( some n : MaxBag._var721.keySet : n &lt;= Integer_Variable_0 ) holds for: &lt;this, this._var587&gt;</string>
+  </set>
+</object-stream>

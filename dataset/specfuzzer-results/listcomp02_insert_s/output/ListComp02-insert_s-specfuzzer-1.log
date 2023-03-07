@@ -1,0 +1,2296 @@
+> SpecFuzzer
+# Inference step (Daikon + Fuzzed Specs)
+Daikon version 5.8.2, released May 4, 2020; http://plse.cs.washington.edu/daikon.
+
+Loading invariants from file: invs_file.xml
+Loaded: 0
+
+Fuzzing specs:
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 = 1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 >= 0)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % -1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 <= 0) implies (Integer_Variable_1 = #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 >= #(ListComp02._var49)) or (Integer_Variable_1 >= 0)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 != #(ListComp02._var50)) xor (Integer_Variable_1 = #(ListComp02._var50))
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 <= 0) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= -1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= 0) or (Integer_Variable_1 <= -1)
+Fuzzed spec: (Integer_Variable_0 = 0) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % 0
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < -1
+Fuzzed spec: (Integer_Variable_0 < #(ListComp02._var50)) or (Integer_Variable_1 = #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 0
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 <= 1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 0
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > -1) xor (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 < 0)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 <= 0) xor (Integer_Variable_1 <= #(ListComp02._var50))
+Fuzzed spec: (Integer_Variable_0 > #(ListComp02._var49)) or (Integer_Variable_1 > -1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 > 1) xor (Integer_Variable_1 <= 0)
+Fuzzed spec: (Integer_Variable_0 <= -1) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 <= #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 > #(ListComp02._var49)) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / 1
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var50)) or (Integer_Variable_1 <= #(ListComp02._var49))
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / #(ListComp02._var49)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 < #(ListComp02._var49)) xor (Integer_Variable_1 = #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 1
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % -1
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + -1
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 > #(ListComp02._var49))
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 0
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 > -1)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 <= #(ListComp02._var49)) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + -1
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < #(ListComp02._var49)) implies (Integer_Variable_1 != #(ListComp02._var50))
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 != -1)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= -1) iff (Integer_Variable_1 <= #(ListComp02._var49))
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / #(ListComp02._var49)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 = #(ListComp02._var49)) or (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 > #(ListComp02._var50)) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 1
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= -1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 = #(ListComp02._var50)) implies (Integer_Variable_1 != 1)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 < -1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Integer_Variable_0 > 0) implies (Integer_Variable_1 >= #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: (Integer_Variable_0 = #(ListComp02._var50)) or (Integer_Variable_1 >= 1)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 <= #(ListComp02._var49))
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 <= #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 >= #(ListComp02._var49)) iff (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 0
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 = -1)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var49)) implies (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - -1
+Discarded due to arity: 4 - (Integer_Variable_0 > #(ListComp02._var50)) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 0
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 < #(ListComp02._var50)) implies (Integer_Variable_1 <= #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 > #(ListComp02._var50)) iff (Integer_Variable_1 != -1)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 >= 0)
+Fuzzed spec: (Integer_Variable_0 > -1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < -1
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 0
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 < #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 < -1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 <= #(ListComp02._var49))
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 <= #(ListComp02._var50)) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / -1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > 1) implies (Integer_Variable_1 >= -1)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 0
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 > -1) implies (Integer_Variable_1 < 0)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var49)) xor (Integer_Variable_1 >= 1)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 >= 1) or (Integer_Variable_1 > #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 >= 0)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 > -1) or (Integer_Variable_1 >= 0)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 > 1) or (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < 1
+Discarded due to arity: 4 - (Integer_Variable_0 >= #(ListComp02._var50)) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 = #(ListComp02._var50)) implies (Integer_Variable_1 < #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 < 1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= 1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 > #(ListComp02._var49))
+Discarded due to arity: 4 - (Integer_Variable_0 != #(ListComp02._var50)) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 = #(ListComp02._var50)) iff (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 >= #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var50)) xor (Integer_Variable_1 = 1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 < #(ListComp02._var50)) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 <= #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < -1
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 != #(ListComp02._var49))
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > 1) implies (Integer_Variable_1 >= -1)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 != -1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var49)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 0
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 != 1) or (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 >= #(ListComp02._var50)) iff (Integer_Variable_1 <= 0)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % 0
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 = 0)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 <= 1) xor (Integer_Variable_1 >= 0)
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % -1
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 0
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 <= 0) implies (Integer_Variable_1 >= #(ListComp02._var49))
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / -1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 != #(ListComp02._var49)) implies (Integer_Variable_1 <= -1)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 <= 1) iff (Integer_Variable_1 < #(ListComp02._var50))
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = -1) or (Integer_Variable_1 >= 0)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Integer_Variable_0 < -1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 > #(ListComp02._var50)) iff (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 0
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 = 1) iff (Integer_Variable_1 >= #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % #(ListComp02._var49)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: (Integer_Variable_0 != #(ListComp02._var49)) or (Integer_Variable_1 < #(ListComp02._var50))
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 >= -1)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= 0) implies (Integer_Variable_1 < #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 0
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 != #(ListComp02._var49)) xor (Integer_Variable_1 > #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 >= 1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 0
+Discarded due to arity: 4 - (Integer_Variable_0 != #(ListComp02._var50)) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 <= 0)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 != 1)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 > #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 <= 1)
+Fuzzed spec: (Integer_Variable_0 > #(ListComp02._var49)) iff (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 0
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var49)) or (Integer_Variable_1 <= #(ListComp02._var50))
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 > #(ListComp02._var49)) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 < #(ListComp02._var50)) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= #(ListComp02._var49)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 <= 0)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > -1) implies (Integer_Variable_1 = 0)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 < #(ListComp02._var50))
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - -1
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 0
+Discarded due to arity: 4 - (Integer_Variable_0 = #(ListComp02._var50)) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 < 1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 <= 0) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 1
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 > #(ListComp02._var49)) implies (Integer_Variable_1 = -1)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 < #(ListComp02._var50)) or (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 < -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 < #(ListComp02._var49)) iff (Integer_Variable_1 <= #(ListComp02._var50))
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % -1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= #(ListComp02._var49)) iff (Integer_Variable_1 <= #(ListComp02._var49))
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var49)) or (Integer_Variable_1 > -1)
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / -1
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / -1
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 <= #(ListComp02._var49)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 != 1) xor (Integer_Variable_1 < 0)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 <= 1) implies (Integer_Variable_1 != -1)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % -1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 <= #(ListComp02._var49))
+Fuzzed spec: (Integer_Variable_0 != -1) implies (Integer_Variable_1 >= 0)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 = #(ListComp02._var49))
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 = -1)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != -1) implies (Integer_Variable_1 > #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 != #(ListComp02._var49)) implies (Integer_Variable_1 >= -1)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 > #(ListComp02._var49)) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 <= #(ListComp02._var49))
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 > #(ListComp02._var49))
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 <= -1) xor (Integer_Variable_1 = 0)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= #(ListComp02._var49)) iff (Integer_Variable_1 = 0)
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: (Integer_Variable_0 != -1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 <= -1)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 != #(ListComp02._var49)) xor (Integer_Variable_1 >= #(ListComp02._var50))
+Fuzzed spec: (Integer_Variable_0 != #(ListComp02._var49)) or (Integer_Variable_1 > #(ListComp02._var49))
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 != 0)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= 0) iff (Integer_Variable_1 <= #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var50)) xor (Integer_Variable_1 <= #(ListComp02._var50))
+Fuzzed spec: (Integer_Variable_0 = -1) implies (Integer_Variable_1 < 0)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * #(ListComp02._var49)
+Discarded due to arity: 4 - (Integer_Variable_0 <= #(ListComp02._var49)) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 <= 0)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 <= 1) xor (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * -1
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 1
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 0
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - 0
+Fuzzed spec: (Integer_Variable_0 < 0) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 > #(ListComp02._var49)) implies (Integer_Variable_1 < #(ListComp02._var50))
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * -1
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 >= #(ListComp02._var50)) implies (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 > 0)
+Fuzzed spec: (Integer_Variable_0 >= 0) xor (Integer_Variable_1 > #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 >= #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Integer_Variable_0 < 0) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: (Integer_Variable_0 >= -1) implies (Integer_Variable_1 > #(ListComp02._var49))
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 = #(ListComp02._var49))
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= 0) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 > #(ListComp02._var49))
+Fuzzed spec: (Integer_Variable_0 > #(ListComp02._var50)) or (Integer_Variable_1 >= #(ListComp02._var49))
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 <= #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Integer_Variable_0 >= #(ListComp02._var49)) xor (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 1
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var50)) or (Integer_Variable_1 = 0)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 0
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 != #(ListComp02._var50)) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - -1
+Fuzzed spec: (Integer_Variable_0 >= 1) implies (Integer_Variable_1 != #(ListComp02._var49))
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 != #(ListComp02._var49)) iff (Integer_Variable_1 > #(ListComp02._var50))
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 > #(ListComp02._var50))
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * -1
+Fuzzed spec: (Integer_Variable_0 > -1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 0
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - -1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 0
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / -1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 <= #(ListComp02._var50))
+Discarded due to arity: 4 - (Integer_Variable_0 = #(ListComp02._var49)) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 < #(ListComp02._var50)) xor (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 <= -1)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > 0) implies (Integer_Variable_1 < #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 0
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 > -1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 != -1) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 <= 0) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 0
+Fuzzed spec: (Integer_Variable_0 = -1) or (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= 1) iff (Integer_Variable_1 != 1)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 1) iff (Integer_Variable_1 > #(ListComp02._var49))
+Discarded due to arity: 4 - (Integer_Variable_0 < #(ListComp02._var49)) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 >= #(ListComp02._var49)) iff (Integer_Variable_1 > #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 != 0) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 < #(ListComp02._var49)) or (Integer_Variable_1 != #(ListComp02._var50))
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 != #(ListComp02._var50)) xor (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: (Integer_Variable_0 <= -1) implies (Integer_Variable_1 >= #(ListComp02._var49))
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 0
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 > #(ListComp02._var49))
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 >= #(ListComp02._var49)) iff (Integer_Variable_1 = #(ListComp02._var50))
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 < -1) or (Integer_Variable_1 < -1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= 0) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % -1
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = 1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 > #(ListComp02._var49))
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 > #(ListComp02._var49)) xor (Integer_Variable_1 != -1)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < -1
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= 0) xor (Integer_Variable_1 != -1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 != -1)
+Fuzzed spec: (Integer_Variable_0 = 0) or (Integer_Variable_1 >= #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 0
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var50)) iff (Integer_Variable_1 = 1)
+Fuzzed spec: (Integer_Variable_0 < 0) xor (Integer_Variable_1 <= #(ListComp02._var50))
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 != #(ListComp02._var49)) iff (Integer_Variable_1 > #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 < 0) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 = 0) implies (Integer_Variable_1 >= 0)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 <= 1) or (Integer_Variable_1 > 1)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 <= #(ListComp02._var49))
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + -1
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= -1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 > -1) or (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 >= #(ListComp02._var50)) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 < 0) xor (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * #(ListComp02._var49)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var49)) xor (Integer_Variable_1 = 1)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 >= #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 = #(ListComp02._var49)) iff (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Discarded due to arity: 4 - (Integer_Variable_0 >= #(ListComp02._var49)) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - -1
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 = #(ListComp02._var49)) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 != #(ListComp02._var50)) or (Integer_Variable_1 >= #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + -1
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / -1
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: (Integer_Variable_0 >= 1) iff (Integer_Variable_1 != 1)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 > -1) iff (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 = #(ListComp02._var49)) xor (Integer_Variable_1 < #(ListComp02._var50))
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % #(ListComp02._var49)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 > #(ListComp02._var49)) or (Integer_Variable_1 = -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 >= -1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 <= 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 < #(ListComp02._var49)) or (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / -1
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 = 0)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 > #(ListComp02._var50)) iff (Integer_Variable_1 != -1)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 < -1) or (Integer_Variable_1 <= Integer_Variable_2)
+Discarded due to arity: 4 - (Integer_Variable_0 != #(ListComp02._var49)) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 != #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 = #(ListComp02._var50)) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 0
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % -1
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 1
+Discarded due to arity: 4 - (Integer_Variable_0 <= #(ListComp02._var50)) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 0
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 >= #(ListComp02._var49))
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = -1) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 >= #(ListComp02._var50)) or (Integer_Variable_1 < #(ListComp02._var50))
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 <= #(ListComp02._var50))
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 >= 0)
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var50)) xor (Integer_Variable_1 <= #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= -1
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 = #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Discarded due to arity: 4 - (Integer_Variable_0 != #(ListComp02._var49)) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 != 1) or (Integer_Variable_1 <= -1)
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 >= #(ListComp02._var49)) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 0
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 0
+Fuzzed spec: (Integer_Variable_0 = #(ListComp02._var50)) or (Integer_Variable_1 >= 1)
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 != #(ListComp02._var49))
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 > 1) implies (Integer_Variable_1 > -1)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 = #(ListComp02._var50)) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % 0
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 != #(ListComp02._var49))
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < 0) iff (Integer_Variable_1 <= 0)
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: (Integer_Variable_0 >= 0) or (Integer_Variable_1 <= 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Discarded due to arity: 4 - (Integer_Variable_0 = #(ListComp02._var50)) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 = 0)
+Discarded due to arity: 4 - (Integer_Variable_0 < #(ListComp02._var49)) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / 1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / 1
+Fuzzed spec: (Integer_Variable_0 != 0) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 = #(ListComp02._var49)) xor (Integer_Variable_1 = 1)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - -1
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 >= #(ListComp02._var49)) implies (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 >= #(ListComp02._var49)) iff (Integer_Variable_1 >= #(ListComp02._var50))
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 > #(ListComp02._var49)) xor (Integer_Variable_1 != #(ListComp02._var49))
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 > 1) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % -1
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 != #(ListComp02._var50)) implies (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var49)) iff (Integer_Variable_1 < #(ListComp02._var50))
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 < 1) xor (Integer_Variable_1 > #(ListComp02._var49))
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 = -1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 = #(ListComp02._var49)) iff (Integer_Variable_1 <= -1)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 >= 1)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 = 0)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 >= #(ListComp02._var49))
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 > #(ListComp02._var49)) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = 1) or (Integer_Variable_1 >= #(ListComp02._var49))
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 != 1)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 > #(ListComp02._var50)) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 >= #(ListComp02._var49)) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 > #(ListComp02._var50)) xor (Integer_Variable_1 = 1)
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var49)) iff (Integer_Variable_1 <= -1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 > 1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 < #(ListComp02._var49)) iff (Integer_Variable_1 != #(ListComp02._var49))
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - -1
+Fuzzed spec: (Integer_Variable_0 > 1) iff (Integer_Variable_1 != 1)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 = #(ListComp02._var49)) iff (Integer_Variable_1 != -1)
+Fuzzed spec: (Integer_Variable_0 > 1) xor (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 >= #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 = #(ListComp02._var49))
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 0
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - -1
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 < -1) xor (Integer_Variable_1 <= #(ListComp02._var50))
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 = -1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 != #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 > 0) xor (Integer_Variable_1 != -1)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 <= 1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 < #(ListComp02._var49)) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 < #(ListComp02._var49)) or (Integer_Variable_1 = -1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * -1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * -1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % #(ListComp02._var49)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 != 1) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 1
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + -1
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 = #(ListComp02._var50)) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != 0) implies (Integer_Variable_1 >= #(ListComp02._var50))
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var49)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: (Integer_Variable_0 = #(ListComp02._var49)) or (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - -1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - #(ListComp02._var49)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 >= #(ListComp02._var49))
+Fuzzed spec: (Integer_Variable_0 <= #(ListComp02._var49)) or (Integer_Variable_1 < -1)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - #(ListComp02._var50)
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 0
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 0
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 = #(ListComp02._var50))
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 <= #(ListComp02._var50)) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var50)
+Fuzzed spec: (Integer_Variable_0 <= 0) or (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 > #(ListComp02._var49)) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = #(ListComp02._var50)) or (Integer_Variable_1 <= #(ListComp02._var49))
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var49)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 0
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 0
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 != 1)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 > #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % #(ListComp02._var49)
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 < #(ListComp02._var50)) implies (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: (Integer_Variable_0 > 0) implies (Integer_Variable_1 != -1)
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 1
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + -1
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: Integer_Variable_0 = #(ListComp02._var49)
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 != -1) implies (Integer_Variable_1 <= 0)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 <= -1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % #(ListComp02._var50)
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Integer_Variable_0 < #(ListComp02._var49)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - #(ListComp02._var50)
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 != #(ListComp02._var50)) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: no n : ListComp02._var49 : n != null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 < -1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: no n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var49 : n != null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < #(ListComp02._var50)) iff (Integer_Variable_1 < #(ListComp02._var49))
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: some n : ListComp02._var50 : n != null
+Fuzzed spec: all n : ListComp02._var50 : n = null
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 != 0)
+Fuzzed spec: no n : ListComp02._var50 : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 != #(ListComp02._var49)) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: some n : ListComp02._var49 : n != null
+Fuzzed spec: no n : ListComp02._var50 : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % -1
+Fuzzed spec: all n : ListComp02._var49 : n = null
+Fuzzed spec: (Integer_Variable_0 > #(ListComp02._var50)) implies (Integer_Variable_1 != 0)
+Unique fuzzed invariants: 470 (2000)
+Unary: 30 - Binary: 158 - Ternary: 282 - Discarded: 36
+Reading declaration files Processing trace data; reading 1 dtrace file:
+Loaded objects from file: /specfuzzer/experiments/listcomp02_insert_s/setup-files/ListComp02TesterDriver-objects.xml
+Total loaded objects: 3067
+
+No return from procedure observed 15 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.ListComp02.q() : 14 invocations
+  examples.ListComp02.insert_r(examples.R) : 1 invocation
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+===========================================================================
+examples.ListComp02:::OBJECT
+FuzzedInvariant ( all n : ListComp02._var49 : n = null ) holds for: this
+FuzzedInvariant ( all n : ListComp02._var50 : n = null ) holds for: this
+FuzzedInvariant ( no n : ListComp02._var49 : n != null ) holds for: this
+FuzzedInvariant ( no n : ListComp02._var50 : n != null ) holds for: this
+this._var49[] elements == null
+this._var49[].getClass().getName() elements == null
+this._var50[] elements == null
+this._var50[].getClass().getName() elements == null
+===========================================================================
+examples.ListComp02.ListComp02():::EXIT
+this._var49 != null
+this._var49[] == []
+this._var49[].getClass().getName() == []
+this._var50 != null
+this._var50[] == []
+this._var50[].getClass().getName() == []
+===========================================================================
+examples.ListComp02.ListComp02(java.util.ArrayList, java.util.ArrayList):::ENTER
+Rs[] == []
+Rs[].getClass().getName() == []
+Ss[] == []
+Ss[].getClass().getName() == []
+===========================================================================
+examples.ListComp02.ListComp02(java.util.ArrayList, java.util.ArrayList):::EXIT
+this._var49 == orig(Rs)
+this._var50 == orig(Ss)
+Rs[] == orig(Rs[])
+Ss[] == orig(Ss[])
+this._var49[] == []
+this._var49[].getClass().getName() == []
+this._var50[] == []
+this._var50[].getClass().getName() == []
+Rs[] == []
+Rs[].getClass().getName() == []
+Ss[] == []
+Ss[].getClass().getName() == []
+===========================================================================
+examples.ListComp02.clear():::ENTER
+===========================================================================
+examples.ListComp02.clear():::EXIT
+this._var49 != null
+this._var49[] == []
+this._var49[].getClass().getName() == []
+this._var50 != null
+this._var50[] == []
+this._var50[].getClass().getName() == []
+FuzzedInvariant ( all n : ListComp02._var49 : n != null ) holds for: orig(this)
+FuzzedInvariant ( all n : ListComp02._var50 : n != null ) holds for: orig(this)
+FuzzedInvariant ( no n : ListComp02._var49 : n = null ) holds for: orig(this)
+FuzzedInvariant ( no n : ListComp02._var50 : n = null ) holds for: orig(this)
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: orig(size(this._var49[]))
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: orig(size(this._var49[]))
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this._var49[]))
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: orig(size(this._var49[]))
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this._var49[]))-1
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: orig(size(this._var50[]))
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: orig(size(this._var50[]))
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this._var50[]))
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: orig(size(this._var50[]))
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this._var50[]))-1
+size(this._var49[]) <= orig(size(this._var49[]))
+size(this._var49[])-1 <= orig(size(this._var49[]))-1
+size(this._var50[]) <= orig(size(this._var50[]))
+size(this._var50[])-1 <= orig(size(this._var50[]))-1
+===========================================================================
+examples.ListComp02.insert_r(examples.R):::ENTER
+this._var49 != null
+r == null
+size(this._var49[]) one of { 0, 1, 2 }
+===========================================================================
+examples.ListComp02.insert_r(examples.R):::EXIT
+this._var49 == orig(this._var49)
+this._var50 == orig(this._var50)
+this._var50[] == orig(this._var50[])
+size(this._var49[])-1 == orig(size(this._var49[]))
+this._var49 != null
+FuzzedInvariant ( some n : ListComp02._var49 : n = null ) holds for: orig(this)
+size(this._var49[]) one of { 1, 2, 3 }
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 > 0 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 >= 1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var49[])-1
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var49[])-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var49[])-1
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var49[])-1
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var50[])-1
+FuzzedInvariant ( Integer_Variable_0 <= 1 ) holds for: orig(size(this._var49[]))-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this._var49[]))-1
+===========================================================================
+examples.ListComp02.insert_s(examples.S):::ENTER
+this._var50 != null
+s == null
+===========================================================================
+examples.ListComp02.insert_s(examples.S):::EXIT
+this._var49 == orig(this._var49)
+this._var49[] == orig(this._var49[])
+this._var50 == orig(this._var50)
+size(this._var50[])-1 == orig(size(this._var50[]))
+this._var50 != null
+FuzzedInvariant ( some n : ListComp02._var50 : n = null ) holds for: orig(this)
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var49[])-1
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 > 0 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 >= 1 ) holds for: size(this._var50[])
+size(this._var50[]) >= 1
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var50[])-1
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var50[])-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var50[])-1
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var50[])-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this._var50[]))-1
+===========================================================================
+examples.ListComp02.q():::ENTER
+this._var49 != null
+===========================================================================
+examples.ListComp02.q():::EXIT
+this._var49 == orig(this._var49)
+this._var49[] == orig(this._var49[])
+this._var50 == orig(this._var50)
+this._var50[] == orig(this._var50[])
+this._var49 != null
+return has only one value
+return != null
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var49[])-1
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var50[])-1
+FuzzedInvariant ( Integer_Variable_0 <= #(ListComp02._var49) ) holds for: <orig(this), return>
+FuzzedInvariant ( Integer_Variable_0 <= #(ListComp02._var50) ) holds for: <orig(this), return>
+Exiting Daikon.
+
+# Filtering step
+
+- Mutation is: 1:STD:<CALL>:<NO-OP>:examples.ListComp02@<init>():9:clear() |==> <NO-OP>
+Checking invs on mutant: experiments/listcomp02_insert_s/setup-files/mutants/ListComp02TesterDriver-m1.dtrace.gz
+Loaded invs from previous step: 0
+                                                                               [9:18:48 PM]:                                                                  Loaded objects from file: /specfuzzer/experiments/listcomp02_insert_s/setup-files/mutants/ListComp02TesterDriver-m1-objects.xml
+Total loaded objects: 2439
+[9:18:49 PM]: Reading experiments/listcomp02_insert_s/setup-files/mutants/ListC[9:18:50 PM]: Reading experiments/listcomp02_insert_s/setup-files/mutants/ListC[9:18:51 PM]: Reading experiments/listcomp02_insert_s/setup-files/mutants/ListC
+No return from procedure observed 108 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.ListComp02.insert_s(examples.S) : 51 invocations
+  examples.ListComp02.q() : 56 invocations
+  examples.ListComp02.insert_r(examples.R) : 1 invocation
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+ListComp02TesterDriver.inv.gz: 664 errors found in 905,087 samples (0.07%)
+ListComp02TesterDriver.inv.gz: 6 false positives, out of 1375, which is 0.44%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 0
+Saving - Total: 0
+Saving mutants results file
+
+- Mutation is: 19:STD:<CALL>:<NO-OP>:examples.ListComp02@insert_s(examples.S):42:_var50.add(s) |==> <NO-OP>
+Checking invs on mutant: experiments/listcomp02_insert_s/setup-files/mutants/ListComp02TesterDriver-m19.dtrace.gz
+Loaded invs from previous step: 0
+                                                                               [9:18:52 PM]:                                                                  Loaded objects from file: /specfuzzer/experiments/listcomp02_insert_s/setup-files/mutants/ListComp02TesterDriver-m19-objects.xml
+Total loaded objects: 3071
+[9:18:53 PM]: Reading experiments/listcomp02_insert_s/setup-files/mutants/ListC[9:18:54 PM]: Reading experiments/listcomp02_insert_s/setup-files/mutants/ListC[9:18:55 PM]: Reading experiments/listcomp02_insert_s/setup-files/mutants/ListC[9:18:56 PM]: Reading experiments/listcomp02_insert_s/setup-files/mutants/ListC
+No return from procedure observed 2 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.ListComp02.q() : 1 invocation
+  examples.ListComp02.insert_r(examples.R) : 1 invocation
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+ListComp02TesterDriver.inv.gz: 7,600 errors found in 1,075,597 samples (0.71%)
+ListComp02TesterDriver.inv.gz: 29 false positives, out of 1519, which is 1.91%.
+Preserving 7 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 0
+Saving - Total: 7
+Saving mutants results file
+
+- Mutation is: 2:STD:<ASSIGN>:<NO-OP>:examples.ListComp02@<init>(java.util.ArrayList<examples.R>,java.util.ArrayList<examples.S>):13:_var49 = Rs |==> <NO-OP>
+Checking invs on mutant: experiments/listcomp02_insert_s/setup-files/mutants/ListComp02TesterDriver-m2.dtrace.gz
+Loaded invs from previous step: 7
+                                                                               [9:18:58 PM]:                                                                  Loaded objects from file: /specfuzzer/experiments/listcomp02_insert_s/setup-files/mutants/ListComp02TesterDriver-m2-objects.xml
+Total loaded objects: 2943
+[9:18:59 PM]: Reading experiments/listcomp02_insert_s/setup-files/mutants/ListC[9:19:00 PM]: Reading experiments/listcomp02_insert_s/setup-files/mutants/ListC[9:19:01 PM]: Reading experiments/listcomp02_insert_s/setup-files/mutants/ListC
+No return from procedure observed 67 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.ListComp02.q() : 56 invocations
+  examples.ListComp02.insert_r(examples.R) : 11 invocations
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+ListComp02TesterDriver.inv.gz: 7,604 errors found in 909,054 samples (0.84%)
+ListComp02TesterDriver.inv.gz: 6 false positives, out of 1441, which is 0.42%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 7
+Saving - Total: 7
+Saving mutants results file
+
+- Mutation is: 20:LVR:TRUE:FALSE:examples.ListComp02@insert_s(examples.S):43:true |==> false
+Checking invs on mutant: experiments/listcomp02_insert_s/setup-files/mutants/ListComp02TesterDriver-m20.dtrace.gz
+Loaded invs from previous step: 7
+                                                                               [9:19:02 PM]:                                                                  Saving mutants results file
+
+- Mutation is: 3:STD:<ASSIGN>:<NO-OP>:examples.ListComp02@<init>(java.util.ArrayList<examples.R>,java.util.ArrayList<examples.S>):14:_var50 = Ss |==> <NO-OP>
+Checking invs on mutant: experiments/listcomp02_insert_s/setup-files/mutants/ListComp02TesterDriver-m3.dtrace.gz
+Loaded invs from previous step: 7
+                                                                               [9:19:03 PM]:                                                                  Loaded objects from file: /specfuzzer/experiments/listcomp02_insert_s/setup-files/mutants/ListComp02TesterDriver-m3-objects.xml
+Total loaded objects: 3004
+[9:19:04 PM]: Reading experiments/listcomp02_insert_s/setup-files/mutants/ListC[9:19:05 PM]: Reading experiments/listcomp02_insert_s/setup-files/mutants/ListC[9:19:06 PM]: Reading experiments/listcomp02_insert_s/setup-files/mutants/ListC
+No return from procedure observed 48 times.  Unmatched entries are ignored!
+Unterminated calls:
+  examples.ListComp02.q() : 14 invocations
+  examples.ListComp02.insert_s(examples.S) : 33 invocations
+  examples.ListComp02.insert_r(examples.R) : 1 invocation
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+ListComp02TesterDriver.inv.gz: 7,294 errors found in 921,787 samples (0.79%)
+ListComp02TesterDriver.inv.gz: 6 false positives, out of 1441, which is 0.42%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 7
+Saving - Total: 7
+Saving mutants results file
+
+# Filtering step took minutes: 0
+# Mutation killing ability results saved in: experiments/listcomp02_insert_s/output/ListComp02-insert_s-specfuzzer-1-invs-by-mutants.csv
+
+# Writing assertions to file: experiments/listcomp02_insert_s/output/ListComp02-insert_s-specfuzzer-1.assertions
+
+# Filtering specs with buckets
+> Mutant filter from file: experiments/listcomp02_insert_s/output/ListComp02-insert_s-specfuzzer-1-invs-by-mutants.csv
+Unique mutants: 5
+Loading assertions from: experiments/listcomp02_insert_s/output/ListComp02-insert_s-specfuzzer-1.assertions
+Specs killing mutants: 3
+
+> Minimizing by exploring the bit vector of each spec
+Building bit vectors of size: 5
+Building buckets
+=====================================
+Buckets: 2
+Vector: [1. 0. 0. 0. 0.]
+Mutants:
+	experiments/listcomp02_insert_s/setup-files/mutants/ListComp02TesterDriver-m1.dtrace.gz
+Specs:
+	this._var50 != null l:  19  - Fails:  250 Quality:  250
+Picked:
+	this._var50 != null
+
+Vector: [0. 1. 0. 0. 0.]
+Mutants:
+	experiments/listcomp02_insert_s/setup-files/mutants/ListComp02TesterDriver-m19.dtrace.gz
+Specs:
+	daikon.Quant.size(this._var50)-1 == \old(daikon.Quant.size(this._var50)) l:  72  - Fails:  520 Quality:  520
+	FuzzedInvariant ( some n : ListComp02._var50 : n = null ) holds for: orig(this) l:  79  - Fails:  252 Quality:  252
+Picked:
+	daikon.Quant.size(this._var50)-1 == \old(daikon.Quant.size(this._var50))
+
+Buckets: 2
+Specs: 2
+Saved in file: experiments/listcomp02_insert_s/output/ListComp02-insert_s-specfuzzer-1-buckets.assertions
+

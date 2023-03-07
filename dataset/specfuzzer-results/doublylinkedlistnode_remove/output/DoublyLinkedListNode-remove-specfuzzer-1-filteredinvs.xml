@@ -1,0 +1,45 @@
+<object-stream>
+  <set>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : n = n.right ) holds for: this</string>
+    <string>FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) &amp; (n.left.*(left + right)) in empty ) holds for: this</string>
+    <string>FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) &amp; (n.left.*(left + right)) in empty ) holds for: this</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n in n.^(left + right) ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n = n.left ) holds for: this</string>
+    <string>FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : n != n.right ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : n = n.left ) holds for: this</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : (n.right.*(left + right)) &amp; (n.left.*(left + right)) not in empty ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : n = n.right ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : n != n.right ) holds for: this</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n = n.right.right ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) &amp; (n.left.*(left + right)) in empty ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) &amp; (n.right.*(left + right)) not in empty ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) &amp; (n.right.*(left + right)) not in empty ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) &amp; (n.right.*(left + right)) in empty ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.^(left + right) : n != n.left ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) &amp; (n.right.*(left + right)) not in empty ) holds for: this</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) &amp; (n.left.*(left + right)) not in empty ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) &amp; (n.left.*(left + right)) not in empty ) holds for: this</string>
+    <string>FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : n != n.right ) holds for: this</string>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : n = n.left.right ) holds for: this</string>
+    <string>FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : n != n.right.right ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n = n.right ) holds for: this</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : (n.right.*(left + right)) &amp; (n.left.*(left + right)) not in empty ) holds for: this</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n != n.right ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n != n.left ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n = n.left ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( no n : DoublyLinkedListNode.^(left + right) : n != n.right ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) &amp; (n.right.*(left + right)) not in empty ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : n = n.right ) holds for: this</string>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : n = n.right ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : (n.left.*(left + right)) &amp; (n.right.*(left + right)) not in empty ) holds for: this</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.*(left + right) : n = n.right ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( all n : DoublyLinkedListNode.^(left + right) : (n.right.*(left + right)) &amp; (n.left.*(left + right)) not in empty ) holds for: this</string>
+    <string>FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : n not in n.^(left + right) ) holds for: orig(this)</string>
+    <string>FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) &amp; (n.right.*(left + right)) in empty ) holds for: this</string>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : n = n.left ) holds for: this</string>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) &amp; (n.left.*(left + right)) not in empty ) holds for: this</string>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) &amp; (n.right.*(left + right)) not in empty ) holds for: this</string>
+    <string>FuzzedInvariant ( no n : DoublyLinkedListNode.*(left + right) : (n.left.*(left + right)) &amp; (n.left.*(left + right)) in empty ) holds for: this</string>
+    <string>FuzzedInvariant ( some n : DoublyLinkedListNode.^(left + right) : n = n.left.right ) holds for: orig(this)</string>
+  </set>
+</object-stream>

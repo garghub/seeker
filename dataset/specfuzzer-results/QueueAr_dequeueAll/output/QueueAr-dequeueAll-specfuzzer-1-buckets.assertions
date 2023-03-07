@@ -1,0 +1,22 @@
+buckets=13
+specs=16
+=====================================
+:::OBJECT
+this.currentSize <= daikon.Quant.size(this.theArray)
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: this.front
+this.back <= daikon.Quant.size(this.theArray)-1
+this.front <= daikon.Quant.size(this.theArray)
+=====================================
+:::POSTCONDITION
+\old(this.currentSize) <= daikon.Quant.size(this.theArray)
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 + -1 ) holds for: <this.front, this.back>
+daikon.Quant.eltsEqual(daikon.Quant.typeArray(this.theArray), null)
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2) ) holds for: <this.currentSize , orig(this.front) , this.back>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 <= 1) ) holds for: <this.currentSize, this.back>
+FuzzedInvariant ( Integer_Variable_0 <= Integer_Variable_1 + 1 ) holds for: <this.front, this.back>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2) ) holds for: <this.currentSize , this.front , this.back>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2) ) holds for: <this.currentSize , this.front , this.back>
+FuzzedInvariant ( Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2 ) holds for: <this.currentSize , orig(this.front) , this.back>
+FuzzedInvariant ( Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2 ) holds for: <this.currentSize , this.front , this.back>
+FuzzedInvariant ( Integer_Variable_0 <= Integer_Variable_1 + 1 ) holds for: <this.currentSize, this.back>
+\old(this.front) <= daikon.Quant.size(this.theArray)

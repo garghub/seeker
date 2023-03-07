@@ -1,0 +1,1708 @@
+> SpecFuzzer
+# Inference step (Daikon + Fuzzed Specs)
+Daikon version 5.8.2, released May 4, 2020; http://plse.cs.washington.edu/daikon.
+
+Loading invariants from file: invs_file.xml
+Loaded: 0
+
+Fuzzing specs:
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= 0) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 != 1) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != 0) or (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= 0) xor (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 <= 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 1
+Fuzzed spec: (Integer_Variable_0 = 1) iff (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: (Integer_Variable_0 != 0) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 1) xor (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Integer_Variable_0 <= 0) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 >= 1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / 1
+Fuzzed spec: (Integer_Variable_0 = 1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 0
+Fuzzed spec: (Integer_Variable_0 >= 1) xor (Integer_Variable_1 <= 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 > 1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: (Integer_Variable_0 >= 0) or (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / 0
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > 1) implies (Integer_Variable_1 <= 0)
+Fuzzed spec: (Integer_Variable_0 > 1) iff (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: (Integer_Variable_0 > 0) implies (Integer_Variable_1 <= 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != 1) iff (Integer_Variable_1 <= 1)
+Fuzzed spec: (Integer_Variable_0 = 0) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: (Integer_Variable_0 = 1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 >= 1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != 0) iff (Integer_Variable_1 > 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < 0) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / 0
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 < 0)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < 1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: (Integer_Variable_0 != 0) iff (Integer_Variable_1 = 1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 0
+Fuzzed spec: (Integer_Variable_0 = 1) iff (Integer_Variable_1 > 1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 < 0)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= 1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= 0) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 1
+Fuzzed spec: (Integer_Variable_0 <= 0) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= 0) xor (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 <= 1) or (Integer_Variable_1 > 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != 1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= 1) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < 1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 <= 0)
+Fuzzed spec: (Integer_Variable_0 != 0) implies (Integer_Variable_1 >= 1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 >= 1)
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 0
+Fuzzed spec: (Integer_Variable_0 = 1) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != 1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 1
+Fuzzed spec: (Integer_Variable_0 >= 0) xor (Integer_Variable_1 != 0)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 > 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 = 1) xor (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= 1) implies (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 <= 0)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Integer_Variable_0 < 0) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 = 1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= 0) implies (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 > 1)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 0
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 <= 0)
+Fuzzed spec: (Integer_Variable_0 != 1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: (Integer_Variable_0 > 0) or (Integer_Variable_1 < 0)
+Fuzzed spec: (Integer_Variable_0 < 1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= 0) iff (Integer_Variable_1 = 0)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = 0) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < 0) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 >= 0)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 > 0) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 < 0)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 = 0)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = 1) or (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < 0) xor (Integer_Variable_1 > 1)
+Fuzzed spec: (Integer_Variable_0 = 1) implies (Integer_Variable_1 > 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: (Integer_Variable_0 = 1) iff (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < 1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 1
+Fuzzed spec: (Integer_Variable_0 < 0) xor (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = 1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 0
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 0
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 >= 0)
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 <= 0)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > 0) iff (Integer_Variable_1 = 1)
+Fuzzed spec: (Integer_Variable_0 != 1) implies (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > 0) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > 1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = 0) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != 0) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > 0) xor (Integer_Variable_1 > 1)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: (Integer_Variable_0 > 1) or (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= 1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 0
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: (Integer_Variable_0 < 1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: (Integer_Variable_0 >= 1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = 0) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 >= 0) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < 1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 > 1)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 > 1)
+Fuzzed spec: (Integer_Variable_0 != 0) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > 1) xor (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 < 0)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < 1) xor (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: (Integer_Variable_0 > 0) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 1) implies (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 0
+Fuzzed spec: (Integer_Variable_0 >= 0) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = 1) or (Integer_Variable_1 = 1)
+Fuzzed spec: (Integer_Variable_0 != 1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != 1) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 0
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 >= 1)
+Fuzzed spec: (Integer_Variable_0 >= 1) implies (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 1
+Fuzzed spec: (Integer_Variable_0 < 0) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: (Integer_Variable_0 >= 1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != 1) xor (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 0
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != 1) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < 0) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: (Integer_Variable_0 <= 0) xor (Integer_Variable_1 != 1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != 1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % 0
+Fuzzed spec: (Integer_Variable_0 != 0) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: (Integer_Variable_0 < 1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= 1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= 1) xor (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Integer_Variable_0 > 1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= 1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != 0) or (Integer_Variable_1 = 1)
+Fuzzed spec: (Integer_Variable_0 = 0) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 > 0)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 = 0) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 0
+Fuzzed spec: (Integer_Variable_0 >= 0) iff (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 0
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 > 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= 1) implies (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= 0) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < 1) xor (Integer_Variable_1 >= 0)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != 1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != 1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != 0) iff (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= 0) implies (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 <= 1)
+Fuzzed spec: (Integer_Variable_0 >= 0) xor (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= 0) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = 1) iff (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 >= 0)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: (Integer_Variable_0 <= 0) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: (Integer_Variable_0 <= 1) xor (Integer_Variable_1 = 0)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 >= 0)
+Fuzzed spec: (Integer_Variable_0 > 1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= 1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= 1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= 1) iff (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 >= 0) implies (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 0
+Fuzzed spec: (Integer_Variable_0 > 1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 != 0)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 != 0) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 < 1) xor (Integer_Variable_1 >= 0)
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 = 0) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % 1
+Fuzzed spec: (Integer_Variable_0 > 0) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != 0) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > 1) iff (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 <= 1)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < 1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % 0
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 < 0) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 >= 0) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 0
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 > 0)
+Fuzzed spec: (Integer_Variable_0 > 1) or (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 0
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: (Integer_Variable_0 <= 1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 < 0)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > 0) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / 1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Integer_Variable_0 <= 1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= 0) implies (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < 1) iff (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 != 1) xor (Integer_Variable_1 <= 0)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 = 1)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= 1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < 0) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = 0) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = 0) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > 1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 0
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = 0) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < 0) implies (Integer_Variable_1 = 0)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % 0
+Fuzzed spec: (Integer_Variable_0 = 1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= 1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != 0) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != 1) or (Integer_Variable_1 < 0)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 != 0)
+Fuzzed spec: (Integer_Variable_0 != 0) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 < 1) or (Integer_Variable_1 != 1)
+Fuzzed spec: (Integer_Variable_0 <= 1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 != 0)
+Fuzzed spec: (Integer_Variable_0 > 1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= 1) xor (Integer_Variable_1 >= 1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 < 0)
+Fuzzed spec: (Integer_Variable_0 < 0) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != 0) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Integer_Variable_0 > 1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: (Integer_Variable_0 != 1) or (Integer_Variable_1 <= 0)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 <= 1) iff (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 < 0)
+Fuzzed spec: (Integer_Variable_0 >= 1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 0
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 < 0) xor (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 < 0) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= 1) xor (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 < 0) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > 1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = 0) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 0
+Fuzzed spec: (Integer_Variable_0 >= 1) iff (Integer_Variable_1 < 0)
+Fuzzed spec: (Integer_Variable_0 != 1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < 0) xor (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 0
+Fuzzed spec: (Integer_Variable_0 != 1) or (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 >= 0)
+Fuzzed spec: (Integer_Variable_0 < 1) xor (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 0
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 0) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 > 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 0
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: (Integer_Variable_0 >= 1) or (Integer_Variable_1 >= 0)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 = 0)
+Fuzzed spec: (Integer_Variable_0 <= 1) xor (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 = 0) implies (Integer_Variable_1 > 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % 1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 0
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 <= 0)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 = 1)
+Fuzzed spec: (Integer_Variable_0 > 0) implies (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 >= 1) xor (Integer_Variable_1 > 1)
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != 1) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 0
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != 0) implies (Integer_Variable_1 < 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 0
+Fuzzed spec: (Integer_Variable_0 > 0) or (Integer_Variable_1 > 1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < 0) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 1
+Fuzzed spec: (Integer_Variable_0 >= 0) implies (Integer_Variable_1 <= 1)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Integer_Variable_0 < 1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 != 1)
+Fuzzed spec: (Integer_Variable_0 != 0) implies (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Integer_Variable_0 >= 0) implies (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 = 0)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = 1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 0
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 >= 1) or (Integer_Variable_1 >= 0)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != 1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: (Integer_Variable_0 >= 0) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 1) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: (Integer_Variable_0 >= 0) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= 1) implies (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= 0) iff (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= 1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / 0
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 != 1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 > 0) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 0
+Fuzzed spec: (Integer_Variable_0 < 0) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: (Integer_Variable_0 >= 0) or (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 1
+Fuzzed spec: (Integer_Variable_0 >= 1) or (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 0
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > 0) or (Integer_Variable_1 < 0)
+Fuzzed spec: (Integer_Variable_0 >= 1) implies (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = 1) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 != 0) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < 0) iff (Integer_Variable_1 >= 0)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 1
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 <= 1)
+Fuzzed spec: (Integer_Variable_0 <= 1) or (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: (Integer_Variable_0 = 1) implies (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Integer_Variable_0 > 1) or (Integer_Variable_1 <= 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: (Integer_Variable_0 >= 0) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Unique fuzzed invariants: 469 (2000)
+Unary: 12 - Binary: 248 - Ternary: 209 - Discarded: 0
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+Loaded objects from file: /specfuzzer/experiments/simple-examples_getMin/setup-files/SimpleMethodsTesterDriver-objects.xml
+Total loaded objects: 826
+===========================================================================
+examples.SimpleMethods:::OBJECT
+===========================================================================
+examples.SimpleMethods.SimpleMethods():::EXIT
+===========================================================================
+examples.SimpleMethods.getMin(int, int):::ENTER
+===========================================================================
+examples.SimpleMethods.getMin(int, int):::EXIT
+FuzzedInvariant ( (Integer_Variable_0 < 1) implies (Integer_Variable_1 <= 0) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 < 1) implies (Integer_Variable_1 <= 1) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 != 1) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 < 0) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 < 1) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 = 0) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 = 1) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > 0) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 = 1) implies (Integer_Variable_1 <= 1) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 >= 0) or (Integer_Variable_1 != 0) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 >= 0) or (Integer_Variable_1 <= 1) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 != 0) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 <= 1) ) holds for: <orig(a), return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 = 0) ) holds for: <orig(a), return>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 - 1 ) holds for: <orig(a), return>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 - 1 ) holds for: <orig(a), return>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 ) holds for: <orig(a), return>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 * 1 ) holds for: <orig(a), return>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 + 0 ) holds for: <orig(a), return>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 - 0 ) holds for: <orig(a), return>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 - 1 ) holds for: <orig(a), return>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 / 1 ) holds for: <orig(a), return>
+return <= orig(a)
+return <= orig(b)
+FuzzedInvariant ( (Integer_Variable_0 != 1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 < 0) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 != Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 = 0) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 = 1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 > 1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 >= 0) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 >= 0) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+Exiting Daikon.
+
+# Filtering step
+
+- Mutation is: 1:ROR:<=(int,int):<(int,int):examples.SimpleMethods@getMin(int,int):14:a <= b |==> a < b
+Checking invs on mutant: experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m1.dtrace.gz
+Loaded invs from previous step: 0
+                                                                               [6:32:42 PM]: Checking size of experiments/simple-examples_getMin/setup-files/m[6:32:43 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:44 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:45 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:46 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:47 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:48 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:49 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:50 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:51 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:52 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:53 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:54 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:55 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:56 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:57 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:58 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:32:59 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:00 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:01 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:02 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:03 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:04 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:05 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:06 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:08 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:09 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:10 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:11 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:12 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:13 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:14 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:15 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:16 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:17 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:18 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:19 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:20 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:21 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:22 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:23 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:24 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:25 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:26 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:27 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:28 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:29 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:30 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:31 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:32 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:33 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:34 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:35 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:36 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:37 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:38 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:39 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:40 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:41 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:42 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:43 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:44 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:45 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:46 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:47 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:48 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si
+SimpleMethodsTesterDriver.inv.gz: 0 errors found in 1,279,680 samples (0.00%)
+SimpleMethodsTesterDriver.inv.gz: 0 false positives, out of 958, which is 0.00%.
+Preserving 0 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 0
+Saving - Total: 0
+Saving mutants results file
+
+- Mutation is: 2:ROR:<=(int,int):==(int,int):examples.SimpleMethods@getMin(int,int):14:a <= b |==> a == b
+Checking invs on mutant: experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m2.dtrace.gz
+Loaded invs from previous step: 0
+                                                                               [6:33:49 PM]:                                                                  [6:33:50 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:51 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:52 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:53 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:54 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:55 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:56 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:57 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:58 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:33:59 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:00 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:01 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:02 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:03 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:04 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:05 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:06 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:07 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:08 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:09 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:10 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:11 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:12 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:13 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:14 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:15 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:16 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:17 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:18 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:19 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:20 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:21 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:22 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:23 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:24 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:25 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:26 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:27 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:28 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:29 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:30 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:31 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:32 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:33 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:34 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:35 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:36 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:37 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:38 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:39 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:40 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:41 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:42 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:43 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:44 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:45 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:46 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:47 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:48 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:49 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:50 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:51 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:52 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:53 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:54 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si
+SimpleMethodsTesterDriver.inv.gz: 49,874 errors found in 1,279,680 samples (3.90%)
+SimpleMethodsTesterDriver.inv.gz: 110 false positives, out of 958, which is 11.48%.
+Preserving 54 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 0
+Saving - Total: 54
+Saving mutants results file
+
+- Mutation is: 3:ROR:<=(int,int):TRUE(int,int):examples.SimpleMethods@getMin(int,int):14:a <= b |==> true
+Checking invs on mutant: experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m3.dtrace.gz
+Loaded invs from previous step: 54
+                                                                               [6:34:56 PM]:                                                                  [6:34:57 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:58 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:34:59 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:00 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:01 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:02 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:03 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:05 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:06 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:07 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:08 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:09 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:10 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:11 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:12 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:13 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:14 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:15 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:16 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:17 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:18 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:19 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:20 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:21 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:22 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:23 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:24 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:25 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:26 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:27 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:28 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:29 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:30 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:31 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:32 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:33 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:34 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:35 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:36 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:37 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:38 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:39 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:40 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:41 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:42 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:43 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:44 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:45 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:46 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:47 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:48 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:49 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:50 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:51 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:53 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:54 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:55 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:56 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:57 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:58 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:35:59 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:00 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:01 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:02 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si
+SimpleMethodsTesterDriver.inv.gz: 51,858 errors found in 1,279,680 samples (4.05%)
+SimpleMethodsTesterDriver.inv.gz: 88 false positives, out of 958, which is 9.19%.
+Preserving 43 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 54
+Saving - Total: 94
+Saving mutants results file
+
+- Mutation is: 4:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.SimpleMethods@getMin(int,int):15:a |==> 0
+Checking invs on mutant: experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m4.dtrace.gz
+Loaded invs from previous step: 94
+                                                                               [6:36:03 PM]:                                                                  [6:36:04 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:05 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:06 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:07 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:08 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:09 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:10 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:12 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:13 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:14 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:15 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:16 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:17 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:18 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:19 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:20 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:21 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:22 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:23 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:24 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:25 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:26 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:27 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:28 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:29 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:30 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:31 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:32 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:33 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:34 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:35 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:36 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:37 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:38 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:39 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:40 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:41 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:42 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:43 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:44 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:45 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:46 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:47 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:48 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:49 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:50 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:51 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:52 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:53 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:54 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:55 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:56 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:57 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:58 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:36:59 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:00 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:01 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:02 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:03 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:04 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:05 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:06 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:07 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:08 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:09 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si
+SimpleMethodsTesterDriver.inv.gz: 25,414 errors found in 1,279,680 samples (1.99%)
+SimpleMethodsTesterDriver.inv.gz: 162 false positives, out of 958, which is 16.91%.
+Preserving 79 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 94
+Saving - Total: 100
+Saving mutants results file
+
+- Mutation is: 5:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.SimpleMethods@getMin(int,int):17:b |==> 0
+Checking invs on mutant: experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m5.dtrace.gz
+Loaded invs from previous step: 100
+                                                                               [6:37:10 PM]: Checking size of experiments/simple-examples_getMin/setup-files/m[6:37:11 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:12 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:13 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:14 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:15 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:16 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:17 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:18 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:19 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:20 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:21 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:22 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:23 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:24 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:25 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:26 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:27 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:28 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:29 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:30 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:31 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:32 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:33 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:34 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:35 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:36 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:37 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:38 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:39 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:40 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:41 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:42 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:43 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:44 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:45 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:46 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:47 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:48 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:49 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:50 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:51 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:52 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:53 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:54 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:55 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:56 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:57 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:58 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:37:59 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:00 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:01 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:02 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:03 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:04 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:05 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:06 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:07 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:08 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:09 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:10 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:11 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:12 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:13 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:14 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:15 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:17 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si
+SimpleMethodsTesterDriver.inv.gz: 42,084 errors found in 1,279,680 samples (3.29%)
+SimpleMethodsTesterDriver.inv.gz: 166 false positives, out of 958, which is 17.33%.
+Preserving 81 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 100
+Saving - Total: 102
+Saving mutants results file
+
+- Mutation is: 6:LVR:TRUE:FALSE:examples.SimpleMethods@getMin(int,int):19:true |==> false
+Checking invs on mutant: experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m6.dtrace.gz
+Loaded invs from previous step: 102
+                                                                               [6:38:19 PM]:                                                                  Saving mutants results file
+
+- Mutation is: 7:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.SimpleMethods@getMin(int,int):20:result |==> 0
+Checking invs on mutant: experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m7.dtrace.gz
+Loaded invs from previous step: 102
+                                                                               [6:38:21 PM]: Checking size of experiments/simple-examples_getMin/setup-files/m[6:38:22 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:23 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:24 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:25 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:26 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:27 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:28 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:29 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:30 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:31 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:32 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:33 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:34 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:35 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:36 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:37 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:38 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:39 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:40 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:41 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:42 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:43 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:44 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:45 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:46 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:47 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:48 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:49 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:50 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:51 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:52 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:53 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:54 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:55 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:56 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:57 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:58 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:38:59 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:00 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:01 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:02 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:03 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:04 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:05 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:06 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:07 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:08 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:09 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:10 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:11 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:12 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:13 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:14 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:15 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:16 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:17 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:18 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:19 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:20 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:21 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:22 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:23 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:24 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si[6:39:25 PM]: Reading experiments/simple-examples_getMin/setup-files/mutants/Si
+SimpleMethodsTesterDriver.inv.gz: 67,498 errors found in 1,279,680 samples (5.27%)
+SimpleMethodsTesterDriver.inv.gz: 178 false positives, out of 958, which is 18.58%.
+Preserving 87 new invariants to file /specfuzzer/invs_file.xml
+Already preserved invariants: 102
+Saving - Total: 102
+Saving mutants results file
+
+# Filtering step took minutes: 6
+# Mutation killing ability results saved in: experiments/simple-examples_getMin/output/SimpleMethods-getMin-specfuzzer-1-invs-by-mutants.csv
+
+# Writing assertions to file: experiments/simple-examples_getMin/output/SimpleMethods-getMin-specfuzzer-1.assertions
+
+# Filtering specs with buckets
+> Mutant filter from file: experiments/simple-examples_getMin/output/SimpleMethods-getMin-specfuzzer-1-invs-by-mutants.csv
+Unique mutants: 6
+Loading assertions from: experiments/simple-examples_getMin/output/SimpleMethods-getMin-specfuzzer-1.assertions
+Specs killing mutants: 50
+
+> Minimizing by exploring the bit vector of each spec
+Building bit vectors of size: 6
+Building buckets
+=====================================
+Buckets: 9
+Vector: [1. 0. 1. 1. 1. 1.]
+Mutants:
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m2.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m4.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m5.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m6.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m7.dtrace.gz
+Specs:
+	FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 + 0 ) holds for: <orig(a), return> l:  93  - Fails:  2582 Quality:  2584
+	FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 - 0 ) holds for: <orig(a), return> l:  93  - Fails:  2582 Quality:  2584
+	FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 / 1 ) holds for: <orig(a), return> l:  93  - Fails:  2582 Quality:  2584
+	FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 - 1 ) holds for: <orig(a), return> l:  92  - Fails:  2582 Quality:  2584
+	FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 * 1 ) holds for: <orig(a), return> l:  93  - Fails:  2582 Quality:  2584
+	FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 ) holds for: <orig(a), return> l:  89  - Fails:  2582 Quality:  2584
+	\result <= \old(a) l:  18  - Fails:  2582 Quality:  2582
+	FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 < 0) ) holds for: <orig(a), return> l:  123  - Fails:  2492 Quality:  2494
+	FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 = 1) ) holds for: <orig(a), return> l:  123  - Fails:  2460 Quality:  2462
+	FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  148  - Fails:  2248 Quality:  2251
+	FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 - 1 ) holds for: <orig(a), return> l:  93  - Fails:  1878 Quality:  1880
+	FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > 0) ) holds for: <orig(a), return> l:  123  - Fails:  1622 Quality:  1624
+	FuzzedInvariant ( (Integer_Variable_0 >= 0) or (Integer_Variable_1 != 0) ) holds for: <orig(a), return> l:  103  - Fails:  1532 Quality:  1534
+	FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 != 0) ) holds for: <orig(a), return> l:  120  - Fails:  1532 Quality:  1534
+	FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 - 1 ) holds for: <orig(a), return> l:  93  - Fails:  704 Quality:  706
+Picked:
+	FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 + 0 ) holds for: <orig(a), return>
+
+Vector: [1. 1. 1. 1. 1. 1.]
+Mutants:
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m2.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m3.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m4.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m5.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m6.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m7.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  148  - Fails:  6160 Quality:  6163
+	FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  147  - Fails:  6160 Quality:  6163
+	FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 != Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  148  - Fails:  6160 Quality:  6163
+Picked:
+	FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+
+Vector: [1. 0. 1. 0. 0. 1.]
+Mutants:
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m2.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m4.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m7.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  151  - Fails:  1452 Quality:  1455
+Picked:
+	FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+
+Vector: [1. 0. 0. 0. 0. 0.]
+Mutants:
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m2.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 = 0) ) holds for: <orig(a), return> l:  119  - Fails:  1050 Quality:  1052
+	FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 = 0) ) holds for: <orig(a), return> l:  123  - Fails:  1050 Quality:  1052
+	FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 < 1) ) holds for: <orig(a), return> l:  123  - Fails:  960 Quality:  962
+	FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 <= 1) ) holds for: <orig(a), return> l:  120  - Fails:  838 Quality:  840
+	FuzzedInvariant ( (Integer_Variable_0 < 1) implies (Integer_Variable_1 <= 0) ) holds for: <orig(a), return> l:  107  - Fails:  612 Quality:  614
+	FuzzedInvariant ( (Integer_Variable_0 < 1) implies (Integer_Variable_1 <= 1) ) holds for: <orig(a), return> l:  107  - Fails:  490 Quality:  492
+	FuzzedInvariant ( (Integer_Variable_0 >= 0) or (Integer_Variable_1 <= 1) ) holds for: <orig(a), return> l:  103  - Fails:  316 Quality:  318
+	FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 != 1) ) holds for: <orig(a), return> l:  124  - Fails:  122 Quality:  124
+	FuzzedInvariant ( (Integer_Variable_0 = 1) implies (Integer_Variable_1 <= 1) ) holds for: <orig(a), return> l:  107  - Fails:  98 Quality:  100
+Picked:
+	FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 = 0) ) holds for: <orig(a), return>
+
+Vector: [0. 1. 1. 1. 1. 1.]
+Mutants:
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m3.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m4.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m5.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m6.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m7.dtrace.gz
+Specs:
+	\result <= \old(b) l:  18  - Fails:  4272 Quality:  4272
+	FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  147  - Fails:  4260 Quality:  4263
+	FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  153  - Fails:  4260 Quality:  4263
+	FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  147  - Fails:  4092 Quality:  4095
+	FuzzedInvariant ( (Integer_Variable_0 != 1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  136  - Fails:  4080 Quality:  4083
+	FuzzedInvariant ( (Integer_Variable_0 = 1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  130  - Fails:  4080 Quality:  4083
+	FuzzedInvariant ( (Integer_Variable_0 = 0) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  130  - Fails:  3776 Quality:  3779
+	FuzzedInvariant ( (Integer_Variable_0 >= 0) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  131  - Fails:  616 Quality:  619
+Picked:
+	\result <= \old(b)
+
+Vector: [0. 1. 0. 1. 1. 1.]
+Mutants:
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m3.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m5.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m6.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m7.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  147  - Fails:  4680 Quality:  4683
+	FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  151  - Fails:  4680 Quality:  4683
+	FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  152  - Fails:  4080 Quality:  4083
+	FuzzedInvariant ( (Integer_Variable_0 < 0) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  130  - Fails:  3656 Quality:  3659
+	FuzzedInvariant ( (Integer_Variable_0 >= 0) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  136  - Fails:  3656 Quality:  3659
+	FuzzedInvariant ( (Integer_Variable_0 > 1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  135  - Fails:  2968 Quality:  2971
+Picked:
+	FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+
+Vector: [0. 0. 1. 0. 0. 1.]
+Mutants:
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m4.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m7.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  148  - Fails:  196 Quality:  199
+	FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  147  - Fails:  192 Quality:  195
+	FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  152  - Fails:  180 Quality:  183
+	FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  152  - Fails:  12 Quality:  15
+	FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  148  - Fails:  12 Quality:  15
+Picked:
+	FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+
+Vector: [0. 0. 1. 1. 1. 1.]
+Mutants:
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m4.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m5.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m6.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m7.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  153  - Fails:  796 Quality:  799
+Picked:
+	FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+
+Vector: [0. 0. 0. 1. 1. 1.]
+Mutants:
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m5.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m6.dtrace.gz
+	experiments/simple-examples_getMin/setup-files/mutants/SimpleMethodsTesterDriver-m7.dtrace.gz
+Specs:
+	FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  152  - Fails:  600 Quality:  603
+	FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return> l:  148  - Fails:  600 Quality:  603
+Picked:
+	FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2) ) holds for: <orig(a) , orig(b) , return>
+
+Buckets: 9
+Specs: 9
+Saved in file: experiments/simple-examples_getMin/output/SimpleMethods-getMin-specfuzzer-1-buckets.assertions
+

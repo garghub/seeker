@@ -1,0 +1,63 @@
+1:STD:<ASSIGN>:<NO-OP>:examples.Map@<init>():29:keys = new LinkedList<K>() |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:examples.Map@<init>():30:data = new LinkedList<V>() |==> <NO-OP>
+3:COR:keys.contains(k):TRUE:examples.Map@item(K):39:keys.contains(k) |==> false
+4:COR:keys.contains(k):FALSE:examples.Map@item(K):39:keys.contains(k) |==> true
+5:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:examples.Map@item(K):41:keys.indexOf(k) |==> 0
+6:EVR:<METHOD_INVOCATION(V)>:<DEFAULT>:examples.Map@item(K):42:data.get(i) |==> null
+7:EVR:<IDENTIFIER(V)>:<DEFAULT>:examples.Map@item(K):48:result |==> null
+8:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:examples.Map@count():55:keys.size() |==> 0
+9:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.Map@count():56:result |==> 0
+10:LVR:0:POS:examples.Map@hasKey(K):63:0 |==> 1
+11:LVR:0:NEG:examples.Map@hasKey(K):63:0 |==> -1
+12:ROR:>=(int,int):==(int,int):examples.Map@hasKey(K):63:keys.indexOf(k) >= 0 |==> keys.indexOf(k) == 0
+13:ROR:>=(int,int):>(int,int):examples.Map@hasKey(K):63:keys.indexOf(k) >= 0 |==> keys.indexOf(k) > 0
+14:ROR:>=(int,int):TRUE(int,int):examples.Map@hasKey(K):63:keys.indexOf(k) >= 0 |==> true
+15:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:examples.Map@hasKey(K):64:result |==> false
+16:LVR:0:POS:examples.Map@hasValue(V):71:0 |==> 1
+17:LVR:0:NEG:examples.Map@hasValue(V):71:0 |==> -1
+18:LVR:FALSE:TRUE:examples.Map@hasValue(V):72:false |==> true
+19:ROR:<(int,int):!=(int,int):examples.Map@hasValue(V):73:i < data.size() |==> i != data.size()
+20:ROR:<(int,int):<=(int,int):examples.Map@hasValue(V):73:i < data.size() |==> i <= data.size()
+21:ROR:<(int,int):FALSE(int,int):examples.Map@hasValue(V):73:i < data.size() |==> false
+22:COR:&&(boolean,boolean):==(boolean,boolean):examples.Map@hasValue(V):73:i < data.size() && !result |==> i < data.size() == !result
+23:COR:&&(boolean,boolean):FALSE(boolean,boolean):examples.Map@hasValue(V):73:i < data.size() && !result |==> false
+24:COR:&&(boolean,boolean):LHS(boolean,boolean):examples.Map@hasValue(V):73:i < data.size() && !result |==> i < data.size()
+25:COR:&&(boolean,boolean):RHS(boolean,boolean):examples.Map@hasValue(V):73:i < data.size() && !result |==> !result
+26:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):examples.Map@hasValue(V):74:data.get(i) == v |==> false
+27:STD:<ASSIGN>:<NO-OP>:examples.Map@hasValue(V):74:result = data.get(i) == v |==> <NO-OP>
+28:STD:<INC>:<NO-OP>:examples.Map@hasValue(V):75:i++ |==> <NO-OP>
+29:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:examples.Map@hasValue(V):77:result |==> false
+30:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:examples.Map@extend(K,V):88:indexOfKey(k) |==> 0
+31:LVR:0:POS:examples.Map@extend(K,V):89:0 |==> 1
+32:LVR:0:NEG:examples.Map@extend(K,V):89:0 |==> -1
+33:ROR:>=(int,int):==(int,int):examples.Map@extend(K,V):89:result >= 0 |==> result == 0
+34:ROR:>=(int,int):>(int,int):examples.Map@extend(K,V):89:result >= 0 |==> result > 0
+35:ROR:>=(int,int):TRUE(int,int):examples.Map@extend(K,V):89:result >= 0 |==> true
+36:STD:<CALL>:<NO-OP>:examples.Map@extend(K,V):90:data.set(result, v) |==> <NO-OP>
+37:STD:<CALL>:<NO-OP>:examples.Map@extend(K,V):92:keys.add(k) |==> <NO-OP>
+38:STD:<CALL>:<NO-OP>:examples.Map@extend(K,V):93:data.add(v) |==> <NO-OP>
+39:LVR:POS:0:examples.Map@extend(K,V):94:1 |==> 0
+40:LVR:POS:NEG:examples.Map@extend(K,V):94:1 |==> -1
+41:AOR:-(int,int):%(int,int):examples.Map@extend(K,V):94:keys.size() - 1 |==> keys.size() % 1
+42:AOR:-(int,int):*(int,int):examples.Map@extend(K,V):94:keys.size() - 1 |==> keys.size() * 1
+43:AOR:-(int,int):+(int,int):examples.Map@extend(K,V):94:keys.size() - 1 |==> keys.size() + 1
+44:AOR:-(int,int):/(int,int):examples.Map@extend(K,V):94:keys.size() - 1 |==> keys.size() / 1
+45:STD:<ASSIGN>:<NO-OP>:examples.Map@extend(K,V):94:result = keys.size() - 1 |==> <NO-OP>
+46:LVR:TRUE:FALSE:examples.Map@extend(K,V):108:true |==> false
+47:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.Map@extend(K,V):109:result |==> 0
+48:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:examples.Map@remove(K):120:hasKey(k) |==> false
+49:LVR:0:POS:examples.Map@remove(K):121:0 |==> 1
+50:LVR:0:NEG:examples.Map@remove(K):121:0 |==> -1
+51:ROR:>(int,int):!=(int,int):examples.Map@remove(K):121:count() > 0 |==> count() != 0
+52:ROR:>(int,int):>=(int,int):examples.Map@remove(K):121:count() > 0 |==> count() >= 0
+53:ROR:>(int,int):FALSE(int,int):examples.Map@remove(K):121:count() > 0 |==> false
+54:COR:has_key:TRUE:examples.Map@remove(K):122:has_key |==> false
+55:COR:has_key:FALSE:examples.Map@remove(K):122:has_key |==> true
+56:COR:not_empty:TRUE:examples.Map@remove(K):124:not_empty |==> false
+57:COR:not_empty:FALSE:examples.Map@remove(K):124:not_empty |==> true
+58:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:examples.Map@remove(K):128:indexOfKey(k) |==> 0
+59:STD:<CALL>:<NO-OP>:examples.Map@remove(K):129:keys.remove(result) |==> <NO-OP>
+60:STD:<CALL>:<NO-OP>:examples.Map@remove(K):130:data.remove(result) |==> <NO-OP>
+61:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.Map@remove(K):143:result |==> 0
+62:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:examples.Map@indexOfKey(K):151:keys.indexOf(k) |==> 0
+63:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.Map@indexOfKey(K):159:result |==> 0

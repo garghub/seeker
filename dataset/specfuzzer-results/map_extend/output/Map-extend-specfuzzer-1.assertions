@@ -1,0 +1,72 @@
+===========================================================================
+examples.Map:::OBJECT
+this.keys != null
+this.data != null
+===========================================================================
+examples.Map.extend(java.lang.Object, java.lang.Object):::ENTER
+k.getClass().getName() == v.getClass().getName()
+k.getClass().getName() == java.lang.String.class.getName()
+v.getClass().getName() == java.lang.String.class.getName()
+daikon.Quant.size(this.keys) == 0 || daikon.Quant.size(this.keys) == 1 || daikon.Quant.size(this.keys) == 2
+daikon.Quant.size(this.data) == 0 || daikon.Quant.size(this.data) == 1 || daikon.Quant.size(this.data) == 2
+===========================================================================
+examples.Map.extend(java.lang.Object, java.lang.Object):::EXIT
+this.keys == \old(this.keys)
+this.data == \old(this.data)
+\result == 0 || \result == 1 || \result == 2
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: return
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: return
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: return
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: return
+FuzzedInvariant ( some n : Map.keys : n != null ) holds for: orig(this)
+daikon.Quant.size(this.keys) == 1 || daikon.Quant.size(this.keys) == 2 || daikon.Quant.size(this.keys) == 3
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this.keys[])
+FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: size(this.keys[])
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this.keys[])
+FuzzedInvariant ( Integer_Variable_0 > 0 ) holds for: size(this.keys[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this.keys[])
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this.keys[])
+FuzzedInvariant ( Integer_Variable_0 >= 1 ) holds for: size(this.keys[])
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this.keys[])-1
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this.keys[])-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this.keys[])-1
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this.keys[])-1
+daikon.Quant.size(this.data) == 1 || daikon.Quant.size(this.data) == 2 || daikon.Quant.size(this.data) == 3
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this.data[])
+FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: size(this.data[])
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this.data[])
+FuzzedInvariant ( Integer_Variable_0 > 0 ) holds for: size(this.data[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this.data[])
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this.data[])
+FuzzedInvariant ( Integer_Variable_0 >= 1 ) holds for: size(this.data[])
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this.data[])-1
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this.data[])-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this.data[])-1
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this.data[])-1
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: orig(size(this.keys[]))
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: orig(size(this.keys[]))
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this.keys[]))
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: orig(size(this.keys[]))
+FuzzedInvariant ( Integer_Variable_0 <= 1 ) holds for: orig(size(this.keys[]))-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this.keys[]))-1
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: orig(size(this.data[]))
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: orig(size(this.data[]))
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this.data[]))
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: orig(size(this.data[]))
+FuzzedInvariant ( Integer_Variable_0 <= 1 ) holds for: orig(size(this.data[]))-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this.data[]))-1
+daikon.Quant.memberOf(\old(k.getClass().getName()) , daikon.Quant.typeArray(this.keys) )
+daikon.Quant.memberOf(\old(v.getClass().getName()) , daikon.Quant.typeArray(this.keys) )
+daikon.Quant.memberOf(\old(v.getClass().getName()) , daikon.Quant.typeArray(this.data) )
+FuzzedInvariant ( Integer_Variable_0 != #(Map.data) ) holds for: <orig(this), return>
+FuzzedInvariant ( Integer_Variable_0 != #(Map.keys) ) holds for: <orig(this), return>
+FuzzedInvariant ( Integer_Variable_0 < #(Map.data) ) holds for: <orig(this), return>
+FuzzedInvariant ( Integer_Variable_0 < #(Map.keys) ) holds for: <orig(this), return>
+FuzzedInvariant ( Integer_Variable_0 <= #(Map.data) ) holds for: <orig(this), return>
+FuzzedInvariant ( Integer_Variable_0 <= #(Map.keys) ) holds for: <orig(this), return>
+daikon.Quant.size(this.keys) >= \old(daikon.Quant.size(this.keys))
+daikon.Quant.size(this.keys)-1 <= \old(daikon.Quant.size(this.keys))
+daikon.Quant.size(this.keys)-1 >= \old(daikon.Quant.size(this.keys))-1
+daikon.Quant.size(this.data) >= \old(daikon.Quant.size(this.data))
+daikon.Quant.size(this.data)-1 <= \old(daikon.Quant.size(this.data))
+daikon.Quant.size(this.data)-1 >= \old(daikon.Quant.size(this.data))-1

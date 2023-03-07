@@ -1,0 +1,21 @@
+1:LVR:0:POS:math.IntMath@mod(int,int):39:0 |==> 1
+2:LVR:0:NEG:math.IntMath@mod(int,int):39:0 |==> -1
+3:ROR:<=(int,int):<(int,int):math.IntMath@mod(int,int):39:m <= 0 |==> m < 0
+4:ROR:<=(int,int):==(int,int):math.IntMath@mod(int,int):39:m <= 0 |==> m == 0
+5:ROR:<=(int,int):TRUE(int,int):math.IntMath@mod(int,int):39:m <= 0 |==> true
+6:AOR:%(int,int):*(int,int):math.IntMath@mod(int,int):44:x % m |==> x * m
+7:AOR:%(int,int):+(int,int):math.IntMath@mod(int,int):44:x % m |==> x + m
+8:AOR:%(int,int):-(int,int):math.IntMath@mod(int,int):44:x % m |==> x - m
+9:AOR:%(int,int):/(int,int):math.IntMath@mod(int,int):44:x % m |==> x / m
+10:LVR:0:POS:math.IntMath@mod(int,int):46:0 |==> 1
+11:LVR:0:NEG:math.IntMath@mod(int,int):46:0 |==> -1
+12:ROR:>=(int,int):==(int,int):math.IntMath@mod(int,int):46:result1 >= 0 |==> result1 == 0
+13:ROR:>=(int,int):>(int,int):math.IntMath@mod(int,int):46:result1 >= 0 |==> result1 > 0
+14:ROR:>=(int,int):TRUE(int,int):math.IntMath@mod(int,int):46:result1 >= 0 |==> true
+15:EVR:<IDENTIFIER(int)>:<DEFAULT>:math.IntMath@mod(int,int):47:result1 |==> 0
+16:AOR:+(int,int):%(int,int):math.IntMath@mod(int,int):49:result1 + m |==> result1 % m
+17:AOR:+(int,int):*(int,int):math.IntMath@mod(int,int):49:result1 + m |==> result1 * m
+18:AOR:+(int,int):-(int,int):math.IntMath@mod(int,int):49:result1 + m |==> result1 - m
+19:AOR:+(int,int):/(int,int):math.IntMath@mod(int,int):49:result1 + m |==> result1 / m
+20:LVR:TRUE:FALSE:math.IntMath@mod(int,int):52:true |==> false
+21:EVR:<IDENTIFIER(int)>:<DEFAULT>:math.IntMath@mod(int,int):53:result |==> 0

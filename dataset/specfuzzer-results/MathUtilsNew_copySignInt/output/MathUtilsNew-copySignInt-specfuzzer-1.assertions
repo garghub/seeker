@@ -1,0 +1,23 @@
+===========================================================================
+org.apache.commons.math3.util.MathUtilsNew:::OBJECT
+this != null
+===========================================================================
+org.apache.commons.math3.util.MathUtilsNew.copySignInt(int, int):::ENTER
+===========================================================================
+org.apache.commons.math3.util.MathUtilsNew.copySignInt(int, int):::EXIT
+FuzzedInvariant ( (Integer_Variable_0 != 0) or (Integer_Variable_1 != -1) ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( (Integer_Variable_0 != 0) or (Integer_Variable_1 != 1) ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > 0) ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 >= -1) ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 >= 0) ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 >= 1) ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( (Integer_Variable_0 <= 1) or (Integer_Variable_1 != 1) ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 != 0) ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 < 1) ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( (Integer_Variable_0 > 0) implies (Integer_Variable_1 != 0) ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 < 0) ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 > -1) ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 + -1 ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 + 1 ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 - -1 ) holds for: <orig(magnitude), return>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 - 1 ) holds for: <orig(magnitude), return>

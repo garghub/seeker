@@ -1,0 +1,47 @@
+1:LVR:0:POS:org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:0 |==> 1
+2:LVR:0:NEG:org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:0 |==> -1
+3:ROR:>=(int,int):==(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:magnitude >= 0 |==> magnitude == 0
+4:ROR:>=(int,int):>(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:magnitude >= 0 |==> magnitude > 0
+5:ROR:>=(int,int):TRUE(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:magnitude >= 0 |==> true
+6:LVR:0:POS:org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:0 |==> 1
+7:LVR:0:NEG:org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:0 |==> -1
+8:ROR:>=(int,int):==(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:sign >= 0 |==> sign == 0
+9:ROR:>=(int,int):>(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:sign >= 0 |==> sign > 0
+10:ROR:>=(int,int):TRUE(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:sign >= 0 |==> true
+11:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:magnitude >= 0 && sign >= 0 |==> magnitude >= 0 == sign >= 0
+12:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:magnitude >= 0 && sign >= 0 |==> false
+13:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:magnitude >= 0 && sign >= 0 |==> magnitude >= 0
+14:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:magnitude >= 0 && sign >= 0 |==> sign >= 0
+15:LVR:0:POS:org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:0 |==> 1
+16:LVR:0:NEG:org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:0 |==> -1
+17:ROR:<(int,int):!=(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:magnitude < 0 |==> magnitude != 0
+18:ROR:<(int,int):<=(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:magnitude < 0 |==> magnitude <= 0
+19:ROR:<(int,int):FALSE(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:magnitude < 0 |==> false
+20:LVR:0:POS:org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:0 |==> 1
+21:LVR:0:NEG:org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:0 |==> -1
+22:ROR:<(int,int):!=(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:sign < 0 |==> sign != 0
+23:ROR:<(int,int):<=(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:sign < 0 |==> sign <= 0
+24:ROR:<(int,int):FALSE(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:sign < 0 |==> false
+25:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:magnitude < 0 && sign < 0 |==> magnitude < 0 == sign < 0
+26:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:magnitude < 0 && sign < 0 |==> false
+27:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:magnitude < 0 && sign < 0 |==> magnitude < 0
+28:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:magnitude < 0 && sign < 0 |==> sign < 0
+29:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:(magnitude >= 0 && sign >= 0) || (magnitude < 0 && sign < 0) |==> (magnitude >= 0 && sign >= 0) != (magnitude < 0 && sign < 0)
+30:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:(magnitude >= 0 && sign >= 0) || (magnitude < 0 && sign < 0) |==> (magnitude >= 0 && sign >= 0)
+31:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):39:(magnitude >= 0 && sign >= 0) || (magnitude < 0 && sign < 0) |==> (magnitude < 0 && sign < 0)
+32:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):38:(magnitude >= 0 && sign >= 0) || (magnitude < 0 && sign < 0) |==> true
+33:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):40:magnitude |==> 0
+34:LVR:0:POS:org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):41:0 |==> 1
+35:LVR:0:NEG:org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):41:0 |==> -1
+36:ROR:>=(int,int):==(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):41:sign >= 0 |==> sign == 0
+37:ROR:>=(int,int):>(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):41:sign >= 0 |==> sign > 0
+38:ROR:>=(int,int):TRUE(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):41:sign >= 0 |==> true
+39:ROR:==(int,int):<=(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):42:magnitude == Integer.MIN_VALUE |==> magnitude <= Integer.MIN_VALUE
+40:ROR:==(int,int):>=(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):42:magnitude == Integer.MIN_VALUE |==> magnitude >= Integer.MIN_VALUE
+41:ROR:==(int,int):FALSE(int,int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):42:magnitude == Integer.MIN_VALUE |==> false
+42:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):41:sign >= 0 && magnitude == Integer.MIN_VALUE |==> sign >= 0 == (magnitude == Integer.MIN_VALUE)
+43:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):41:sign >= 0 && magnitude == Integer.MIN_VALUE |==> false
+44:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):41:sign >= 0 && magnitude == Integer.MIN_VALUE |==> sign >= 0
+45:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):42:sign >= 0 && magnitude == Integer.MIN_VALUE |==> magnitude == Integer.MIN_VALUE
+46:ORU:-(int):+(int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):45:-magnitude |==> +magnitude
+47:ORU:-(int):~(int):org.apache.commons.math3.util.MathUtilsNew@copySignInt(int,int):45:-magnitude |==> ~magnitude

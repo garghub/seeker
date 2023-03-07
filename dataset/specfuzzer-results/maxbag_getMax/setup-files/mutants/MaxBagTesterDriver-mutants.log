@@ -1,0 +1,749 @@
+1:STD:<CALL>:<NO-OP>:examples.MaxBag@<init>():17:clear() |==> <NO-OP>
+2:LVR:0:POS:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):21:0 |==> 1
+3:LVR:0:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):21:0 |==> -1
+4:LVR:TRUE:FALSE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):22:true |==> false
+5:COR:_first328395:TRUE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):25:_first328395 |==> false
+6:COR:_first328395:FALSE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):25:_first328395 |==> true
+7:LVR:TRUE:FALSE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):26:true |==> false
+8:ROR:>(int,int):!=(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):28:_x328396 > _max328394 |==> _x328396 != _max328394
+9:ROR:>(int,int):>=(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):28:_x328396 > _max328394 |==> _x328396 >= _max328394
+10:ROR:>(int,int):FALSE(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):28:_x328396 > _max328394 |==> false
+11:COR:_v328397:TRUE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):30:_v328397 |==> false
+12:COR:_v328397:FALSE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):30:_v328397 |==> true
+13:LVR:FALSE:TRUE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):31:false |==> true
+14:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):31:_first328395 = false |==> <NO-OP>
+15:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):32:_max328394 = _x328396 |==> <NO-OP>
+16:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):35:_var587 = _max328394 |==> <NO-OP>
+17:EVR:<NEW_CLASS(java.util.HashMap<java.lang.Integer,java.lang.Boolean>)>:<DEFAULT>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):36:new HashMap<Integer, Boolean>() |==> null
+18:LVR:FALSE:TRUE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):38:false |==> true
+19:LVR:TRUE:FALSE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):39:true |==> false
+20:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):39:_v328399 = true |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):40:_map328398.put(_var686, _v328399) |==> <NO-OP>
+22:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):43:_var721 = _map328398 |==> <NO-OP>
+23:LVR:TRUE:FALSE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):44:true |==> false
+24:LVR:FALSE:TRUE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):47:false |==> true
+25:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):47:_v328400 = false |==> <NO-OP>
+26:STD:<BREAK>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):48:break _label328401; |==> <NO-OP>
+27:LVR:FALSE:TRUE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):50:false |==> true
+28:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):51:_var1457 = (!(_v328400)) |==> <NO-OP>
+29:LVR:0:POS:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):53:0 |==> 1
+30:LVR:0:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):53:0 |==> -1
+31:LVR:0:POS:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):54:0 |==> 1
+32:LVR:0:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):54:0 |==> -1
+33:LVR:0:POS:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):55:0 |==> 1
+34:LVR:0:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):55:0 |==> -1
+35:LVR:0:POS:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):56:0 |==> 1
+36:LVR:0:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):56:0 |==> -1
+37:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):59:1 |==> 0
+38:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):59:1 |==> -1
+39:AOR:+(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):59:_sum328403 + 1 |==> _sum328403 % 1
+40:AOR:+(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):59:_sum328403 + 1 |==> _sum328403 * 1
+41:AOR:+(int,int):-(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):59:_sum328403 + 1 |==> _sum328403 - 1
+42:AOR:+(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):59:_sum328403 + 1 |==> _sum328403 / 1
+43:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):59:_sum328403 = (_sum328403 + 1) |==> <NO-OP>
+44:AOR:+(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:_heap_size328390 + _sum328403 |==> _heap_size328390 % _sum328403
+45:AOR:+(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:_heap_size328390 + _sum328403 |==> _heap_size328390 * _sum328403
+46:AOR:+(int,int):-(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:_heap_size328390 + _sum328403 |==> _heap_size328390 - _sum328403
+47:AOR:+(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:_heap_size328390 + _sum328403 |==> _heap_size328390 / _sum328403
+48:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:1 |==> 0
+49:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:1 |==> -1
+50:AOR:-(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:(_heap_size328390 + _sum328403) - 1 |==> (_heap_size328390 + _sum328403) % 1
+51:AOR:-(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:(_heap_size328390 + _sum328403) - 1 |==> (_heap_size328390 + _sum328403) * 1
+52:AOR:-(int,int):+(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:(_heap_size328390 + _sum328403) - 1 |==> (_heap_size328390 + _sum328403) + 1
+53:AOR:-(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:(_heap_size328390 + _sum328403) - 1 |==> (_heap_size328390 + _sum328403) / 1
+54:LVR:0:POS:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:0 |==> 1
+55:LVR:0:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:0 |==> -1
+56:ROR:>=(int,int):==(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:((_heap_size328390 + _sum328403) - 1) >= 0 |==> ((_heap_size328390 + _sum328403) - 1) == 0
+57:ROR:>=(int,int):>(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:((_heap_size328390 + _sum328403) - 1) >= 0 |==> ((_heap_size328390 + _sum328403) - 1) > 0
+58:ROR:>=(int,int):TRUE(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):64:((_heap_size328390 + _sum328403) - 1) >= 0 |==> true
+59:AOR:+(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:_heap_size328390 + _sum328403 |==> _heap_size328390 % _sum328403
+60:AOR:+(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:_heap_size328390 + _sum328403 |==> _heap_size328390 * _sum328403
+61:AOR:+(int,int):-(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:_heap_size328390 + _sum328403 |==> _heap_size328390 - _sum328403
+62:AOR:+(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:_heap_size328390 + _sum328403 |==> _heap_size328390 / _sum328403
+63:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:1 |==> 0
+64:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:1 |==> -1
+65:AOR:-(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:(_heap_size328390 + _sum328403) - 1 |==> (_heap_size328390 + _sum328403) % 1
+66:AOR:-(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:(_heap_size328390 + _sum328403) - 1 |==> (_heap_size328390 + _sum328403) * 1
+67:AOR:-(int,int):+(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:(_heap_size328390 + _sum328403) - 1 |==> (_heap_size328390 + _sum328403) + 1
+68:AOR:-(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:(_heap_size328390 + _sum328403) - 1 |==> (_heap_size328390 + _sum328403) / 1
+69:LVR:0:POS:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:0 |==> 1
+70:LVR:0:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:0 |==> -1
+71:ROR:>=(int,int):==(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:((_heap_size328390 + _sum328403) - 1) >= 0 |==> ((_heap_size328390 + _sum328403) - 1) == 0
+72:ROR:>=(int,int):>(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:((_heap_size328390 + _sum328403) - 1) >= 0 |==> ((_heap_size328390 + _sum328403) - 1) > 0
+73:ROR:>=(int,int):TRUE(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):66:((_heap_size328390 + _sum328403) - 1) >= 0 |==> true
+74:AOR:+(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):67:_heap_size328390 + _sum328403 |==> _heap_size328390 % _sum328403
+75:AOR:+(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):67:_heap_size328390 + _sum328403 |==> _heap_size328390 * _sum328403
+76:AOR:+(int,int):-(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):67:_heap_size328390 + _sum328403 |==> _heap_size328390 - _sum328403
+77:AOR:+(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):67:_heap_size328390 + _sum328403 |==> _heap_size328390 / _sum328403
+78:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):67:1 |==> 0
+79:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):67:1 |==> -1
+80:AOR:-(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):67:(_heap_size328390 + _sum328403) - 1 |==> (_heap_size328390 + _sum328403) % 1
+81:AOR:-(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):67:(_heap_size328390 + _sum328403) - 1 |==> (_heap_size328390 + _sum328403) * 1
+82:AOR:-(int,int):+(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):67:(_heap_size328390 + _sum328403) - 1 |==> (_heap_size328390 + _sum328403) + 1
+83:AOR:-(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):67:(_heap_size328390 + _sum328403) - 1 |==> (_heap_size328390 + _sum328403) / 1
+84:ROR:<(int,int):!=(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):67:((_heap_size328390 + _sum328403) - 1) < ((_var328388)._1.length) |==> ((_heap_size328390 + _sum328403) - 1) != ((_var328388)._1.length)
+85:ROR:<(int,int):<=(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):67:((_heap_size328390 + _sum328403) - 1) < ((_var328388)._1.length) |==> ((_heap_size328390 + _sum328403) - 1) <= ((_var328388)._1.length)
+86:ROR:<(int,int):FALSE(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):67:((_heap_size328390 + _sum328403) - 1) < ((_var328388)._1.length) |==> false
+87:LVR:FALSE:TRUE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):69:false |==> true
+88:EVR:<PARENTHESIZED(boolean)>:<DEFAULT>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):71:(!(_v328408)) |==> false
+89:LVR:FALSE:TRUE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):73:false |==> true
+90:COR:_v328407:TRUE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):75:_v328407 |==> false
+91:COR:_v328407:FALSE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):75:_v328407 |==> true
+92:STD:<BREAK>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):76:break; |==> <NO-OP>
+93:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):78:1 |==> 0
+94:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):78:1 |==> -1
+95:SOR:<<(int,int):>>(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):78:((_var328388)._1.length) << 1 |==> ((_var328388)._1.length) >> 1
+96:SOR:<<(int,int):>>>(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):78:((_var328388)._1.length) << 1 |==> ((_var328388)._1.length) >>> 1
+97:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):78:1 |==> 0
+98:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):78:1 |==> -1
+99:AOR:+(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):78:(((_var328388)._1.length) << 1) + 1 |==> (((_var328388)._1.length) << 1) % 1
+100:AOR:+(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):78:(((_var328388)._1.length) << 1) + 1 |==> (((_var328388)._1.length) << 1) * 1
+101:AOR:+(int,int):-(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):78:(((_var328388)._1.length) << 1) + 1 |==> (((_var328388)._1.length) << 1) - 1
+102:AOR:+(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):78:(((_var328388)._1.length) << 1) + 1 |==> (((_var328388)._1.length) << 1) / 1
+103:LVR:0:POS:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):79:0 |==> 1
+104:LVR:0:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):79:0 |==> -1
+105:LVR:0:POS:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):79:0 |==> 1
+106:LVR:0:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):79:0 |==> -1
+107:STD:<CALL>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):79:System.arraycopy((_var328388)._1, 0, _new_array328406, 0, ((_var328388)._1.length)) |==> <NO-OP>
+108:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):80:(_var328388)._1 = _new_array328406 |==> <NO-OP>
+109:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):83:1 |==> 0
+110:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):83:1 |==> -1
+111:AOR:+(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):83:(_var328388)._0 + 1 |==> (_var328388)._0 % 1
+112:AOR:+(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):83:(_var328388)._0 + 1 |==> (_var328388)._0 * 1
+113:AOR:+(int,int):-(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):83:(_var328388)._0 + 1 |==> (_var328388)._0 - 1
+114:AOR:+(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):83:(_var328388)._0 + 1 |==> (_var328388)._0 / 1
+115:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):83:(_var328388)._0 = ((_var328388)._0 + 1) |==> <NO-OP>
+116:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):84:(_var328388)._1[_heap_size328390] = _x328392 |==> <NO-OP>
+117:EVR:<IDENTIFIER(java.lang.Integer)>:<DEFAULT>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):85:_heap_size328390 |==> null
+118:LVR:0:POS:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):88:0 |==> 1
+119:LVR:0:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):88:0 |==> -1
+120:ROR:>(int,int):!=(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):88:_i328391 > 0 |==> _i328391 != 0
+121:ROR:>(int,int):>=(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):88:_i328391 > 0 |==> _i328391 >= 0
+122:ROR:>(int,int):FALSE(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):88:_i328391 > 0 |==> false
+123:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):89:1 |==> 0
+124:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):89:1 |==> -1
+125:AOR:-(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):89:_i328391 - 1 |==> _i328391 % 1
+126:AOR:-(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):89:_i328391 - 1 |==> _i328391 * 1
+127:AOR:-(int,int):+(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):89:_i328391 - 1 |==> _i328391 + 1
+128:AOR:-(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):89:_i328391 - 1 |==> _i328391 / 1
+129:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):89:1 |==> 0
+130:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):89:1 |==> -1
+131:SOR:>>(int,int):<<(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):89:(_i328391 - 1) >> 1 |==> (_i328391 - 1) << 1
+132:SOR:>>(int,int):>>>(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):89:(_i328391 - 1) >> 1 |==> (_i328391 - 1) >>> 1
+133:ROR:>=(int,int):==(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):89:(_var328388)._1[((_i328391 - 1) >> 1)] >= (_var328388)._1[_i328391] |==> (_var328388)._1[((_i328391 - 1) >> 1)] == (_var328388)._1[_i328391]
+134:ROR:>=(int,int):>(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):89:(_var328388)._1[((_i328391 - 1) >> 1)] >= (_var328388)._1[_i328391] |==> (_var328388)._1[((_i328391 - 1) >> 1)] > (_var328388)._1[_i328391]
+135:ROR:>=(int,int):TRUE(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):89:(_var328388)._1[((_i328391 - 1) >> 1)] >= (_var328388)._1[_i328391] |==> true
+136:LVR:FALSE:TRUE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):91:false |==> true
+137:COR:_v328409:TRUE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):93:_v328409 |==> false
+138:COR:_v328409:FALSE:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):93:_v328409 |==> true
+139:STD:<BREAK>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):94:break; |==> <NO-OP>
+140:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):96:1 |==> 0
+141:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):96:1 |==> -1
+142:AOR:-(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):96:_i328391 - 1 |==> _i328391 % 1
+143:AOR:-(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):96:_i328391 - 1 |==> _i328391 * 1
+144:AOR:-(int,int):+(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):96:_i328391 - 1 |==> _i328391 + 1
+145:AOR:-(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):96:_i328391 - 1 |==> _i328391 / 1
+146:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):96:1 |==> 0
+147:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):96:1 |==> -1
+148:SOR:>>(int,int):<<(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):96:(_i328391 - 1) >> 1 |==> (_i328391 - 1) << 1
+149:SOR:>>(int,int):>>>(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):96:(_i328391 - 1) >> 1 |==> (_i328391 - 1) >>> 1
+150:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):97:1 |==> 0
+151:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):97:1 |==> -1
+152:AOR:-(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):97:_i328391 - 1 |==> _i328391 % 1
+153:AOR:-(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):97:_i328391 - 1 |==> _i328391 * 1
+154:AOR:-(int,int):+(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):97:_i328391 - 1 |==> _i328391 + 1
+155:AOR:-(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):97:_i328391 - 1 |==> _i328391 / 1
+156:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):97:1 |==> 0
+157:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):97:1 |==> -1
+158:SOR:>>(int,int):<<(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):97:(_i328391 - 1) >> 1 |==> (_i328391 - 1) << 1
+159:SOR:>>(int,int):>>>(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):97:(_i328391 - 1) >> 1 |==> (_i328391 - 1) >>> 1
+160:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):97:(_var328388)._1[((_i328391 - 1) >> 1)] = (_var328388)._1[_i328391] |==> <NO-OP>
+161:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):98:(_var328388)._1[_i328391] = _swap_tmp328410 |==> <NO-OP>
+162:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):99:1 |==> 0
+163:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):99:1 |==> -1
+164:AOR:-(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):99:_i328391 - 1 |==> _i328391 % 1
+165:AOR:-(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):99:_i328391 - 1 |==> _i328391 * 1
+166:AOR:-(int,int):+(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):99:_i328391 - 1 |==> _i328391 + 1
+167:AOR:-(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):99:_i328391 - 1 |==> _i328391 / 1
+168:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):99:1 |==> 0
+169:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):99:1 |==> -1
+170:SOR:>>(int,int):<<(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):99:(_i328391 - 1) >> 1 |==> (_i328391 - 1) << 1
+171:SOR:>>(int,int):>>>(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):99:(_i328391 - 1) >> 1 |==> (_i328391 - 1) >>> 1
+172:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):99:_i328391 = ((_i328391 - 1) >> 1) |==> <NO-OP>
+173:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):101:1 |==> 0
+174:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):101:1 |==> -1
+175:AOR:+(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):101:_heap_size328390 + 1 |==> _heap_size328390 % 1
+176:AOR:+(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):101:_heap_size328390 + 1 |==> _heap_size328390 * 1
+177:AOR:+(int,int):-(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):101:_heap_size328390 + 1 |==> _heap_size328390 - 1
+178:AOR:+(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):101:_heap_size328390 + 1 |==> _heap_size328390 / 1
+179:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):101:_heap_size328390 = (_heap_size328390 + 1) |==> <NO-OP>
+180:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):103:_var4384 = _var328388 |==> <NO-OP>
+181:LVR:0:POS:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):104:0 |==> 1
+182:LVR:0:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):104:0 |==> -1
+183:LVR:POS:0:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):107:1 |==> 0
+184:LVR:POS:NEG:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):107:1 |==> -1
+185:AOR:+(int,int):%(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):107:_sum328411 + 1 |==> _sum328411 % 1
+186:AOR:+(int,int):*(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):107:_sum328411 + 1 |==> _sum328411 * 1
+187:AOR:+(int,int):-(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):107:_sum328411 + 1 |==> _sum328411 - 1
+188:AOR:+(int,int):/(int,int):examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):107:_sum328411 + 1 |==> _sum328411 / 1
+189:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):107:_sum328411 = (_sum328411 + 1) |==> <NO-OP>
+190:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):110:_var5992 = _sum328411 |==> <NO-OP>
+191:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@<init>(java.util.ArrayList<java.lang.Integer>):111:_var66253 = l |==> <NO-OP>
+192:LVR:0:POS:examples.MaxBag@clear():115:0 |==> 1
+193:LVR:0:NEG:examples.MaxBag@clear():115:0 |==> -1
+194:LVR:TRUE:FALSE:examples.MaxBag@clear():116:true |==> false
+195:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@clear():117:_var587 = _max328414 |==> <NO-OP>
+196:EVR:<NEW_CLASS(java.util.HashMap<java.lang.Integer,java.lang.Boolean>)>:<DEFAULT>:examples.MaxBag@clear():118:new HashMap<Integer, Boolean>() |==> null
+197:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@clear():119:_var721 = _map328417 |==> <NO-OP>
+198:LVR:TRUE:FALSE:examples.MaxBag@clear():120:true |==> false
+199:LVR:FALSE:TRUE:examples.MaxBag@clear():122:false |==> true
+200:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@clear():123:_var1457 = (!(_v328419)) |==> <NO-OP>
+201:LVR:0:POS:examples.MaxBag@clear():125:0 |==> 1
+202:LVR:0:NEG:examples.MaxBag@clear():125:0 |==> -1
+203:LVR:0:POS:examples.MaxBag@clear():126:0 |==> 1
+204:LVR:0:NEG:examples.MaxBag@clear():126:0 |==> -1
+205:LVR:0:POS:examples.MaxBag@clear():127:0 |==> 1
+206:LVR:0:NEG:examples.MaxBag@clear():127:0 |==> -1
+207:LVR:0:POS:examples.MaxBag@clear():128:0 |==> 1
+208:LVR:0:NEG:examples.MaxBag@clear():128:0 |==> -1
+209:AOR:+(int,int):%(int,int):examples.MaxBag@clear():131:_heap_size328390 + _sum328422 |==> _heap_size328390 % _sum328422
+210:AOR:+(int,int):*(int,int):examples.MaxBag@clear():131:_heap_size328390 + _sum328422 |==> _heap_size328390 * _sum328422
+211:AOR:+(int,int):-(int,int):examples.MaxBag@clear():131:_heap_size328390 + _sum328422 |==> _heap_size328390 - _sum328422
+212:AOR:+(int,int):/(int,int):examples.MaxBag@clear():131:_heap_size328390 + _sum328422 |==> _heap_size328390 / _sum328422
+213:LVR:POS:0:examples.MaxBag@clear():131:1 |==> 0
+214:LVR:POS:NEG:examples.MaxBag@clear():131:1 |==> -1
+215:AOR:-(int,int):%(int,int):examples.MaxBag@clear():131:(_heap_size328390 + _sum328422) - 1 |==> (_heap_size328390 + _sum328422) % 1
+216:AOR:-(int,int):*(int,int):examples.MaxBag@clear():131:(_heap_size328390 + _sum328422) - 1 |==> (_heap_size328390 + _sum328422) * 1
+217:AOR:-(int,int):+(int,int):examples.MaxBag@clear():131:(_heap_size328390 + _sum328422) - 1 |==> (_heap_size328390 + _sum328422) + 1
+218:AOR:-(int,int):/(int,int):examples.MaxBag@clear():131:(_heap_size328390 + _sum328422) - 1 |==> (_heap_size328390 + _sum328422) / 1
+219:LVR:0:POS:examples.MaxBag@clear():131:0 |==> 1
+220:LVR:0:NEG:examples.MaxBag@clear():131:0 |==> -1
+221:ROR:>=(int,int):==(int,int):examples.MaxBag@clear():131:((_heap_size328390 + _sum328422) - 1) >= 0 |==> ((_heap_size328390 + _sum328422) - 1) == 0
+222:ROR:>=(int,int):>(int,int):examples.MaxBag@clear():131:((_heap_size328390 + _sum328422) - 1) >= 0 |==> ((_heap_size328390 + _sum328422) - 1) > 0
+223:ROR:>=(int,int):TRUE(int,int):examples.MaxBag@clear():131:((_heap_size328390 + _sum328422) - 1) >= 0 |==> true
+224:AOR:+(int,int):%(int,int):examples.MaxBag@clear():133:_heap_size328390 + _sum328422 |==> _heap_size328390 % _sum328422
+225:AOR:+(int,int):*(int,int):examples.MaxBag@clear():133:_heap_size328390 + _sum328422 |==> _heap_size328390 * _sum328422
+226:AOR:+(int,int):-(int,int):examples.MaxBag@clear():133:_heap_size328390 + _sum328422 |==> _heap_size328390 - _sum328422
+227:AOR:+(int,int):/(int,int):examples.MaxBag@clear():133:_heap_size328390 + _sum328422 |==> _heap_size328390 / _sum328422
+228:LVR:POS:0:examples.MaxBag@clear():133:1 |==> 0
+229:LVR:POS:NEG:examples.MaxBag@clear():133:1 |==> -1
+230:AOR:-(int,int):%(int,int):examples.MaxBag@clear():133:(_heap_size328390 + _sum328422) - 1 |==> (_heap_size328390 + _sum328422) % 1
+231:AOR:-(int,int):*(int,int):examples.MaxBag@clear():133:(_heap_size328390 + _sum328422) - 1 |==> (_heap_size328390 + _sum328422) * 1
+232:AOR:-(int,int):+(int,int):examples.MaxBag@clear():133:(_heap_size328390 + _sum328422) - 1 |==> (_heap_size328390 + _sum328422) + 1
+233:AOR:-(int,int):/(int,int):examples.MaxBag@clear():133:(_heap_size328390 + _sum328422) - 1 |==> (_heap_size328390 + _sum328422) / 1
+234:LVR:0:POS:examples.MaxBag@clear():133:0 |==> 1
+235:LVR:0:NEG:examples.MaxBag@clear():133:0 |==> -1
+236:ROR:>=(int,int):==(int,int):examples.MaxBag@clear():133:((_heap_size328390 + _sum328422) - 1) >= 0 |==> ((_heap_size328390 + _sum328422) - 1) == 0
+237:ROR:>=(int,int):>(int,int):examples.MaxBag@clear():133:((_heap_size328390 + _sum328422) - 1) >= 0 |==> ((_heap_size328390 + _sum328422) - 1) > 0
+238:ROR:>=(int,int):TRUE(int,int):examples.MaxBag@clear():133:((_heap_size328390 + _sum328422) - 1) >= 0 |==> true
+239:AOR:+(int,int):%(int,int):examples.MaxBag@clear():134:_heap_size328390 + _sum328422 |==> _heap_size328390 % _sum328422
+240:AOR:+(int,int):*(int,int):examples.MaxBag@clear():134:_heap_size328390 + _sum328422 |==> _heap_size328390 * _sum328422
+241:AOR:+(int,int):-(int,int):examples.MaxBag@clear():134:_heap_size328390 + _sum328422 |==> _heap_size328390 - _sum328422
+242:AOR:+(int,int):/(int,int):examples.MaxBag@clear():134:_heap_size328390 + _sum328422 |==> _heap_size328390 / _sum328422
+243:LVR:POS:0:examples.MaxBag@clear():134:1 |==> 0
+244:LVR:POS:NEG:examples.MaxBag@clear():134:1 |==> -1
+245:AOR:-(int,int):%(int,int):examples.MaxBag@clear():134:(_heap_size328390 + _sum328422) - 1 |==> (_heap_size328390 + _sum328422) % 1
+246:AOR:-(int,int):*(int,int):examples.MaxBag@clear():134:(_heap_size328390 + _sum328422) - 1 |==> (_heap_size328390 + _sum328422) * 1
+247:AOR:-(int,int):+(int,int):examples.MaxBag@clear():134:(_heap_size328390 + _sum328422) - 1 |==> (_heap_size328390 + _sum328422) + 1
+248:AOR:-(int,int):/(int,int):examples.MaxBag@clear():134:(_heap_size328390 + _sum328422) - 1 |==> (_heap_size328390 + _sum328422) / 1
+249:ROR:<(int,int):!=(int,int):examples.MaxBag@clear():134:((_heap_size328390 + _sum328422) - 1) < ((_var328388)._1.length) |==> ((_heap_size328390 + _sum328422) - 1) != ((_var328388)._1.length)
+250:ROR:<(int,int):<=(int,int):examples.MaxBag@clear():134:((_heap_size328390 + _sum328422) - 1) < ((_var328388)._1.length) |==> ((_heap_size328390 + _sum328422) - 1) <= ((_var328388)._1.length)
+251:ROR:<(int,int):FALSE(int,int):examples.MaxBag@clear():134:((_heap_size328390 + _sum328422) - 1) < ((_var328388)._1.length) |==> false
+252:LVR:FALSE:TRUE:examples.MaxBag@clear():136:false |==> true
+253:EVR:<PARENTHESIZED(boolean)>:<DEFAULT>:examples.MaxBag@clear():138:(!(_v328427)) |==> false
+254:LVR:FALSE:TRUE:examples.MaxBag@clear():140:false |==> true
+255:COR:_v328426:TRUE:examples.MaxBag@clear():142:_v328426 |==> false
+256:COR:_v328426:FALSE:examples.MaxBag@clear():142:_v328426 |==> true
+257:STD:<BREAK>:<NO-OP>:examples.MaxBag@clear():143:break; |==> <NO-OP>
+258:LVR:POS:0:examples.MaxBag@clear():145:1 |==> 0
+259:LVR:POS:NEG:examples.MaxBag@clear():145:1 |==> -1
+260:SOR:<<(int,int):>>(int,int):examples.MaxBag@clear():145:((_var328388)._1.length) << 1 |==> ((_var328388)._1.length) >> 1
+261:SOR:<<(int,int):>>>(int,int):examples.MaxBag@clear():145:((_var328388)._1.length) << 1 |==> ((_var328388)._1.length) >>> 1
+262:LVR:POS:0:examples.MaxBag@clear():145:1 |==> 0
+263:LVR:POS:NEG:examples.MaxBag@clear():145:1 |==> -1
+264:AOR:+(int,int):%(int,int):examples.MaxBag@clear():145:(((_var328388)._1.length) << 1) + 1 |==> (((_var328388)._1.length) << 1) % 1
+265:AOR:+(int,int):*(int,int):examples.MaxBag@clear():145:(((_var328388)._1.length) << 1) + 1 |==> (((_var328388)._1.length) << 1) * 1
+266:AOR:+(int,int):-(int,int):examples.MaxBag@clear():145:(((_var328388)._1.length) << 1) + 1 |==> (((_var328388)._1.length) << 1) - 1
+267:AOR:+(int,int):/(int,int):examples.MaxBag@clear():145:(((_var328388)._1.length) << 1) + 1 |==> (((_var328388)._1.length) << 1) / 1
+268:LVR:0:POS:examples.MaxBag@clear():146:0 |==> 1
+269:LVR:0:NEG:examples.MaxBag@clear():146:0 |==> -1
+270:LVR:0:POS:examples.MaxBag@clear():146:0 |==> 1
+271:LVR:0:NEG:examples.MaxBag@clear():146:0 |==> -1
+272:STD:<CALL>:<NO-OP>:examples.MaxBag@clear():146:System.arraycopy((_var328388)._1, 0, _new_array328425, 0, ((_var328388)._1.length)) |==> <NO-OP>
+273:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@clear():147:(_var328388)._1 = _new_array328425 |==> <NO-OP>
+274:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@clear():149:_var4384 = _var328388 |==> <NO-OP>
+275:LVR:0:POS:examples.MaxBag@clear():150:0 |==> 1
+276:LVR:0:NEG:examples.MaxBag@clear():150:0 |==> -1
+277:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@clear():151:_var5992 = _sum328428 |==> <NO-OP>
+278:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@clear():152:_var66253 = new ArrayList<Integer>() |==> <NO-OP>
+279:EVR:<IDENTIFIER(java.lang.Integer)>:<DEFAULT>:examples.MaxBag@getMax():156:_var587 |==> null
+280:LVR:TRUE:FALSE:examples.MaxBag@getMax():157:true |==> false
+281:EVR:<IDENTIFIER(java.lang.Integer)>:<DEFAULT>:examples.MaxBag@getMax():158:result |==> null
+282:LVR:0:POS:examples.MaxBag@add(java.lang.Integer):162:0 |==> 1
+283:LVR:0:NEG:examples.MaxBag@add(java.lang.Integer):162:0 |==> -1
+284:COR:_var1457:TRUE:examples.MaxBag@add(java.lang.Integer):163:_var1457 |==> false
+285:COR:_var1457:FALSE:examples.MaxBag@add(java.lang.Integer):163:_var1457 |==> true
+286:LVR:0:POS:examples.MaxBag@add(java.lang.Integer):164:0 |==> 1
+287:LVR:0:NEG:examples.MaxBag@add(java.lang.Integer):164:0 |==> -1
+288:ROR:>(int,int):!=(int,int):examples.MaxBag@add(java.lang.Integer):165:_var587 > x |==> _var587 != x
+289:ROR:>(int,int):>=(int,int):examples.MaxBag@add(java.lang.Integer):165:_var587 > x |==> _var587 >= x
+290:ROR:>(int,int):FALSE(int,int):examples.MaxBag@add(java.lang.Integer):165:_var587 > x |==> false
+291:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):166:_conditional_result328432 = _var587 |==> <NO-OP>
+292:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):168:_conditional_result328432 = x |==> <NO-OP>
+293:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):170:_conditional_result328431 = _conditional_result328432 |==> <NO-OP>
+294:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):172:_conditional_result328431 = x |==> <NO-OP>
+295:EVR:<IDENTIFIER(java.lang.Integer)>:<DEFAULT>:examples.MaxBag@add(java.lang.Integer):174:_conditional_result328431 |==> null
+296:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):175:1 |==> 0
+297:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):175:1 |==> -1
+298:AOR:+(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):175:_var5992 + 1 |==> _var5992 % 1
+299:AOR:+(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):175:_var5992 + 1 |==> _var5992 * 1
+300:AOR:+(int,int):-(int,int):examples.MaxBag@add(java.lang.Integer):175:_var5992 + 1 |==> _var5992 - 1
+301:AOR:+(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):175:_var5992 + 1 |==> _var5992 / 1
+302:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):176:_var587 = _var328366 |==> <NO-OP>
+303:LVR:TRUE:FALSE:examples.MaxBag@add(java.lang.Integer):177:true |==> false
+304:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):177:_var1457 = true |==> <NO-OP>
+305:EVR:<IDENTIFIER(java.lang.Integer)>:<DEFAULT>:examples.MaxBag@add(java.lang.Integer):178:_var5992 |==> null
+306:EVR:<IDENTIFIER(java.lang.Integer)>:<DEFAULT>:examples.MaxBag@add(java.lang.Integer):179:_var5992 |==> null
+307:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):182:1 |==> 0
+308:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):182:1 |==> -1
+309:AOR:+(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):182:_heap_size328376 + 1 |==> _heap_size328376 % 1
+310:AOR:+(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):182:_heap_size328376 + 1 |==> _heap_size328376 * 1
+311:AOR:+(int,int):-(int,int):examples.MaxBag@add(java.lang.Integer):182:_heap_size328376 + 1 |==> _heap_size328376 - 1
+312:AOR:+(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):182:_heap_size328376 + 1 |==> _heap_size328376 / 1
+313:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):182:1 |==> 0
+314:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):182:1 |==> -1
+315:AOR:-(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):182:(_heap_size328376 + 1) - 1 |==> (_heap_size328376 + 1) % 1
+316:AOR:-(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):182:(_heap_size328376 + 1) - 1 |==> (_heap_size328376 + 1) * 1
+317:AOR:-(int,int):+(int,int):examples.MaxBag@add(java.lang.Integer):182:(_heap_size328376 + 1) - 1 |==> (_heap_size328376 + 1) + 1
+318:AOR:-(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):182:(_heap_size328376 + 1) - 1 |==> (_heap_size328376 + 1) / 1
+319:LVR:0:POS:examples.MaxBag@add(java.lang.Integer):182:0 |==> 1
+320:LVR:0:NEG:examples.MaxBag@add(java.lang.Integer):182:0 |==> -1
+321:ROR:>=(int,int):==(int,int):examples.MaxBag@add(java.lang.Integer):182:((_heap_size328376 + 1) - 1) >= 0 |==> ((_heap_size328376 + 1) - 1) == 0
+322:ROR:>=(int,int):>(int,int):examples.MaxBag@add(java.lang.Integer):182:((_heap_size328376 + 1) - 1) >= 0 |==> ((_heap_size328376 + 1) - 1) > 0
+323:ROR:>=(int,int):TRUE(int,int):examples.MaxBag@add(java.lang.Integer):182:((_heap_size328376 + 1) - 1) >= 0 |==> true
+324:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):184:1 |==> 0
+325:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):184:1 |==> -1
+326:AOR:+(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):184:_heap_size328376 + 1 |==> _heap_size328376 % 1
+327:AOR:+(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):184:_heap_size328376 + 1 |==> _heap_size328376 * 1
+328:AOR:+(int,int):-(int,int):examples.MaxBag@add(java.lang.Integer):184:_heap_size328376 + 1 |==> _heap_size328376 - 1
+329:AOR:+(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):184:_heap_size328376 + 1 |==> _heap_size328376 / 1
+330:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):184:1 |==> 0
+331:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):184:1 |==> -1
+332:AOR:-(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):184:(_heap_size328376 + 1) - 1 |==> (_heap_size328376 + 1) % 1
+333:AOR:-(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):184:(_heap_size328376 + 1) - 1 |==> (_heap_size328376 + 1) * 1
+334:AOR:-(int,int):+(int,int):examples.MaxBag@add(java.lang.Integer):184:(_heap_size328376 + 1) - 1 |==> (_heap_size328376 + 1) + 1
+335:AOR:-(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):184:(_heap_size328376 + 1) - 1 |==> (_heap_size328376 + 1) / 1
+336:LVR:0:POS:examples.MaxBag@add(java.lang.Integer):184:0 |==> 1
+337:LVR:0:NEG:examples.MaxBag@add(java.lang.Integer):184:0 |==> -1
+338:ROR:>=(int,int):==(int,int):examples.MaxBag@add(java.lang.Integer):184:((_heap_size328376 + 1) - 1) >= 0 |==> ((_heap_size328376 + 1) - 1) == 0
+339:ROR:>=(int,int):>(int,int):examples.MaxBag@add(java.lang.Integer):184:((_heap_size328376 + 1) - 1) >= 0 |==> ((_heap_size328376 + 1) - 1) > 0
+340:ROR:>=(int,int):TRUE(int,int):examples.MaxBag@add(java.lang.Integer):184:((_heap_size328376 + 1) - 1) >= 0 |==> true
+341:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):185:1 |==> 0
+342:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):185:1 |==> -1
+343:AOR:+(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):185:_heap_size328376 + 1 |==> _heap_size328376 % 1
+344:AOR:+(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):185:_heap_size328376 + 1 |==> _heap_size328376 * 1
+345:AOR:+(int,int):-(int,int):examples.MaxBag@add(java.lang.Integer):185:_heap_size328376 + 1 |==> _heap_size328376 - 1
+346:AOR:+(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):185:_heap_size328376 + 1 |==> _heap_size328376 / 1
+347:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):185:1 |==> 0
+348:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):185:1 |==> -1
+349:AOR:-(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):185:(_heap_size328376 + 1) - 1 |==> (_heap_size328376 + 1) % 1
+350:AOR:-(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):185:(_heap_size328376 + 1) - 1 |==> (_heap_size328376 + 1) * 1
+351:AOR:-(int,int):+(int,int):examples.MaxBag@add(java.lang.Integer):185:(_heap_size328376 + 1) - 1 |==> (_heap_size328376 + 1) + 1
+352:AOR:-(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):185:(_heap_size328376 + 1) - 1 |==> (_heap_size328376 + 1) / 1
+353:ROR:<(int,int):!=(int,int):examples.MaxBag@add(java.lang.Integer):185:((_heap_size328376 + 1) - 1) < ((_var4384)._1.length) |==> ((_heap_size328376 + 1) - 1) != ((_var4384)._1.length)
+354:ROR:<(int,int):<=(int,int):examples.MaxBag@add(java.lang.Integer):185:((_heap_size328376 + 1) - 1) < ((_var4384)._1.length) |==> ((_heap_size328376 + 1) - 1) <= ((_var4384)._1.length)
+355:ROR:<(int,int):FALSE(int,int):examples.MaxBag@add(java.lang.Integer):185:((_heap_size328376 + 1) - 1) < ((_var4384)._1.length) |==> false
+356:LVR:FALSE:TRUE:examples.MaxBag@add(java.lang.Integer):187:false |==> true
+357:EVR:<PARENTHESIZED(boolean)>:<DEFAULT>:examples.MaxBag@add(java.lang.Integer):189:(!(_v328435)) |==> false
+358:LVR:FALSE:TRUE:examples.MaxBag@add(java.lang.Integer):191:false |==> true
+359:COR:_v328434:TRUE:examples.MaxBag@add(java.lang.Integer):193:_v328434 |==> false
+360:COR:_v328434:FALSE:examples.MaxBag@add(java.lang.Integer):193:_v328434 |==> true
+361:STD:<BREAK>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):194:break; |==> <NO-OP>
+362:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):196:1 |==> 0
+363:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):196:1 |==> -1
+364:SOR:<<(int,int):>>(int,int):examples.MaxBag@add(java.lang.Integer):196:((_var4384)._1.length) << 1 |==> ((_var4384)._1.length) >> 1
+365:SOR:<<(int,int):>>>(int,int):examples.MaxBag@add(java.lang.Integer):196:((_var4384)._1.length) << 1 |==> ((_var4384)._1.length) >>> 1
+366:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):196:1 |==> 0
+367:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):196:1 |==> -1
+368:AOR:+(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):196:(((_var4384)._1.length) << 1) + 1 |==> (((_var4384)._1.length) << 1) % 1
+369:AOR:+(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):196:(((_var4384)._1.length) << 1) + 1 |==> (((_var4384)._1.length) << 1) * 1
+370:AOR:+(int,int):-(int,int):examples.MaxBag@add(java.lang.Integer):196:(((_var4384)._1.length) << 1) + 1 |==> (((_var4384)._1.length) << 1) - 1
+371:AOR:+(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):196:(((_var4384)._1.length) << 1) + 1 |==> (((_var4384)._1.length) << 1) / 1
+372:LVR:0:POS:examples.MaxBag@add(java.lang.Integer):197:0 |==> 1
+373:LVR:0:NEG:examples.MaxBag@add(java.lang.Integer):197:0 |==> -1
+374:LVR:0:POS:examples.MaxBag@add(java.lang.Integer):197:0 |==> 1
+375:LVR:0:NEG:examples.MaxBag@add(java.lang.Integer):197:0 |==> -1
+376:STD:<CALL>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):197:System.arraycopy((_var4384)._1, 0, _new_array328433, 0, ((_var4384)._1.length)) |==> <NO-OP>
+377:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):198:(_var4384)._1 = _new_array328433 |==> <NO-OP>
+378:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):201:1 |==> 0
+379:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):201:1 |==> -1
+380:AOR:+(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):201:(_var4384)._0 + 1 |==> (_var4384)._0 % 1
+381:AOR:+(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):201:(_var4384)._0 + 1 |==> (_var4384)._0 * 1
+382:AOR:+(int,int):-(int,int):examples.MaxBag@add(java.lang.Integer):201:(_var4384)._0 + 1 |==> (_var4384)._0 - 1
+383:AOR:+(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):201:(_var4384)._0 + 1 |==> (_var4384)._0 / 1
+384:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):201:(_var4384)._0 = ((_var4384)._0 + 1) |==> <NO-OP>
+385:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):202:(_var4384)._1[_heap_size328376] = x |==> <NO-OP>
+386:EVR:<IDENTIFIER(java.lang.Integer)>:<DEFAULT>:examples.MaxBag@add(java.lang.Integer):203:_heap_size328376 |==> null
+387:LVR:0:POS:examples.MaxBag@add(java.lang.Integer):206:0 |==> 1
+388:LVR:0:NEG:examples.MaxBag@add(java.lang.Integer):206:0 |==> -1
+389:ROR:>(int,int):!=(int,int):examples.MaxBag@add(java.lang.Integer):206:_i328377 > 0 |==> _i328377 != 0
+390:ROR:>(int,int):>=(int,int):examples.MaxBag@add(java.lang.Integer):206:_i328377 > 0 |==> _i328377 >= 0
+391:ROR:>(int,int):FALSE(int,int):examples.MaxBag@add(java.lang.Integer):206:_i328377 > 0 |==> false
+392:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):207:1 |==> 0
+393:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):207:1 |==> -1
+394:AOR:-(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):207:_i328377 - 1 |==> _i328377 % 1
+395:AOR:-(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):207:_i328377 - 1 |==> _i328377 * 1
+396:AOR:-(int,int):+(int,int):examples.MaxBag@add(java.lang.Integer):207:_i328377 - 1 |==> _i328377 + 1
+397:AOR:-(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):207:_i328377 - 1 |==> _i328377 / 1
+398:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):207:1 |==> 0
+399:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):207:1 |==> -1
+400:SOR:>>(int,int):<<(int,int):examples.MaxBag@add(java.lang.Integer):207:(_i328377 - 1) >> 1 |==> (_i328377 - 1) << 1
+401:SOR:>>(int,int):>>>(int,int):examples.MaxBag@add(java.lang.Integer):207:(_i328377 - 1) >> 1 |==> (_i328377 - 1) >>> 1
+402:ROR:>=(int,int):==(int,int):examples.MaxBag@add(java.lang.Integer):207:(_var4384)._1[((_i328377 - 1) >> 1)] >= (_var4384)._1[_i328377] |==> (_var4384)._1[((_i328377 - 1) >> 1)] == (_var4384)._1[_i328377]
+403:ROR:>=(int,int):>(int,int):examples.MaxBag@add(java.lang.Integer):207:(_var4384)._1[((_i328377 - 1) >> 1)] >= (_var4384)._1[_i328377] |==> (_var4384)._1[((_i328377 - 1) >> 1)] > (_var4384)._1[_i328377]
+404:ROR:>=(int,int):TRUE(int,int):examples.MaxBag@add(java.lang.Integer):207:(_var4384)._1[((_i328377 - 1) >> 1)] >= (_var4384)._1[_i328377] |==> true
+405:LVR:FALSE:TRUE:examples.MaxBag@add(java.lang.Integer):209:false |==> true
+406:COR:_v328436:TRUE:examples.MaxBag@add(java.lang.Integer):211:_v328436 |==> false
+407:COR:_v328436:FALSE:examples.MaxBag@add(java.lang.Integer):211:_v328436 |==> true
+408:STD:<BREAK>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):212:break; |==> <NO-OP>
+409:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):214:1 |==> 0
+410:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):214:1 |==> -1
+411:AOR:-(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):214:_i328377 - 1 |==> _i328377 % 1
+412:AOR:-(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):214:_i328377 - 1 |==> _i328377 * 1
+413:AOR:-(int,int):+(int,int):examples.MaxBag@add(java.lang.Integer):214:_i328377 - 1 |==> _i328377 + 1
+414:AOR:-(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):214:_i328377 - 1 |==> _i328377 / 1
+415:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):214:1 |==> 0
+416:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):214:1 |==> -1
+417:SOR:>>(int,int):<<(int,int):examples.MaxBag@add(java.lang.Integer):214:(_i328377 - 1) >> 1 |==> (_i328377 - 1) << 1
+418:SOR:>>(int,int):>>>(int,int):examples.MaxBag@add(java.lang.Integer):214:(_i328377 - 1) >> 1 |==> (_i328377 - 1) >>> 1
+419:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):215:1 |==> 0
+420:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):215:1 |==> -1
+421:AOR:-(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):215:_i328377 - 1 |==> _i328377 % 1
+422:AOR:-(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):215:_i328377 - 1 |==> _i328377 * 1
+423:AOR:-(int,int):+(int,int):examples.MaxBag@add(java.lang.Integer):215:_i328377 - 1 |==> _i328377 + 1
+424:AOR:-(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):215:_i328377 - 1 |==> _i328377 / 1
+425:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):215:1 |==> 0
+426:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):215:1 |==> -1
+427:SOR:>>(int,int):<<(int,int):examples.MaxBag@add(java.lang.Integer):215:(_i328377 - 1) >> 1 |==> (_i328377 - 1) << 1
+428:SOR:>>(int,int):>>>(int,int):examples.MaxBag@add(java.lang.Integer):215:(_i328377 - 1) >> 1 |==> (_i328377 - 1) >>> 1
+429:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):215:(_var4384)._1[((_i328377 - 1) >> 1)] = (_var4384)._1[_i328377] |==> <NO-OP>
+430:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):216:(_var4384)._1[_i328377] = _swap_tmp328437 |==> <NO-OP>
+431:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):217:1 |==> 0
+432:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):217:1 |==> -1
+433:AOR:-(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):217:_i328377 - 1 |==> _i328377 % 1
+434:AOR:-(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):217:_i328377 - 1 |==> _i328377 * 1
+435:AOR:-(int,int):+(int,int):examples.MaxBag@add(java.lang.Integer):217:_i328377 - 1 |==> _i328377 + 1
+436:AOR:-(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):217:_i328377 - 1 |==> _i328377 / 1
+437:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):217:1 |==> 0
+438:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):217:1 |==> -1
+439:SOR:>>(int,int):<<(int,int):examples.MaxBag@add(java.lang.Integer):217:(_i328377 - 1) >> 1 |==> (_i328377 - 1) << 1
+440:SOR:>>(int,int):>>>(int,int):examples.MaxBag@add(java.lang.Integer):217:(_i328377 - 1) >> 1 |==> (_i328377 - 1) >>> 1
+441:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):217:_i328377 = ((_i328377 - 1) >> 1) |==> <NO-OP>
+442:LVR:POS:0:examples.MaxBag@add(java.lang.Integer):219:1 |==> 0
+443:LVR:POS:NEG:examples.MaxBag@add(java.lang.Integer):219:1 |==> -1
+444:AOR:+(int,int):%(int,int):examples.MaxBag@add(java.lang.Integer):219:_heap_size328376 + 1 |==> _heap_size328376 % 1
+445:AOR:+(int,int):*(int,int):examples.MaxBag@add(java.lang.Integer):219:_heap_size328376 + 1 |==> _heap_size328376 * 1
+446:AOR:+(int,int):-(int,int):examples.MaxBag@add(java.lang.Integer):219:_heap_size328376 + 1 |==> _heap_size328376 - 1
+447:AOR:+(int,int):/(int,int):examples.MaxBag@add(java.lang.Integer):219:_heap_size328376 + 1 |==> _heap_size328376 / 1
+448:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):219:_heap_size328376 = (_heap_size328376 + 1) |==> <NO-OP>
+449:STD:<CALL>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):222:_var66253.add(x) |==> <NO-OP>
+450:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):224:_var5992 = _var328367 |==> <NO-OP>
+451:LVR:FALSE:TRUE:examples.MaxBag@add(java.lang.Integer):226:false |==> true
+452:LVR:TRUE:FALSE:examples.MaxBag@add(java.lang.Integer):227:true |==> false
+453:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):227:_var1233 = true |==> <NO-OP>
+454:STD:<CALL>:<NO-OP>:examples.MaxBag@add(java.lang.Integer):228:_var721.put(x, _var1233) |==> <NO-OP>
+455:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):234:0 |==> 1
+456:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):234:0 |==> -1
+457:COR:Objects.equals(x, _var587):TRUE:examples.MaxBag@remove(java.lang.Integer):235:Objects.equals(x, _var587) |==> false
+458:COR:Objects.equals(x, _var587):FALSE:examples.MaxBag@remove(java.lang.Integer):235:Objects.equals(x, _var587) |==> true
+459:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):236:0 |==> 1
+460:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):236:0 |==> -1
+461:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):239:0 |==> 1
+462:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):239:0 |==> -1
+463:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):239:_var328379 = 0 |==> <NO-OP>
+464:STD:<BREAK>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):240:break; |==> <NO-OP>
+465:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):242:0 |==> 1
+466:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):242:0 |==> -1
+467:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):242:_var328379 = 0 |==> <NO-OP>
+468:STD:<BREAK>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):243:break; |==> <NO-OP>
+469:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):245:1 |==> 0
+470:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):245:1 |==> -1
+471:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):245:_var328379 = (_var4384)._1[1] |==> <NO-OP>
+472:STD:<BREAK>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):246:break; |==> <NO-OP>
+473:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):248:0 |==> 1
+474:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):248:0 |==> -1
+475:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):249:1 |==> 0
+476:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):249:1 |==> -1
+477:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):249:2 |==> 0
+478:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):249:2 |==> -2
+479:ROR:>(int,int):!=(int,int):examples.MaxBag@remove(java.lang.Integer):249:(_var4384)._1[1] > (_var4384)._1[2] |==> (_var4384)._1[1] != (_var4384)._1[2]
+480:ROR:>(int,int):>=(int,int):examples.MaxBag@remove(java.lang.Integer):249:(_var4384)._1[1] > (_var4384)._1[2] |==> (_var4384)._1[1] >= (_var4384)._1[2]
+481:ROR:>(int,int):FALSE(int,int):examples.MaxBag@remove(java.lang.Integer):249:(_var4384)._1[1] > (_var4384)._1[2] |==> false
+482:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):250:1 |==> 0
+483:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):250:1 |==> -1
+484:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):250:_conditional_result328439 = (_var4384)._1[1] |==> <NO-OP>
+485:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):252:2 |==> 0
+486:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):252:2 |==> -2
+487:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):252:_conditional_result328439 = (_var4384)._1[2] |==> <NO-OP>
+488:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):254:_var328379 = _conditional_result328439 |==> <NO-OP>
+489:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):256:_conditional_result328438 = _var328379 |==> <NO-OP>
+490:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):258:_conditional_result328438 = _var587 |==> <NO-OP>
+491:EVR:<IDENTIFIER(java.lang.Integer)>:<DEFAULT>:examples.MaxBag@remove(java.lang.Integer):260:_conditional_result328438 |==> null
+492:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):261:0 |==> 1
+493:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):261:0 |==> -1
+494:COR:_var721.containsKey(x):TRUE:examples.MaxBag@remove(java.lang.Integer):262:_var721.containsKey(x) |==> false
+495:COR:_var721.containsKey(x):FALSE:examples.MaxBag@remove(java.lang.Integer):262:_var721.containsKey(x) |==> true
+496:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):265:1 |==> 0
+497:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):265:1 |==> -1
+498:AOR:+(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):265:_sum328440 + 1 |==> _sum328440 % 1
+499:AOR:+(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):265:_sum328440 + 1 |==> _sum328440 * 1
+500:AOR:+(int,int):-(int,int):examples.MaxBag@remove(java.lang.Integer):265:_sum328440 + 1 |==> _sum328440 - 1
+501:AOR:+(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):265:_sum328440 + 1 |==> _sum328440 / 1
+502:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):265:_sum328440 = (_sum328440 + 1) |==> <NO-OP>
+503:AOR:-(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):269:_var5992 - _sum328440 |==> _var5992 % _sum328440
+504:AOR:-(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):269:_var5992 - _sum328440 |==> _var5992 * _sum328440
+505:AOR:-(int,int):+(int,int):examples.MaxBag@remove(java.lang.Integer):269:_var5992 - _sum328440 |==> _var5992 + _sum328440
+506:AOR:-(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):269:_var5992 - _sum328440 |==> _var5992 / _sum328440
+507:EVR:<NEW_CLASS(java.util.ArrayList<java.lang.Integer>)>:<DEFAULT>:examples.MaxBag@remove(java.lang.Integer):270:new ArrayList<Integer>() |==> null
+508:COR:_var721.containsKey(x):TRUE:examples.MaxBag@remove(java.lang.Integer):271:_var721.containsKey(x) |==> false
+509:COR:_var721.containsKey(x):FALSE:examples.MaxBag@remove(java.lang.Integer):271:_var721.containsKey(x) |==> true
+510:EVR:<NEW_CLASS(java.util.ArrayList<java.lang.Integer>)>:<DEFAULT>:examples.MaxBag@remove(java.lang.Integer):272:new ArrayList<Integer>() |==> null
+511:STD:<CALL>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):273:_singleton328448.add(x) |==> <NO-OP>
+512:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):274:_conditional_result328443 = _singleton328448 |==> <NO-OP>
+513:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):276:_conditional_result328443 = new ArrayList<Integer>() |==> <NO-OP>
+514:EVR:<IDENTIFIER(java.util.ArrayList<java.lang.Integer>)>:<DEFAULT>:examples.MaxBag@remove(java.lang.Integer):278:_conditional_result328443 |==> null
+515:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):279:_var587 = _var328368 |==> <NO-OP>
+516:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):280:0 |==> 1
+517:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):280:0 |==> -1
+518:EVR:<NEW_CLASS(java.util.ArrayList<java.lang.Integer>)>:<DEFAULT>:examples.MaxBag@remove(java.lang.Integer):281:new ArrayList<Integer>() |==> null
+519:STD:<CALL>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):282:_singleton328449.add(x) |==> <NO-OP>
+520:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):examples.MaxBag@remove(java.lang.Integer):283:_var66253 == _singleton328449 |==> false
+521:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):284:1 |==> 0
+522:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):284:1 |==> -1
+523:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):284:_conditional_result328444 = 1 |==> <NO-OP>
+524:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):286:0 |==> 1
+525:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):286:0 |==> -1
+526:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):286:_conditional_result328444 = 0 |==> <NO-OP>
+527:ROR:>(int,int):!=(int,int):examples.MaxBag@remove(java.lang.Integer):288:_var5992 > _conditional_result328444 |==> _var5992 != _conditional_result328444
+528:ROR:>(int,int):>=(int,int):examples.MaxBag@remove(java.lang.Integer):288:_var5992 > _conditional_result328444 |==> _var5992 >= _conditional_result328444
+529:ROR:>(int,int):FALSE(int,int):examples.MaxBag@remove(java.lang.Integer):288:_var5992 > _conditional_result328444 |==> false
+530:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):288:_var1457 = (_var5992 > _conditional_result328444) |==> <NO-OP>
+531:EVR:<IDENTIFIER(java.lang.Integer)>:<DEFAULT>:examples.MaxBag@remove(java.lang.Integer):289:_var5992 |==> null
+532:COR:_var721.containsKey(x):TRUE:examples.MaxBag@remove(java.lang.Integer):290:_var721.containsKey(x) |==> false
+533:COR:_var721.containsKey(x):FALSE:examples.MaxBag@remove(java.lang.Integer):290:_var721.containsKey(x) |==> true
+534:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):292:1 |==> 0
+535:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):292:1 |==> -1
+536:AOR:-(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):292:(_var4384)._0 - 1 |==> (_var4384)._0 % 1
+537:AOR:-(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):292:(_var4384)._0 - 1 |==> (_var4384)._0 * 1
+538:AOR:-(int,int):+(int,int):examples.MaxBag@remove(java.lang.Integer):292:(_var4384)._0 - 1 |==> (_var4384)._0 + 1
+539:AOR:-(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):292:(_var4384)._0 - 1 |==> (_var4384)._0 / 1
+540:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):292:(_var4384)._0 = ((_var4384)._0 - 1) |==> <NO-OP>
+541:EVR:<PARENTHESIZED(int)>:<DEFAULT>:examples.MaxBag@remove(java.lang.Integer):293:(Arrays.asList((_var4384)._1).indexOf(x)) |==> 0
+542:EVR:<ARRAY_ACCESS(java.lang.Integer)>:<DEFAULT>:examples.MaxBag@remove(java.lang.Integer):294:(_var4384)._1[_i328381] |==> null
+543:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):295:1 |==> 0
+544:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):295:1 |==> -1
+545:AOR:-(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):295:_heap_size328380 - 1 |==> _heap_size328380 % 1
+546:AOR:-(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):295:_heap_size328380 - 1 |==> _heap_size328380 * 1
+547:AOR:-(int,int):+(int,int):examples.MaxBag@remove(java.lang.Integer):295:_heap_size328380 - 1 |==> _heap_size328380 + 1
+548:AOR:-(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):295:_heap_size328380 - 1 |==> _heap_size328380 / 1
+549:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):295:(_var4384)._1[_i328381] = (_var4384)._1[(_heap_size328380 - 1)] |==> <NO-OP>
+550:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):296:1 |==> 0
+551:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):296:1 |==> -1
+552:AOR:-(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):296:_heap_size328380 - 1 |==> _heap_size328380 % 1
+553:AOR:-(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):296:_heap_size328380 - 1 |==> _heap_size328380 * 1
+554:AOR:-(int,int):+(int,int):examples.MaxBag@remove(java.lang.Integer):296:_heap_size328380 - 1 |==> _heap_size328380 + 1
+555:AOR:-(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):296:_heap_size328380 - 1 |==> _heap_size328380 / 1
+556:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):296:(_var4384)._1[(_heap_size328380 - 1)] = _swap_tmp328450 |==> <NO-OP>
+557:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):299:1 |==> 0
+558:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):299:1 |==> -1
+559:SOR:<<(int,int):>>(int,int):examples.MaxBag@remove(java.lang.Integer):299:_i328381 << 1 |==> _i328381 >> 1
+560:SOR:<<(int,int):>>>(int,int):examples.MaxBag@remove(java.lang.Integer):299:_i328381 << 1 |==> _i328381 >>> 1
+561:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):299:1 |==> 0
+562:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):299:1 |==> -1
+563:AOR:+(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):299:(_i328381 << 1) + 1 |==> (_i328381 << 1) % 1
+564:AOR:+(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):299:(_i328381 << 1) + 1 |==> (_i328381 << 1) * 1
+565:AOR:+(int,int):-(int,int):examples.MaxBag@remove(java.lang.Integer):299:(_i328381 << 1) + 1 |==> (_i328381 << 1) - 1
+566:AOR:+(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):299:(_i328381 << 1) + 1 |==> (_i328381 << 1) / 1
+567:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):299:1 |==> 0
+568:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):299:1 |==> -1
+569:AOR:-(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):299:_heap_size328380 - 1 |==> _heap_size328380 % 1
+570:AOR:-(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):299:_heap_size328380 - 1 |==> _heap_size328380 * 1
+571:AOR:-(int,int):+(int,int):examples.MaxBag@remove(java.lang.Integer):299:_heap_size328380 - 1 |==> _heap_size328380 + 1
+572:AOR:-(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):299:_heap_size328380 - 1 |==> _heap_size328380 / 1
+573:ROR:<(int,int):!=(int,int):examples.MaxBag@remove(java.lang.Integer):299:((_i328381 << 1) + 1) < (_heap_size328380 - 1) |==> ((_i328381 << 1) + 1) != (_heap_size328380 - 1)
+574:ROR:<(int,int):<=(int,int):examples.MaxBag@remove(java.lang.Integer):299:((_i328381 << 1) + 1) < (_heap_size328380 - 1) |==> ((_i328381 << 1) + 1) <= (_heap_size328380 - 1)
+575:ROR:<(int,int):FALSE(int,int):examples.MaxBag@remove(java.lang.Integer):299:((_i328381 << 1) + 1) < (_heap_size328380 - 1) |==> false
+576:STD:<BREAK>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):300:break; |==> <NO-OP>
+577:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):302:1 |==> 0
+578:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):302:1 |==> -1
+579:SOR:<<(int,int):>>(int,int):examples.MaxBag@remove(java.lang.Integer):302:_i328381 << 1 |==> _i328381 >> 1
+580:SOR:<<(int,int):>>>(int,int):examples.MaxBag@remove(java.lang.Integer):302:_i328381 << 1 |==> _i328381 >>> 1
+581:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):302:1 |==> 0
+582:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):302:1 |==> -1
+583:AOR:+(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):302:(_i328381 << 1) + 1 |==> (_i328381 << 1) % 1
+584:AOR:+(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):302:(_i328381 << 1) + 1 |==> (_i328381 << 1) * 1
+585:AOR:+(int,int):-(int,int):examples.MaxBag@remove(java.lang.Integer):302:(_i328381 << 1) + 1 |==> (_i328381 << 1) - 1
+586:AOR:+(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):302:(_i328381 << 1) + 1 |==> (_i328381 << 1) / 1
+587:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):304:1 |==> 0
+588:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):304:1 |==> -1
+589:SOR:<<(int,int):>>(int,int):examples.MaxBag@remove(java.lang.Integer):304:_i328381 << 1 |==> _i328381 >> 1
+590:SOR:<<(int,int):>>>(int,int):examples.MaxBag@remove(java.lang.Integer):304:_i328381 << 1 |==> _i328381 >>> 1
+591:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):304:2 |==> 0
+592:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):304:2 |==> -2
+593:AOR:+(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):304:(_i328381 << 1) + 2 |==> (_i328381 << 1) % 2
+594:AOR:+(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):304:(_i328381 << 1) + 2 |==> (_i328381 << 1) * 2
+595:AOR:+(int,int):-(int,int):examples.MaxBag@remove(java.lang.Integer):304:(_i328381 << 1) + 2 |==> (_i328381 << 1) - 2
+596:AOR:+(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):304:(_i328381 << 1) + 2 |==> (_i328381 << 1) / 2
+597:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):304:1 |==> 0
+598:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):304:1 |==> -1
+599:AOR:-(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):304:_heap_size328380 - 1 |==> _heap_size328380 % 1
+600:AOR:-(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):304:_heap_size328380 - 1 |==> _heap_size328380 * 1
+601:AOR:-(int,int):+(int,int):examples.MaxBag@remove(java.lang.Integer):304:_heap_size328380 - 1 |==> _heap_size328380 + 1
+602:AOR:-(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):304:_heap_size328380 - 1 |==> _heap_size328380 / 1
+603:ROR:<(int,int):!=(int,int):examples.MaxBag@remove(java.lang.Integer):304:((_i328381 << 1) + 2) < (_heap_size328380 - 1) |==> ((_i328381 << 1) + 2) != (_heap_size328380 - 1)
+604:ROR:<(int,int):<=(int,int):examples.MaxBag@remove(java.lang.Integer):304:((_i328381 << 1) + 2) < (_heap_size328380 - 1) |==> ((_i328381 << 1) + 2) <= (_heap_size328380 - 1)
+605:ROR:<(int,int):FALSE(int,int):examples.MaxBag@remove(java.lang.Integer):304:((_i328381 << 1) + 2) < (_heap_size328380 - 1) |==> false
+606:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):305:1 |==> 0
+607:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):305:1 |==> -1
+608:SOR:<<(int,int):>>(int,int):examples.MaxBag@remove(java.lang.Integer):305:_i328381 << 1 |==> _i328381 >> 1
+609:SOR:<<(int,int):>>>(int,int):examples.MaxBag@remove(java.lang.Integer):305:_i328381 << 1 |==> _i328381 >>> 1
+610:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):305:1 |==> 0
+611:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):305:1 |==> -1
+612:AOR:+(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):305:(_i328381 << 1) + 1 |==> (_i328381 << 1) % 1
+613:AOR:+(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):305:(_i328381 << 1) + 1 |==> (_i328381 << 1) * 1
+614:AOR:+(int,int):-(int,int):examples.MaxBag@remove(java.lang.Integer):305:(_i328381 << 1) + 1 |==> (_i328381 << 1) - 1
+615:AOR:+(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):305:(_i328381 << 1) + 1 |==> (_i328381 << 1) / 1
+616:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):305:1 |==> 0
+617:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):305:1 |==> -1
+618:SOR:<<(int,int):>>(int,int):examples.MaxBag@remove(java.lang.Integer):305:_i328381 << 1 |==> _i328381 >> 1
+619:SOR:<<(int,int):>>>(int,int):examples.MaxBag@remove(java.lang.Integer):305:_i328381 << 1 |==> _i328381 >>> 1
+620:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):306:2 |==> 0
+621:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):306:2 |==> -2
+622:AOR:+(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):305:(_i328381 << 1) + 2 |==> (_i328381 << 1) % 2
+623:AOR:+(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):305:(_i328381 << 1) + 2 |==> (_i328381 << 1) * 2
+624:AOR:+(int,int):-(int,int):examples.MaxBag@remove(java.lang.Integer):305:(_i328381 << 1) + 2 |==> (_i328381 << 1) - 2
+625:AOR:+(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):305:(_i328381 << 1) + 2 |==> (_i328381 << 1) / 2
+626:ROR:>=(int,int):==(int,int):examples.MaxBag@remove(java.lang.Integer):305:(_var4384)._1[((_i328381 << 1) + 1)] >= (_var4384)._1[((_i328381 << 1) + 2)] |==> (_var4384)._1[((_i328381 << 1) + 1)] == (_var4384)._1[((_i328381 << 1) + 2)]
+627:ROR:>=(int,int):>(int,int):examples.MaxBag@remove(java.lang.Integer):305:(_var4384)._1[((_i328381 << 1) + 1)] >= (_var4384)._1[((_i328381 << 1) + 2)] |==> (_var4384)._1[((_i328381 << 1) + 1)] > (_var4384)._1[((_i328381 << 1) + 2)]
+628:ROR:>=(int,int):TRUE(int,int):examples.MaxBag@remove(java.lang.Integer):305:(_var4384)._1[((_i328381 << 1) + 1)] >= (_var4384)._1[((_i328381 << 1) + 2)] |==> true
+629:LVR:FALSE:TRUE:examples.MaxBag@remove(java.lang.Integer):308:false |==> true
+630:COR:_v328451:TRUE:examples.MaxBag@remove(java.lang.Integer):310:_v328451 |==> false
+631:COR:_v328451:FALSE:examples.MaxBag@remove(java.lang.Integer):310:_v328451 |==> true
+632:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):311:1 |==> 0
+633:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):311:1 |==> -1
+634:SOR:<<(int,int):>>(int,int):examples.MaxBag@remove(java.lang.Integer):311:_i328381 << 1 |==> _i328381 >> 1
+635:SOR:<<(int,int):>>>(int,int):examples.MaxBag@remove(java.lang.Integer):311:_i328381 << 1 |==> _i328381 >>> 1
+636:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):311:2 |==> 0
+637:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):311:2 |==> -2
+638:AOR:+(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):311:(_i328381 << 1) + 2 |==> (_i328381 << 1) % 2
+639:AOR:+(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):311:(_i328381 << 1) + 2 |==> (_i328381 << 1) * 2
+640:AOR:+(int,int):-(int,int):examples.MaxBag@remove(java.lang.Integer):311:(_i328381 << 1) + 2 |==> (_i328381 << 1) - 2
+641:AOR:+(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):311:(_i328381 << 1) + 2 |==> (_i328381 << 1) / 2
+642:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):311:_child_index328384 = ((_i328381 << 1) + 2) |==> <NO-OP>
+643:ROR:>=(int,int):==(int,int):examples.MaxBag@remove(java.lang.Integer):313:(_var4384)._1[_i328381] >= (_var4384)._1[_child_index328384] |==> (_var4384)._1[_i328381] == (_var4384)._1[_child_index328384]
+644:ROR:>=(int,int):>(int,int):examples.MaxBag@remove(java.lang.Integer):313:(_var4384)._1[_i328381] >= (_var4384)._1[_child_index328384] |==> (_var4384)._1[_i328381] > (_var4384)._1[_child_index328384]
+645:ROR:>=(int,int):TRUE(int,int):examples.MaxBag@remove(java.lang.Integer):313:(_var4384)._1[_i328381] >= (_var4384)._1[_child_index328384] |==> true
+646:EVR:<ARRAY_ACCESS(java.lang.Integer)>:<DEFAULT>:examples.MaxBag@remove(java.lang.Integer):314:(_var4384)._1[_i328381] |==> null
+647:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):315:(_var4384)._1[_i328381] = (_var4384)._1[_child_index328384] |==> <NO-OP>
+648:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):316:(_var4384)._1[_child_index328384] = _swap_tmp328452 |==> <NO-OP>
+649:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):317:_i328381 = _child_index328384 |==> <NO-OP>
+650:STD:<BREAK>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):319:break _stop_bubble_down328383; |==> <NO-OP>
+651:LVR:FALSE:TRUE:examples.MaxBag@remove(java.lang.Integer):322:false |==> true
+652:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):323:1 |==> 0
+653:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):323:1 |==> -1
+654:AOR:-(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):323:_heap_size328380 - 1 |==> _heap_size328380 % 1
+655:AOR:-(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):323:_heap_size328380 - 1 |==> _heap_size328380 * 1
+656:AOR:-(int,int):+(int,int):examples.MaxBag@remove(java.lang.Integer):323:_heap_size328380 - 1 |==> _heap_size328380 + 1
+657:AOR:-(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):323:_heap_size328380 - 1 |==> _heap_size328380 / 1
+658:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):323:_heap_size328380 = (_heap_size328380 - 1) |==> <NO-OP>
+659:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):326:0 |==> 1
+660:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):326:0 |==> -1
+661:COR:_var721.containsKey(x):TRUE:examples.MaxBag@remove(java.lang.Integer):327:_var721.containsKey(x) |==> false
+662:COR:_var721.containsKey(x):FALSE:examples.MaxBag@remove(java.lang.Integer):327:_var721.containsKey(x) |==> true
+663:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):330:1 |==> 0
+664:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):330:1 |==> -1
+665:AOR:+(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):330:_sum328445 + 1 |==> _sum328445 % 1
+666:AOR:+(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):330:_sum328445 + 1 |==> _sum328445 * 1
+667:AOR:+(int,int):-(int,int):examples.MaxBag@remove(java.lang.Integer):330:_sum328445 + 1 |==> _sum328445 - 1
+668:AOR:+(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):330:_sum328445 + 1 |==> _sum328445 / 1
+669:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):330:_sum328445 = (_sum328445 + 1) |==> <NO-OP>
+670:AOR:-(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):334:_var5992 - _sum328445 |==> _var5992 % _sum328445
+671:AOR:-(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):334:_var5992 - _sum328445 |==> _var5992 * _sum328445
+672:AOR:-(int,int):+(int,int):examples.MaxBag@remove(java.lang.Integer):334:_var5992 - _sum328445 |==> _var5992 + _sum328445
+673:AOR:-(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):334:_var5992 - _sum328445 |==> _var5992 / _sum328445
+674:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):337:0 |==> 1
+675:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):337:0 |==> -1
+676:AOR:+(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):337:_heap_size328385 + 0 |==> _heap_size328385 % 0
+677:AOR:+(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):337:_heap_size328385 + 0 |==> _heap_size328385 * 0
+678:AOR:+(int,int):-(int,int):examples.MaxBag@remove(java.lang.Integer):337:_heap_size328385 + 0 |==> _heap_size328385 - 0
+679:AOR:+(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):337:_heap_size328385 + 0 |==> _heap_size328385 / 0
+680:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):337:1 |==> 0
+681:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):337:1 |==> -1
+682:AOR:-(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):337:(_heap_size328385 + 0) - 1 |==> (_heap_size328385 + 0) % 1
+683:AOR:-(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):337:(_heap_size328385 + 0) - 1 |==> (_heap_size328385 + 0) * 1
+684:AOR:-(int,int):+(int,int):examples.MaxBag@remove(java.lang.Integer):337:(_heap_size328385 + 0) - 1 |==> (_heap_size328385 + 0) + 1
+685:AOR:-(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):337:(_heap_size328385 + 0) - 1 |==> (_heap_size328385 + 0) / 1
+686:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):337:0 |==> 1
+687:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):337:0 |==> -1
+688:ROR:>=(int,int):==(int,int):examples.MaxBag@remove(java.lang.Integer):337:((_heap_size328385 + 0) - 1) >= 0 |==> ((_heap_size328385 + 0) - 1) == 0
+689:ROR:>=(int,int):>(int,int):examples.MaxBag@remove(java.lang.Integer):337:((_heap_size328385 + 0) - 1) >= 0 |==> ((_heap_size328385 + 0) - 1) > 0
+690:ROR:>=(int,int):TRUE(int,int):examples.MaxBag@remove(java.lang.Integer):337:((_heap_size328385 + 0) - 1) >= 0 |==> true
+691:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):339:0 |==> 1
+692:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):339:0 |==> -1
+693:AOR:+(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):339:_heap_size328385 + 0 |==> _heap_size328385 % 0
+694:AOR:+(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):339:_heap_size328385 + 0 |==> _heap_size328385 * 0
+695:AOR:+(int,int):-(int,int):examples.MaxBag@remove(java.lang.Integer):339:_heap_size328385 + 0 |==> _heap_size328385 - 0
+696:AOR:+(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):339:_heap_size328385 + 0 |==> _heap_size328385 / 0
+697:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):339:1 |==> 0
+698:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):339:1 |==> -1
+699:AOR:-(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):339:(_heap_size328385 + 0) - 1 |==> (_heap_size328385 + 0) % 1
+700:AOR:-(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):339:(_heap_size328385 + 0) - 1 |==> (_heap_size328385 + 0) * 1
+701:AOR:-(int,int):+(int,int):examples.MaxBag@remove(java.lang.Integer):339:(_heap_size328385 + 0) - 1 |==> (_heap_size328385 + 0) + 1
+702:AOR:-(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):339:(_heap_size328385 + 0) - 1 |==> (_heap_size328385 + 0) / 1
+703:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):339:0 |==> 1
+704:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):339:0 |==> -1
+705:ROR:>=(int,int):==(int,int):examples.MaxBag@remove(java.lang.Integer):339:((_heap_size328385 + 0) - 1) >= 0 |==> ((_heap_size328385 + 0) - 1) == 0
+706:ROR:>=(int,int):>(int,int):examples.MaxBag@remove(java.lang.Integer):339:((_heap_size328385 + 0) - 1) >= 0 |==> ((_heap_size328385 + 0) - 1) > 0
+707:ROR:>=(int,int):TRUE(int,int):examples.MaxBag@remove(java.lang.Integer):339:((_heap_size328385 + 0) - 1) >= 0 |==> true
+708:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):340:0 |==> 1
+709:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):340:0 |==> -1
+710:AOR:+(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):340:_heap_size328385 + 0 |==> _heap_size328385 % 0
+711:AOR:+(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):340:_heap_size328385 + 0 |==> _heap_size328385 * 0
+712:AOR:+(int,int):-(int,int):examples.MaxBag@remove(java.lang.Integer):340:_heap_size328385 + 0 |==> _heap_size328385 - 0
+713:AOR:+(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):340:_heap_size328385 + 0 |==> _heap_size328385 / 0
+714:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):340:1 |==> 0
+715:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):340:1 |==> -1
+716:AOR:-(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):340:(_heap_size328385 + 0) - 1 |==> (_heap_size328385 + 0) % 1
+717:AOR:-(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):340:(_heap_size328385 + 0) - 1 |==> (_heap_size328385 + 0) * 1
+718:AOR:-(int,int):+(int,int):examples.MaxBag@remove(java.lang.Integer):340:(_heap_size328385 + 0) - 1 |==> (_heap_size328385 + 0) + 1
+719:AOR:-(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):340:(_heap_size328385 + 0) - 1 |==> (_heap_size328385 + 0) / 1
+720:ROR:<(int,int):!=(int,int):examples.MaxBag@remove(java.lang.Integer):340:((_heap_size328385 + 0) - 1) < ((_var4384)._1.length) |==> ((_heap_size328385 + 0) - 1) != ((_var4384)._1.length)
+721:ROR:<(int,int):<=(int,int):examples.MaxBag@remove(java.lang.Integer):340:((_heap_size328385 + 0) - 1) < ((_var4384)._1.length) |==> ((_heap_size328385 + 0) - 1) <= ((_var4384)._1.length)
+722:ROR:<(int,int):FALSE(int,int):examples.MaxBag@remove(java.lang.Integer):340:((_heap_size328385 + 0) - 1) < ((_var4384)._1.length) |==> false
+723:LVR:FALSE:TRUE:examples.MaxBag@remove(java.lang.Integer):342:false |==> true
+724:EVR:<PARENTHESIZED(boolean)>:<DEFAULT>:examples.MaxBag@remove(java.lang.Integer):344:(!(_v328455)) |==> false
+725:LVR:FALSE:TRUE:examples.MaxBag@remove(java.lang.Integer):346:false |==> true
+726:COR:_v328454:TRUE:examples.MaxBag@remove(java.lang.Integer):348:_v328454 |==> false
+727:COR:_v328454:FALSE:examples.MaxBag@remove(java.lang.Integer):348:_v328454 |==> true
+728:STD:<BREAK>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):349:break; |==> <NO-OP>
+729:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):351:1 |==> 0
+730:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):351:1 |==> -1
+731:SOR:<<(int,int):>>(int,int):examples.MaxBag@remove(java.lang.Integer):351:((_var4384)._1.length) << 1 |==> ((_var4384)._1.length) >> 1
+732:SOR:<<(int,int):>>>(int,int):examples.MaxBag@remove(java.lang.Integer):351:((_var4384)._1.length) << 1 |==> ((_var4384)._1.length) >>> 1
+733:LVR:POS:0:examples.MaxBag@remove(java.lang.Integer):351:1 |==> 0
+734:LVR:POS:NEG:examples.MaxBag@remove(java.lang.Integer):351:1 |==> -1
+735:AOR:+(int,int):%(int,int):examples.MaxBag@remove(java.lang.Integer):351:(((_var4384)._1.length) << 1) + 1 |==> (((_var4384)._1.length) << 1) % 1
+736:AOR:+(int,int):*(int,int):examples.MaxBag@remove(java.lang.Integer):351:(((_var4384)._1.length) << 1) + 1 |==> (((_var4384)._1.length) << 1) * 1
+737:AOR:+(int,int):-(int,int):examples.MaxBag@remove(java.lang.Integer):351:(((_var4384)._1.length) << 1) + 1 |==> (((_var4384)._1.length) << 1) - 1
+738:AOR:+(int,int):/(int,int):examples.MaxBag@remove(java.lang.Integer):351:(((_var4384)._1.length) << 1) + 1 |==> (((_var4384)._1.length) << 1) / 1
+739:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):352:0 |==> 1
+740:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):352:0 |==> -1
+741:LVR:0:POS:examples.MaxBag@remove(java.lang.Integer):352:0 |==> 1
+742:LVR:0:NEG:examples.MaxBag@remove(java.lang.Integer):352:0 |==> -1
+743:STD:<CALL>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):352:System.arraycopy((_var4384)._1, 0, _new_array328453, 0, ((_var4384)._1.length)) |==> <NO-OP>
+744:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):353:(_var4384)._1 = _new_array328453 |==> <NO-OP>
+745:COR:_var721.containsKey(x):TRUE:examples.MaxBag@remove(java.lang.Integer):355:_var721.containsKey(x) |==> false
+746:COR:_var721.containsKey(x):FALSE:examples.MaxBag@remove(java.lang.Integer):355:_var721.containsKey(x) |==> true
+747:STD:<CALL>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):357:_var66253.remove(x) |==> <NO-OP>
+748:STD:<ASSIGN>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):360:_var5992 = _var328369 |==> <NO-OP>
+749:STD:<CALL>:<NO-OP>:examples.MaxBag@remove(java.lang.Integer):362:_var721.remove(_var3237) |==> <NO-OP>

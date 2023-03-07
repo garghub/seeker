@@ -1,0 +1,42 @@
+1:ROR:!=(double,double):<(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):102:x != x |==> x < x
+2:ROR:!=(double,double):>(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):102:x != x |==> x > x
+3:ROR:!=(double,double):TRUE(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):102:x != x |==> true
+4:STD:<RETURN>:<NO-OP>:org.apache.commons.math3.util.FastMathNew@floor(double):103:return x; |==> <NO-OP>
+5:ROR:>=(double,double):==(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):106:x >= TWO_POWER_52 |==> x == TWO_POWER_52
+6:ROR:>=(double,double):>(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):106:x >= TWO_POWER_52 |==> x > TWO_POWER_52
+7:ROR:>=(double,double):TRUE(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):106:x >= TWO_POWER_52 |==> true
+8:ORU:-(double):+(double):org.apache.commons.math3.util.FastMathNew@floor(double):106:-TWO_POWER_52 |==> +TWO_POWER_52
+9:ROR:<=(double,double):<(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):106:x <= -TWO_POWER_52 |==> x < -TWO_POWER_52
+10:ROR:<=(double,double):==(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):106:x <= -TWO_POWER_52 |==> x == -TWO_POWER_52
+11:ROR:<=(double,double):TRUE(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):106:x <= -TWO_POWER_52 |==> true
+12:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.commons.math3.util.FastMathNew@floor(double):106:x >= TWO_POWER_52 || x <= -TWO_POWER_52 |==> x >= TWO_POWER_52 != x <= -TWO_POWER_52
+13:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.commons.math3.util.FastMathNew@floor(double):106:x >= TWO_POWER_52 || x <= -TWO_POWER_52 |==> x >= TWO_POWER_52
+14:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.commons.math3.util.FastMathNew@floor(double):106:x >= TWO_POWER_52 || x <= -TWO_POWER_52 |==> x <= -TWO_POWER_52
+15:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.commons.math3.util.FastMathNew@floor(double):106:x >= TWO_POWER_52 || x <= -TWO_POWER_52 |==> true
+16:STD:<RETURN>:<NO-OP>:org.apache.commons.math3.util.FastMathNew@floor(double):107:return x; |==> <NO-OP>
+17:EVR:<TYPE_CAST(long)>:<DEFAULT>:org.apache.commons.math3.util.FastMathNew@floor(double):110:(long)x |==> 0L
+18:LVR:0:POS:org.apache.commons.math3.util.FastMathNew@floor(double):111:0 |==> 1
+19:LVR:0:NEG:org.apache.commons.math3.util.FastMathNew@floor(double):111:0 |==> -1
+20:ROR:<(double,double):!=(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):111:x < 0 |==> x != 0
+21:ROR:<(double,double):<=(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):111:x < 0 |==> x <= 0
+22:ROR:<(double,double):FALSE(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):111:x < 0 |==> false
+23:ROR:!=(double,double):<(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):111:y != x |==> y < x
+24:ROR:!=(double,double):>(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):111:y != x |==> y > x
+25:ROR:!=(double,double):TRUE(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):111:y != x |==> true
+26:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.math3.util.FastMathNew@floor(double):111:x < 0 && y != x |==> x < 0 == (y != x)
+27:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.math3.util.FastMathNew@floor(double):111:x < 0 && y != x |==> false
+28:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.math3.util.FastMathNew@floor(double):111:x < 0 && y != x |==> x < 0
+29:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.math3.util.FastMathNew@floor(double):111:x < 0 && y != x |==> y != x
+30:STD:<DEC>:<NO-OP>:org.apache.commons.math3.util.FastMathNew@floor(double):112:y-- |==> <NO-OP>
+31:LVR:0:POS:org.apache.commons.math3.util.FastMathNew@floor(double):116:0 |==> 1
+32:LVR:0:NEG:org.apache.commons.math3.util.FastMathNew@floor(double):116:0 |==> -1
+33:ROR:==(long,long):<=(long,long):org.apache.commons.math3.util.FastMathNew@floor(double):116:y == 0 |==> y <= 0
+34:ROR:==(long,long):>=(long,long):org.apache.commons.math3.util.FastMathNew@floor(double):116:y == 0 |==> y >= 0
+35:ROR:==(long,long):FALSE(long,long):org.apache.commons.math3.util.FastMathNew@floor(double):116:y == 0 |==> false
+36:AOR:*(double,double):%(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):117:x * y |==> x % y
+37:AOR:*(double,double):+(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):117:x * y |==> x + y
+38:AOR:*(double,double):-(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):117:x * y |==> x - y
+39:AOR:*(double,double):/(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):117:x * y |==> x / y
+40:EVR:<IDENTIFIER(long)>:<DEFAULT>:org.apache.commons.math3.util.FastMathNew@floor(double):119:y |==> 0L
+41:LVR:TRUE:FALSE:org.apache.commons.math3.util.FastMathNew@floor(double):122:true |==> false
+42:EVR:<IDENTIFIER(double)>:<DEFAULT>:org.apache.commons.math3.util.FastMathNew@floor(double):123:result |==> 0.0

@@ -1,0 +1,101 @@
+1:LVR:0:POS:examples.RingBuffer@<init>(int):47:0 |==> 1
+2:LVR:0:NEG:examples.RingBuffer@<init>(int):47:0 |==> -1
+3:ROR:>(int,int):!=(int,int):examples.RingBuffer@<init>(int):47:n > 0 |==> n != 0
+4:ROR:>(int,int):>=(int,int):examples.RingBuffer@<init>(int):47:n > 0 |==> n >= 0
+5:ROR:>(int,int):FALSE(int,int):examples.RingBuffer@<init>(int):47:n > 0 |==> false
+6:LVR:POS:0:examples.RingBuffer@<init>(int):49:1 |==> 0
+7:LVR:POS:NEG:examples.RingBuffer@<init>(int):49:1 |==> -1
+8:AOR:+(int,int):%(int,int):examples.RingBuffer@<init>(int):49:n + 1 |==> n % 1
+9:AOR:+(int,int):*(int,int):examples.RingBuffer@<init>(int):49:n + 1 |==> n * 1
+10:AOR:+(int,int):-(int,int):examples.RingBuffer@<init>(int):49:n + 1 |==> n - 1
+11:AOR:+(int,int):/(int,int):examples.RingBuffer@<init>(int):49:n + 1 |==> n / 1
+12:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):49:data = new ArrayList<G>(n + 1) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:examples.RingBuffer@<init>(int):50:data.add(null) |==> <NO-OP>
+14:LVR:POS:0:examples.RingBuffer@<init>(int):51:1 |==> 0
+15:LVR:POS:NEG:examples.RingBuffer@<init>(int):51:1 |==> -1
+16:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):51:start = 1 |==> <NO-OP>
+17:LVR:POS:0:examples.RingBuffer@<init>(int):52:1 |==> 0
+18:LVR:POS:NEG:examples.RingBuffer@<init>(int):52:1 |==> -1
+19:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):52:free = 1 |==> <NO-OP>
+20:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):53:capacity_ = n |==> <NO-OP>
+21:COR:isEmpty():TRUE:examples.RingBuffer@item():69:isEmpty() |==> false
+22:COR:isEmpty():FALSE:examples.RingBuffer@item():69:isEmpty() |==> true
+23:EVR:<METHOD_INVOCATION(G)>:<DEFAULT>:examples.RingBuffer@item():71:data.get(start) |==> null
+24:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:examples.RingBuffer@item():76:result |==> null
+25:ROR:>(int,int):!=(int,int):examples.RingBuffer@count():84:free > start |==> free != start
+26:ROR:>(int,int):>=(int,int):examples.RingBuffer@count():84:free > start |==> free >= start
+27:ROR:>(int,int):FALSE(int,int):examples.RingBuffer@count():84:free > start |==> false
+28:AOR:-(int,int):%(int,int):examples.RingBuffer@count():85:free - start |==> free % start
+29:AOR:-(int,int):*(int,int):examples.RingBuffer@count():85:free - start |==> free * start
+30:AOR:-(int,int):+(int,int):examples.RingBuffer@count():85:free - start |==> free + start
+31:AOR:-(int,int):/(int,int):examples.RingBuffer@count():85:free - start |==> free / start
+32:LVR:POS:0:examples.RingBuffer@count():87:1 |==> 0
+33:LVR:POS:NEG:examples.RingBuffer@count():87:1 |==> -1
+34:AOR:-(int,int):%(int,int):examples.RingBuffer@count():87:data.size() - 1 |==> data.size() % 1
+35:AOR:-(int,int):*(int,int):examples.RingBuffer@count():87:data.size() - 1 |==> data.size() * 1
+36:AOR:-(int,int):+(int,int):examples.RingBuffer@count():87:data.size() - 1 |==> data.size() + 1
+37:AOR:-(int,int):/(int,int):examples.RingBuffer@count():87:data.size() - 1 |==> data.size() / 1
+38:AOR:-(int,int):%(int,int):examples.RingBuffer@count():87:(data.size() - 1) - start |==> (data.size() - 1) % start
+39:AOR:-(int,int):*(int,int):examples.RingBuffer@count():87:(data.size() - 1) - start |==> (data.size() - 1) * start
+40:AOR:-(int,int):+(int,int):examples.RingBuffer@count():87:(data.size() - 1) - start |==> (data.size() - 1) + start
+41:AOR:-(int,int):/(int,int):examples.RingBuffer@count():87:(data.size() - 1) - start |==> (data.size() - 1) / start
+42:AOR:+(int,int):%(int,int):examples.RingBuffer@count():87:(data.size() - 1) - start + free |==> ((data.size() - 1) - start) % free
+43:AOR:+(int,int):*(int,int):examples.RingBuffer@count():87:(data.size() - 1) - start + free |==> ((data.size() - 1) - start) * free
+44:AOR:+(int,int):-(int,int):examples.RingBuffer@count():87:(data.size() - 1) - start + free |==> (data.size() - 1) - start - free
+45:AOR:+(int,int):/(int,int):examples.RingBuffer@count():87:(data.size() - 1) - start + free |==> ((data.size() - 1) - start) / free
+46:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.RingBuffer@count():88:result |==> 0
+47:LVR:POS:0:examples.RingBuffer@dataCount():94:1 |==> 0
+48:LVR:POS:NEG:examples.RingBuffer@dataCount():94:1 |==> -1
+49:AOR:+(int,int):%(int,int):examples.RingBuffer@dataCount():94:capacity_ + 1 |==> capacity_ % 1
+50:AOR:+(int,int):*(int,int):examples.RingBuffer@dataCount():94:capacity_ + 1 |==> capacity_ * 1
+51:AOR:+(int,int):-(int,int):examples.RingBuffer@dataCount():94:capacity_ + 1 |==> capacity_ - 1
+52:AOR:+(int,int):/(int,int):examples.RingBuffer@dataCount():94:capacity_ + 1 |==> capacity_ / 1
+53:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.RingBuffer@capacity():101:capacity_ |==> 0
+54:ROR:==(int,int):<=(int,int):examples.RingBuffer@isEmpty():110:start == free |==> start <= free
+55:ROR:==(int,int):>=(int,int):examples.RingBuffer@isEmpty():110:start == free |==> start >= free
+56:ROR:==(int,int):FALSE(int,int):examples.RingBuffer@isEmpty():110:start == free |==> false
+57:LVR:POS:0:examples.RingBuffer@isFull():120:1 |==> 0
+58:LVR:POS:NEG:examples.RingBuffer@isFull():120:1 |==> -1
+59:ROR:==(int,int):<=(int,int):examples.RingBuffer@isFull():120:start == 1 |==> start <= 1
+60:ROR:==(int,int):>=(int,int):examples.RingBuffer@isFull():120:start == 1 |==> start >= 1
+61:ROR:==(int,int):FALSE(int,int):examples.RingBuffer@isFull():120:start == 1 |==> false
+62:ROR:==(int,int):<=(int,int):examples.RingBuffer@isFull():121:free == dataCount() |==> free <= dataCount()
+63:ROR:==(int,int):>=(int,int):examples.RingBuffer@isFull():121:free == dataCount() |==> free >= dataCount()
+64:ROR:==(int,int):FALSE(int,int):examples.RingBuffer@isFull():121:free == dataCount() |==> false
+65:LVR:POS:0:examples.RingBuffer@isFull():123:1 |==> 0
+66:LVR:POS:NEG:examples.RingBuffer@isFull():123:1 |==> -1
+67:AOR:-(int,int):%(int,int):examples.RingBuffer@isFull():123:start - 1 |==> start % 1
+68:AOR:-(int,int):*(int,int):examples.RingBuffer@isFull():123:start - 1 |==> start * 1
+69:AOR:-(int,int):+(int,int):examples.RingBuffer@isFull():123:start - 1 |==> start + 1
+70:AOR:-(int,int):/(int,int):examples.RingBuffer@isFull():123:start - 1 |==> start / 1
+71:ROR:==(int,int):<=(int,int):examples.RingBuffer@isFull():123:free == start - 1 |==> free <= start - 1
+72:ROR:==(int,int):>=(int,int):examples.RingBuffer@isFull():123:free == start - 1 |==> free >= start - 1
+73:ROR:==(int,int):FALSE(int,int):examples.RingBuffer@isFull():123:free == start - 1 |==> false
+74:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:examples.RingBuffer@isFull():127:result |==> false
+75:COR:isFull():TRUE:examples.RingBuffer@extend(G):137:isFull() |==> false
+76:COR:isFull():FALSE:examples.RingBuffer@extend(G):137:isFull() |==> true
+77:STD:<CALL>:<NO-OP>:examples.RingBuffer@extend(G):138:data.add(a_value) |==> <NO-OP>
+78:ROR:==(int,int):<=(int,int):examples.RingBuffer@extend(G):139:free == dataCount() |==> free <= dataCount()
+79:ROR:==(int,int):>=(int,int):examples.RingBuffer@extend(G):139:free == dataCount() |==> free >= dataCount()
+80:ROR:==(int,int):FALSE(int,int):examples.RingBuffer@extend(G):139:free == dataCount() |==> false
+81:LVR:POS:0:examples.RingBuffer@extend(G):140:1 |==> 0
+82:LVR:POS:NEG:examples.RingBuffer@extend(G):140:1 |==> -1
+83:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@extend(G):140:free = 1 |==> <NO-OP>
+84:LVR:POS:0:examples.RingBuffer@extend(G):142:1 |==> 0
+85:LVR:POS:NEG:examples.RingBuffer@extend(G):142:1 |==> -1
+86:AOR:+(int,int):%(int,int):examples.RingBuffer@extend(G):142:free + 1 |==> free % 1
+87:AOR:+(int,int):*(int,int):examples.RingBuffer@extend(G):142:free + 1 |==> free * 1
+88:AOR:+(int,int):-(int,int):examples.RingBuffer@extend(G):142:free + 1 |==> free - 1
+89:AOR:+(int,int):/(int,int):examples.RingBuffer@extend(G):142:free + 1 |==> free / 1
+90:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@extend(G):142:free = free + 1 |==> <NO-OP>
+91:COR:isEmpty():TRUE:examples.RingBuffer@remove():155:isEmpty() |==> false
+92:COR:isEmpty():FALSE:examples.RingBuffer@remove():155:isEmpty() |==> true
+93:ROR:==(int,int):<=(int,int):examples.RingBuffer@remove():157:start == dataCount() |==> start <= dataCount()
+94:ROR:==(int,int):>=(int,int):examples.RingBuffer@remove():157:start == dataCount() |==> start >= dataCount()
+95:ROR:==(int,int):FALSE(int,int):examples.RingBuffer@remove():157:start == dataCount() |==> false
+96:LVR:POS:0:examples.RingBuffer@remove():158:1 |==> 0
+97:LVR:POS:NEG:examples.RingBuffer@remove():158:1 |==> -1
+98:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@remove():158:start = 1 |==> <NO-OP>
+99:STD:<INC>:<NO-OP>:examples.RingBuffer@remove():160:start++ |==> <NO-OP>
+100:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@wipeOut():173:start = free |==> <NO-OP>
+101:LVR:TRUE:FALSE:examples.RingBuffer@wipeOut():174:true |==> false

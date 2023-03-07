@@ -1,0 +1,11 @@
+1:ROR:<(int,int):!=(int,int):jts.MathUtil@clamp(int,int,int):43:x < min |==> x != min
+2:ROR:<(int,int):<=(int,int):jts.MathUtil@clamp(int,int,int):43:x < min |==> x <= min
+3:ROR:<(int,int):FALSE(int,int):jts.MathUtil@clamp(int,int,int):43:x < min |==> false
+4:EVR:<IDENTIFIER(int)>:<DEFAULT>:jts.MathUtil@clamp(int,int,int):44:min |==> 0
+5:ROR:>(int,int):!=(int,int):jts.MathUtil@clamp(int,int,int):45:x > max |==> x != max
+6:ROR:>(int,int):>=(int,int):jts.MathUtil@clamp(int,int,int):45:x > max |==> x >= max
+7:ROR:>(int,int):FALSE(int,int):jts.MathUtil@clamp(int,int,int):45:x > max |==> false
+8:EVR:<IDENTIFIER(int)>:<DEFAULT>:jts.MathUtil@clamp(int,int,int):46:max |==> 0
+9:EVR:<IDENTIFIER(int)>:<DEFAULT>:jts.MathUtil@clamp(int,int,int):48:x |==> 0
+10:LVR:TRUE:FALSE:jts.MathUtil@clamp(int,int,int):51:true |==> false
+11:EVR:<IDENTIFIER(int)>:<DEFAULT>:jts.MathUtil@clamp(int,int,int):52:result |==> 0

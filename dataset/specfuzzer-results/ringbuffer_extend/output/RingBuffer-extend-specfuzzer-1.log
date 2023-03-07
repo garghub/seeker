@@ -1,0 +1,2182 @@
+> SpecFuzzer
+# Inference step (Daikon + Fuzzed Specs)
+Daikon version 5.8.2, released May 4, 2020; http://plse.cs.washington.edu/daikon.
+
+Loading invariants from file: invs_file.xml
+Loaded: 0
+
+Fuzzing specs:
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 >= #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 = 0) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= Integer_Variable_1)
+Discarded due to arity: 4 - (Integer_Variable_0 = #(RingBuffer.data)) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 >= 1) or (Integer_Variable_1 < 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / -1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 > #(RingBuffer.data)) xor (Integer_Variable_1 > #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 = #(RingBuffer.data)) iff (Integer_Variable_1 < -1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + -1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 <= #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= #(RingBuffer.data)) or (Integer_Variable_1 <= 1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Discarded due to arity: 4 - (Integer_Variable_0 <= #(RingBuffer.data)) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= #(RingBuffer.data)) iff (Integer_Variable_1 >= -1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= -1)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 <= 0)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = -1) iff (Integer_Variable_1 != #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 > #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 >= -1)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 <= 1) implies (Integer_Variable_1 = #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 = 1)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 <= #(RingBuffer.data)) implies (Integer_Variable_1 <= -1)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 > 0) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 < -1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 != 0) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 < 0)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < -1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 <= #(RingBuffer.data)) or (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = -1)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 >= #(RingBuffer.data)) or (Integer_Variable_1 = 1)
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Discarded due to arity: 4 - (Integer_Variable_0 >= #(RingBuffer.data)) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > 1)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 < #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 = 0)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 <= -1)
+Fuzzed spec: (Integer_Variable_0 != 1) implies (Integer_Variable_1 != #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 >= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 0
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 > 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 > 1) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= 1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 >= 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 = 0)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 0
+Fuzzed spec: (Integer_Variable_0 > #(RingBuffer.data)) xor (Integer_Variable_1 = #(RingBuffer.data))
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 != #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 <= #(RingBuffer.data)) iff (Integer_Variable_1 > #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 != #(RingBuffer.data)) iff (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 > 1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 = -1) implies (Integer_Variable_1 >= #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 = #(RingBuffer.data)) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 != 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + -1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 < Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 >= #(RingBuffer.data))
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= 0)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 <= #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 < 0) iff (Integer_Variable_1 != 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 0
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != -1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= 0)
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 > #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = 1) or (Integer_Variable_1 <= #(RingBuffer.data))
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 >= 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 0
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 != #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != 1)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 > 0) xor (Integer_Variable_1 < Integer_Variable_2)
+Discarded due to arity: 4 - (Integer_Variable_0 <= #(RingBuffer.data)) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != 1) xor (Integer_Variable_1 = #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 >= 0) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 != #(RingBuffer.data)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - #(RingBuffer.data)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - -1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % -1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * -1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 > 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 >= 0)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 >= 0) iff (Integer_Variable_1 <= #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Discarded due to arity: 4 - (Integer_Variable_0 <= #(RingBuffer.data)) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 <= #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 <= #(RingBuffer.data)) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != 1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 != #(RingBuffer.data)) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= #(RingBuffer.data)) or (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= 1)
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Discarded due to arity: 4 - (Integer_Variable_0 <= #(RingBuffer.data)) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + -1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < 1)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 >= 1
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - 0
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 > -1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 > 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 > 1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != 0)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 > #(RingBuffer.data)) implies (Integer_Variable_1 >= #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 0
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != 0)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 >= 0)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: (Integer_Variable_0 = -1) or (Integer_Variable_1 <= #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Discarded due to arity: 4 - (Integer_Variable_0 = #(RingBuffer.data)) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * -1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 >= #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 >= 0)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 != 0)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 <= #(RingBuffer.data)) or (Integer_Variable_1 > -1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = 1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < 0)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 = 0)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 < #(RingBuffer.data)) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 < 0)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 <= -1)
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 > 1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 > 1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 0
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != -1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = 1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= -1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 = 1) iff (Integer_Variable_1 <= 1)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 <= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 != 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 <= 0)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 <= #(RingBuffer.data)) or (Integer_Variable_1 >= -1)
+Discarded due to arity: 4 - (Integer_Variable_0 > #(RingBuffer.data)) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % -1
+Discarded due to arity: 4 - (Integer_Variable_0 < #(RingBuffer.data)) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 < 0)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - -1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 < #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 <= 1)
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 <= -1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = 1)
+Discarded due to arity: 4 - (Integer_Variable_0 >= #(RingBuffer.data)) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / -1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - -1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 > #(RingBuffer.data)) xor (Integer_Variable_1 = 0)
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % 1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 0
+Fuzzed spec: (Integer_Variable_0 >= 1) iff (Integer_Variable_1 = 1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != #(RingBuffer.data))
+Discarded due to arity: 4 - (Integer_Variable_0 != #(RingBuffer.data)) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < Integer_Variable_1)
+Discarded due to arity: 4 - (Integer_Variable_0 != #(RingBuffer.data)) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 != #(RingBuffer.data)) implies (Integer_Variable_1 = #(RingBuffer.data))
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 = 0) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 > #(RingBuffer.data)) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * 0
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 < #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < -1)
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + -1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 < 0)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > #(RingBuffer.data)
+Discarded due to arity: 4 - (Integer_Variable_0 = #(RingBuffer.data)) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 != #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 <= Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 > #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 != #(RingBuffer.data)) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 != -1) iff (Integer_Variable_1 <= 0)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 != 1) implies (Integer_Variable_1 > 0)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 > -1)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 >= 1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 != #(RingBuffer.data)) or (Integer_Variable_1 >= #(RingBuffer.data))
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != 1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 > 1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= 0)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 >= 1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 >= -1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % #(RingBuffer.data)
+Discarded due to arity: 4 - (Integer_Variable_0 < #(RingBuffer.data)) implies (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - -1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: no n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 > #(RingBuffer.data)) or (Integer_Variable_1 > 0)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / 0
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= 0)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 >= #(RingBuffer.data)) or (Integer_Variable_1 < #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 = 1)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Discarded due to arity: 4 - (Integer_Variable_0 != #(RingBuffer.data)) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 <= -1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != -1)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 / -1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 != #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 != 0)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + 1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 <= -1)
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 > 0)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 < 0)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 < 1) or (Integer_Variable_1 >= -1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 <= 0) xor (Integer_Variable_1 != #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 > #(RingBuffer.data)) implies (Integer_Variable_1 != #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 != 0)
+Fuzzed spec: (Integer_Variable_0 >= -1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 >= #(RingBuffer.data)) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 = 0) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 >= #(RingBuffer.data)) or (Integer_Variable_1 >= -1)
+Fuzzed spec: (Integer_Variable_0 = #(RingBuffer.data)) implies (Integer_Variable_1 <= -1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 > 0)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 < #(RingBuffer.data)) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < -1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 > Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * 0
+Discarded due to arity: 4 - (Integer_Variable_0 > #(RingBuffer.data)) or (Integer_Variable_1 > Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 < -1)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 != 1) or (Integer_Variable_1 > 0)
+Discarded due to arity: 4 - (Integer_Variable_0 != #(RingBuffer.data)) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 < #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 <= #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 >= 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 > #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 > -1)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 > #(RingBuffer.data)) iff (Integer_Variable_1 <= Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 = #(RingBuffer.data)) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 = #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 < #(RingBuffer.data)) implies (Integer_Variable_1 != #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 <= -1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) xor (Integer_Variable_1 >= 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Integer_Variable_0 > #(RingBuffer.data)) implies (Integer_Variable_1 < #(RingBuffer.data))
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 > -1)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 != #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= 0)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 > Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 != -1)
+Fuzzed spec: Integer_Variable_0 = 0
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 < #(RingBuffer.data)) implies (Integer_Variable_1 < #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + -1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % -1
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Discarded due to arity: 4 - (Integer_Variable_0 != #(RingBuffer.data)) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Discarded due to arity: 4 - (Integer_Variable_0 = #(RingBuffer.data)) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 = 1)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 > 0)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 <= -1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 = #(RingBuffer.data)) iff (Integer_Variable_1 = 0)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 = -1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 0
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 < #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % -1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 = 1) xor (Integer_Variable_1 >= #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > 0)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 0
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < 0)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = 0)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - 0
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 > #(RingBuffer.data)) xor (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= 0
+Fuzzed spec: Integer_Variable_0 < -1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 = #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < -1)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 1)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= -1) xor (Integer_Variable_1 = 1)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 <= #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / 0
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 0
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 < 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 <= #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 > -1) or (Integer_Variable_1 >= 0)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 != #(RingBuffer.data)) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 < #(RingBuffer.data)) implies (Integer_Variable_1 < 1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 <= #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= #(RingBuffer.data))
+Discarded due to arity: 4 - (Integer_Variable_0 > #(RingBuffer.data)) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 <= #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 >= #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < -1)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 < 0) xor (Integer_Variable_1 != #(RingBuffer.data))
+Discarded due to arity: 4 - (Integer_Variable_0 >= #(RingBuffer.data)) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 != 0) iff (Integer_Variable_1 != 0)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 != 1)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= #(RingBuffer.data)) xor (Integer_Variable_1 != #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > -1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * -1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 < 0) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > 1)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 < 1) iff (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 < 1)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % 0
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 >= 1)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 <= 0)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 < 1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < -1)
+Fuzzed spec: (Integer_Variable_0 = #(RingBuffer.data)) or (Integer_Variable_1 < #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 >= 0)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * -1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 > 0)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * -1
+Fuzzed spec: (Integer_Variable_0 >= #(RingBuffer.data)) xor (Integer_Variable_1 > 1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 = 0)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = 1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 / 1
+Discarded due to arity: 4 - (Integer_Variable_0 = #(RingBuffer.data)) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 <= 1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 <= 0)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 * #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 = -1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 <= 0
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 = #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 != -1) implies (Integer_Variable_1 <= #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 = #(RingBuffer.data))
+Discarded due to arity: 4 - (Integer_Variable_0 = #(RingBuffer.data)) iff (Integer_Variable_1 != Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * 0
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 < Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 >= 1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= -1)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 != -1) iff (Integer_Variable_1 <= #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 >= 0) xor (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < #(RingBuffer.data)) or (Integer_Variable_1 >= 0)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 = 1) or (Integer_Variable_1 <= #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * -1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= 0)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 < 0)
+Discarded due to arity: 4 - (Integer_Variable_0 != #(RingBuffer.data)) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 > -1) iff (Integer_Variable_1 >= 0)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 0
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + 1
+Fuzzed spec: (Integer_Variable_0 = 0) or (Integer_Variable_1 <= 0)
+Fuzzed spec: Integer_Variable_0 = 1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % 0
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < -1)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 != #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 = 0) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < 1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 <= 0)
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= 0)
+Fuzzed spec: (Integer_Variable_0 > -1) iff (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= 0)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 <= 1) implies (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > 0
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Discarded due to arity: 4 - (Integer_Variable_0 >= #(RingBuffer.data)) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 <= 1)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 != -1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 != #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 != #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < #(RingBuffer.data)) or (Integer_Variable_1 <= 0)
+Fuzzed spec: (Integer_Variable_0 >= -1) iff (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 > 0)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 >= 0) implies (Integer_Variable_1 != Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 >= Integer_Variable_1) xor (Integer_Variable_1 != #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 >= Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 <= #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 > -1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 - #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 * #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 <= #(RingBuffer.data)) implies (Integer_Variable_1 < #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 = #(RingBuffer.data)) iff (Integer_Variable_1 != #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= #(RingBuffer.data)) xor (Integer_Variable_1 > #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 < 0)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < 1)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * -1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 >= -1)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < 0)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 <= #(RingBuffer.data)) implies (Integer_Variable_1 < 1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > 1)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < 1) iff (Integer_Variable_1 <= #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + 0
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 - -1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 > -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 = #(RingBuffer.data)) or (Integer_Variable_1 < #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 != 1) or (Integer_Variable_1 = -1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 = 1) iff (Integer_Variable_1 <= #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 = #(RingBuffer.data)) implies (Integer_Variable_1 <= -1)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / 0
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 < #(RingBuffer.data)) implies (Integer_Variable_1 != #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 != 0) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 >= 1)
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 <= 0)
+Fuzzed spec: (Integer_Variable_0 = #(RingBuffer.data)) implies (Integer_Variable_1 = -1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 0)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 % -1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > 1) xor (Integer_Variable_1 != -1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + -1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 = #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 - 1
+Fuzzed spec: (Integer_Variable_0 > #(RingBuffer.data)) or (Integer_Variable_1 >= #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 <= #(RingBuffer.data)) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 - Integer_Variable_2
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 != -1
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 * Integer_Variable_2
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 0)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 0
+Fuzzed spec: (Integer_Variable_0 <= 0) iff (Integer_Variable_1 != #(RingBuffer.data))
+Discarded due to arity: 4 - (Integer_Variable_0 <= #(RingBuffer.data)) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Integer_Variable_0 >= #(RingBuffer.data)) iff (Integer_Variable_1 <= #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 * 1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 + 1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 <= Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 != #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 >= 1)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 > -1)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 > #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 <= -1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 = 0)
+Fuzzed spec: Integer_Variable_0 <= #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 = -1) implies (Integer_Variable_1 >= 1)
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 >= 0) or (Integer_Variable_1 != 0)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= 1)
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 <= 1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 < 0
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 < #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 > #(RingBuffer.data)) or (Integer_Variable_1 <= Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 0)
+Fuzzed spec: Integer_Variable_0 != 1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 != -1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 > #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1 + 1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 >= -1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 > -1) xor (Integer_Variable_1 = Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 <= 1)
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) iff (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 - 0
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 >= 0)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 != 0)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 < -1)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 > #(RingBuffer.data)) implies (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % 1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Discarded due to arity: 4 - (Integer_Variable_0 < #(RingBuffer.data)) or (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: no n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 <= #(RingBuffer.data)) xor (Integer_Variable_1 < #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 <= #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 = 1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 = Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 > -1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 != 0)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= 0)
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 <= 0)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 = #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 < #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = #(RingBuffer.data)
+Fuzzed spec: (Integer_Variable_0 = 1) xor (Integer_Variable_1 < 1)
+Fuzzed spec: (Integer_Variable_0 >= #(RingBuffer.data)) xor (Integer_Variable_1 < #(RingBuffer.data))
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 xor Boolean_Variable_1
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= #(RingBuffer.data)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 > -1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 % -1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 = Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 <= 1
+Discarded due to arity: 4 - (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 >= 1) iff (Integer_Variable_1 != 0)
+Fuzzed spec: Integer_Variable_0 <= #(RingBuffer.data)
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 > Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = -1)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1 % Integer_Variable_2
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 < -1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 < Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 < -1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 / #(RingBuffer.data)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 <= 1)
+Fuzzed spec: Integer_Variable_0 = 0
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 <= 1) implies (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 = -1
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 < #(RingBuffer.data)) or (Integer_Variable_1 >= #(RingBuffer.data))
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 >= Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 < -1) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 + Integer_Variable_2
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 = #(RingBuffer.data)) iff (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 < #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 != Integer_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 != Integer_Variable_1)
+Discarded due to arity: 4 - (Boolean_Variable_0 xor Boolean_Variable_1) xor (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 < 1) or (Integer_Variable_1 = 1)
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 * #(RingBuffer.data)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 >= Integer_Variable_1)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 <= #(RingBuffer.data))
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 >= 1)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 > Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 < -1) xor (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= #(RingBuffer.data)) or (Integer_Variable_1 != #(RingBuffer.data))
+Discarded due to arity: 4 - (Integer_Variable_0 = #(RingBuffer.data)) implies (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 > Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 / Integer_Variable_2
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Integer_Variable_0 > Integer_Variable_1
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: (Integer_Variable_0 <= 1) or (Integer_Variable_1 = Integer_Variable_2)
+Discarded due to arity: 4 - (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 <= Integer_Variable_1)
+Fuzzed spec: Integer_Variable_0 >= Integer_Variable_1 + #(RingBuffer.data)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 >= Integer_Variable_2)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: (Integer_Variable_0 >= #(RingBuffer.data)) or (Integer_Variable_1 >= #(RingBuffer.data))
+Fuzzed spec: Integer_Variable_0 <= Integer_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0) implies (Integer_Variable_0 != #(RingBuffer.data))
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: some n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0 or Boolean_Variable_1) xor (Integer_Variable_0 <= 0)
+Fuzzed spec: (Boolean_Variable_0) iff (Integer_Variable_0 != -1)
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != 1)
+Fuzzed spec: (Boolean_Variable_0) or (Integer_Variable_0 = -1)
+Fuzzed spec: all n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 > #(RingBuffer.data)) or (Integer_Variable_1 <= Integer_Variable_2)
+Fuzzed spec: (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 > 1)
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 < -1)
+Fuzzed spec: Integer_Variable_0 >= #(RingBuffer.data)
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 >= 0)
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * -1
+Fuzzed spec: Integer_Variable_0 < Integer_Variable_1 / 1
+Fuzzed spec: no n : RingBuffer.data : n = null
+Discarded due to arity: 4 - (Integer_Variable_0 = #(RingBuffer.data)) or (Integer_Variable_1 = Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 iff Boolean_Variable_1
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: all n : RingBuffer.data : n = null
+Fuzzed spec: (Integer_Variable_0 = -1) implies (Integer_Variable_1 >= 0)
+Fuzzed spec: (Integer_Variable_0 < -1) xor (Integer_Variable_1 < Integer_Variable_2)
+Fuzzed spec: Boolean_Variable_0 or Boolean_Variable_1
+Fuzzed spec: no n : RingBuffer.data : n != null
+Fuzzed spec: (Boolean_Variable_0) xor (Integer_Variable_0 != 0)
+Fuzzed spec: some n : RingBuffer.data : n = null
+Fuzzed spec: (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 >= 0)
+Fuzzed spec: Integer_Variable_0 <= 1
+Fuzzed spec: Integer_Variable_0 != 0
+Fuzzed spec: all n : RingBuffer.data : n != null
+Fuzzed spec: Integer_Variable_0 = Integer_Variable_1 * 1
+Fuzzed spec: Boolean_Variable_0 implies Boolean_Variable_1
+Unique fuzzed invariants: 480 (2000)
+Unary: 23 - Binary: 162 - Ternary: 295 - Discarded: 198
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+# Filtering step
+
+- Mutation is: 1:LVR:0:POS:examples.RingBuffer@<init>(int):47:0 |==> 1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m1.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 10:AOR:+(int,int):-(int,int):examples.RingBuffer@<init>(int):49:n + 1 |==> n - 1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m10.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 11:AOR:+(int,int):/(int,int):examples.RingBuffer@<init>(int):49:n + 1 |==> n / 1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m11.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 12:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):49:data = new ArrayList<G>(n + 1) |==> <NO-OP>
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m12.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 13:STD:<CALL>:<NO-OP>:examples.RingBuffer@<init>(int):50:data.add(null) |==> <NO-OP>
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m13.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 14:LVR:POS:0:examples.RingBuffer@<init>(int):51:1 |==> 0
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m14.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 15:LVR:POS:NEG:examples.RingBuffer@<init>(int):51:1 |==> -1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m15.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 16:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):51:start = 1 |==> <NO-OP>
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m16.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 17:LVR:POS:0:examples.RingBuffer@<init>(int):52:1 |==> 0
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m17.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 18:LVR:POS:NEG:examples.RingBuffer@<init>(int):52:1 |==> -1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m18.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 19:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):52:free = 1 |==> <NO-OP>
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m19.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 2:LVR:0:NEG:examples.RingBuffer@<init>(int):47:0 |==> -1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m2.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 20:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):53:capacity_ = n |==> <NO-OP>
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m20.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 3:ROR:>(int,int):!=(int,int):examples.RingBuffer@<init>(int):47:n > 0 |==> n != 0
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m3.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 4:ROR:>(int,int):>=(int,int):examples.RingBuffer@<init>(int):47:n > 0 |==> n >= 0
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m4.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 5:ROR:>(int,int):FALSE(int,int):examples.RingBuffer@<init>(int):47:n > 0 |==> false
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m5.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 6:LVR:POS:0:examples.RingBuffer@<init>(int):49:1 |==> 0
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m6.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 7:LVR:POS:NEG:examples.RingBuffer@<init>(int):49:1 |==> -1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m7.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 75:COR:isFull():TRUE:examples.RingBuffer@extend(G):137:isFull() |==> false
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m75.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 76:COR:isFull():FALSE:examples.RingBuffer@extend(G):137:isFull() |==> true
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m76.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 77:STD:<CALL>:<NO-OP>:examples.RingBuffer@extend(G):138:data.add(a_value) |==> <NO-OP>
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m77.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 78:ROR:==(int,int):<=(int,int):examples.RingBuffer@extend(G):139:free == dataCount() |==> free <= dataCount()
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m78.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 79:ROR:==(int,int):>=(int,int):examples.RingBuffer@extend(G):139:free == dataCount() |==> free >= dataCount()
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m79.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 8:AOR:+(int,int):%(int,int):examples.RingBuffer@<init>(int):49:n + 1 |==> n % 1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m8.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 80:ROR:==(int,int):FALSE(int,int):examples.RingBuffer@extend(G):139:free == dataCount() |==> false
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m80.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 81:LVR:POS:0:examples.RingBuffer@extend(G):140:1 |==> 0
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m81.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 82:LVR:POS:NEG:examples.RingBuffer@extend(G):140:1 |==> -1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m82.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 83:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@extend(G):140:free = 1 |==> <NO-OP>
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m83.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 84:LVR:POS:0:examples.RingBuffer@extend(G):142:1 |==> 0
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m84.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 85:LVR:POS:NEG:examples.RingBuffer@extend(G):142:1 |==> -1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m85.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 86:AOR:+(int,int):%(int,int):examples.RingBuffer@extend(G):142:free + 1 |==> free % 1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m86.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 87:AOR:+(int,int):*(int,int):examples.RingBuffer@extend(G):142:free + 1 |==> free base-invs-by-mutants.csv base_invs_file.xml experiments hs_err_pid1983241.log hs_err_pid51463.log hs_err_pid53479.log invs-by-mutants.csv invs.csv invs_file.xml lib literals mutants scripts testers 1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m87.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 88:AOR:+(int,int):-(int,int):examples.RingBuffer@extend(G):142:free + 1 |==> free - 1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m88.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 89:AOR:+(int,int):/(int,int):examples.RingBuffer@extend(G):142:free + 1 |==> free / 1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m89.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 9:AOR:+(int,int):*(int,int):examples.RingBuffer@<init>(int):49:n + 1 |==> n base-invs-by-mutants.csv base_invs_file.xml experiments hs_err_pid1983241.log hs_err_pid51463.log hs_err_pid53479.log invs-by-mutants.csv invs.csv invs_file.xml lib literals mutants scripts testers 1
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m9.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 90:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@extend(G):142:free = free + 1 |==> <NO-OP>
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m90.dtrace.gz
+Saving mutants results file
+
+- Mutation is: 91:LVR:TRUE:FALSE:examples.RingBuffer@extend(G):143:true |==> false
+Checking invs on mutant: experiments/ringbuffer_extend/setup-files/mutants/RingBufferTesterDriver-m91.dtrace.gz
+Saving mutants results file
+
+# Filtering step took minutes: 1
+# Mutation killing ability results saved in: experiments/ringbuffer_extend/output/RingBuffer-extend-specfuzzer-1-invs-by-mutants.csv
+
+# Writing assertions to file: experiments/ringbuffer_extend/output/RingBuffer-extend-specfuzzer-1.assertions
+
+# Filtering specs with buckets
+> Mutant filter from file: experiments/ringbuffer_extend/output/RingBuffer-extend-specfuzzer-1-invs-by-mutants.csv
+Unique mutants: 37
+Loading assertions from: experiments/ringbuffer_extend/output/RingBuffer-extend-specfuzzer-1.assertions
+Specs killing mutants: 0
+
+> Minimizing by exploring the bit vector of each spec
+Building bit vectors of size: 37
+Building buckets
+=====================================
+Buckets: 0
+Buckets: 0
+Specs: 0
+Saved in file: experiments/ringbuffer_extend/output/RingBuffer-extend-specfuzzer-1-buckets.assertions
+

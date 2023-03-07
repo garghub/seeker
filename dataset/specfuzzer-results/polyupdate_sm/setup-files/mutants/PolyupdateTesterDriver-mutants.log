@@ -1,0 +1,56 @@
+1:STD:<CALL>:<NO-OP>:examples.Polyupdate@<init>():8:clear() |==> <NO-OP>
+2:EVR:<NEW_CLASS(java.util.ArrayList<java.lang.Integer>)>:<DEFAULT>:examples.Polyupdate@add3(int,int,int,int):47:new java.util.ArrayList<>() |==> null
+3:STD:<CALL>:<NO-OP>:examples.Polyupdate@add3(int,int,int,int):48:x.add(x1) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:examples.Polyupdate@add3(int,int,int,int):49:x.add(x2) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:examples.Polyupdate@add3(int,int,int,int):50:x.add(x3) |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:examples.Polyupdate@add3(int,int,int,int):51:_var23 = s |==> <NO-OP>
+7:LVR:0:POS:examples.Polyupdate@add3(int,int,int,int):52:0 |==> 1
+8:LVR:0:NEG:examples.Polyupdate@add3(int,int,int,int):52:0 |==> -1
+9:AOR:+(int,int):%(int,int):examples.Polyupdate@add3(int,int,int,int):54:_sum345639 + _x345640 |==> _sum345639 % _x345640
+10:AOR:+(int,int):*(int,int):examples.Polyupdate@add3(int,int,int,int):54:_sum345639 + _x345640 |==> _sum345639 * _x345640
+11:AOR:+(int,int):-(int,int):examples.Polyupdate@add3(int,int,int,int):54:_sum345639 + _x345640 |==> _sum345639 - _x345640
+12:AOR:+(int,int):/(int,int):examples.Polyupdate@add3(int,int,int,int):54:_sum345639 + _x345640 |==> _sum345639 / _x345640
+13:STD:<ASSIGN>:<NO-OP>:examples.Polyupdate@add3(int,int,int,int):54:_sum345639 = (_sum345639 + _x345640) |==> <NO-OP>
+14:STD:<ASSIGN>:<NO-OP>:examples.Polyupdate@add3(int,int,int,int):56:_var426 = _sum345639 |==> <NO-OP>
+15:STD:<ASSIGN>:<NO-OP>:examples.Polyupdate@<init>(java.util.ArrayList<java.lang.Integer>,int):60:_var23 = s |==> <NO-OP>
+16:LVR:0:POS:examples.Polyupdate@<init>(java.util.ArrayList<java.lang.Integer>,int):61:0 |==> 1
+17:LVR:0:NEG:examples.Polyupdate@<init>(java.util.ArrayList<java.lang.Integer>,int):61:0 |==> -1
+18:AOR:+(int,int):%(int,int):examples.Polyupdate@<init>(java.util.ArrayList<java.lang.Integer>,int):63:_sum345639 + _x345640 |==> _sum345639 % _x345640
+19:AOR:+(int,int):*(int,int):examples.Polyupdate@<init>(java.util.ArrayList<java.lang.Integer>,int):63:_sum345639 + _x345640 |==> _sum345639 * _x345640
+20:AOR:+(int,int):-(int,int):examples.Polyupdate@<init>(java.util.ArrayList<java.lang.Integer>,int):63:_sum345639 + _x345640 |==> _sum345639 - _x345640
+21:AOR:+(int,int):/(int,int):examples.Polyupdate@<init>(java.util.ArrayList<java.lang.Integer>,int):63:_sum345639 + _x345640 |==> _sum345639 / _x345640
+22:STD:<ASSIGN>:<NO-OP>:examples.Polyupdate@<init>(java.util.ArrayList<java.lang.Integer>,int):63:_sum345639 = (_sum345639 + _x345640) |==> <NO-OP>
+23:STD:<ASSIGN>:<NO-OP>:examples.Polyupdate@<init>(java.util.ArrayList<java.lang.Integer>,int):65:_var426 = _sum345639 |==> <NO-OP>
+24:LVR:0:POS:examples.Polyupdate@clear():69:0 |==> 1
+25:LVR:0:NEG:examples.Polyupdate@clear():69:0 |==> -1
+26:STD:<ASSIGN>:<NO-OP>:examples.Polyupdate@clear():69:_var23 = 0 |==> <NO-OP>
+27:LVR:0:POS:examples.Polyupdate@clear():70:0 |==> 1
+28:LVR:0:NEG:examples.Polyupdate@clear():70:0 |==> -1
+29:STD:<ASSIGN>:<NO-OP>:examples.Polyupdate@clear():71:_var426 = _sum345641 |==> <NO-OP>
+30:AOR:+(int,int):%(int,int):examples.Polyupdate@sm():75:_var23 + _var426 |==> _var23 % _var426
+31:AOR:+(int,int):*(int,int):examples.Polyupdate@sm():75:_var23 + _var426 |==> _var23 * _var426
+32:AOR:+(int,int):-(int,int):examples.Polyupdate@sm():75:_var23 + _var426 |==> _var23 - _var426
+33:AOR:+(int,int):/(int,int):examples.Polyupdate@sm():75:_var23 + _var426 |==> _var23 / _var426
+34:LVR:TRUE:FALSE:examples.Polyupdate@sm():76:true |==> false
+35:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.Polyupdate@sm():77:result |==> 0
+36:LVR:0:POS:examples.Polyupdate@a(int):81:0 |==> 1
+37:LVR:0:NEG:examples.Polyupdate@a(int):81:0 |==> -1
+38:LVR:0:POS:examples.Polyupdate@a(int):82:0 |==> 1
+39:LVR:0:NEG:examples.Polyupdate@a(int):82:0 |==> -1
+40:ROR:>(int,int):!=(int,int):examples.Polyupdate@a(int):82:y > 0 |==> y != 0
+41:ROR:>(int,int):>=(int,int):examples.Polyupdate@a(int):82:y > 0 |==> y >= 0
+42:ROR:>(int,int):FALSE(int,int):examples.Polyupdate@a(int):82:y > 0 |==> false
+43:AOR:+(int,int):%(int,int):examples.Polyupdate@a(int):83:_var23 + y |==> _var23 % y
+44:AOR:+(int,int):*(int,int):examples.Polyupdate@a(int):83:_var23 + y |==> _var23 * y
+45:AOR:+(int,int):-(int,int):examples.Polyupdate@a(int):83:_var23 + y |==> _var23 - y
+46:AOR:+(int,int):/(int,int):examples.Polyupdate@a(int):83:_var23 + y |==> _var23 / y
+47:STD:<ASSIGN>:<NO-OP>:examples.Polyupdate@a(int):83:_conditional_result345643 = (_var23 + y) |==> <NO-OP>
+48:STD:<ASSIGN>:<NO-OP>:examples.Polyupdate@a(int):85:_conditional_result345643 = _var23 |==> <NO-OP>
+49:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.Polyupdate@a(int):87:_conditional_result345643 |==> 0
+50:AOR:+(int,int):%(int,int):examples.Polyupdate@a(int):88:_var426 + y |==> _var426 % y
+51:AOR:+(int,int):*(int,int):examples.Polyupdate@a(int):88:_var426 + y |==> _var426 * y
+52:AOR:+(int,int):-(int,int):examples.Polyupdate@a(int):88:_var426 + y |==> _var426 - y
+53:AOR:+(int,int):/(int,int):examples.Polyupdate@a(int):88:_var426 + y |==> _var426 / y
+54:STD:<ASSIGN>:<NO-OP>:examples.Polyupdate@a(int):89:_var23 = _var345637 |==> <NO-OP>
+55:STD:<ASSIGN>:<NO-OP>:examples.Polyupdate@a(int):90:_var426 = _var345638 |==> <NO-OP>
+56:LVR:TRUE:FALSE:examples.Polyupdate@a(int):91:true |==> false

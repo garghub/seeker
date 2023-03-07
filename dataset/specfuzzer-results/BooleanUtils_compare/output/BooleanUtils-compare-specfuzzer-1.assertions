@@ -1,0 +1,52 @@
+===========================================================================
+lang3.BooleanUtils:::OBJECT
+===========================================================================
+lang3.BooleanUtils.compare(boolean, boolean):::ENTER
+===========================================================================
+lang3.BooleanUtils.compare(boolean, boolean):::EXIT
+\result == -1 || \result == 0 || \result == 1
+FuzzedInvariant ( Integer_Variable_0 <= 1 ) holds for: return
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: return
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != -1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 <= 1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 > -1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 >= -1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 >= 0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != 1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 < 1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 <= 0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 <= 1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 >= -1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != 1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 < 1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 <= 0) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 <= 1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 >= -1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != -1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 <= 1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 > -1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 >= -1) ) holds for: <orig(y), return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) iff (Integer_Variable_0 = 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != -1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 != 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 <= 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) implies (Integer_Variable_0 >= -1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) or (Integer_Variable_0 >= -1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 iff Boolean_Variable_1) xor (Integer_Variable_0 != 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 != 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) iff (Integer_Variable_0 <= 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 <= 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) implies (Integer_Variable_0 <= 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 != -1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 = 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) or (Integer_Variable_0 >= 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 = 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 implies Boolean_Variable_1) xor (Integer_Variable_0 >= 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 or Boolean_Variable_1) implies (Integer_Variable_0 <= 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 <= 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 or Boolean_Variable_1) or (Integer_Variable_0 = 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 != 0) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) implies (Integer_Variable_0 <= 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 != -1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 != 1) ) holds for: <orig(x) , orig(y) , return>
+FuzzedInvariant ( (Boolean_Variable_0 xor Boolean_Variable_1) or (Integer_Variable_0 > -1) ) holds for: <orig(x) , orig(y) , return>

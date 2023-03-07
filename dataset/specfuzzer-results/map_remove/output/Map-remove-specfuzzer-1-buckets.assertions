@@ -1,0 +1,12 @@
+buckets=5
+specs=6
+=====================================
+:::OBJECT
+this.keys != null
+this.data != null
+=====================================
+:::POSTCONDITION
+daikon.Quant.pairwiseEqual(daikon.Quant.typeArray(this.data), new String[] {  }) || daikon.Quant.pairwiseEqual(daikon.Quant.typeArray(this.data), new String[] { "java.lang.String" })
+daikon.Quant.size(this.keys) == \old(daikon.Quant.size(this.keys))-1
+daikon.Quant.size(this.data) == \old(daikon.Quant.size(this.data))-1
+daikon.Quant.eltsNotEqual(this.data, null)

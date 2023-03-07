@@ -1,0 +1,9 @@
+buckets=2
+specs=3
+=====================================
+:::OBJECT
+=====================================
+:::POSTCONDITION
+this._var49 != null
+daikon.Quant.size(this._var49) == 1 || daikon.Quant.size(this._var49) == 2 || daikon.Quant.size(this._var49) == 3
+daikon.Quant.size(this._var49)-1 == \old(daikon.Quant.size(this._var49))

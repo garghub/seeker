@@ -1,0 +1,67 @@
+1:STD:<ASSIGN>:<NO-OP>:DataStructures.QueueAr@<init>(int):32:theArray = new Object[capacity] |==> <NO-OP>
+2:LVR:0:POS:DataStructures.QueueAr@<init>(int):33:0 |==> 1
+3:LVR:0:NEG:DataStructures.QueueAr@<init>(int):33:0 |==> -1
+4:STD:<ASSIGN>:<NO-OP>:DataStructures.QueueAr@<init>(int):33:currentSize = 0 |==> <NO-OP>
+5:LVR:0:POS:DataStructures.QueueAr@<init>(int):34:0 |==> 1
+6:LVR:0:NEG:DataStructures.QueueAr@<init>(int):34:0 |==> -1
+7:STD:<ASSIGN>:<NO-OP>:DataStructures.QueueAr@<init>(int):34:front = 0 |==> <NO-OP>
+8:LVR:POS:0:DataStructures.QueueAr@<init>(int):35:1 |==> 0
+9:LVR:POS:NEG:DataStructures.QueueAr@<init>(int):35:1 |==> -1
+10:AOR:-(int,int):%(int,int):DataStructures.QueueAr@<init>(int):35:theArray.length - 1 |==> theArray.length % 1
+11:AOR:-(int,int):*(int,int):DataStructures.QueueAr@<init>(int):35:theArray.length - 1 |==> theArray.length * 1
+12:AOR:-(int,int):+(int,int):DataStructures.QueueAr@<init>(int):35:theArray.length - 1 |==> theArray.length + 1
+13:AOR:-(int,int):/(int,int):DataStructures.QueueAr@<init>(int):35:theArray.length - 1 |==> theArray.length / 1
+14:STD:<ASSIGN>:<NO-OP>:DataStructures.QueueAr@<init>(int):35:back = theArray.length - 1 |==> <NO-OP>
+15:LVR:0:POS:DataStructures.QueueAr@isEmpty():44:0 |==> 1
+16:LVR:0:NEG:DataStructures.QueueAr@isEmpty():44:0 |==> -1
+17:ROR:==(int,int):<=(int,int):DataStructures.QueueAr@isEmpty():44:currentSize == 0 |==> currentSize <= 0
+18:ROR:==(int,int):>=(int,int):DataStructures.QueueAr@isEmpty():44:currentSize == 0 |==> currentSize >= 0
+19:ROR:==(int,int):FALSE(int,int):DataStructures.QueueAr@isEmpty():44:currentSize == 0 |==> false
+20:ROR:==(int,int):<=(int,int):DataStructures.QueueAr@isFull():53:currentSize == theArray.length |==> currentSize <= theArray.length
+21:ROR:==(int,int):>=(int,int):DataStructures.QueueAr@isFull():53:currentSize == theArray.length |==> currentSize >= theArray.length
+22:ROR:==(int,int):FALSE(int,int):DataStructures.QueueAr@isFull():53:currentSize == theArray.length |==> false
+23:LVR:0:POS:DataStructures.QueueAr@makeEmpty():61:0 |==> 1
+24:LVR:0:NEG:DataStructures.QueueAr@makeEmpty():61:0 |==> -1
+25:STD:<ASSIGN>:<NO-OP>:DataStructures.QueueAr@makeEmpty():61:currentSize = 0 |==> <NO-OP>
+26:LVR:0:POS:DataStructures.QueueAr@makeEmpty():62:0 |==> 1
+27:LVR:0:NEG:DataStructures.QueueAr@makeEmpty():62:0 |==> -1
+28:STD:<ASSIGN>:<NO-OP>:DataStructures.QueueAr@makeEmpty():62:front = 0 |==> <NO-OP>
+29:LVR:POS:0:DataStructures.QueueAr@makeEmpty():63:1 |==> 0
+30:LVR:POS:NEG:DataStructures.QueueAr@makeEmpty():63:1 |==> -1
+31:AOR:-(int,int):%(int,int):DataStructures.QueueAr@makeEmpty():63:theArray.length - 1 |==> theArray.length % 1
+32:AOR:-(int,int):*(int,int):DataStructures.QueueAr@makeEmpty():63:theArray.length - 1 |==> theArray.length * 1
+33:AOR:-(int,int):+(int,int):DataStructures.QueueAr@makeEmpty():63:theArray.length - 1 |==> theArray.length + 1
+34:AOR:-(int,int):/(int,int):DataStructures.QueueAr@makeEmpty():63:theArray.length - 1 |==> theArray.length / 1
+35:STD:<ASSIGN>:<NO-OP>:DataStructures.QueueAr@makeEmpty():63:back = theArray.length - 1 |==> <NO-OP>
+36:LVR:0:POS:DataStructures.QueueAr@makeEmpty():64:0 |==> 1
+37:LVR:0:NEG:DataStructures.QueueAr@makeEmpty():64:0 |==> -1
+38:STD:<CALL>:<NO-OP>:DataStructures.QueueAr@makeEmpty():64:java.util.Arrays.fill(theArray, 0, theArray.length, null) |==> <NO-OP>
+39:LVR:TRUE:FALSE:DataStructures.QueueAr@makeEmpty():66:true |==> false
+40:COR:isEmpty():TRUE:DataStructures.QueueAr@getFront():76:isEmpty() |==> false
+41:COR:isEmpty():FALSE:DataStructures.QueueAr@getFront():76:isEmpty() |==> true
+42:STD:<RETURN>:<NO-OP>:DataStructures.QueueAr@getFront():77:return null; |==> <NO-OP>
+43:EVR:<ARRAY_ACCESS(java.lang.Object)>:<DEFAULT>:DataStructures.QueueAr@getFront():78:theArray[front] |==> null
+44:COR:isEmpty():TRUE:DataStructures.QueueAr@dequeue():87:isEmpty() |==> false
+45:COR:isEmpty():FALSE:DataStructures.QueueAr@dequeue():87:isEmpty() |==> true
+46:STD:<RETURN>:<NO-OP>:DataStructures.QueueAr@dequeue():88:return null; |==> <NO-OP>
+47:STD:<DEC>:<NO-OP>:DataStructures.QueueAr@dequeue():89:currentSize-- |==> <NO-OP>
+48:EVR:<ARRAY_ACCESS(java.lang.Object)>:<DEFAULT>:DataStructures.QueueAr@dequeue():91:theArray[front] |==> null
+49:STD:<ASSIGN>:<NO-OP>:DataStructures.QueueAr@dequeue():92:theArray[front] = null |==> <NO-OP>
+50:ROR:==(int,int):<=(int,int):DataStructures.QueueAr@dequeue():93:++front == theArray.length |==> ++front <= theArray.length
+51:ROR:==(int,int):>=(int,int):DataStructures.QueueAr@dequeue():93:++front == theArray.length |==> ++front >= theArray.length
+52:ROR:==(int,int):FALSE(int,int):DataStructures.QueueAr@dequeue():93:++front == theArray.length |==> false
+53:LVR:0:POS:DataStructures.QueueAr@dequeue():94:0 |==> 1
+54:LVR:0:NEG:DataStructures.QueueAr@dequeue():94:0 |==> -1
+55:STD:<ASSIGN>:<NO-OP>:DataStructures.QueueAr@dequeue():94:front = 0 |==> <NO-OP>
+56:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:DataStructures.QueueAr@dequeue():95:frontItem |==> null
+57:COR:isFull():TRUE:DataStructures.QueueAr@enqueue(java.lang.Object):105:isFull() |==> false
+58:COR:isFull():FALSE:DataStructures.QueueAr@enqueue(java.lang.Object):105:isFull() |==> true
+59:ROR:==(int,int):<=(int,int):DataStructures.QueueAr@enqueue(java.lang.Object):107:++back == theArray.length |==> ++back <= theArray.length
+60:ROR:==(int,int):>=(int,int):DataStructures.QueueAr@enqueue(java.lang.Object):107:++back == theArray.length |==> ++back >= theArray.length
+61:ROR:==(int,int):FALSE(int,int):DataStructures.QueueAr@enqueue(java.lang.Object):107:++back == theArray.length |==> false
+62:LVR:0:POS:DataStructures.QueueAr@enqueue(java.lang.Object):108:0 |==> 1
+63:LVR:0:NEG:DataStructures.QueueAr@enqueue(java.lang.Object):108:0 |==> -1
+64:STD:<ASSIGN>:<NO-OP>:DataStructures.QueueAr@enqueue(java.lang.Object):108:back = 0 |==> <NO-OP>
+65:STD:<ASSIGN>:<NO-OP>:DataStructures.QueueAr@enqueue(java.lang.Object):109:theArray[back] = x |==> <NO-OP>
+66:STD:<INC>:<NO-OP>:DataStructures.QueueAr@enqueue(java.lang.Object):110:currentSize++ |==> <NO-OP>
+67:STD:<CALL>:<NO-OP>:DataStructures.QueueAr@dequeueAll():116:dequeue() |==> <NO-OP>

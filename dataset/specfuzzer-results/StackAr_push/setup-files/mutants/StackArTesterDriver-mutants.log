@@ -1,0 +1,55 @@
+1:STD:<ASSIGN>:<NO-OP>:DataStructures.StackAr@<init>(int):32:theArray = new Object[capacity] |==> <NO-OP>
+2:LVR:NEG:0:DataStructures.StackAr@<init>(int):33:-1 |==> 0
+3:LVR:NEG:POS:DataStructures.StackAr@<init>(int):33:-1 |==> 1
+4:STD:<ASSIGN>:<NO-OP>:DataStructures.StackAr@<init>(int):33:topOfStack = -1 |==> <NO-OP>
+5:LVR:NEG:0:DataStructures.StackAr@isEmpty():43:-1 |==> 0
+6:LVR:NEG:POS:DataStructures.StackAr@isEmpty():43:-1 |==> 1
+7:ROR:==(int,int):<=(int,int):DataStructures.StackAr@isEmpty():43:topOfStack == -1 |==> topOfStack <= -1
+8:ROR:==(int,int):>=(int,int):DataStructures.StackAr@isEmpty():43:topOfStack == -1 |==> topOfStack >= -1
+9:ROR:==(int,int):FALSE(int,int):DataStructures.StackAr@isEmpty():43:topOfStack == -1 |==> false
+10:LVR:POS:0:DataStructures.StackAr@isFull():53:1 |==> 0
+11:LVR:POS:NEG:DataStructures.StackAr@isFull():53:1 |==> -1
+12:AOR:-(int,int):%(int,int):DataStructures.StackAr@isFull():53:theArray.length - 1 |==> theArray.length % 1
+13:AOR:-(int,int):*(int,int):DataStructures.StackAr@isFull():53:theArray.length - 1 |==> theArray.length * 1
+14:AOR:-(int,int):+(int,int):DataStructures.StackAr@isFull():53:theArray.length - 1 |==> theArray.length + 1
+15:AOR:-(int,int):/(int,int):DataStructures.StackAr@isFull():53:theArray.length - 1 |==> theArray.length / 1
+16:ROR:==(int,int):<=(int,int):DataStructures.StackAr@isFull():53:topOfStack == theArray.length - 1 |==> topOfStack <= theArray.length - 1
+17:ROR:==(int,int):>=(int,int):DataStructures.StackAr@isFull():53:topOfStack == theArray.length - 1 |==> topOfStack >= theArray.length - 1
+18:ROR:==(int,int):FALSE(int,int):DataStructures.StackAr@isFull():53:topOfStack == theArray.length - 1 |==> false
+19:LVR:0:POS:DataStructures.StackAr@makeEmpty():62:0 |==> 1
+20:LVR:0:NEG:DataStructures.StackAr@makeEmpty():62:0 |==> -1
+21:LVR:POS:0:DataStructures.StackAr@makeEmpty():62:1 |==> 0
+22:LVR:POS:NEG:DataStructures.StackAr@makeEmpty():62:1 |==> -1
+23:AOR:+(int,int):%(int,int):DataStructures.StackAr@makeEmpty():62:topOfStack + 1 |==> topOfStack % 1
+24:AOR:+(int,int):*(int,int):DataStructures.StackAr@makeEmpty():62:topOfStack + 1 |==> topOfStack * 1
+25:AOR:+(int,int):-(int,int):DataStructures.StackAr@makeEmpty():62:topOfStack + 1 |==> topOfStack - 1
+26:AOR:+(int,int):/(int,int):DataStructures.StackAr@makeEmpty():62:topOfStack + 1 |==> topOfStack / 1
+27:STD:<CALL>:<NO-OP>:DataStructures.StackAr@makeEmpty():62:java.util.Arrays.fill(theArray, 0, topOfStack + 1, null) |==> <NO-OP>
+28:LVR:NEG:0:DataStructures.StackAr@makeEmpty():63:-1 |==> 0
+29:LVR:NEG:POS:DataStructures.StackAr@makeEmpty():63:-1 |==> 1
+30:STD:<ASSIGN>:<NO-OP>:DataStructures.StackAr@makeEmpty():63:topOfStack = -1 |==> <NO-OP>
+31:COR:isEmpty():TRUE:DataStructures.StackAr@top():74:isEmpty() |==> false
+32:COR:isEmpty():FALSE:DataStructures.StackAr@top():74:isEmpty() |==> true
+33:STD:<RETURN>:<NO-OP>:DataStructures.StackAr@top():75:return null; |==> <NO-OP>
+34:EVR:<ARRAY_ACCESS(java.lang.Object)>:<DEFAULT>:DataStructures.StackAr@top():76:theArray[topOfStack] |==> null
+35:COR:isEmpty():TRUE:DataStructures.StackAr@pop():85:isEmpty() |==> false
+36:COR:isEmpty():FALSE:DataStructures.StackAr@pop():85:isEmpty() |==> true
+37:STD:<ASSIGN>:<NO-OP>:DataStructures.StackAr@pop():87:theArray[topOfStack--] = null |==> <NO-OP>
+38:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:DataStructures.StackAr@push(java.lang.Object):98:x_object |==> null
+39:COR:isFull():TRUE:DataStructures.StackAr@push(java.lang.Object):100:isFull() |==> false
+40:COR:isFull():FALSE:DataStructures.StackAr@push(java.lang.Object):100:isFull() |==> true
+41:LVR:POS:0:DataStructures.StackAr@push(java.lang.Object):102:1 |==> 0
+42:LVR:POS:NEG:DataStructures.StackAr@push(java.lang.Object):102:1 |==> -1
+43:AOR:+(int,int):%(int,int):DataStructures.StackAr@push(java.lang.Object):102:topOfStack + 1 |==> topOfStack % 1
+44:AOR:+(int,int):*(int,int):DataStructures.StackAr@push(java.lang.Object):102:topOfStack + 1 |==> topOfStack * 1
+45:AOR:+(int,int):-(int,int):DataStructures.StackAr@push(java.lang.Object):102:topOfStack + 1 |==> topOfStack - 1
+46:AOR:+(int,int):/(int,int):DataStructures.StackAr@push(java.lang.Object):102:topOfStack + 1 |==> topOfStack / 1
+47:STD:<ASSIGN>:<NO-OP>:DataStructures.StackAr@push(java.lang.Object):102:topOfStack = topOfStack + 1 |==> <NO-OP>
+48:STD:<ASSIGN>:<NO-OP>:DataStructures.StackAr@push(java.lang.Object):103:theArray[topOfStack] = x_object |==> <NO-OP>
+49:LVR:TRUE:FALSE:DataStructures.StackAr@push(java.lang.Object):104:true |==> false
+50:COR:isEmpty():TRUE:DataStructures.StackAr@topAndPop():113:isEmpty() |==> false
+51:COR:isEmpty():FALSE:DataStructures.StackAr@topAndPop():113:isEmpty() |==> true
+52:STD:<RETURN>:<NO-OP>:DataStructures.StackAr@topAndPop():114:return null; |==> <NO-OP>
+53:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:DataStructures.StackAr@topAndPop():115:top() |==> null
+54:STD:<ASSIGN>:<NO-OP>:DataStructures.StackAr@topAndPop():116:theArray[topOfStack--] = null |==> <NO-OP>
+55:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:DataStructures.StackAr@topAndPop():117:topItem |==> null

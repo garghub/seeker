@@ -1,0 +1,10 @@
+===========================================================================
+examples.Structure:::OBJECT
+===========================================================================
+examples.Structure.foo():::ENTER
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: this.var62
+===========================================================================
+examples.Structure.foo():::EXIT
+this.var62 == \result
+\result == \old(this.var62)
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: return

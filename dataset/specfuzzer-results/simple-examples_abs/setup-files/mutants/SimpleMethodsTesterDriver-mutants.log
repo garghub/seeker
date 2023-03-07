@@ -1,0 +1,20 @@
+1:LVR:POS:0:examples.SimpleMethods@abs(int):10:31 |==> 0
+2:LVR:POS:NEG:examples.SimpleMethods@abs(int):10:31 |==> -31
+3:SOR:>>>(int,int):<<(int,int):examples.SimpleMethods@abs(int):10:x >>> 31 |==> x << 31
+4:SOR:>>>(int,int):>>(int,int):examples.SimpleMethods@abs(int):10:x >>> 31 |==> x >> 31
+5:ORU:~(int):+(int):examples.SimpleMethods@abs(int):11:~i |==> +i
+6:ORU:~(int):-(int):examples.SimpleMethods@abs(int):11:~i |==> -i
+7:LVR:POS:0:examples.SimpleMethods@abs(int):11:1 |==> 0
+8:LVR:POS:NEG:examples.SimpleMethods@abs(int):11:1 |==> -1
+9:AOR:+(int,int):%(int,int):examples.SimpleMethods@abs(int):11:~i + 1 |==> ~i % 1
+10:AOR:+(int,int):*(int,int):examples.SimpleMethods@abs(int):11:~i + 1 |==> ~i * 1
+11:AOR:+(int,int):-(int,int):examples.SimpleMethods@abs(int):11:~i + 1 |==> ~i - 1
+12:AOR:+(int,int):/(int,int):examples.SimpleMethods@abs(int):11:~i + 1 |==> ~i / 1
+13:LOR:^(int,int):&(int,int):examples.SimpleMethods@abs(int):11:x ^ (~i + 1) |==> x & (~i + 1)
+14:LOR:^(int,int):|(int,int):examples.SimpleMethods@abs(int):11:x ^ (~i + 1) |==> x | (~i + 1)
+15:AOR:+(int,int):%(int,int):examples.SimpleMethods@abs(int):11:(x ^ (~i + 1)) + i |==> (x ^ (~i + 1)) % i
+16:AOR:+(int,int):*(int,int):examples.SimpleMethods@abs(int):11:(x ^ (~i + 1)) + i |==> (x ^ (~i + 1)) * i
+17:AOR:+(int,int):-(int,int):examples.SimpleMethods@abs(int):11:(x ^ (~i + 1)) + i |==> (x ^ (~i + 1)) - i
+18:AOR:+(int,int):/(int,int):examples.SimpleMethods@abs(int):11:(x ^ (~i + 1)) + i |==> (x ^ (~i + 1)) / i
+19:LVR:TRUE:FALSE:examples.SimpleMethods@abs(int):13:true |==> false
+20:EVR:<IDENTIFIER(int)>:<DEFAULT>:examples.SimpleMethods@abs(int):14:result |==> 0

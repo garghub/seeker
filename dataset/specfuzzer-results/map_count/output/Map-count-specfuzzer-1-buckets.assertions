@@ -1,0 +1,9 @@
+buckets=3
+specs=3
+=====================================
+:::OBJECT
+this.data != null
+this.keys != null
+=====================================
+:::POSTCONDITION
+FuzzedInvariant ( Integer_Variable_0 >= #(Map.keys) ) holds for: <orig(this), return>

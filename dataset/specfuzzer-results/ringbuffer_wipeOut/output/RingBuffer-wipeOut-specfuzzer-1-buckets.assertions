@@ -1,0 +1,39 @@
+buckets=32
+specs=33
+=====================================
+:::OBJECT
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 <= -1) ) holds for: <this.free, this.capacity_>
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: this.free
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: this.start
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 > 1) ) holds for: <this.free, this.capacity_>
+this.start == 1
+FuzzedInvariant ( Integer_Variable_0 > 0 ) holds for: this.free
+FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: this.capacity_
+FuzzedInvariant ( Integer_Variable_0 > 0 ) holds for: this.start
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 + -1 ) holds for: <this.free, this.capacity_>
+=====================================
+:::POSTCONDITION
+FuzzedInvariant ( Integer_Variable_0 = #(RingBuffer.data) ) holds for: <orig(this), this.start>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 * -1 ) holds for: <this.start, this.capacity_>
+FuzzedInvariant ( Integer_Variable_0 <= Integer_Variable_1 - 0 ) holds for: <this.start, this.capacity_>
+daikon.Quant.size(this.data) == 1 || daikon.Quant.size(this.data) == 2 || daikon.Quant.size(this.data) == 3
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 ) holds for: <this.start, this.capacity_>
+FuzzedInvariant ( (Integer_Variable_0 = -1) xor (Integer_Variable_1 < Integer_Variable_2) ) holds for: <this.start , orig(this.start) , this.capacity_>
+FuzzedInvariant ( (Integer_Variable_0 <= 1) implies (Integer_Variable_1 > -1) ) holds for: <this.start, this.capacity_>
+this.start == this.free
+daikon.Quant.size(this.data) == 1
+this.start == \old(this.free)
+FuzzedInvariant ( (Integer_Variable_0 > 0) xor (Integer_Variable_1 <= -1) ) holds for: <this.start, orig(this.start)>
+FuzzedInvariant ( (Integer_Variable_0 < -1) xor (Integer_Variable_1 > 0) ) holds for: <this.start, this.capacity_>
+this.start < this.capacity_
+FuzzedInvariant ( (Integer_Variable_0 = 1) implies (Integer_Variable_1 >= 0) ) holds for: <this.start, orig(this.start)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 + 1 ) holds for: <this.start, this.capacity_>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 > 1) ) holds for: <this.start, this.capacity_>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 = 0) ) holds for: <this.start, this.capacity_>
+FuzzedInvariant ( Integer_Variable_0 <= #(RingBuffer.data) ) holds for: <orig(this), this.start>
+FuzzedInvariant ( (Integer_Variable_0 = 0) or (Integer_Variable_1 != 1) ) holds for: <this.start, this.capacity_>
+FuzzedInvariant ( (Integer_Variable_0 > -1) xor (Integer_Variable_1 <= -1) ) holds for: <this.start, this.capacity_>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 != 0) ) holds for: <this.start, this.capacity_>
+FuzzedInvariant ( (Integer_Variable_0 > 0) iff (Integer_Variable_1 != -1) ) holds for: <this.start, this.capacity_>
+FuzzedInvariant ( Integer_Variable_0 >= #(RingBuffer.data) ) holds for: <orig(this), this.start>
+FuzzedInvariant ( (Integer_Variable_0 > 0) xor (Integer_Variable_1 <= 1) ) holds for: <this.start, this.capacity_>

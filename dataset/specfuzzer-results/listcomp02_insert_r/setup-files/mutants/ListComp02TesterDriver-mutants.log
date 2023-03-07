@@ -1,0 +1,20 @@
+1:STD:<CALL>:<NO-OP>:examples.ListComp02@<init>():9:clear() |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:examples.ListComp02@<init>(java.util.ArrayList<examples.R>,java.util.ArrayList<examples.S>):13:_var49 = Rs |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:examples.ListComp02@<init>(java.util.ArrayList<examples.R>,java.util.ArrayList<examples.S>):14:_var50 = Ss |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:examples.ListComp02@clear():18:_var49 = new java.util.ArrayList<R>() |==> <NO-OP>
+5:STD:<ASSIGN>:<NO-OP>:examples.ListComp02@clear():19:_var50 = new java.util.ArrayList<S>() |==> <NO-OP>
+6:LVR:0:POS:examples.ListComp02@q():23:0 |==> 1
+7:LVR:0:NEG:examples.ListComp02@q():23:0 |==> -1
+8:AOR:*(int,int):%(int,int):examples.ListComp02@q():27:((_r159132).getA()) * ((_s159133).getC()) |==> ((_r159132).getA()) % ((_s159133).getC())
+9:AOR:*(int,int):+(int,int):examples.ListComp02@q():27:((_r159132).getA()) * ((_s159133).getC()) |==> ((_r159132).getA()) + ((_s159133).getC())
+10:AOR:*(int,int):-(int,int):examples.ListComp02@q():27:((_r159132).getA()) * ((_s159133).getC()) |==> ((_r159132).getA()) - ((_s159133).getC())
+11:AOR:*(int,int):/(int,int):examples.ListComp02@q():27:((_r159132).getA()) * ((_s159133).getC()) |==> ((_r159132).getA()) / ((_s159133).getC())
+12:AOR:+(int,int):%(int,int):examples.ListComp02@q():27:_sum159130 + (((_r159132).getA()) * ((_s159133).getC())) |==> _sum159130 % (((_r159132).getA()) * ((_s159133).getC()))
+13:AOR:+(int,int):*(int,int):examples.ListComp02@q():27:_sum159130 + (((_r159132).getA()) * ((_s159133).getC())) |==> _sum159130 * (((_r159132).getA()) * ((_s159133).getC()))
+14:AOR:+(int,int):-(int,int):examples.ListComp02@q():27:_sum159130 + (((_r159132).getA()) * ((_s159133).getC())) |==> _sum159130 - (((_r159132).getA()) * ((_s159133).getC()))
+15:AOR:+(int,int):/(int,int):examples.ListComp02@q():27:_sum159130 + (((_r159132).getA()) * ((_s159133).getC())) |==> _sum159130 / (((_r159132).getA()) * ((_s159133).getC()))
+16:STD:<ASSIGN>:<NO-OP>:examples.ListComp02@q():27:_sum159130 = (_sum159130 + (((_r159132).getA()) * ((_s159133).getC()))) |==> <NO-OP>
+17:EVR:<IDENTIFIER(java.lang.Integer)>:<DEFAULT>:examples.ListComp02@q():31:_sum159130 |==> null
+18:STD:<CALL>:<NO-OP>:examples.ListComp02@insert_r(examples.R):36:_var49.add(r) |==> <NO-OP>
+19:LVR:TRUE:FALSE:examples.ListComp02@insert_r(examples.R):37:true |==> false
+20:STD:<CALL>:<NO-OP>:examples.ListComp02@insert_s(examples.S):43:_var50.add(s) |==> <NO-OP>

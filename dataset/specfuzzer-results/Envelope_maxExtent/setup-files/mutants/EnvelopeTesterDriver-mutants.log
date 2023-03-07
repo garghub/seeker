@@ -1,0 +1,56 @@
+1:STD:<CALL>:<NO-OP>:jts.Envelope@<init>(double,double,double,double):43:init(x1, x2, y1, y2) |==> <NO-OP>
+2:ROR:<(double,double):!=(double,double):jts.Envelope@init(double,double,double,double):56:x1 < x2 |==> x1 != x2
+3:ROR:<(double,double):<=(double,double):jts.Envelope@init(double,double,double,double):56:x1 < x2 |==> x1 <= x2
+4:ROR:<(double,double):FALSE(double,double):jts.Envelope@init(double,double,double,double):56:x1 < x2 |==> false
+5:STD:<ASSIGN>:<NO-OP>:jts.Envelope@init(double,double,double,double):57:minx = x1 |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:jts.Envelope@init(double,double,double,double):58:maxx = x2 |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:jts.Envelope@init(double,double,double,double):61:minx = x2 |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:jts.Envelope@init(double,double,double,double):62:maxx = x1 |==> <NO-OP>
+9:ROR:<(double,double):!=(double,double):jts.Envelope@init(double,double,double,double):64:y1 < y2 |==> y1 != y2
+10:ROR:<(double,double):<=(double,double):jts.Envelope@init(double,double,double,double):64:y1 < y2 |==> y1 <= y2
+11:ROR:<(double,double):FALSE(double,double):jts.Envelope@init(double,double,double,double):64:y1 < y2 |==> false
+12:STD:<ASSIGN>:<NO-OP>:jts.Envelope@init(double,double,double,double):65:miny = y1 |==> <NO-OP>
+13:STD:<ASSIGN>:<NO-OP>:jts.Envelope@init(double,double,double,double):66:maxy = y2 |==> <NO-OP>
+14:STD:<ASSIGN>:<NO-OP>:jts.Envelope@init(double,double,double,double):69:miny = y2 |==> <NO-OP>
+15:STD:<ASSIGN>:<NO-OP>:jts.Envelope@init(double,double,double,double):70:maxy = y1 |==> <NO-OP>
+16:EVR:<MEMBER_SELECT(double)>:<DEFAULT>:jts.Envelope@maxExtent():102:this.minx |==> 0.0
+17:EVR:<MEMBER_SELECT(double)>:<DEFAULT>:jts.Envelope@maxExtent():104:this.maxx |==> 0.0
+18:EVR:<MEMBER_SELECT(double)>:<DEFAULT>:jts.Envelope@maxExtent():106:this.miny |==> 0.0
+19:EVR:<MEMBER_SELECT(double)>:<DEFAULT>:jts.Envelope@maxExtent():108:this.maxy |==> 0.0
+20:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:jts.Envelope@maxExtent():110:this.isEnvelopeNull() |==> false
+21:EVR:<METHOD_INVOCATION(double)>:<DEFAULT>:jts.Envelope@maxExtent():112:this.getWidth() |==> 0.0
+22:EVR:<METHOD_INVOCATION(double)>:<DEFAULT>:jts.Envelope@maxExtent():114:this.getHeight() |==> 0.0
+23:COR:isEnvelopeNull():TRUE:jts.Envelope@maxExtent():116:isEnvelopeNull() |==> false
+24:COR:isEnvelopeNull():FALSE:jts.Envelope@maxExtent():116:isEnvelopeNull() |==> true
+25:LVR:0:POS:jts.Envelope@maxExtent():117:0.0 |==> 1.0
+26:LVR:0:NEG:jts.Envelope@maxExtent():117:0.0 |==> -1.0
+27:EVR:<METHOD_INVOCATION(double)>:<DEFAULT>:jts.Envelope@maxExtent():119:getWidth() |==> 0.0
+28:EVR:<METHOD_INVOCATION(double)>:<DEFAULT>:jts.Envelope@maxExtent():120:getHeight() |==> 0.0
+29:ROR:>(double,double):!=(double,double):jts.Envelope@maxExtent():121:w > h |==> w != h
+30:ROR:>(double,double):>=(double,double):jts.Envelope@maxExtent():121:w > h |==> w >= h
+31:ROR:>(double,double):FALSE(double,double):jts.Envelope@maxExtent():121:w > h |==> false
+32:EVR:<IDENTIFIER(double)>:<DEFAULT>:jts.Envelope@maxExtent():122:w |==> 0.0
+33:EVR:<IDENTIFIER(double)>:<DEFAULT>:jts.Envelope@maxExtent():124:h |==> 0.0
+34:LVR:TRUE:FALSE:jts.Envelope@maxExtent():128:true |==> false
+35:EVR:<IDENTIFIER(double)>:<DEFAULT>:jts.Envelope@maxExtent():129:result |==> 0.0
+36:ROR:<(double,double):!=(double,double):jts.Envelope@isEnvelopeNull():140:maxx < minx |==> maxx != minx
+37:ROR:<(double,double):<=(double,double):jts.Envelope@isEnvelopeNull():140:maxx < minx |==> maxx <= minx
+38:ROR:<(double,double):FALSE(double,double):jts.Envelope@isEnvelopeNull():140:maxx < minx |==> false
+39:COR:isEnvelopeNull():TRUE:jts.Envelope@getWidth():149:isEnvelopeNull() |==> false
+40:COR:isEnvelopeNull():FALSE:jts.Envelope@getWidth():149:isEnvelopeNull() |==> true
+41:LVR:0:POS:jts.Envelope@getWidth():150:0 |==> 1
+42:LVR:0:NEG:jts.Envelope@getWidth():150:0 |==> -1
+43:STD:<RETURN>:<NO-OP>:jts.Envelope@getWidth():150:return Config.__M_NO == 0 && Config.COVERED(41, 42) ? 0 : Config.__M_NO == 42 ? -1 : Config.__M_NO == 41 ? 1 : 0; |==> <NO-OP>
+44:AOR:-(double,double):%(double,double):jts.Envelope@getWidth():152:maxx - minx |==> maxx % minx
+45:AOR:-(double,double):*(double,double):jts.Envelope@getWidth():152:maxx - minx |==> maxx * minx
+46:AOR:-(double,double):+(double,double):jts.Envelope@getWidth():152:maxx - minx |==> maxx + minx
+47:AOR:-(double,double):/(double,double):jts.Envelope@getWidth():152:maxx - minx |==> maxx / minx
+48:COR:isEnvelopeNull():TRUE:jts.Envelope@getHeight():161:isEnvelopeNull() |==> false
+49:COR:isEnvelopeNull():FALSE:jts.Envelope@getHeight():161:isEnvelopeNull() |==> true
+50:LVR:0:POS:jts.Envelope@getHeight():162:0 |==> 1
+51:LVR:0:NEG:jts.Envelope@getHeight():162:0 |==> -1
+52:STD:<RETURN>:<NO-OP>:jts.Envelope@getHeight():162:return Config.__M_NO == 0 && Config.COVERED(50, 51) ? 0 : Config.__M_NO == 51 ? -1 : Config.__M_NO == 50 ? 1 : 0; |==> <NO-OP>
+53:AOR:-(double,double):%(double,double):jts.Envelope@getHeight():164:maxy - miny |==> maxy % miny
+54:AOR:-(double,double):*(double,double):jts.Envelope@getHeight():164:maxy - miny |==> maxy * miny
+55:AOR:-(double,double):+(double,double):jts.Envelope@getHeight():164:maxy - miny |==> maxy + miny
+56:AOR:-(double,double):/(double,double):jts.Envelope@getHeight():164:maxy - miny |==> maxy / miny

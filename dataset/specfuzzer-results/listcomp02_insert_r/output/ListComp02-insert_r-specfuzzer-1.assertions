@@ -1,0 +1,42 @@
+===========================================================================
+examples.ListComp02:::OBJECT
+FuzzedInvariant ( all n : ListComp02._var49 : n = null ) holds for: this
+FuzzedInvariant ( all n : ListComp02._var50 : n = null ) holds for: this
+FuzzedInvariant ( no n : ListComp02._var49 : n != null ) holds for: this
+FuzzedInvariant ( no n : ListComp02._var50 : n != null ) holds for: this
+daikon.Quant.eltsEqual(this._var49, null)
+daikon.Quant.eltsEqual(daikon.Quant.typeArray(this._var49), null)
+daikon.Quant.eltsEqual(this._var50, null)
+daikon.Quant.eltsEqual(daikon.Quant.typeArray(this._var50), null)
+===========================================================================
+examples.ListComp02.insert_r(examples.R):::ENTER
+this._var49 != null
+r == null
+daikon.Quant.size(this._var49) == 0 || daikon.Quant.size(this._var49) == 1 || daikon.Quant.size(this._var49) == 2
+===========================================================================
+examples.ListComp02.insert_r(examples.R):::EXIT
+this._var49 == \old(this._var49)
+this._var50 == \old(this._var50)
+daikon.Quant.pairwiseEqual(this._var50, \old(this._var50))
+daikon.Quant.size(this._var49)-1 == \old(daikon.Quant.size(this._var49))
+this._var49 != null
+FuzzedInvariant ( some n : ListComp02._var49 : n = null ) holds for: orig(this)
+daikon.Quant.size(this._var49) == 1 || daikon.Quant.size(this._var49) == 2 || daikon.Quant.size(this._var49) == 3
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 > 0 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 >= 1 ) holds for: size(this._var49[])
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var49[])-1
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var49[])-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var49[])-1
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var49[])-1
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: size(this._var50[])
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: size(this._var50[])-1
+FuzzedInvariant ( Integer_Variable_0 <= 1 ) holds for: orig(size(this._var49[]))-1
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(size(this._var49[]))-1

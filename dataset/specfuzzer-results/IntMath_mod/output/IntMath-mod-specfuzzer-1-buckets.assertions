@@ -1,0 +1,53 @@
+buckets=47
+specs=47
+=====================================
+:::OBJECT
+=====================================
+:::POSTCONDITION
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 >= 0) ) holds for: <orig(x), return>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 + 1 ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 >= 0) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 >= 0) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 >= 0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 % -1 ) holds for: <orig(m), return>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 - 1 ) holds for: <orig(m), return>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 / -1 ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 >= -1) implies (Integer_Variable_1 >= -1) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) iff (Integer_Variable_1 < -1) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 >= 0) xor (Integer_Variable_1 < 0) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 < 0) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 >= 0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Integer_Variable_0 < -1) or (Integer_Variable_1 >= -1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Integer_Variable_0 != 0) or (Integer_Variable_1 != Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 > 1) or (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 <= -1) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 >= -1) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 < 1) implies (Integer_Variable_1 > Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 != -1) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 >= 0) ) holds for: <orig(x), return>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 / 1 ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 > 0) xor (Integer_Variable_1 < -1) ) holds for: <orig(m), return>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 * -1 ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 = -1) implies (Integer_Variable_1 != 0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Integer_Variable_0 > 1) or (Integer_Variable_1 >= 0) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 > -1) or (Integer_Variable_1 != Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 != 1) or (Integer_Variable_1 > -1) ) holds for: <orig(m), return>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 + -1 ) holds for: <orig(x), return>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 != Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 < 1) or (Integer_Variable_1 >= 0) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 != -1) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 = -1) implies (Integer_Variable_1 >= 0) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 >= -1) ) holds for: <orig(x), return>
+FuzzedInvariant ( (Integer_Variable_0 >= 1) iff (Integer_Variable_1 != -1) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 != 0) implies (Integer_Variable_1 != Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 != Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 > 1) implies (Integer_Variable_1 != -1) ) holds for: <orig(m), return>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 > Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 < 0) implies (Integer_Variable_1 > Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 >= Integer_Variable_2) ) holds for: <orig(x) , orig(m) , return>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 < -1) ) holds for: <orig(m), return>

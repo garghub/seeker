@@ -1,0 +1,21 @@
+buckets=15
+specs=15
+=====================================
+:::OBJECT
+this.topOfStack <= daikon.Quant.size(this.theArray)-1
+this.theArray != null
+=====================================
+:::POSTCONDITION
+FuzzedInvariant ( Integer_Variable_0 < Integer_Variable_1 % -1 ) holds for: <this.topOfStack, orig(this.topOfStack)>
+FuzzedInvariant ( (Integer_Variable_0 > 0) implies (Integer_Variable_1 >= 0) ) holds for: <this.topOfStack, orig(this.topOfStack)>
+FuzzedInvariant ( (Integer_Variable_0 = 0) implies (Integer_Variable_1 <= 0) ) holds for: <this.topOfStack, orig(this.topOfStack)>
+FuzzedInvariant ( Integer_Variable_0 <= Integer_Variable_1 / -1 ) holds for: <this.topOfStack, orig(this.topOfStack)>
+FuzzedInvariant ( Integer_Variable_0 < Integer_Variable_1 - -1 ) holds for: <this.topOfStack, orig(this.topOfStack)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 % 1 ) holds for: <this.topOfStack, orig(this.topOfStack)>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 <= 0) ) holds for: <this.topOfStack, orig(this.topOfStack)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 + -1 ) holds for: <this.topOfStack, orig(this.topOfStack)>
+daikon.Quant.eltsEqual(daikon.Quant.typeArray(this.theArray), null)
+FuzzedInvariant ( Integer_Variable_0 <= #(StackAr.theArray) ) holds for: <orig(this), this.topOfStack>
+this.topOfStack == -1
+FuzzedInvariant ( (Integer_Variable_0 != 1) implies (Integer_Variable_1 < 1) ) holds for: <this.topOfStack, orig(this.topOfStack)>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 = 0) ) holds for: <this.topOfStack, orig(this.topOfStack)>
