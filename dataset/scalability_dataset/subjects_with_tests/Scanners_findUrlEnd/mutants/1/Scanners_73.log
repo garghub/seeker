@@ -1,0 +1,49 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+org.nibor.autolink.internal.Scanners_ESTest STANDARD_OUT
+    09:32:54.192 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.internal.Scanners_ESTest
+    09:32:54.196 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.internal.Scanners_ESTest'.
+    09:32:54.250 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.internal.Scanners_ESTest_scaffolding
+    09:32:54.251 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.internal.Scanners_ESTest_scaffolding'.
+    09:32:54.254 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.internal.Scanners_ESTest_scaffolding
+    09:32:54.254 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.internal.Scanners_ESTest
+    09:32:54.837 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    09:32:54.838 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    09:32:54.838 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    09:32:54.838 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    09:32:54.838 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    09:32:54.838 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    09:32:54.838 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    09:32:54.838 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    09:32:54.838 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    09:32:54.838 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64492 to /127.0.0.1:64491 workers Thread 2"
+    09:32:54.839 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64492 to /127.0.0.1:64491 workers Thread 3"
+    09:32:54.956 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.internal.Scanners
+    09:32:54.956 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.internal.Scanners'.
+    09:32:54.993 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/nibor/autolink/internal/Scanners
+    09:32:55.339 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/nibor/autolink/internal/Scanners
+    09:32:55.340 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.internal.Scanners
+
+org.nibor.autolink.internal.Scanners_ESTest > test22 STANDARD_OUT
+    09:32:55.392 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+org.nibor.autolink.internal.Scanners_ESTest > test37 FAILED
+    java.lang.AssertionError at Scanners_ESTest.java:364
+
+org.nibor.autolink.internal.Scanners_ESTest > test13 STANDARD_OUT
+    09:32:55.541 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+Results: FAILURE (212 tests, 211 successes, 1 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

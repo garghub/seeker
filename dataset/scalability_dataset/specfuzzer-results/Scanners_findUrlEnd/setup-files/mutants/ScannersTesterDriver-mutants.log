@@ -1,0 +1,111 @@
+1:ROR:>=(int,int):==(int,int):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'A' |==> c == 'A'
+2:ROR:>=(int,int):>(int,int):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'A' |==> c > 'A'
+3:ROR:>=(int,int):TRUE(int,int):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'A' |==> true
+4:ROR:<=(int,int):<(int,int):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c <= 'Z' |==> c < 'Z'
+5:ROR:<=(int,int):==(int,int):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c <= 'Z' |==> c == 'Z'
+6:ROR:<=(int,int):TRUE(int,int):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c <= 'Z' |==> true
+7:COR:&&(boolean,boolean):==(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'A' && c <= 'Z' |==> c >= 'A' == c <= 'Z'
+8:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'A' && c <= 'Z' |==> false
+9:COR:&&(boolean,boolean):LHS(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'A' && c <= 'Z' |==> c >= 'A'
+10:COR:&&(boolean,boolean):RHS(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'A' && c <= 'Z' |==> c <= 'Z'
+11:ROR:>=(int,int):==(int,int):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'a' |==> c == 'a'
+12:ROR:>=(int,int):>(int,int):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'a' |==> c > 'a'
+13:ROR:>=(int,int):TRUE(int,int):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'a' |==> true
+14:ROR:<=(int,int):<(int,int):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c <= 'z' |==> c < 'z'
+15:ROR:<=(int,int):==(int,int):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c <= 'z' |==> c == 'z'
+16:ROR:<=(int,int):TRUE(int,int):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c <= 'z' |==> true
+17:COR:&&(boolean,boolean):==(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'a' && c <= 'z' |==> c >= 'a' == c <= 'z'
+18:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'a' && c <= 'z' |==> false
+19:COR:&&(boolean,boolean):LHS(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'a' && c <= 'z' |==> c >= 'a'
+20:COR:&&(boolean,boolean):RHS(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlpha(char):6:c >= 'a' && c <= 'z' |==> c <= 'z'
+21:COR:||(boolean,boolean):!=(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlpha(char):6:(c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') |==> (c >= 'A' && c <= 'Z') != (c >= 'a' && c <= 'z')
+22:COR:||(boolean,boolean):LHS(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlpha(char):6:(c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') |==> (c >= 'A' && c <= 'Z')
+23:COR:||(boolean,boolean):RHS(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlpha(char):6:(c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') |==> (c >= 'a' && c <= 'z')
+24:COR:||(boolean,boolean):TRUE(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlpha(char):6:(c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') |==> true
+25:ROR:>=(int,int):==(int,int):org.nibor.autolink.internal.Scanners@isDigit(char):10:c >= '0' |==> c == '0'
+26:ROR:>=(int,int):>(int,int):org.nibor.autolink.internal.Scanners@isDigit(char):10:c >= '0' |==> c > '0'
+27:ROR:>=(int,int):TRUE(int,int):org.nibor.autolink.internal.Scanners@isDigit(char):10:c >= '0' |==> true
+28:ROR:<=(int,int):<(int,int):org.nibor.autolink.internal.Scanners@isDigit(char):10:c <= '9' |==> c < '9'
+29:ROR:<=(int,int):==(int,int):org.nibor.autolink.internal.Scanners@isDigit(char):10:c <= '9' |==> c == '9'
+30:ROR:<=(int,int):TRUE(int,int):org.nibor.autolink.internal.Scanners@isDigit(char):10:c <= '9' |==> true
+31:COR:&&(boolean,boolean):==(boolean,boolean):org.nibor.autolink.internal.Scanners@isDigit(char):10:c >= '0' && c <= '9' |==> c >= '0' == c <= '9'
+32:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.nibor.autolink.internal.Scanners@isDigit(char):10:c >= '0' && c <= '9' |==> false
+33:COR:&&(boolean,boolean):LHS(boolean,boolean):org.nibor.autolink.internal.Scanners@isDigit(char):10:c >= '0' && c <= '9' |==> c >= '0'
+34:COR:&&(boolean,boolean):RHS(boolean,boolean):org.nibor.autolink.internal.Scanners@isDigit(char):10:c >= '0' && c <= '9' |==> c <= '9'
+35:COR:||(boolean,boolean):!=(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlnum(char):14:isAlpha(c) || isDigit(c) |==> isAlpha(c) != isDigit(c)
+36:COR:||(boolean,boolean):LHS(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlnum(char):14:isAlpha(c) || isDigit(c) |==> isAlpha(c)
+37:COR:||(boolean,boolean):RHS(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlnum(char):14:isAlpha(c) || isDigit(c) |==> isDigit(c)
+38:COR:||(boolean,boolean):TRUE(boolean,boolean):org.nibor.autolink.internal.Scanners@isAlnum(char):14:isAlpha(c) || isDigit(c) |==> true
+39:LVR:POS:0:org.nibor.autolink.internal.Scanners@isNonAscii(char):18:128 |==> 0
+40:LVR:POS:NEG:org.nibor.autolink.internal.Scanners@isNonAscii(char):18:128 |==> -128
+41:ROR:>=(int,int):==(int,int):org.nibor.autolink.internal.Scanners@isNonAscii(char):18:c >= 128 |==> c == 128
+42:ROR:>=(int,int):>(int,int):org.nibor.autolink.internal.Scanners@isNonAscii(char):18:c >= 128 |==> c > 128
+43:ROR:>=(int,int):TRUE(int,int):org.nibor.autolink.internal.Scanners@isNonAscii(char):18:c >= 128 |==> true
+44:LVR:0:POS:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):22:0 |==> 1
+45:LVR:0:NEG:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):22:0 |==> -1
+46:LVR:0:POS:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):23:0 |==> 1
+47:LVR:0:NEG:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):23:0 |==> -1
+48:LVR:0:POS:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):24:0 |==> 1
+49:LVR:0:NEG:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):24:0 |==> -1
+50:LVR:FALSE:TRUE:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):25:false |==> true
+51:LVR:FALSE:TRUE:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):26:false |==> true
+52:LVR:NEG:0:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):27:-1 |==> 0
+53:LVR:NEG:POS:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):27:-1 |==> 1
+54:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):29:beginIndex |==> 0
+55:ROR:<(int,int):!=(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):29:i < input.length() |==> i != input.length()
+56:ROR:<(int,int):<=(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):29:i < input.length() |==> i <= input.length()
+57:ROR:<(int,int):FALSE(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):29:i < input.length() |==> false
+58:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):30:input.charAt(i) |==> 0
+59:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):129:break loop; |==> <NO-OP>
+60:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):137:break; |==> <NO-OP>
+61:LVR:POS:0:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):140:1 |==> 0
+62:LVR:POS:NEG:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):140:1 |==> -1
+63:AOR:-(int,int):%(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):140:i - 1 |==> i % 1
+64:AOR:-(int,int):*(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):140:i - 1 |==> i * 1
+65:AOR:-(int,int):+(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):140:i - 1 |==> i + 1
+66:AOR:-(int,int):/(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):140:i - 1 |==> i / 1
+67:ROR:==(int,int):<=(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):140:last == i - 1 |==> last <= i - 1
+68:ROR:==(int,int):>=(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):140:last == i - 1 |==> last >= i - 1
+69:ROR:==(int,int):FALSE(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):140:last == i - 1 |==> false
+70:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):141:last = i |==> <NO-OP>
+71:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):143:break; |==> <NO-OP>
+72:STD:<INC>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):145:round++ |==> <NO-OP>
+73:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):146:break; |==> <NO-OP>
+74:STD:<DEC>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):148:round-- |==> <NO-OP>
+75:LVR:0:POS:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):149:0 |==> 1
+76:LVR:0:NEG:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):149:0 |==> -1
+77:ROR:>=(int,int):==(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):149:round >= 0 |==> round == 0
+78:ROR:>=(int,int):>(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):149:round >= 0 |==> round > 0
+79:ROR:>=(int,int):TRUE(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):149:round >= 0 |==> true
+80:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):150:last = i |==> <NO-OP>
+81:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):153:break loop; |==> <NO-OP>
+82:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):155:break; |==> <NO-OP>
+83:STD:<INC>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):158:square++ |==> <NO-OP>
+84:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):159:break; |==> <NO-OP>
+85:STD:<DEC>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):162:square-- |==> <NO-OP>
+86:LVR:0:POS:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):163:0 |==> 1
+87:LVR:0:NEG:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):163:0 |==> -1
+88:ROR:>=(int,int):==(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):163:square >= 0 |==> square == 0
+89:ROR:>=(int,int):>(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):163:square >= 0 |==> square > 0
+90:ROR:>=(int,int):TRUE(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):163:square >= 0 |==> true
+91:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):164:last = i |==> <NO-OP>
+92:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):167:break loop; |==> <NO-OP>
+93:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):169:break; |==> <NO-OP>
+94:STD:<INC>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):171:curly++ |==> <NO-OP>
+95:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):172:break; |==> <NO-OP>
+96:STD:<DEC>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):174:curly-- |==> <NO-OP>
+97:LVR:0:POS:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):175:0 |==> 1
+98:LVR:0:NEG:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):175:0 |==> -1
+99:ROR:>=(int,int):==(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):175:curly >= 0 |==> curly == 0
+100:ROR:>=(int,int):>(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):175:curly >= 0 |==> curly > 0
+101:ROR:>=(int,int):TRUE(int,int):org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):175:curly >= 0 |==> true
+102:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):176:last = i |==> <NO-OP>
+103:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):179:break loop; |==> <NO-OP>
+104:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):181:break; |==> <NO-OP>
+105:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):183:singleQuote = !singleQuote |==> <NO-OP>
+106:COR:singleQuote:TRUE:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):184:singleQuote |==> false
+107:COR:singleQuote:FALSE:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):184:singleQuote |==> true
+108:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):185:last = i |==> <NO-OP>
+109:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):187:break; |==> <NO-OP>
+110:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):189:last = i |==> <NO-OP>
+111:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.nibor.autolink.internal.Scanners@findUrlEnd(java.lang.CharSequence,int):192:last |==> 0

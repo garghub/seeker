@@ -1,0 +1,134 @@
+1:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.nibor.autolink.internal.EmailScanner@<init>(boolean):16:domainMustHaveDot |==> false
+2:LVR:POS:0:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):21:1 |==> 0
+3:LVR:POS:NEG:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):21:1 |==> -1
+4:AOR:-(int,int):%(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):21:triggerIndex - 1 |==> triggerIndex % 1
+5:AOR:-(int,int):*(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):21:triggerIndex - 1 |==> triggerIndex * 1
+6:AOR:-(int,int):+(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):21:triggerIndex - 1 |==> triggerIndex + 1
+7:AOR:-(int,int):/(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):21:triggerIndex - 1 |==> triggerIndex / 1
+8:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):22:findFirst(input, beforeAt, rewindIndex) |==> 0
+9:LVR:NEG:0:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):23:-1 |==> 0
+10:LVR:NEG:POS:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):23:-1 |==> 1
+11:ROR:==(int,int):<=(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):23:first == -1 |==> first <= -1
+12:ROR:==(int,int):>=(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):23:first == -1 |==> first >= -1
+13:ROR:==(int,int):FALSE(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):23:first == -1 |==> false
+14:STD:<RETURN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):24:return null; |==> <NO-OP>
+15:LVR:POS:0:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):27:1 |==> 0
+16:LVR:POS:NEG:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):27:1 |==> -1
+17:AOR:+(int,int):%(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):27:triggerIndex + 1 |==> triggerIndex % 1
+18:AOR:+(int,int):*(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):27:triggerIndex + 1 |==> triggerIndex * 1
+19:AOR:+(int,int):-(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):27:triggerIndex + 1 |==> triggerIndex - 1
+20:AOR:+(int,int):/(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):27:triggerIndex + 1 |==> triggerIndex / 1
+21:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):28:findLast(input, afterAt) |==> 0
+22:LVR:NEG:0:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):29:-1 |==> 0
+23:LVR:NEG:POS:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):29:-1 |==> 1
+24:ROR:==(int,int):<=(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):29:last == -1 |==> last <= -1
+25:ROR:==(int,int):>=(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):29:last == -1 |==> last >= -1
+26:ROR:==(int,int):FALSE(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):29:last == -1 |==> false
+27:STD:<RETURN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):30:return null; |==> <NO-OP>
+28:LVR:POS:0:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):33:1 |==> 0
+29:LVR:POS:NEG:org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):33:1 |==> -1
+30:AOR:+(int,int):%(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):33:last + 1 |==> last % 1
+31:AOR:+(int,int):*(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):33:last + 1 |==> last * 1
+32:AOR:+(int,int):-(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):33:last + 1 |==> last - 1
+33:AOR:+(int,int):/(int,int):org.nibor.autolink.internal.EmailScanner@scan(java.lang.CharSequence,int,int):33:last + 1 |==> last / 1
+34:LVR:NEG:0:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):38:-1 |==> 0
+35:LVR:NEG:POS:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):38:-1 |==> 1
+36:LVR:TRUE:FALSE:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):39:true |==> false
+37:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):40:beginIndex |==> 0
+38:ROR:>=(int,int):==(int,int):org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):40:i >= rewindIndex |==> i == rewindIndex
+39:ROR:>=(int,int):>(int,int):org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):40:i >= rewindIndex |==> i > rewindIndex
+40:ROR:>=(int,int):TRUE(int,int):org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):40:i >= rewindIndex |==> true
+41:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):41:input.charAt(i) |==> 0
+42:COR:localAtomAllowed(c):TRUE:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):42:localAtomAllowed(c) |==> false
+43:COR:localAtomAllowed(c):FALSE:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):42:localAtomAllowed(c) |==> true
+44:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):43:first = i |==> <NO-OP>
+45:LVR:FALSE:TRUE:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):44:false |==> true
+46:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):44:atomBoundary = false |==> <NO-OP>
+47:ROR:==(int,int):<=(int,int):org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):45:c == '.' |==> c <= '.'
+48:ROR:==(int,int):>=(int,int):org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):45:c == '.' |==> c >= '.'
+49:ROR:==(int,int):FALSE(int,int):org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):45:c == '.' |==> false
+50:COR:atomBoundary:TRUE:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):46:atomBoundary |==> false
+51:COR:atomBoundary:FALSE:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):46:atomBoundary |==> true
+52:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):47:break; |==> <NO-OP>
+53:LVR:TRUE:FALSE:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):49:true |==> false
+54:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):49:atomBoundary = true |==> <NO-OP>
+55:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):51:break; |==> <NO-OP>
+56:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.nibor.autolink.internal.EmailScanner@findFirst(java.lang.CharSequence,int,int):54:first |==> 0
+57:LVR:TRUE:FALSE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):59:true |==> false
+58:LVR:FALSE:TRUE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):60:false |==> true
+59:LVR:NEG:0:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):61:-1 |==> 0
+60:LVR:NEG:POS:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):61:-1 |==> 1
+61:LVR:NEG:0:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):62:-1 |==> 0
+62:LVR:NEG:POS:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):62:-1 |==> 1
+63:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):63:beginIndex |==> 0
+64:ROR:<(int,int):!=(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):63:i < input.length() |==> i != input.length()
+65:ROR:<(int,int):<=(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):63:i < input.length() |==> i <= input.length()
+66:ROR:<(int,int):FALSE(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):63:i < input.length() |==> false
+67:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):64:input.charAt(i) |==> 0
+68:COR:firstInSubDomain:TRUE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):65:firstInSubDomain |==> false
+69:COR:firstInSubDomain:FALSE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):65:firstInSubDomain |==> true
+70:COR:subDomainAllowed(c):TRUE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):66:subDomainAllowed(c) |==> false
+71:COR:subDomainAllowed(c):FALSE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):66:subDomainAllowed(c) |==> true
+72:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):67:last = i |==> <NO-OP>
+73:LVR:FALSE:TRUE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):68:false |==> true
+74:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):68:firstInSubDomain = false |==> <NO-OP>
+75:LVR:TRUE:FALSE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):69:true |==> false
+76:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):69:canEndSubDomain = true |==> <NO-OP>
+77:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):71:break; |==> <NO-OP>
+78:ROR:==(int,int):<=(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):74:c == '.' |==> c <= '.'
+79:ROR:==(int,int):>=(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):74:c == '.' |==> c >= '.'
+80:ROR:==(int,int):FALSE(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):74:c == '.' |==> false
+81:COR:canEndSubDomain:TRUE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):75:canEndSubDomain |==> false
+82:COR:canEndSubDomain:FALSE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):75:canEndSubDomain |==> true
+83:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):76:break; |==> <NO-OP>
+84:LVR:TRUE:FALSE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):78:true |==> false
+85:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):78:firstInSubDomain = true |==> <NO-OP>
+86:LVR:NEG:0:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):79:-1 |==> 0
+87:LVR:NEG:POS:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):79:-1 |==> 1
+88:ROR:==(int,int):<=(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):79:firstDot == -1 |==> firstDot <= -1
+89:ROR:==(int,int):>=(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):79:firstDot == -1 |==> firstDot >= -1
+90:ROR:==(int,int):FALSE(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):79:firstDot == -1 |==> false
+91:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):80:firstDot = i |==> <NO-OP>
+92:ROR:==(int,int):<=(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):82:c == '-' |==> c <= '-'
+93:ROR:==(int,int):>=(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):82:c == '-' |==> c >= '-'
+94:ROR:==(int,int):FALSE(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):82:c == '-' |==> false
+95:LVR:FALSE:TRUE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):83:false |==> true
+96:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):83:canEndSubDomain = false |==> <NO-OP>
+97:COR:subDomainAllowed(c):TRUE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):84:subDomainAllowed(c) |==> false
+98:COR:subDomainAllowed(c):FALSE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):84:subDomainAllowed(c) |==> true
+99:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):85:last = i |==> <NO-OP>
+100:LVR:TRUE:FALSE:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):86:true |==> false
+101:STD:<ASSIGN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):86:canEndSubDomain = true |==> <NO-OP>
+102:STD:<BREAK>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):88:break; |==> <NO-OP>
+103:LVR:NEG:0:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:-1 |==> 0
+104:LVR:NEG:POS:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:-1 |==> 1
+105:ROR:==(int,int):<=(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:firstDot == -1 |==> firstDot <= -1
+106:ROR:==(int,int):>=(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:firstDot == -1 |==> firstDot >= -1
+107:ROR:==(int,int):FALSE(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:firstDot == -1 |==> false
+108:ROR:>(int,int):!=(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:firstDot > last |==> firstDot != last
+109:ROR:>(int,int):>=(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:firstDot > last |==> firstDot >= last
+110:ROR:>(int,int):FALSE(int,int):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:firstDot > last |==> false
+111:COR:||(boolean,boolean):!=(boolean,boolean):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:firstDot == -1 || firstDot > last |==> firstDot == -1 != firstDot > last
+112:COR:||(boolean,boolean):LHS(boolean,boolean):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:firstDot == -1 || firstDot > last |==> firstDot == -1
+113:COR:||(boolean,boolean):RHS(boolean,boolean):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:firstDot == -1 || firstDot > last |==> firstDot > last
+114:COR:||(boolean,boolean):TRUE(boolean,boolean):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:firstDot == -1 || firstDot > last |==> true
+115:COR:&&(boolean,boolean):==(boolean,boolean):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:domainMustHaveDot && (firstDot == -1 || firstDot > last) |==> domainMustHaveDot == (firstDot == -1 || firstDot > last)
+116:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:domainMustHaveDot && (firstDot == -1 || firstDot > last) |==> false
+117:COR:&&(boolean,boolean):LHS(boolean,boolean):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:domainMustHaveDot && (firstDot == -1 || firstDot > last) |==> domainMustHaveDot
+118:COR:&&(boolean,boolean):RHS(boolean,boolean):org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):92:domainMustHaveDot && (firstDot == -1 || firstDot > last) |==> (firstDot == -1 || firstDot > last)
+119:LVR:NEG:0:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):93:-1 |==> 0
+120:LVR:NEG:POS:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):93:-1 |==> 1
+121:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.nibor.autolink.internal.EmailScanner@findLast(java.lang.CharSequence,int):95:last |==> 0
+122:COR:||(boolean,boolean):!=(boolean,boolean):org.nibor.autolink.internal.EmailScanner@localAtomAllowed(char):101:Scanners.isAlnum(c) || Scanners.isNonAscii(c) |==> Scanners.isAlnum(c) != Scanners.isNonAscii(c)
+123:COR:||(boolean,boolean):LHS(boolean,boolean):org.nibor.autolink.internal.EmailScanner@localAtomAllowed(char):101:Scanners.isAlnum(c) || Scanners.isNonAscii(c) |==> Scanners.isAlnum(c)
+124:COR:||(boolean,boolean):RHS(boolean,boolean):org.nibor.autolink.internal.EmailScanner@localAtomAllowed(char):101:Scanners.isAlnum(c) || Scanners.isNonAscii(c) |==> Scanners.isNonAscii(c)
+125:COR:||(boolean,boolean):TRUE(boolean,boolean):org.nibor.autolink.internal.EmailScanner@localAtomAllowed(char):101:Scanners.isAlnum(c) || Scanners.isNonAscii(c) |==> true
+126:LVR:TRUE:FALSE:org.nibor.autolink.internal.EmailScanner@localAtomAllowed(char):102:true |==> false
+127:STD:<RETURN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@localAtomAllowed(char):102:return Config.__M_NO == 0 && Config.COVERED(126, 126) ? true : Config.__M_NO == 126 ? false : true; |==> <NO-OP>
+128:LVR:TRUE:FALSE:org.nibor.autolink.internal.EmailScanner@localAtomAllowed(char):124:true |==> false
+129:STD:<RETURN>:<NO-OP>:org.nibor.autolink.internal.EmailScanner@localAtomAllowed(char):124:return Config.__M_NO == 0 && Config.COVERED(128, 128) ? true : Config.__M_NO == 128 ? false : true; |==> <NO-OP>
+130:LVR:FALSE:TRUE:org.nibor.autolink.internal.EmailScanner@localAtomAllowed(char):126:false |==> true
+131:COR:||(boolean,boolean):!=(boolean,boolean):org.nibor.autolink.internal.EmailScanner@subDomainAllowed(char):131:Scanners.isAlnum(c) || Scanners.isNonAscii(c) |==> Scanners.isAlnum(c) != Scanners.isNonAscii(c)
+132:COR:||(boolean,boolean):LHS(boolean,boolean):org.nibor.autolink.internal.EmailScanner@subDomainAllowed(char):131:Scanners.isAlnum(c) || Scanners.isNonAscii(c) |==> Scanners.isAlnum(c)
+133:COR:||(boolean,boolean):RHS(boolean,boolean):org.nibor.autolink.internal.EmailScanner@subDomainAllowed(char):131:Scanners.isAlnum(c) || Scanners.isNonAscii(c) |==> Scanners.isNonAscii(c)
+134:COR:||(boolean,boolean):TRUE(boolean,boolean):org.nibor.autolink.internal.EmailScanner@subDomainAllowed(char):131:Scanners.isAlnum(c) || Scanners.isNonAscii(c) |==> true

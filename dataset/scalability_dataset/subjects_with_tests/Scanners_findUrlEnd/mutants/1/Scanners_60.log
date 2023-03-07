@@ -1,0 +1,85 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+org.nibor.autolink.internal.Scanners_ESTest STANDARD_OUT
+    09:29:24.994 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.internal.Scanners_ESTest
+    09:29:24.999 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.internal.Scanners_ESTest'.
+    09:29:25.056 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.internal.Scanners_ESTest_scaffolding
+    09:29:25.056 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.internal.Scanners_ESTest_scaffolding'.
+    09:29:25.060 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.internal.Scanners_ESTest_scaffolding
+    09:29:25.061 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.internal.Scanners_ESTest
+    09:29:25.688 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    09:29:25.688 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    09:29:25.688 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    09:29:25.688 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    09:29:25.689 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    09:29:25.689 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    09:29:25.689 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    09:29:25.689 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    09:29:25.689 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    09:29:25.689 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64294 to /127.0.0.1:64293 workers Thread 2"
+    09:29:25.691 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64294 to /127.0.0.1:64293 workers Thread 3"
+    09:29:25.811 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.internal.Scanners
+    09:29:25.811 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.internal.Scanners'.
+    09:29:25.849 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/nibor/autolink/internal/Scanners
+    09:29:26.190 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/nibor/autolink/internal/Scanners
+    09:29:26.191 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.internal.Scanners
+
+org.nibor.autolink.internal.Scanners_ESTest > test36 FAILED
+    java.lang.AssertionError at Scanners_ESTest.java:355
+
+org.nibor.autolink.internal.Scanners_ESTest > test30 FAILED
+    java.lang.AssertionError at Scanners_ESTest.java:298
+
+org.nibor.autolink.internal.Scanners_ESTest > test05 STANDARD_OUT
+    09:29:26.340 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:243
+
+RegressionTest > RegressionTest0.test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:352
+
+RegressionTest > RegressionTest0.test43 FAILED
+    java.lang.AssertionError at RegressionTest0.java:368
+
+RegressionTest > RegressionTest0.test44 FAILED
+    java.lang.AssertionError at RegressionTest0.java:376
+
+RegressionTest > RegressionTest0.test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:400
+
+RegressionTest > RegressionTest0.test52 FAILED
+    java.lang.AssertionError at RegressionTest0.java:445
+
+RegressionTest0 > test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:243
+
+RegressionTest0 > test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:352
+
+RegressionTest0 > test43 FAILED
+    java.lang.AssertionError at RegressionTest0.java:368
+
+RegressionTest0 > test44 FAILED
+    java.lang.AssertionError at RegressionTest0.java:376
+
+RegressionTest0 > test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:400
+
+RegressionTest0 > test52 FAILED
+    java.lang.AssertionError at RegressionTest0.java:445
+Results: FAILURE (212 tests, 198 successes, 14 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

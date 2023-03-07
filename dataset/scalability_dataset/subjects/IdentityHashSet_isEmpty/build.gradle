@@ -1,0 +1,93 @@
+plugins {
+    id 'java'
+    id 'info.solidsoft.pitest' version '1.4.0'
+    id 'maven'
+}
+
+group 'simple-examples'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+    // configuration that holds jars to include in the jar
+    extraLibs
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDir "src/main/resources"
+        }
+    }
+    test {
+        resources {
+            srcDir "src/test/java"
+        }
+    }
+}
+dependencies {
+    //compile group: 'com.bpodgursky', name: 'jbool_expressions', version: '1.+'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+pitest {
+    targetClasses = ['package_name.*']  //by default "${project.group}.*"
+    threads = 1
+    outputFormats = ['XML', 'HTML']
+    jvmArgs = ['-ea']
+    timestampedReports = false
+    mutators = ["ALL"]
+}
+
+test {
+    //testLogging {
+    //    showStandardStreams = true
+    //}
+    testLogging {
+        showStandardStreams = true
+        afterSuite { desc, result ->
+            if (!desc.parent) { // will match the outermost suite
+                println "Results: ${result.resultType} (${result.testCount} tests, ${result.successfulTestCount} successes, ${result.failedTestCount} failures, ${result.skippedTestCount} skipped)"
+            }
+        }
+    }
+}
+
+jar {
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.testCompile.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.testRuntime.collect { it.isDirectory() ? it : zipTree(it) }
+
+    }
+    from sourceSets.test.output
+}
+
+allprojects {
+    // add a collection to track failedTests
+    ext.failedTests = []
+
+    // add a testlistener to all tasks of type Test
+    tasks.withType(Test) {
+        afterTest { TestDescriptor descriptor, TestResult result ->
+            if (result.resultType == org.gradle.api.tasks.testing.TestResult.ResultType.FAILURE) {
+                failedTests << "${descriptor.className}.${descriptor.name}"
+            }
+        }
+    }
+
+    // print out tracked failed tests when the build has finished
+    gradle.buildFinished {
+
+        if (!failedTests.empty) {
+            failedTests << ""
+            new File("${project.buildDir}/failed-tests.txt").text = failedTests.join("\n")
+        }
+    }
+}

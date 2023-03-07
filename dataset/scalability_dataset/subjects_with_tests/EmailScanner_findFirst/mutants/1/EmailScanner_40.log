@@ -1,0 +1,680 @@
+:clean
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+org.nibor.autolink.internal.EmailScanner_ESTest STANDARD_OUT
+    09:05:54.832 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.internal.EmailScanner_ESTest
+    09:05:54.836 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.internal.EmailScanner_ESTest'.
+    09:05:54.876 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.internal.EmailScanner_ESTest_scaffolding
+    09:05:54.876 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.internal.EmailScanner_ESTest_scaffolding'.
+    09:05:54.879 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.internal.EmailScanner_ESTest_scaffolding
+    09:05:54.880 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.internal.EmailScanner_ESTest
+    09:05:55.324 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    09:05:55.324 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    09:05:55.324 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    09:05:55.325 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    09:05:55.325 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    09:05:55.325 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    09:05:55.325 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    09:05:55.325 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    09:05:55.325 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    09:05:55.325 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:62721 to /127.0.0.1:62720 workers Thread 2"
+    09:05:55.325 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:62721 to /127.0.0.1:62720 workers Thread 3"
+    09:05:55.410 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.LinkSpan
+    09:05:55.411 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.LinkSpan'.
+    09:05:55.577 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.nibor.autolink, 855953847
+    09:05:55.578 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.Span
+    09:05:55.578 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.Span'.
+    09:05:55.580 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.Span
+    09:05:55.581 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.LinkSpan
+    09:05:55.581 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.internal.LinkSpanImpl
+    09:05:55.581 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.internal.LinkSpanImpl'.
+    09:05:55.586 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/nibor/autolink/internal/LinkSpanImpl
+    09:05:55.699 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/nibor/autolink/internal/LinkSpanImpl
+    09:05:55.701 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.internal.LinkSpanImpl
+    09:05:55.702 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.LinkType
+    09:05:55.702 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.LinkType'.
+    09:05:55.704 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/nibor/autolink/LinkType
+    09:05:55.707 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/nibor/autolink/LinkType
+    09:05:55.708 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.LinkType
+    09:05:55.708 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.internal.EmailScanner
+    09:05:55.709 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.internal.EmailScanner'.
+    09:05:55.711 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/nibor/autolink/internal/EmailScanner
+    09:05:55.713 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/nibor/autolink/internal/EmailScanner
+    09:05:55.714 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.internal.Scanner
+    09:05:55.714 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.internal.Scanner'.
+    09:05:55.716 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.internal.Scanner
+    09:05:55.716 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.internal.EmailScanner
+    09:05:55.717 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.nibor.autolink.internal.Scanners
+    09:05:55.717 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.nibor.autolink.internal.Scanners'.
+    09:05:55.719 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/nibor/autolink/internal/Scanners
+    09:05:55.722 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/nibor/autolink/internal/Scanners
+    09:05:55.722 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.nibor.autolink.internal.Scanners
+
+org.nibor.autolink.internal.EmailScanner_ESTest > test26 FAILED
+    java.lang.IndexOutOfBoundsException at EmailScanner_ESTest.java:322
+
+RegressionTest > RegressionTest0.test003 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:38
+
+RegressionTest > RegressionTest0.test008 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:95
+
+RegressionTest > RegressionTest0.test009 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:111
+
+RegressionTest > RegressionTest0.test010 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:127
+
+RegressionTest > RegressionTest0.test012 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:154
+
+RegressionTest > RegressionTest0.test013 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:170
+
+RegressionTest > RegressionTest0.test014 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:188
+
+RegressionTest > RegressionTest0.test015 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:204
+
+RegressionTest > RegressionTest0.test016 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:217
+
+RegressionTest > RegressionTest0.test017 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:233
+
+RegressionTest > RegressionTest0.test018 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:251
+
+RegressionTest > RegressionTest0.test019 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:267
+
+RegressionTest > RegressionTest0.test020 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:280
+
+RegressionTest > RegressionTest0.test021 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:291
+
+RegressionTest > RegressionTest0.test022 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:311
+
+RegressionTest > RegressionTest0.test023 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:324
+
+RegressionTest > RegressionTest0.test024 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:344
+
+RegressionTest > RegressionTest0.test025 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:364
+
+RegressionTest > RegressionTest0.test026 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:375
+
+RegressionTest > RegressionTest0.test027 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:393
+
+RegressionTest > RegressionTest0.test028 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:406
+
+RegressionTest > RegressionTest0.test029 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:422
+
+RegressionTest > RegressionTest0.test030 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:438
+
+RegressionTest > RegressionTest0.test031 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:456
+
+RegressionTest > RegressionTest0.test032 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:472
+
+RegressionTest > RegressionTest0.test034 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:497
+
+RegressionTest > RegressionTest0.test035 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:513
+
+RegressionTest > RegressionTest0.test036 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:531
+
+RegressionTest > RegressionTest0.test037 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:547
+
+RegressionTest > RegressionTest0.test038 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:560
+
+RegressionTest > RegressionTest0.test039 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:580
+
+RegressionTest > RegressionTest0.test040 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:600
+
+RegressionTest > RegressionTest0.test041 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:623
+
+RegressionTest > RegressionTest0.test042 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:638
+
+RegressionTest > RegressionTest0.test043 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:653
+
+RegressionTest > RegressionTest0.test044 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:670
+
+RegressionTest > RegressionTest0.test045 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:692
+
+RegressionTest > RegressionTest0.test046 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:708
+
+RegressionTest > RegressionTest0.test047 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:726
+
+RegressionTest > RegressionTest0.test048 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:743
+
+RegressionTest > RegressionTest0.test049 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:760
+
+RegressionTest > RegressionTest0.test050 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:778
+
+RegressionTest > RegressionTest0.test051 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:796
+
+RegressionTest > RegressionTest0.test053 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:825
+
+RegressionTest > RegressionTest0.test054 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:840
+
+RegressionTest > RegressionTest0.test055 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:858
+
+RegressionTest > RegressionTest0.test056 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:874
+
+RegressionTest > RegressionTest0.test057 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:894
+
+RegressionTest > RegressionTest0.test058 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:908
+
+RegressionTest > RegressionTest0.test059 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:924
+
+RegressionTest > RegressionTest0.test060 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:946
+
+RegressionTest > RegressionTest0.test061 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:966
+
+RegressionTest > RegressionTest0.test062 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:984
+
+RegressionTest > RegressionTest0.test063 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1002
+
+RegressionTest > RegressionTest0.test064 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1022
+
+RegressionTest > RegressionTest0.test065 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1036
+
+RegressionTest > RegressionTest0.test066 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1054
+
+RegressionTest > RegressionTest0.test067 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1072
+
+RegressionTest > RegressionTest0.test068 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1089
+
+RegressionTest > RegressionTest0.test069 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1105
+
+RegressionTest > RegressionTest0.test070 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1121
+
+RegressionTest > RegressionTest0.test071 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1141
+
+RegressionTest > RegressionTest0.test072 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1161
+
+RegressionTest > RegressionTest0.test073 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1177
+
+RegressionTest > RegressionTest0.test074 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1192
+
+RegressionTest > RegressionTest0.test075 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1201
+
+RegressionTest > RegressionTest0.test076 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1219
+
+RegressionTest > RegressionTest0.test077 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1230
+
+RegressionTest > RegressionTest0.test078 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1249
+
+RegressionTest > RegressionTest0.test080 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1278
+
+RegressionTest > RegressionTest0.test081 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1298
+
+RegressionTest > RegressionTest0.test082 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1313
+
+RegressionTest > RegressionTest0.test083 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1335
+
+RegressionTest > RegressionTest0.test084 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1355
+
+RegressionTest > RegressionTest0.test085 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1372
+
+RegressionTest > RegressionTest0.test086 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1389
+
+RegressionTest > RegressionTest0.test087 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1400
+
+RegressionTest > RegressionTest0.test088 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1418
+
+RegressionTest > RegressionTest0.test089 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1440
+
+RegressionTest > RegressionTest0.test090 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1457
+
+RegressionTest > RegressionTest0.test091 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1470
+
+RegressionTest > RegressionTest0.test092 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1486
+
+RegressionTest > RegressionTest0.test093 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1504
+
+RegressionTest > RegressionTest0.test094 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1521
+
+RegressionTest > RegressionTest0.test095 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1534
+
+RegressionTest > RegressionTest0.test096 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1545
+
+RegressionTest > RegressionTest0.test097 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1563
+
+RegressionTest > RegressionTest0.test098 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1576
+
+RegressionTest > RegressionTest0.test099 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1589
+
+RegressionTest > RegressionTest0.test100 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1600
+
+RegressionTest > RegressionTest0.test101 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1624
+
+RegressionTest > RegressionTest0.test102 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1646
+
+RegressionTest > RegressionTest0.test103 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1666
+
+RegressionTest > RegressionTest0.test104 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1686
+
+RegressionTest > RegressionTest0.test105 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1710
+
+RegressionTest > RegressionTest0.test106 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1723
+
+RegressionTest > RegressionTest0.test107 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1740
+
+RegressionTest > RegressionTest0.test108 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1757
+
+RegressionTest > RegressionTest0.test109 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1781
+
+RegressionTest > RegressionTest0.test110 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1800
+
+RegressionTest > RegressionTest0.test111 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1817
+
+RegressionTest > RegressionTest0.test112 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1834
+
+RegressionTest0 > test003 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:38
+
+RegressionTest0 > test008 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:95
+
+RegressionTest0 > test009 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:111
+
+RegressionTest0 > test010 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:127
+
+RegressionTest0 > test012 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:154
+
+RegressionTest0 > test013 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:170
+
+RegressionTest0 > test014 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:188
+
+RegressionTest0 > test015 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:204
+
+RegressionTest0 > test016 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:217
+
+RegressionTest0 > test017 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:233
+
+RegressionTest0 > test018 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:251
+
+RegressionTest0 > test019 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:267
+
+RegressionTest0 > test020 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:280
+
+RegressionTest0 > test021 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:291
+
+RegressionTest0 > test022 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:311
+
+RegressionTest0 > test023 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:324
+
+RegressionTest0 > test024 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:344
+
+RegressionTest0 > test025 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:364
+
+RegressionTest0 > test026 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:375
+
+RegressionTest0 > test027 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:393
+
+RegressionTest0 > test028 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:406
+
+RegressionTest0 > test029 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:422
+
+RegressionTest0 > test030 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:438
+
+RegressionTest0 > test031 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:456
+
+RegressionTest0 > test032 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:472
+
+RegressionTest0 > test034 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:497
+
+RegressionTest0 > test035 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:513
+
+RegressionTest0 > test036 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:531
+
+RegressionTest0 > test037 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:547
+
+RegressionTest0 > test038 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:560
+
+RegressionTest0 > test039 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:580
+
+RegressionTest0 > test040 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:600
+
+RegressionTest0 > test041 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:623
+
+RegressionTest0 > test042 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:638
+
+RegressionTest0 > test043 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:653
+
+RegressionTest0 > test044 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:670
+
+RegressionTest0 > test045 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:692
+
+RegressionTest0 > test046 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:708
+
+RegressionTest0 > test047 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:726
+
+RegressionTest0 > test048 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:743
+
+RegressionTest0 > test049 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:760
+
+RegressionTest0 > test050 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:778
+
+RegressionTest0 > test051 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:796
+
+RegressionTest0 > test053 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:825
+
+RegressionTest0 > test054 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:840
+
+RegressionTest0 > test055 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:858
+
+RegressionTest0 > test056 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:874
+
+RegressionTest0 > test057 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:894
+
+RegressionTest0 > test058 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:908
+
+RegressionTest0 > test059 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:924
+
+RegressionTest0 > test060 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:946
+
+RegressionTest0 > test061 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:966
+
+RegressionTest0 > test062 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:984
+
+RegressionTest0 > test063 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1002
+
+RegressionTest0 > test064 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1022
+
+RegressionTest0 > test065 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1036
+
+RegressionTest0 > test066 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1054
+
+RegressionTest0 > test067 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1072
+
+RegressionTest0 > test068 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1089
+
+RegressionTest0 > test069 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1105
+
+RegressionTest0 > test070 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1121
+
+RegressionTest0 > test071 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1141
+
+RegressionTest0 > test072 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1161
+
+RegressionTest0 > test073 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1177
+
+RegressionTest0 > test074 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1192
+
+RegressionTest0 > test075 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1201
+
+RegressionTest0 > test076 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1219
+
+RegressionTest0 > test077 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1230
+
+RegressionTest0 > test078 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1249
+
+RegressionTest0 > test080 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1278
+
+RegressionTest0 > test081 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1298
+
+RegressionTest0 > test082 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1313
+
+RegressionTest0 > test083 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1335
+
+RegressionTest0 > test084 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1355
+
+RegressionTest0 > test085 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1372
+
+RegressionTest0 > test086 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1389
+
+RegressionTest0 > test087 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1400
+
+RegressionTest0 > test088 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1418
+
+RegressionTest0 > test089 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1440
+
+RegressionTest0 > test090 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1457
+
+RegressionTest0 > test091 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1470
+
+RegressionTest0 > test092 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1486
+
+RegressionTest0 > test093 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1504
+
+RegressionTest0 > test094 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1521
+
+RegressionTest0 > test095 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1534
+
+RegressionTest0 > test096 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1545
+
+RegressionTest0 > test097 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1563
+
+RegressionTest0 > test098 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1576
+
+RegressionTest0 > test099 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1589
+
+RegressionTest0 > test100 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1600
+
+RegressionTest0 > test101 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1624
+
+RegressionTest0 > test102 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1646
+
+RegressionTest0 > test103 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1666
+
+RegressionTest0 > test104 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1686
+
+RegressionTest0 > test105 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1710
+
+RegressionTest0 > test106 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1723
+
+RegressionTest0 > test107 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1740
+
+RegressionTest0 > test108 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1757
+
+RegressionTest0 > test109 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1781
+
+RegressionTest0 > test110 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1800
+
+RegressionTest0 > test111 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1817
+
+RegressionTest0 > test112 FAILED
+    java.lang.StringIndexOutOfBoundsException at RegressionTest0.java:1834
+Results: FAILURE (251 tests, 46 successes, 205 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

@@ -1,0 +1,21 @@
+===========================================================================
+org.apache.commons.cli.OptionGroup:::OBJECT
+FuzzedInvariant ( all n : OptionGroup.optionMap.keySet : n != null ) holds for: this
+FuzzedInvariant ( all n : OptionGroup.optionMap.keySet : n = null ) holds for: this
+FuzzedInvariant ( all n : OptionGroup.optionMap.values : n != null ) holds for: this
+FuzzedInvariant ( all n : OptionGroup.optionMap.values : n = null ) holds for: this
+FuzzedInvariant ( no n : OptionGroup.optionMap.keySet : n != null ) holds for: this
+FuzzedInvariant ( no n : OptionGroup.optionMap.keySet : n = null ) holds for: this
+FuzzedInvariant ( no n : OptionGroup.optionMap.values : n != null ) holds for: this
+FuzzedInvariant ( no n : OptionGroup.optionMap.values : n = null ) holds for: this
+this.optionMap != null
+this.optionMap.getClass().getName() == java.util.LinkedHashMap.class.getName()
+this.selected == null
+===========================================================================
+org.apache.commons.cli.OptionGroup.setRequired(boolean):::ENTER
+===========================================================================
+org.apache.commons.cli.OptionGroup.setRequired(boolean):::EXIT
+this.optionMap == \old(this.optionMap)
+this.optionMap.getClass().getName() == \old(this.optionMap.getClass().getName())
+this.selected == \old(this.selected)
+this.required == \old(required)

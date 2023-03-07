@@ -1,0 +1,23 @@
+1:EVR:<MEMBER_SELECT(org.leplus.ristretto.util.IdentityObject)>:<DEFAULT>:org.leplus.ristretto.util.IdentityHashSet:48:IdentityObject.IT |==> null
+2:STD:<ASSIGN>:<NO-OP>:org.leplus.ristretto.util.IdentityHashSet@<init>():62:map = new IdentityHashMap<>() |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.leplus.ristretto.util.IdentityHashSet@<init>(java.util.Collection<? extends E>):73:addAll(c) |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.leplus.ristretto.util.IdentityHashSet@<init>(int):86:map = new IdentityHashMap<>(expectedMaxSize) |==> <NO-OP>
+5:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.leplus.ristretto.util.IdentityHashSet@add(E):96:map.put(e, DUMMY) == null |==> false
+6:STD:<CALL>:<NO-OP>:org.leplus.ristretto.util.IdentityHashSet@clear():106:map.clear() |==> <NO-OP>
+7:EVR:<TYPE_CAST(org.leplus.ristretto.util.IdentityHashSet<E>)>:<DEFAULT>:org.leplus.ristretto.util.IdentityHashSet@clone():118:(IdentityHashSet<E>)super.clone() |==> null
+8:STD:<ASSIGN>:<NO-OP>:org.leplus.ristretto.util.IdentityHashSet@clone():119:clone.map = new IdentityHashMap<>(map) |==> <NO-OP>
+9:EVR:<IDENTIFIER(org.leplus.ristretto.util.IdentityHashSet<E>)>:<DEFAULT>:org.leplus.ristretto.util.IdentityHashSet@clone():120:clone |==> null
+10:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.leplus.ristretto.util.IdentityHashSet@contains(java.lang.Object):133:map.containsKey(o) |==> false
+11:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.leplus.ristretto.util.IdentityHashSet@equals(java.lang.Object):143:this == obj |==> false
+12:LVR:TRUE:FALSE:org.leplus.ristretto.util.IdentityHashSet@equals(java.lang.Object):144:true |==> false
+13:STD:<RETURN>:<NO-OP>:org.leplus.ristretto.util.IdentityHashSet@equals(java.lang.Object):144:return Config.__M_NO == 0 && Config.COVERED(12, 12) ? true : Config.__M_NO == 12 ? false : true; |==> <NO-OP>
+14:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.leplus.ristretto.util.IdentityHashSet@equals(java.lang.Object):146:map.keySet().equals(obj) |==> false
+15:LVR:0:POS:org.leplus.ristretto.util.IdentityHashSet@hashCode():156:0 |==> 1
+16:LVR:0:NEG:org.leplus.ristretto.util.IdentityHashSet@hashCode():156:0 |==> -1
+17:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.leplus.ristretto.util.IdentityHashSet@hashCode():158:o != null |==> true
+18:STD:<ASSIGN>:<NO-OP>:org.leplus.ristretto.util.IdentityHashSet@hashCode():159:hashCode += o.hashCode() |==> <NO-OP>
+19:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.leplus.ristretto.util.IdentityHashSet@hashCode():162:hashCode |==> 0
+20:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.leplus.ristretto.util.IdentityHashSet@isEmpty():172:map.isEmpty() |==> false
+21:EVR:<METHOD_INVOCATION(java.util.Iterator<E>)>:<DEFAULT>:org.leplus.ristretto.util.IdentityHashSet@iterator():182:map.keySet().iterator() |==> null
+22:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.leplus.ristretto.util.IdentityHashSet@remove(java.lang.Object):192:map.remove(o) == DUMMY |==> false
+23:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.leplus.ristretto.util.IdentityHashSet@size():202:map.size() |==> 0

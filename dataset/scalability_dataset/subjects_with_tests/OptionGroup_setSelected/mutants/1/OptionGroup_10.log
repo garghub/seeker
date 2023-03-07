@@ -1,0 +1,86 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+org.apache.commons.cli.OptionGroup_ESTest STANDARD_OUT
+    09:23:19.444 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.OptionGroup_ESTest
+    09:23:19.448 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.OptionGroup_ESTest'.
+    09:23:19.501 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.OptionGroup_ESTest_scaffolding
+    09:23:19.501 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.OptionGroup_ESTest_scaffolding'.
+    09:23:19.506 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.OptionGroup_ESTest_scaffolding
+    09:23:19.507 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.OptionGroup_ESTest
+    09:23:20.065 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    09:23:20.065 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    09:23:20.066 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    09:23:20.066 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    09:23:20.066 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    09:23:20.066 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    09:23:20.066 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    09:23:20.066 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    09:23:20.067 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    09:23:20.067 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:63943 to /127.0.0.1:63942 workers Thread 2"
+    09:23:20.067 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:63943 to /127.0.0.1:63942 workers Thread 3"
+    09:23:20.179 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Option$1
+    09:23:20.180 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Option$1'.
+    09:23:20.218 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Option$1
+    09:23:20.553 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option$1
+    09:23:20.554 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.AlreadySelectedException
+    09:23:20.554 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.AlreadySelectedException'.
+    09:23:20.557 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/AlreadySelectedException
+    09:23:20.562 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/AlreadySelectedException
+    09:23:20.562 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.ParseException
+    09:23:20.562 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.ParseException'.
+    09:23:20.564 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/ParseException
+    09:23:20.565 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/ParseException
+    09:23:20.566 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.ParseException
+    09:23:20.566 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.AlreadySelectedException
+    09:23:20.567 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.OptionValidator
+    09:23:20.567 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.OptionValidator'.
+    09:23:20.569 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/OptionValidator
+    09:23:20.582 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/OptionValidator
+    09:23:20.583 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.OptionValidator
+    09:23:20.584 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.OptionGroup
+    09:23:20.584 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.OptionGroup'.
+    09:23:20.587 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/OptionGroup
+    09:23:20.589 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/OptionGroup
+    09:23:20.592 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.OptionGroup
+    09:23:20.593 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Option$Builder
+    09:23:20.593 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Option$Builder'.
+    09:23:20.596 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Option$Builder
+    09:23:20.603 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Option$Builder
+    09:23:20.604 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option$Builder
+    09:23:20.605 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Option
+    09:23:20.605 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Option'.
+    09:23:20.608 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Option
+    09:23:20.622 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Option
+    09:23:20.622 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field UNINITIALIZED
+    09:23:20.623 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field UNLIMITED_VALUES
+    09:23:20.624 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option
+
+org.apache.commons.cli.OptionGroup_ESTest > test00 FAILED
+    java.lang.NullPointerException at OptionGroup_ESTest.java:25
+
+org.apache.commons.cli.OptionGroup_ESTest > test11 STANDARD_OUT
+    09:23:20.701 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+org.apache.commons.cli.OptionGroup_ESTest > test01 FAILED
+    java.lang.NullPointerException at OptionGroup_ESTest.java:34
+
+org.apache.commons.cli.OptionGroup_ESTest > test06 FAILED
+    java.lang.NullPointerException at OptionGroup_ESTest.java:87
+
+org.apache.commons.cli.OptionGroup_ESTest > test07 FAILED
+    java.lang.NullPointerException at OptionGroup_ESTest.java:106
+Results: FAILURE (63 tests, 59 successes, 4 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

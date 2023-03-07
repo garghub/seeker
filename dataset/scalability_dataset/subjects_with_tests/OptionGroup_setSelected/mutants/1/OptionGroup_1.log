@@ -1,0 +1,230 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+org.apache.commons.cli.OptionGroup_ESTest STANDARD_OUT
+    09:21:53.300 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.OptionGroup_ESTest
+    09:21:53.305 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.OptionGroup_ESTest'.
+    09:21:53.353 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.OptionGroup_ESTest_scaffolding
+    09:21:53.353 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.OptionGroup_ESTest_scaffolding'.
+    09:21:53.358 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.OptionGroup_ESTest_scaffolding
+    09:21:53.358 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.OptionGroup_ESTest
+    09:21:53.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    09:21:53.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    09:21:53.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    09:21:53.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    09:21:53.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    09:21:53.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    09:21:53.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    09:21:53.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    09:21:53.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    09:21:53.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:63862 to /127.0.0.1:63861 workers Thread 2"
+    09:21:53.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:63862 to /127.0.0.1:63861 workers Thread 3"
+    09:21:54.029 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Option$1
+    09:21:54.029 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Option$1'.
+    09:21:54.064 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Option$1
+    09:21:54.376 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option$1
+    09:21:54.377 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.AlreadySelectedException
+    09:21:54.377 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.AlreadySelectedException'.
+    09:21:54.380 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/AlreadySelectedException
+    09:21:54.385 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/AlreadySelectedException
+    09:21:54.386 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.ParseException
+    09:21:54.386 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.ParseException'.
+    09:21:54.390 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/ParseException
+    09:21:54.391 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/ParseException
+    09:21:54.392 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.ParseException
+    09:21:54.392 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.AlreadySelectedException
+    09:21:54.393 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.OptionValidator
+    09:21:54.393 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.OptionValidator'.
+    09:21:54.397 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/OptionValidator
+    09:21:54.407 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/OptionValidator
+    09:21:54.407 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.OptionValidator
+    09:21:54.408 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.OptionGroup
+    09:21:54.409 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.OptionGroup'.
+    09:21:54.412 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/OptionGroup
+    09:21:54.415 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/OptionGroup
+    09:21:54.419 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.OptionGroup
+    09:21:54.421 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Option$Builder
+    09:21:54.421 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Option$Builder'.
+    09:21:54.423 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Option$Builder
+    09:21:54.431 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Option$Builder
+    09:21:54.432 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option$Builder
+    09:21:54.432 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Option
+    09:21:54.433 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Option'.
+    09:21:54.435 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Option
+    09:21:54.449 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Option
+    09:21:54.449 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field UNINITIALIZED
+    09:21:54.449 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field UNLIMITED_VALUES
+    09:21:54.450 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option
+
+org.apache.commons.cli.OptionGroup_ESTest > test04 FAILED
+    java.lang.NullPointerException at OptionGroup_ESTest.java:67
+
+org.apache.commons.cli.OptionGroup_ESTest > test05 STANDARD_OUT
+    09:21:54.499 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+org.apache.commons.cli.OptionGroup_ESTest > test05 FAILED
+    java.lang.NullPointerException at OptionGroup_ESTest.java:76
+
+org.apache.commons.cli.OptionGroup_ESTest > test02 FAILED
+    java.lang.NullPointerException at OptionGroup_ESTest.java:44
+
+org.apache.commons.cli.OptionGroup_ESTest > test10 FAILED
+    java.lang.NullPointerException at OptionGroup_ESTest.java:128
+
+RegressionTest > RegressionTest0.test01 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:15
+
+RegressionTest > RegressionTest0.test02 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:34
+
+RegressionTest > RegressionTest0.test03 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:56
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:66
+
+RegressionTest > RegressionTest0.test05 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:77
+
+RegressionTest > RegressionTest0.test07 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:99
+
+RegressionTest > RegressionTest0.test08 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:113
+
+RegressionTest > RegressionTest0.test09 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:131
+
+RegressionTest > RegressionTest0.test10 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:149
+
+RegressionTest > RegressionTest0.test11 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:174
+
+RegressionTest > RegressionTest0.test12 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:193
+
+RegressionTest > RegressionTest0.test13 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:209
+
+RegressionTest > RegressionTest0.test14 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:229
+
+RegressionTest > RegressionTest0.test15 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:258
+
+RegressionTest > RegressionTest0.test16 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:283
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:298
+
+RegressionTest > RegressionTest0.test18 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:313
+
+RegressionTest > RegressionTest0.test19 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:334
+
+RegressionTest > RegressionTest0.test20 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:355
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:374
+
+RegressionTest > RegressionTest0.test22 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:395
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:417
+
+RegressionTest > RegressionTest0.test24 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:428
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:444
+
+RegressionTest0 > test01 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:15
+
+RegressionTest0 > test02 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:34
+
+RegressionTest0 > test03 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:56
+
+RegressionTest0 > test04 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:66
+
+RegressionTest0 > test05 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:77
+
+RegressionTest0 > test07 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:99
+
+RegressionTest0 > test08 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:113
+
+RegressionTest0 > test09 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:131
+
+RegressionTest0 > test10 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:149
+
+RegressionTest0 > test11 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:174
+
+RegressionTest0 > test12 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:193
+
+RegressionTest0 > test13 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:209
+
+RegressionTest0 > test14 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:229
+
+RegressionTest0 > test15 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:258
+
+RegressionTest0 > test16 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:283
+
+RegressionTest0 > test17 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:298
+
+RegressionTest0 > test18 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:313
+
+RegressionTest0 > test19 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:334
+
+RegressionTest0 > test20 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:355
+
+RegressionTest0 > test21 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:374
+
+RegressionTest0 > test22 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:395
+
+RegressionTest0 > test23 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:417
+
+RegressionTest0 > test24 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:428
+
+RegressionTest0 > test25 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:444
+Results: FAILURE (63 tests, 11 successes, 52 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

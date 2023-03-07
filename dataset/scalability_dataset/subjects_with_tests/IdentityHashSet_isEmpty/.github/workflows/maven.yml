@@ -1,0 +1,66 @@
+# Copyright 2016-present Thomas Leplus
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+#     http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# This workflow will build a Java project with Maven
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
+
+name: Maven
+
+on:
+  push:
+  pull_request:
+  schedule:
+  - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        java: [ 8, 9, 10, 11, 12, 13, 14, 15 ]
+    runs-on: ubuntu-latest
+    name: Java ${{ matrix.java }}
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK ${{ matrix.java }}
+      uses: actions/setup-java@v2
+      with:
+        distribution: zulu
+        java-version: ${{ matrix.java }}
+        gpg-private-key: ${{ secrets.OSSRH_GPG_PRIVATE_KEY }}
+        gpg-passphrase: MAVEN_GPG_PASSPHRASE
+    - name: Build with Maven
+      env:
+        MAVEN_GPG_PASSPHRASE: ${{ secrets.OSSRH_GPG_PASSPHRASE }}
+      run: |
+        if [ -z "${MAVEN_GPG_PASSPHRASE}" ]
+        then
+          ./mvnw --batch-mode --errors --fail-at-end --show-version -DinstallAtEnd=true -DdeployAtEnd=true verify -Dgpg.skip=true
+        else
+          ./mvnw --batch-mode --errors --fail-at-end --show-version -DinstallAtEnd=true -DdeployAtEnd=true verify
+        fi
+    - name: Scan with SonarCloud
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      if: ${{ matrix.java == 11 && env.SONAR_TOKEN != '' }}
+      run: ./mvnw --batch-mode --errors --fail-at-end --show-version -DinstallAtEnd=false -DdeployAtEnd=false org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
+    - name: Upload artifacts
+      if: ${{ matrix.java == 8 }}
+      uses: actions/upload-artifact@v2
+      with:
+        name: ristretto
+        path: target/
+    - name: Clean up
+      run: rm "${HOME}/.m2/settings.xml"

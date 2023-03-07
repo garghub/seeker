@@ -1,0 +1,20 @@
+===========================================================================
+org.leplus.ristretto.util.IdentityHashSet:::OBJECT
+FuzzedInvariant ( all n : IdentityHashSet.map.values : n != null ) holds for: this
+FuzzedInvariant ( no n : IdentityHashSet.map.values : n = null ) holds for: this
+this.map != null
+===========================================================================
+org.leplus.ristretto.util.IdentityHashSet.isEmpty():::ENTER
+FuzzedInvariant ( all n : IdentityHashSet.map.keySet : n != null ) holds for: this
+FuzzedInvariant ( no n : IdentityHashSet.map.keySet : n = null ) holds for: this
+===========================================================================
+org.leplus.ristretto.util.IdentityHashSet.isEmpty():::EXIT
+org.leplus.ristretto.util.IdentityHashSet.DUMMY == \old(org.leplus.ristretto.util.IdentityHashSet.DUMMY)
+org.leplus.ristretto.util.IdentityHashSet.DUMMY == \old(org.leplus.ristretto.util.IdentityObject.IT)
+this.map == \old(this.map)
+(FuzzedInvariant ( some n : IdentityHashSet.map.keySet : n != null ) holds for: orig(this)) || !(\result == false)
+(FuzzedInvariant ( some n : IdentityHashSet.map.values : n != null ) holds for: orig(this)) || !(\result == false)
+(FuzzedInvariant ( all n : IdentityHashSet.map.keySet : n = null ) holds for: orig(this)) || !(\result == true)
+(FuzzedInvariant ( all n : IdentityHashSet.map.values : n = null ) holds for: orig(this)) || !(\result == true)
+(FuzzedInvariant ( no n : IdentityHashSet.map.keySet : n != null ) holds for: orig(this)) || !(\result == true)
+(FuzzedInvariant ( no n : IdentityHashSet.map.values : n != null ) holds for: orig(this)) || !(\result == true)

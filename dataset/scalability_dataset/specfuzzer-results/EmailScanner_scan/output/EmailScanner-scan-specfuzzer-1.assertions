@@ -1,0 +1,298 @@
+===========================================================================
+org.nibor.autolink.internal.EmailScanner:::OBJECT
+===========================================================================
+org.nibor.autolink.internal.EmailScanner.scan(java.lang.CharSequence, int, int):::ENTER
+input.getClass().getName() == java.lang.String.class.getName()
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 != -1) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 != 1) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 < -1) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 < 0) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 < 1) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 <= -1) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 <= 0) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 <= 1) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 = -1) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 = 0) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 = 1) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 > -1) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 > 0) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 >= -1) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 >= 1) ) holds for: <this, triggerIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 != -1) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 != 1) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 < -1) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 < 0) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 < 1) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 <= -1) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 <= 0) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 <= 1) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 = -1) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 = 0) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 = 1) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 > -1) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 > 0) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 >= -1) ) holds for: <this, rewindIndex>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) xor (Integer_Variable_0 >= 1) ) holds for: <this, rewindIndex>
+===========================================================================
+org.nibor.autolink.internal.EmailScanner.scan(java.lang.CharSequence, int, int):::EXIT24
+FuzzedInvariant ( (Integer_Variable_0 < 1) or (Integer_Variable_1 > 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) or (Integer_Variable_1 > 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 + 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 - -1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 < Integer_Variable_1 + 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 < Integer_Variable_1 - -1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 <= Integer_Variable_1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 <= Integer_Variable_1 * 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 <= Integer_Variable_1 + 0 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 <= Integer_Variable_1 - -1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 <= Integer_Variable_1 - 0 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 <= Integer_Variable_1 / 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+\old(triggerIndex) <= \old(rewindIndex)
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 <= Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+===========================================================================
+org.nibor.autolink.internal.EmailScanner.scan(java.lang.CharSequence, int, int):::EXIT30
+this.domainMustHaveDot == true
+\old(input) != null
+\old(triggerIndex) == 1 || \old(triggerIndex) == 3
+FuzzedInvariant ( Integer_Variable_0 != -1 ) holds for: orig(triggerIndex)
+FuzzedInvariant ( Integer_Variable_0 != 0 ) holds for: orig(triggerIndex)
+FuzzedInvariant ( Integer_Variable_0 > -1 ) holds for: orig(triggerIndex)
+FuzzedInvariant ( Integer_Variable_0 > 0 ) holds for: orig(triggerIndex)
+FuzzedInvariant ( Integer_Variable_0 >= -1 ) holds for: orig(triggerIndex)
+FuzzedInvariant ( Integer_Variable_0 >= 0 ) holds for: orig(triggerIndex)
+FuzzedInvariant ( Integer_Variable_0 >= 1 ) holds for: orig(triggerIndex)
+\old(rewindIndex) == 0
+FuzzedInvariant ( (Boolean_Variable_0) iff (Integer_Variable_0 != -1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) iff (Integer_Variable_0 != 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) iff (Integer_Variable_0 > -1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) iff (Integer_Variable_0 > 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) iff (Integer_Variable_0 >= -1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) iff (Integer_Variable_0 >= 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) iff (Integer_Variable_0 >= 1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != -1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 > -1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 > 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 >= -1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 >= 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 >= 1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != -1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != 1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 < 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 < 1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 <= 1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 = -1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 = 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 > -1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 > 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 > 1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 >= -1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 >= 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 >= 1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) xor (Integer_Variable_0 < -1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) xor (Integer_Variable_0 < 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) xor (Integer_Variable_0 < 1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) xor (Integer_Variable_0 <= -1) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) xor (Integer_Variable_0 <= 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) xor (Integer_Variable_0 = 0) ) holds for: <this.domainMustHaveDot, orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 != -1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 != 0) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 > -1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 > 0) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 >= -1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 >= 0) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 >= 1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 != -1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 != 0) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 != 1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 < -1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 < 0) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 < 1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 <= -1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 <= 0) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 <= 1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 = -1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 = 1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 > -1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 > 0) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 > 1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 >= -1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 >= 0) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 >= 1) ) holds for: <orig(this), orig(triggerIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 != -1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 < 1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 <= 0) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 <= 1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 = 0) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 > -1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 >= -1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) implies (Integer_Variable_0 >= 0) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 != 0) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 != 1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 < -1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 < 0) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 < 1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 <= -1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 <= 0) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 <= 1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 = -1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 = 1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 > 0) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 > 1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 >= 1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 != -1) implies (Integer_Variable_1 <= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 != -1) or (Integer_Variable_1 < -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 != -1) or (Integer_Variable_1 < 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 != -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 <= 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) iff (Integer_Variable_1 = 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) implies (Integer_Variable_1 != 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) or (Integer_Variable_1 >= -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 < -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 <= -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 > 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 != Integer_Variable_1) xor (Integer_Variable_1 >= 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < -1) or (Integer_Variable_1 != -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < -1) xor (Integer_Variable_1 <= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < 0) implies (Integer_Variable_1 < -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < 0) or (Integer_Variable_1 <= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < 0) xor (Integer_Variable_1 = 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < 1) iff (Integer_Variable_1 != 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < 1) implies (Integer_Variable_1 != 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < 1) implies (Integer_Variable_1 = 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < 1) implies (Integer_Variable_1 >= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < 1) xor (Integer_Variable_1 <= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 <= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) implies (Integer_Variable_1 > 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) or (Integer_Variable_1 <= 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 > -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < Integer_Variable_1) xor (Integer_Variable_1 >= -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 <= -1) iff (Integer_Variable_1 = 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 <= -1) iff (Integer_Variable_1 >= 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 <= -1) implies (Integer_Variable_1 < 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 <= 0) iff (Integer_Variable_1 < -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 <= 1) implies (Integer_Variable_1 != -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) iff (Integer_Variable_1 >= 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 <= 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 <= Integer_Variable_1) implies (Integer_Variable_1 = 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = -1) iff (Integer_Variable_1 < -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = -1) or (Integer_Variable_1 != -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = -1) xor (Integer_Variable_1 != 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = -1) xor (Integer_Variable_1 >= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = 0) iff (Integer_Variable_1 = -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = 0) implies (Integer_Variable_1 <= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = 0) or (Integer_Variable_1 = 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = 1) or (Integer_Variable_1 <= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) iff (Integer_Variable_1 != 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 < 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 <= -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 = 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 > -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) implies (Integer_Variable_1 >= -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) or (Integer_Variable_1 >= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 != -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 < 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = Integer_Variable_1) xor (Integer_Variable_1 >= -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > -1) iff (Integer_Variable_1 <= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > -1) implies (Integer_Variable_1 <= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > -1) or (Integer_Variable_1 != 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > -1) or (Integer_Variable_1 >= 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > -1) xor (Integer_Variable_1 != 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > 0) implies (Integer_Variable_1 = 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > 0) or (Integer_Variable_1 != -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 != -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) iff (Integer_Variable_1 >= -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) or (Integer_Variable_1 >= 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 < 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 = 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 > 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) xor (Integer_Variable_1 > 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= -1) iff (Integer_Variable_1 = 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= -1) implies (Integer_Variable_1 <= 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= -1) implies (Integer_Variable_1 > -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= -1) xor (Integer_Variable_1 != 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= -1) xor (Integer_Variable_1 < 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= -1) xor (Integer_Variable_1 <= -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= 0) iff (Integer_Variable_1 = 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= 0) implies (Integer_Variable_1 <= 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= 1) iff (Integer_Variable_1 < 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= 1) implies (Integer_Variable_1 <= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= 1) or (Integer_Variable_1 > 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= 1) xor (Integer_Variable_1 <= -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) iff (Integer_Variable_1 > -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 != 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) implies (Integer_Variable_1 < 1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 < 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= Integer_Variable_1) or (Integer_Variable_1 > -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 % -1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 % 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 * 0 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 * 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 + 0 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 - 0 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 - 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 / -1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 != Integer_Variable_1 / 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 % -1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 % 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 * 0 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 * 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 + -1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 + 0 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 - 0 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 - 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 / -1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 > Integer_Variable_1 / 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 % -1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 % 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 * -1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 * 0 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 + -1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 + 0 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 + 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 - -1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 - 0 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 - 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 / -1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( Integer_Variable_0 >= Integer_Variable_1 / 1 ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+\old(triggerIndex) > \old(rewindIndex)
+FuzzedInvariant ( (Boolean_Variable_0) iff (Integer_Variable_0 != Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) iff (Integer_Variable_0 > Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) iff (Integer_Variable_0 >= Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 > Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 >= Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 < Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 = Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 > Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 >= Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) xor (Integer_Variable_0 < Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) xor (Integer_Variable_0 <= Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) xor (Integer_Variable_0 = Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>
+===========================================================================
+org.nibor.autolink.internal.EmailScanner.scan(java.lang.CharSequence, int, int):::EXIT
+this.domainMustHaveDot == \old(this.domainMustHaveDot)
+\result == null
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != -1) ) holds for: <this.domainMustHaveDot, orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 > -1) ) holds for: <this.domainMustHaveDot, orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 >= -1) ) holds for: <this.domainMustHaveDot, orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 >= 0) ) holds for: <this.domainMustHaveDot, orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 != -1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 > -1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 >= -1) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (EmailScanner.domainMustHaveDot) or (Integer_Variable_0 >= 0) ) holds for: <orig(this), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 < 0) or (Integer_Variable_1 >= 0) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 <= -1) or (Integer_Variable_1 != -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 = 1) implies (Integer_Variable_1 > -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > 1) implies (Integer_Variable_1 >= -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 > Integer_Variable_1) implies (Integer_Variable_1 > -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= -1) implies (Integer_Variable_1 >= -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= 1) implies (Integer_Variable_1 != -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Integer_Variable_0 >= 1) implies (Integer_Variable_1 >= -1) ) holds for: <orig(triggerIndex), orig(rewindIndex)>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 <= Integer_Variable_1) ) holds for: <this.domainMustHaveDot , orig(triggerIndex) , orig(rewindIndex)>

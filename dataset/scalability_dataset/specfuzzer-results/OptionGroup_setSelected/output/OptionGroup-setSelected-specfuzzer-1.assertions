@@ -1,0 +1,46 @@
+===========================================================================
+org.apache.commons.cli.OptionGroup:::OBJECT
+FuzzedInvariant ( all n : OptionGroup.optionMap.keySet : n != null ) holds for: this
+FuzzedInvariant ( all n : OptionGroup.optionMap.keySet : n = null ) holds for: this
+FuzzedInvariant ( all n : OptionGroup.optionMap.values : n != null ) holds for: this
+FuzzedInvariant ( all n : OptionGroup.optionMap.values : n = null ) holds for: this
+FuzzedInvariant ( no n : OptionGroup.optionMap.keySet : n != null ) holds for: this
+FuzzedInvariant ( no n : OptionGroup.optionMap.keySet : n = null ) holds for: this
+FuzzedInvariant ( no n : OptionGroup.optionMap.values : n != null ) holds for: this
+FuzzedInvariant ( no n : OptionGroup.optionMap.values : n = null ) holds for: this
+this.optionMap != null
+this.optionMap.getClass().getName() == java.util.LinkedHashMap.class.getName()
+this.selected == null
+===========================================================================
+org.apache.commons.cli.OptionGroup.setSelected(org.apache.commons.cli.Option):::ENTER
+option == null
+===========================================================================
+org.apache.commons.cli.OptionGroup.setSelected(org.apache.commons.cli.Option):::EXIT92
+===========================================================================
+org.apache.commons.cli.OptionGroup.setSelected(org.apache.commons.cli.Option):::EXIT
+this.optionMap == \old(this.optionMap)
+this.optionMap.getClass().getName() == \old(this.optionMap.getClass().getName())
+this.selected == \old(this.selected)
+this.required == \old(this.required)
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != 0) ) holds for: <this.required, org.apache.commons.cli.Option.UNINITIALIZED>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != 1) ) holds for: <this.required, org.apache.commons.cli.Option.UNINITIALIZED>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 < 0) ) holds for: <this.required, org.apache.commons.cli.Option.UNINITIALIZED>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 <= -1) ) holds for: <this.required, org.apache.commons.cli.Option.UNINITIALIZED>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 <= 0) ) holds for: <this.required, org.apache.commons.cli.Option.UNINITIALIZED>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != 1) ) holds for: <this.required, org.apache.commons.cli.Option.UNINITIALIZED>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 < 0) ) holds for: <this.required, org.apache.commons.cli.Option.UNINITIALIZED>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 <= -1) ) holds for: <this.required, org.apache.commons.cli.Option.UNINITIALIZED>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 <= 1) ) holds for: <this.required, org.apache.commons.cli.Option.UNINITIALIZED>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 = -1) ) holds for: <this.required, org.apache.commons.cli.Option.UNINITIALIZED>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 >= -1) ) holds for: <this.required, org.apache.commons.cli.Option.UNINITIALIZED>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != -1) ) holds for: <this.required, org.apache.commons.cli.Option.UNLIMITED_VALUES>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != 0) ) holds for: <this.required, org.apache.commons.cli.Option.UNLIMITED_VALUES>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 != 1) ) holds for: <this.required, org.apache.commons.cli.Option.UNLIMITED_VALUES>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 < 0) ) holds for: <this.required, org.apache.commons.cli.Option.UNLIMITED_VALUES>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 <= -1) ) holds for: <this.required, org.apache.commons.cli.Option.UNLIMITED_VALUES>
+FuzzedInvariant ( (Boolean_Variable_0) implies (Integer_Variable_0 <= 0) ) holds for: <this.required, org.apache.commons.cli.Option.UNLIMITED_VALUES>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != -1) ) holds for: <this.required, org.apache.commons.cli.Option.UNLIMITED_VALUES>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 != 1) ) holds for: <this.required, org.apache.commons.cli.Option.UNLIMITED_VALUES>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 < 0) ) holds for: <this.required, org.apache.commons.cli.Option.UNLIMITED_VALUES>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 <= -1) ) holds for: <this.required, org.apache.commons.cli.Option.UNLIMITED_VALUES>
+FuzzedInvariant ( (Boolean_Variable_0) or (Integer_Variable_0 <= 1) ) holds for: <this.required, org.apache.commons.cli.Option.UNLIMITED_VALUES>

@@ -1,0 +1,101 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+org.apache.commons.cli.OptionGroup_ESTest STANDARD_OUT
+    09:21:18.652 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.OptionGroup_ESTest
+    09:21:18.657 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.OptionGroup_ESTest'.
+    09:21:18.703 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.OptionGroup_ESTest_scaffolding
+    09:21:18.703 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.OptionGroup_ESTest_scaffolding'.
+    09:21:18.706 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.OptionGroup_ESTest_scaffolding
+    09:21:18.707 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.OptionGroup_ESTest
+    09:21:19.293 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    09:21:19.293 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    09:21:19.293 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    09:21:19.293 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    09:21:19.294 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    09:21:19.294 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    09:21:19.294 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    09:21:19.294 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    09:21:19.294 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    09:21:19.294 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:63830 to /127.0.0.1:63829 workers Thread 2"
+    09:21:19.294 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:63830 to /127.0.0.1:63829 workers Thread 3"
+    09:21:19.402 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Option$1
+    09:21:19.402 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Option$1'.
+    09:21:19.436 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Option$1
+    09:21:19.745 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option$1
+    09:21:19.746 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.AlreadySelectedException
+    09:21:19.746 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.AlreadySelectedException'.
+    09:21:19.748 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/AlreadySelectedException
+    09:21:19.754 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/AlreadySelectedException
+    09:21:19.754 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.ParseException
+    09:21:19.754 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.ParseException'.
+    09:21:19.756 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/ParseException
+    09:21:19.757 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/ParseException
+    09:21:19.758 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.ParseException
+    09:21:19.758 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.AlreadySelectedException
+    09:21:19.759 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.OptionValidator
+    09:21:19.759 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.OptionValidator'.
+    09:21:19.762 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/OptionValidator
+    09:21:19.770 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/OptionValidator
+    09:21:19.771 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.OptionValidator
+    09:21:19.771 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.OptionGroup
+    09:21:19.772 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.OptionGroup'.
+    09:21:19.775 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/OptionGroup
+    09:21:19.777 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/OptionGroup
+    09:21:19.781 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.OptionGroup
+    09:21:19.782 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Option$Builder
+    09:21:19.782 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Option$Builder'.
+    09:21:19.784 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Option$Builder
+    09:21:19.789 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Option$Builder
+    09:21:19.789 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option$Builder
+    09:21:19.790 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.cli.Option
+    09:21:19.791 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.cli.Option'.
+    09:21:19.793 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/cli/Option
+    09:21:19.805 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/cli/Option
+    09:21:19.805 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field UNINITIALIZED
+    09:21:19.805 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field UNLIMITED_VALUES
+    09:21:19.806 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.cli.Option
+
+org.apache.commons.cli.OptionGroup_ESTest > test02 FAILED
+    java.lang.AssertionError at OptionGroup_ESTest.java:45
+
+org.apache.commons.cli.OptionGroup_ESTest > test11 FAILED
+    java.lang.AssertionError at OptionGroup_ESTest.java:135
+
+RegressionTest > RegressionTest0.test10 FAILED
+    java.lang.AssertionError at RegressionTest0.java:166
+
+RegressionTest > RegressionTest0.test11 FAILED
+    java.lang.AssertionError at RegressionTest0.java:184
+
+RegressionTest > RegressionTest0.test20 FAILED
+    java.lang.AssertionError at RegressionTest0.java:365
+
+RegressionTest > RegressionTest0.test24 FAILED
+    java.lang.AssertionError at RegressionTest0.java:435
+
+RegressionTest0 > test10 FAILED
+    java.lang.AssertionError at RegressionTest0.java:166
+
+RegressionTest0 > test11 FAILED
+    java.lang.AssertionError at RegressionTest0.java:184
+
+RegressionTest0 > test20 FAILED
+    java.lang.AssertionError at RegressionTest0.java:365
+
+RegressionTest0 > test24 FAILED
+    java.lang.AssertionError at RegressionTest0.java:435
+Results: FAILURE (63 tests, 53 successes, 10 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed
