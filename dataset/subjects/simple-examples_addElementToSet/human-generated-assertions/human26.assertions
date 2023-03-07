@@ -1,0 +1,4 @@
+assert(intSet.contains(element));
+assert(ch.usi.gassert.util.Implies.implies(old_intSet.contains(element), old_intSet.size() == intSet.size()) || ch.usi.gassert.util.Implies.implies(!old_intSet.contains(element), old_intSet.size() + 1 == intSet.size()));
+assert( (intSet.contains(element) && 
+(ch.usi.gassert.util.Implies.implies(old_intSet.contains(element), old_intSet.size() == intSet.size()) || ch.usi.gassert.util.Implies.implies(!old_intSet.contains(element), old_intSet.size() + 1 == intSet.size()))));

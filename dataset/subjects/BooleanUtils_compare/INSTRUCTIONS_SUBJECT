@@ -1,0 +1,60 @@
+HOW to prepare the subject
+
+
+/input-assertions
+    human.assertions
+
+    the initial assertion that we give to human to improve (if any)
+
+    smaller assertion firsts and complete assertions at the end
+
+    assert(a);
+    assert(b);
+    assert(a && b);
+
+
+
+/human-generated-assertions
+    the human generated assertions (if any)
+    each file for an assertion, same structure smaller assertions and complete assertions
+
+        assert(a);
+        assert(b);
+        assert(a && b);
+
+
+
+/orig
+    the folder that will contain the original source code of out method under test
+    the assertion point must be specified by
+
+    assert(true);
+
+    For example:
+        /**
+         * Compute the minimum of two values
+         *
+         * @param a first value
+         * @param b second value
+         * @return a if a is lesser or equal to b, b otherwise
+         */
+        public int getMin(final int a, final int b) {
+            final int result;
+            if (a <= b) {
+                result = a;
+            } else {
+                result = b;
+            }
+            assert (true);
+            return result;
+        }
+
+        the source file must exclude the package folder for example if class a.b.ClassA
+        inside orig we should have only ClassA.java
+
+
+/className.input
+a file containing the fully qualified class name in input
+for example
+
+examples.SimpleMethods

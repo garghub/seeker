@@ -1,0 +1,4 @@
+assert(intSet.contains(old_element));
+assert(intSet.containsAll(old_intSet));
+assert(intSet.size() == (old_intSet.size() + old_intSet.contains(old_element) ? 0 : 1));
+assert( (intSet.contains(old_element) && intSet.containsAll(old_intSet) && intSet.size() == old_intSet.size() + (old_intSet.contains(old_element) ? 0 : 1)));
