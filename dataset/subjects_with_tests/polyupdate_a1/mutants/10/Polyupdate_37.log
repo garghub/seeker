@@ -1,0 +1,46 @@
+:clean
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.Polyupdate_ESTest STANDARD_OUT
+    09:30:34.423 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Polyupdate_ESTest
+    09:30:34.427 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Polyupdate_ESTest'.
+    09:30:34.465 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Polyupdate_ESTest_scaffolding
+    09:30:34.466 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Polyupdate_ESTest_scaffolding'.
+    09:30:34.470 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Polyupdate_ESTest_scaffolding
+    09:30:34.470 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Polyupdate_ESTest
+    09:30:34.847 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    09:30:34.847 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    09:30:34.847 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    09:30:34.848 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    09:30:34.848 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    09:30:34.848 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    09:30:34.848 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    09:30:34.848 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    09:30:34.848 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    09:30:34.849 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:50691 to /127.0.0.1:50690 workers Thread 2"
+    09:30:34.849 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:50691 to /127.0.0.1:50690 workers Thread 3"
+    09:30:34.931 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Polyupdate
+    09:30:34.932 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Polyupdate'.
+    09:30:34.954 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/Polyupdate
+    09:30:35.219 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/Polyupdate
+    09:30:35.219 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Polyupdate
+
+examples.Polyupdate_ESTest > test05 STANDARD_OUT
+    09:30:35.292 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+Results: SUCCESS (394 tests, 394 successes, 0 failures, 0 skipped)
+:check
+:build
+
+BUILD SUCCESSFUL in 14s
+4 actionable tasks: 4 executed

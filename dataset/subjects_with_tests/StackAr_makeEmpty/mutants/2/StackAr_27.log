@@ -1,0 +1,59 @@
+:clean
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+DataStructures.StackAr_ESTest STANDARD_OUT
+    11:08:53.217 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr_ESTest
+    11:08:53.222 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr_ESTest'.
+    11:08:53.260 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr_ESTest_scaffolding
+    11:08:53.260 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr_ESTest_scaffolding'.
+    11:08:53.263 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr_ESTest_scaffolding
+    11:08:53.263 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr_ESTest
+    11:08:53.651 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    11:08:53.652 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    11:08:53.655 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    11:08:53.655 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    11:08:53.655 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    11:08:53.655 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    11:08:53.655 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    11:08:53.655 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    11:08:53.655 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    11:08:53.655 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:61799 to /127.0.0.1:61798 workers Thread 2"
+    11:08:53.656 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:61799 to /127.0.0.1:61798 workers Thread 3"
+    11:08:53.727 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr
+    11:08:53.727 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr'.
+    11:08:53.745 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/StackAr
+    11:08:54.017 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/StackAr
+    11:08:54.018 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr
+    11:08:54.018 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Underflow
+    11:08:54.018 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Underflow'.
+    11:08:54.020 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Underflow
+    11:08:54.020 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Underflow
+    11:08:54.020 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Underflow
+    11:08:54.021 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Overflow
+    11:08:54.021 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Overflow'.
+    11:08:54.022 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Overflow
+    11:08:54.022 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Overflow
+    11:08:54.022 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Overflow
+
+DataStructures.StackAr_ESTest > test09 STANDARD_OUT
+    11:08:54.063 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+DataStructures.StackAr_ESTest > test01 STANDARD_OUT
+    11:08:54.079 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+Results: SUCCESS (357 tests, 357 successes, 0 failures, 0 skipped)
+:check
+:build
+
+BUILD SUCCESSFUL in 13s
+4 actionable tasks: 4 executed

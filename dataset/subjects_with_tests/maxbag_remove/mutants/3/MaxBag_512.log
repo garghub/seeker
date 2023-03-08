@@ -1,0 +1,117 @@
+:clean
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.MaxBag_ESTest STANDARD_OUT
+    11:12:09.019 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest
+    11:12:09.021 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest'.
+    11:12:09.044 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest_scaffolding
+    11:12:09.044 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest_scaffolding'.
+    11:12:09.046 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest_scaffolding
+    11:12:09.046 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest
+    11:12:09.316 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    11:12:09.316 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    11:12:09.316 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    11:12:09.316 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    11:12:09.316 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    11:12:09.316 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    11:12:09.316 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    11:12:09.316 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    11:12:09.317 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    11:12:09.317 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:61020 to /127.0.0.1:61019 workers Thread 2"
+    11:12:09.317 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:61020 to /127.0.0.1:61019 workers Thread 3"
+    11:12:09.354 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag
+    11:12:09.355 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag'.
+    11:12:09.367 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/MaxBag
+    11:12:09.490 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/MaxBag
+    11:12:09.491 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag
+    11:12:09.491 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples._Type328393
+    11:12:09.491 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples._Type328393'.
+    11:12:09.492 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/_Type328393
+    11:12:09.493 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/_Type328393
+    11:12:09.493 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples._Type328393
+
+examples.MaxBag_ESTest > test12 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:202
+
+examples.MaxBag_ESTest > test11 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:191
+
+examples.MaxBag_ESTest > test10 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:178
+
+examples.MaxBag_ESTest > test16 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:249
+
+examples.MaxBag_ESTest > test14 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:222
+
+examples.MaxBag_ESTest > test13 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:213
+
+examples.MaxBag_ESTest > test09 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:160
+
+examples.MaxBag_ESTest > test08 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:141
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:47
+
+RegressionTest > RegressionTest0.test09 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:116
+
+RegressionTest > RegressionTest0.test11 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:143
+
+RegressionTest > RegressionTest0.test19 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:266
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:336
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:365
+
+RegressionTest > RegressionTest0.test27 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:394
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:404
+
+RegressionTest0 > test04 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:47
+
+RegressionTest0 > test09 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:116
+
+RegressionTest0 > test11 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:143
+
+RegressionTest0 > test19 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:266
+
+RegressionTest0 > test23 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:336
+
+RegressionTest0 > test25 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:365
+
+RegressionTest0 > test27 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:394
+
+RegressionTest0 > test28 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:404
+Results: FAILURE (75 tests, 51 successes, 24 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

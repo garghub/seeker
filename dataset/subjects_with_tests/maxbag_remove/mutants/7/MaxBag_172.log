@@ -1,0 +1,48 @@
+:clean
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.MaxBag_ESTest STANDARD_OUT
+    14:31:01.690 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest
+    14:31:01.693 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest'.
+    14:31:01.718 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest_scaffolding
+    14:31:01.718 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest_scaffolding'.
+    14:31:01.720 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest_scaffolding
+    14:31:01.720 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest
+    14:31:01.993 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    14:31:01.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    14:31:01.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    14:31:01.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    14:31:01.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    14:31:01.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    14:31:01.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    14:31:01.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    14:31:01.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    14:31:01.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:51140 to /127.0.0.1:51139 workers Thread 2"
+    14:31:01.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:51140 to /127.0.0.1:51139 workers Thread 3"
+    14:31:02.032 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag
+    14:31:02.032 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag'.
+    14:31:02.044 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/MaxBag
+    14:31:02.165 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/MaxBag
+    14:31:02.166 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag
+    14:31:02.166 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples._Type328393
+    14:31:02.166 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples._Type328393'.
+    14:31:02.167 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/_Type328393
+    14:31:02.168 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/_Type328393
+    14:31:02.168 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples._Type328393
+Results: SUCCESS (75 tests, 75 successes, 0 failures, 0 skipped)
+:check
+:build
+
+BUILD SUCCESSFUL in 5s
+4 actionable tasks: 4 executed

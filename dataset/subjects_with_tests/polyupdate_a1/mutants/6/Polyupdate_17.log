@@ -1,0 +1,103 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.Polyupdate_ESTest STANDARD_OUT
+    10:04:45.674 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Polyupdate_ESTest
+    10:04:45.683 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Polyupdate_ESTest'.
+    10:04:45.729 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Polyupdate_ESTest_scaffolding
+    10:04:45.729 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Polyupdate_ESTest_scaffolding'.
+    10:04:45.732 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Polyupdate_ESTest_scaffolding
+    10:04:45.733 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Polyupdate_ESTest
+    10:04:46.088 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    10:04:46.088 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    10:04:46.088 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    10:04:46.088 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    10:04:46.089 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    10:04:46.089 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    10:04:46.089 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    10:04:46.089 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    10:04:46.089 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    10:04:46.089 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:54578 to /127.0.0.1:54577 workers Thread 2"
+    10:04:46.089 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:54578 to /127.0.0.1:54577 workers Thread 3"
+    10:04:46.169 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Polyupdate
+    10:04:46.170 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Polyupdate'.
+    10:04:46.190 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/Polyupdate
+    10:04:46.425 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/Polyupdate
+    10:04:46.429 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Polyupdate
+
+examples.Polyupdate_ESTest > test09 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:109
+
+examples.Polyupdate_ESTest > test08 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:101
+
+examples.Polyupdate_ESTest > test07 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:92
+
+examples.Polyupdate_ESTest > test06 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:83
+
+examples.Polyupdate_ESTest > test00 STANDARD_OUT
+    10:04:46.502 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.Polyupdate_ESTest > test00 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:26
+
+examples.Polyupdate_ESTest > test04 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:58
+
+RegressionTest > RegressionTest0.test08 FAILED
+    java.lang.AssertionError at RegressionTest0.java:102
+
+RegressionTest > RegressionTest0.test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:184
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:367
+
+RegressionTest > RegressionTest0.test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:398
+
+RegressionTest > RegressionTest0.test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:561
+
+RegressionTest > RegressionTest0.test50 FAILED
+    java.lang.AssertionError at RegressionTest0.java:680
+
+RegressionTest > RegressionTest0.test54 FAILED
+    java.lang.AssertionError at RegressionTest0.java:736
+
+RegressionTest0 > test08 FAILED
+    java.lang.AssertionError at RegressionTest0.java:102
+
+RegressionTest0 > test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:184
+
+RegressionTest0 > test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:367
+
+RegressionTest0 > test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:398
+
+RegressionTest0 > test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:561
+
+RegressionTest0 > test50 FAILED
+    java.lang.AssertionError at RegressionTest0.java:680
+
+RegressionTest0 > test54 FAILED
+    java.lang.AssertionError at RegressionTest0.java:736
+Results: FAILURE (394 tests, 374 successes, 20 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

@@ -1,0 +1,240 @@
+:clean
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+DataStructures.QueueAr_ESTest STANDARD_OUT
+    13:05:12.152 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.QueueAr_ESTest
+    13:05:12.154 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.QueueAr_ESTest'.
+    13:05:12.176 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.QueueAr_ESTest_scaffolding
+    13:05:12.176 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.QueueAr_ESTest_scaffolding'.
+    13:05:12.178 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.QueueAr_ESTest_scaffolding
+    13:05:12.178 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.QueueAr_ESTest
+    13:05:12.374 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    13:05:12.374 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    13:05:12.375 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    13:05:12.375 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    13:05:12.375 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    13:05:12.375 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    13:05:12.375 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    13:05:12.375 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    13:05:12.375 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    13:05:12.375 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:49705 to /127.0.0.1:49704 workers Thread 2"
+    13:05:12.375 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:49705 to /127.0.0.1:49704 workers Thread 3"
+    13:05:12.415 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.QueueAr
+    13:05:12.415 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.QueueAr'.
+    13:05:12.428 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/QueueAr
+    13:05:12.553 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/QueueAr
+    13:05:12.553 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.QueueAr
+    13:05:12.553 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Overflow
+    13:05:12.553 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Overflow'.
+    13:05:12.554 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Overflow
+    13:05:12.555 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Overflow
+    13:05:12.555 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Overflow
+
+DataStructures.QueueAr_ESTest > test06 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueAr_ESTest.java:82
+
+DataStructures.QueueAr_ESTest > test07 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueAr_ESTest.java:92
+
+DataStructures.QueueAr_ESTest > test10 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueAr_ESTest.java:114
+
+DataStructures.QueueAr_ESTest > test00 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueAr_ESTest.java:26
+
+DataStructures.QueueAr_ESTest > test12 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueAr_ESTest.java:139
+
+RegressionTest > RegressionTest0.test36 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:571
+
+RegressionTest0 > test36 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:571
+
+testers.QueueArTester0 > test008 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:112
+
+testers.QueueArTester0 > test014 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:206
+
+testers.QueueArTester0 > test017 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:236
+
+testers.QueueArTester0 > test024 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:318
+
+testers.QueueArTester0 > test032 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:414
+
+testers.QueueArTester0 > test036 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:474
+
+testers.QueueArTester0 > test039 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:507
+
+testers.QueueArTester0 > test040 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:518
+
+testers.QueueArTester0 > test042 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:535
+
+testers.QueueArTester0 > test052 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:678
+
+testers.QueueArTester0 > test063 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:822
+
+testers.QueueArTester0 > test067 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:871
+
+testers.QueueArTester0 > test069 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:898
+
+testers.QueueArTester0 > test072 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:930
+
+testers.QueueArTester0 > test083 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1069
+
+testers.QueueArTester0 > test090 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1187
+
+testers.QueueArTester0 > test092 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1226
+
+testers.QueueArTester0 > test094 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1262
+
+testers.QueueArTester0 > test095 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1277
+
+testers.QueueArTester0 > test098 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1323
+
+testers.QueueArTester0 > test105 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1415
+
+testers.QueueArTester0 > test106 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1426
+
+testers.QueueArTester0 > test109 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1463
+
+testers.QueueArTester0 > test126 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1694
+
+testers.QueueArTester0 > test128 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1733
+
+testers.QueueArTester0 > test129 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1751
+
+testers.QueueArTester0 > test132 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1797
+
+testers.QueueArTester0 > test134 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1821
+
+testers.QueueArTester0 > test136 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1860
+
+testers.QueueArTester0 > test137 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1871
+
+testers.QueueArTester0 > test139 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:1894
+
+testers.QueueArTester0 > test146 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2021
+
+testers.QueueArTester0 > test150 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2072
+
+testers.QueueArTester0 > test156 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2148
+
+testers.QueueArTester0 > test159 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2186
+
+testers.QueueArTester0 > test160 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2199
+
+testers.QueueArTester0 > test163 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2236
+
+testers.QueueArTester0 > test167 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2298
+
+testers.QueueArTester0 > test173 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2385
+
+testers.QueueArTester0 > test177 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2477
+
+testers.QueueArTester0 > test185 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2575
+
+testers.QueueArTester0 > test188 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2614
+
+testers.QueueArTester0 > test193 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2693
+
+testers.QueueArTester0 > test196 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2732
+
+testers.QueueArTester0 > test198 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2764
+
+testers.QueueArTester0 > test199 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2778
+
+testers.QueueArTester0 > test201 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2817
+
+testers.QueueArTester0 > test202 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2834
+
+testers.QueueArTester0 > test203 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2848
+
+testers.QueueArTester0 > test209 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2923
+
+testers.QueueArTester0 > test210 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2941
+
+testers.QueueArTester0 > test214 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2989
+
+testers.QueueArTester0 > test222 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:3091
+
+testers.QueueArTester0 > test229 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:3204
+
+testers.QueueArTester0 > test230 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:3214
+
+testers.QueueArTester0 > test233 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:3260
+
+testers.QueueArTester0 > test234 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:3302
+
+testers.QueueArTester0 > test236 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:3330
+Results: FAILURE (345 tests, 280 successes, 65 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

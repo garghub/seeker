@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="examples.SimpleMethods_ESTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2022-05-25T16:08:38" hostname="grtx" time="0.017">
+  <properties/>
+  <testcase name="test1" classname="examples.SimpleMethods_ESTest" time="0.015">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at examples.SimpleMethods.addElementToSet(SimpleMethods.java:15)
+	at examples.SimpleMethods_ESTest.test1(SimpleMethods_ESTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="test0" classname="examples.SimpleMethods_ESTest" time="0.002">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at examples.SimpleMethods.addElementToSet(SimpleMethods.java:15)
+	at examples.SimpleMethods_ESTest.test0(SimpleMethods_ESTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <system-out><![CDATA[18:08:37.554 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.SimpleMethods_ESTest
+18:08:37.558 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.SimpleMethods_ESTest'.
+18:08:37.590 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.SimpleMethods_ESTest_scaffolding
+18:08:37.591 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.SimpleMethods_ESTest_scaffolding'.
+18:08:37.595 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.SimpleMethods_ESTest_scaffolding
+18:08:37.595 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.SimpleMethods_ESTest
+18:08:37.931 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+18:08:37.931 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+18:08:37.931 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+18:08:37.931 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+18:08:37.931 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+18:08:37.932 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+18:08:37.932 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+18:08:37.932 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+18:08:37.932 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+18:08:37.932 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:55133 to /127.0.0.1:55132 workers Thread 2"
+18:08:37.932 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:55133 to /127.0.0.1:55132 workers Thread 3"
+18:08:37.998 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.SimpleMethods
+18:08:37.998 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.SimpleMethods'.
+18:08:38.020 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/SimpleMethods
+18:08:38.257 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class examples/SimpleMethods
+18:08:38.259 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.SimpleMethods
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,110 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+org.apache.commons.math3.util.MathUtilsNew_ESTest STANDARD_OUT
+    02:49:47.071 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.MathUtilsNew_ESTest
+    02:49:47.077 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.MathUtilsNew_ESTest'.
+    02:49:47.126 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.MathUtilsNew_ESTest_scaffolding
+    02:49:47.126 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.MathUtilsNew_ESTest_scaffolding'.
+    02:49:47.133 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.MathUtilsNew_ESTest_scaffolding
+    02:49:47.133 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.MathUtilsNew_ESTest
+    02:49:47.535 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    02:49:47.535 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    02:49:47.535 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    02:49:47.535 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    02:49:47.536 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    02:49:47.536 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    02:49:47.536 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    02:49:47.536 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    02:49:47.536 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    02:49:47.536 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:58814 to /127.0.0.1:58813 workers Thread 2"
+    02:49:47.536 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:58814 to /127.0.0.1:58813 workers Thread 3"
+    02:49:47.641 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.MathUtilsNew
+    02:49:47.641 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.MathUtilsNew'.
+    02:49:47.684 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/MathUtilsNew
+    02:49:48.003 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/util/MathUtilsNew
+    02:49:48.003 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.MathUtilsNew
+    02:49:48.004 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.Localizable
+    02:49:48.004 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.Localizable'.
+    02:49:48.008 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.math3.exception.util, -505269952
+    02:49:48.008 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.Localizable
+    02:49:48.008 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.MathArithmeticException
+    02:49:48.009 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.MathArithmeticException'.
+    02:49:48.011 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/MathArithmeticException
+    02:49:48.013 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/MathArithmeticException
+    02:49:48.015 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.math3.exception, 1643916784
+    02:49:48.015 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.ExceptionContextProvider
+    02:49:48.015 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.ExceptionContextProvider'.
+    02:49:48.019 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.ExceptionContextProvider
+    02:49:48.019 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.MathArithmeticException
+    02:49:48.020 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.LocalizedFormats
+    02:49:48.020 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.LocalizedFormats'.
+    02:49:48.028 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/util/LocalizedFormats
+    02:49:48.038 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/exception/util/LocalizedFormats
+    02:49:48.056 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.LocalizedFormats
+    02:49:48.064 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.ExceptionContext
+    02:49:48.064 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.ExceptionContext'.
+    02:49:48.069 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/util/ExceptionContext
+    02:49:48.073 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/util/ExceptionContext
+    02:49:48.074 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.ExceptionContext
+    02:49:48.076 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.ArgUtils
+    02:49:48.076 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.ArgUtils'.
+    02:49:48.079 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/util/ArgUtils
+    02:49:48.080 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/util/ArgUtils
+    02:49:48.081 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.ArgUtils
+
+org.apache.commons.math3.util.MathUtilsNew_ESTest > test7 STANDARD_OUT
+    02:49:48.149 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+org.apache.commons.math3.util.MathUtilsNew_ESTest > test0 FAILED
+    java.lang.AssertionError at MathUtilsNew_ESTest.java:22
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:40
+
+RegressionTest > RegressionTest0.test07 FAILED
+    java.lang.AssertionError at RegressionTest0.java:64
+
+RegressionTest > RegressionTest0.test10 FAILED
+    java.lang.AssertionError at RegressionTest0.java:88
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:177
+
+RegressionTest > RegressionTest0.test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:337
+
+RegressionTest > RegressionTest0.test46 FAILED
+    java.lang.AssertionError at RegressionTest0.java:377
+
+RegressionTest0 > test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:40
+
+RegressionTest0 > test07 FAILED
+    java.lang.AssertionError at RegressionTest0.java:64
+
+RegressionTest0 > test10 FAILED
+    java.lang.AssertionError at RegressionTest0.java:88
+
+RegressionTest0 > test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:177
+
+RegressionTest0 > test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:337
+
+RegressionTest0 > test46 FAILED
+    java.lang.AssertionError at RegressionTest0.java:377
+Results: FAILURE (607 tests, 594 successes, 13 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

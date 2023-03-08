@@ -1,0 +1,85 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+org.apache.commons.math3.util.ArithmeticUtilsNew_ESTest STANDARD_OUT
+    16:20:50.562 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.ArithmeticUtilsNew_ESTest
+    16:20:50.567 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.ArithmeticUtilsNew_ESTest'.
+    16:20:50.617 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.ArithmeticUtilsNew_ESTest_scaffolding
+    16:20:50.617 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.ArithmeticUtilsNew_ESTest_scaffolding'.
+    16:20:50.621 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.ArithmeticUtilsNew_ESTest_scaffolding
+    16:20:50.621 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.ArithmeticUtilsNew_ESTest
+    16:20:50.989 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    16:20:50.989 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    16:20:50.989 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    16:20:50.989 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    16:20:50.989 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    16:20:50.989 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    16:20:50.990 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    16:20:50.990 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    16:20:50.990 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    16:20:50.992 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:52092 to /127.0.0.1:52091 workers Thread 2"
+    16:20:50.992 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:52092 to /127.0.0.1:52091 workers Thread 3"
+    16:20:51.072 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.ExceptionContextProvider
+    16:20:51.073 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.ExceptionContextProvider'.
+    16:20:51.274 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.math3.exception.util, -505269952
+    16:20:51.274 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.ExceptionContextProvider
+    16:20:51.275 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.LocalizedFormats
+    16:20:51.275 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.LocalizedFormats'.
+    16:20:51.286 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/util/LocalizedFormats
+    16:20:51.438 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/exception/util/LocalizedFormats
+    16:20:51.456 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.Localizable
+    16:20:51.456 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.Localizable'.
+    16:20:51.460 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.Localizable
+    16:20:51.460 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.LocalizedFormats
+    16:20:51.468 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.ArithmeticUtilsNew
+    16:20:51.468 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.ArithmeticUtilsNew'.
+    16:20:51.472 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/ArithmeticUtilsNew
+    16:20:51.473 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/util/ArithmeticUtilsNew
+    16:20:51.474 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.ArithmeticUtilsNew
+    16:20:51.474 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.MathArithmeticException
+    16:20:51.474 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.MathArithmeticException'.
+    16:20:51.481 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/MathArithmeticException
+    16:20:51.483 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/MathArithmeticException
+    16:20:51.486 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Defined package (3): package org.apache.commons.math3.exception, 1643916784
+    16:20:51.486 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.MathArithmeticException
+    16:20:51.487 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.ExceptionContext
+    16:20:51.487 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.ExceptionContext'.
+    16:20:51.492 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/util/ExceptionContext
+    16:20:51.495 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/util/ExceptionContext
+    16:20:51.497 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.ExceptionContext
+    16:20:51.500 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.exception.util.ArgUtils
+    16:20:51.501 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.exception.util.ArgUtils'.
+    16:20:51.507 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/exception/util/ArgUtils
+    16:20:51.509 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/exception/util/ArgUtils
+    16:20:51.509 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.exception.util.ArgUtils
+
+org.apache.commons.math3.util.ArithmeticUtilsNew_ESTest > test2 FAILED
+    org.apache.commons.math3.exception.MathArithmeticException at ArithmeticUtilsNew_ESTest.java:36
+
+org.apache.commons.math3.util.ArithmeticUtilsNew_ESTest > test5 STANDARD_OUT
+    16:20:51.597 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+RegressionTest STANDARD_OUT
+    16:20:51.605 [/127.0.0.1:52092 to /127.0.0.1:52091 workers Thread 2] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: assets/org/apache/commons/math3/exception/util/LocalizedFormats
+    16:20:51.606 [/127.0.0.1:52092 to /127.0.0.1:52091 workers Thread 2] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'assets/org/apache/commons/math3/exception/util/LocalizedFormats'.
+    16:20:51.607 [/127.0.0.1:52092 to /127.0.0.1:52091 workers Thread 2] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'assets/org/apache/commons/math3/exception/util/LocalizedFormats.class' should be in target project, but could not be found!
+    16:20:51.608 [/127.0.0.1:52092 to /127.0.0.1:52091 workers Thread 2] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: assets/org/apache/commons/math3/exception/util/LocalizedFormats_en
+    16:20:51.608 [/127.0.0.1:52092 to /127.0.0.1:52091 workers Thread 2] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'assets/org/apache/commons/math3/exception/util/LocalizedFormats_en'.
+    16:20:51.608 [/127.0.0.1:52092 to /127.0.0.1:52091 workers Thread 2] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'assets/org/apache/commons/math3/exception/util/LocalizedFormats_en.class' should be in target project, but could not be found!
+    16:20:51.608 [/127.0.0.1:52092 to /127.0.0.1:52091 workers Thread 2] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: assets/org/apache/commons/math3/exception/util/LocalizedFormats_en_US
+    16:20:51.608 [/127.0.0.1:52092 to /127.0.0.1:52091 workers Thread 2] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'assets/org/apache/commons/math3/exception/util/LocalizedFormats_en_US'.
+    16:20:51.609 [/127.0.0.1:52092 to /127.0.0.1:52091 workers Thread 2] INFO  o.e.r.instrumentation.EvoClassLoader - Error while loading class: java.lang.ClassNotFoundException: Class 'assets/org/apache/commons/math3/exception/util/LocalizedFormats_en_US.class' should be in target project, but could not be found!
+Results: FAILURE (342 tests, 341 successes, 1 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

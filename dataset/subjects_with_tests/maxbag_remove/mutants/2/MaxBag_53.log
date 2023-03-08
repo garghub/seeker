@@ -1,0 +1,84 @@
+:clean
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.MaxBag_ESTest STANDARD_OUT
+    10:45:58.651 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest
+    10:45:58.653 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest'.
+    10:45:58.675 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest_scaffolding
+    10:45:58.676 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest_scaffolding'.
+    10:45:58.678 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest_scaffolding
+    10:45:58.678 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest
+    10:45:58.957 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    10:45:58.957 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    10:45:58.957 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    10:45:58.957 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    10:45:58.957 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    10:45:58.957 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    10:45:58.957 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    10:45:58.957 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    10:45:58.957 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    10:45:58.957 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64525 to /127.0.0.1:64524 workers Thread 2"
+    10:45:58.958 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64525 to /127.0.0.1:64524 workers Thread 3"
+    10:45:58.995 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag
+    10:45:58.995 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag'.
+    10:45:59.009 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/MaxBag
+    10:45:59.130 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/MaxBag
+    10:45:59.131 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag
+    10:45:59.131 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples._Type328393
+    10:45:59.131 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples._Type328393'.
+    10:45:59.132 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/_Type328393
+    10:45:59.133 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/_Type328393
+    10:45:59.133 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples._Type328393
+
+examples.MaxBag_ESTest > test00 FAILED
+    java.lang.OutOfMemoryError at MaxBag_ESTest.java:25
+
+examples.MaxBag_ESTest > test10 FAILED
+    java.lang.OutOfMemoryError at MaxBag_ESTest.java:167
+
+examples.MaxBag_ESTest > test16 STANDARD_OUT
+    10:46:04.399 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.MaxBag_ESTest > test04 STANDARD_OUT
+    10:46:04.401 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.MaxBag_ESTest > test15 STANDARD_OUT
+    10:46:04.402 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.MaxBag_ESTest > test03 STANDARD_OUT
+    10:46:04.403 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.MaxBag_ESTest > test14 STANDARD_OUT
+    10:46:04.404 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.MaxBag_ESTest > test02 FAILED
+    java.lang.OutOfMemoryError
+
+examples.MaxBag_ESTest > test13 STANDARD_OUT
+    10:46:07.041 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.MaxBag_ESTest > test08 STANDARD_OUT
+    10:46:07.045 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.MaxBag_ESTest > test07 FAILED
+    java.lang.OutOfMemoryError
+
+examples.MaxBag_ESTest > test06 STANDARD_OUT
+    10:46:09.316 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.MaxBag_ESTest > test17 FAILED
+    java.lang.OutOfMemoryError
+Results: FAILURE (75 tests, 70 successes, 5 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

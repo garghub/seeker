@@ -1,0 +1,315 @@
+:clean
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+DataStructures.QueueAr_ESTest STANDARD_OUT
+    23:03:50.673 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.QueueAr_ESTest
+    23:03:50.675 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.QueueAr_ESTest'.
+    23:03:50.696 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.QueueAr_ESTest_scaffolding
+    23:03:50.697 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.QueueAr_ESTest_scaffolding'.
+    23:03:50.698 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.QueueAr_ESTest_scaffolding
+    23:03:50.699 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.QueueAr_ESTest
+    23:03:50.858 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    23:03:50.858 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    23:03:50.858 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    23:03:50.858 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    23:03:50.858 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    23:03:50.858 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    23:03:50.858 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    23:03:50.859 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    23:03:50.859 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    23:03:50.859 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:58162 to /127.0.0.1:58161 workers Thread 2"
+    23:03:50.859 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:58162 to /127.0.0.1:58161 workers Thread 3"
+    23:03:50.897 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.QueueAr
+    23:03:50.897 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.QueueAr'.
+    23:03:50.911 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/QueueAr
+    23:03:51.025 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/QueueAr
+    23:03:51.025 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.QueueAr
+    23:03:51.026 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Overflow
+    23:03:51.026 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Overflow'.
+    23:03:51.027 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Overflow
+    23:03:51.027 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Overflow
+    23:03:51.027 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Overflow
+
+DataStructures.QueueAr_ESTest > test06 FAILED
+    java.lang.AssertionError at QueueAr_ESTest.java:87
+
+DataStructures.QueueAr_ESTest > test07 FAILED
+    java.lang.AssertionError at QueueAr_ESTest.java:95
+
+DataStructures.QueueAr_ESTest > test08 FAILED
+    java.lang.AssertionError at QueueAr_ESTest.java:101
+
+DataStructures.QueueAr_ESTest > test09 FAILED
+    java.lang.AssertionError at QueueAr_ESTest.java:115
+
+DataStructures.QueueAr_ESTest > test10 FAILED
+    java.lang.AssertionError at QueueAr_ESTest.java:129
+
+DataStructures.QueueAr_ESTest > test11 FAILED
+    java.lang.AssertionError at QueueAr_ESTest.java:136
+
+DataStructures.QueueAr_ESTest > test02 FAILED
+    java.lang.AssertionError at QueueAr_ESTest.java:41
+
+DataStructures.QueueAr_ESTest > test04 FAILED
+    java.lang.AssertionError at QueueAr_ESTest.java:69
+
+RegressionTest > RegressionTest0.test01 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:15
+
+RegressionTest > RegressionTest0.test02 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:31
+
+RegressionTest > RegressionTest0.test03 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:51
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:67
+
+RegressionTest > RegressionTest0.test05 FAILED
+    java.lang.AssertionError at RegressionTest0.java:96
+
+RegressionTest > RegressionTest0.test06 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:105
+
+RegressionTest > RegressionTest0.test07 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:132
+
+RegressionTest > RegressionTest0.test08 FAILED
+    java.lang.AssertionError at RegressionTest0.java:148
+
+RegressionTest > RegressionTest0.test09 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:157
+
+RegressionTest > RegressionTest0.test10 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:188
+
+RegressionTest > RegressionTest0.test12 FAILED
+    java.lang.AssertionError at RegressionTest0.java:234
+
+RegressionTest > RegressionTest0.test13 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:247
+
+RegressionTest > RegressionTest0.test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:268
+
+RegressionTest > RegressionTest0.test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:281
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:299
+
+RegressionTest > RegressionTest0.test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:321
+
+RegressionTest > RegressionTest0.test20 FAILED
+    java.lang.AssertionError at RegressionTest0.java:344
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:355
+
+RegressionTest > RegressionTest0.test22 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:372
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:388
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:411
+
+RegressionTest > RegressionTest0.test26 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:423
+
+RegressionTest > RegressionTest0.test27 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:454
+
+RegressionTest > RegressionTest0.test29 FAILED
+    java.lang.AssertionError at RegressionTest0.java:479
+
+RegressionTest > RegressionTest0.test30 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:490
+
+RegressionTest > RegressionTest0.test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:503
+
+RegressionTest > RegressionTest0.test32 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:511
+
+RegressionTest > RegressionTest0.test33 FAILED
+    java.lang.AssertionError at RegressionTest0.java:534
+
+RegressionTest > RegressionTest0.test34 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:545
+
+RegressionTest > RegressionTest0.test36 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:573
+
+RegressionTest > RegressionTest0.test37 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:583
+
+RegressionTest > RegressionTest0.test38 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:602
+
+RegressionTest > RegressionTest0.test39 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:617
+
+RegressionTest > RegressionTest0.test40 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:627
+
+RegressionTest > RegressionTest0.test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:645
+
+RegressionTest > RegressionTest0.test42 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:655
+
+RegressionTest > RegressionTest0.test43 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:667
+
+RegressionTest > RegressionTest0.test45 FAILED
+    java.lang.AssertionError at RegressionTest0.java:714
+
+RegressionTest0 > test01 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:15
+
+RegressionTest0 > test02 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:31
+
+RegressionTest0 > test03 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:51
+
+RegressionTest0 > test04 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:67
+
+RegressionTest0 > test05 FAILED
+    java.lang.AssertionError at RegressionTest0.java:96
+
+RegressionTest0 > test06 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:105
+
+RegressionTest0 > test07 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:132
+
+RegressionTest0 > test08 FAILED
+    java.lang.AssertionError at RegressionTest0.java:148
+
+RegressionTest0 > test09 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:157
+
+RegressionTest0 > test10 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:188
+
+RegressionTest0 > test12 FAILED
+    java.lang.AssertionError at RegressionTest0.java:234
+
+RegressionTest0 > test13 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:247
+
+RegressionTest0 > test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:268
+
+RegressionTest0 > test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:281
+
+RegressionTest0 > test17 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:299
+
+RegressionTest0 > test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:321
+
+RegressionTest0 > test20 FAILED
+    java.lang.AssertionError at RegressionTest0.java:344
+
+RegressionTest0 > test21 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:355
+
+RegressionTest0 > test22 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:372
+
+RegressionTest0 > test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:388
+
+RegressionTest0 > test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:411
+
+RegressionTest0 > test26 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:423
+
+RegressionTest0 > test27 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:454
+
+RegressionTest0 > test29 FAILED
+    java.lang.AssertionError at RegressionTest0.java:479
+
+RegressionTest0 > test30 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:490
+
+RegressionTest0 > test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:503
+
+RegressionTest0 > test32 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:511
+
+RegressionTest0 > test33 FAILED
+    java.lang.AssertionError at RegressionTest0.java:534
+
+RegressionTest0 > test34 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:545
+
+RegressionTest0 > test36 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:573
+
+RegressionTest0 > test37 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:583
+
+RegressionTest0 > test38 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:602
+
+RegressionTest0 > test39 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:617
+
+RegressionTest0 > test40 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:627
+
+RegressionTest0 > test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:645
+
+RegressionTest0 > test42 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:655
+
+RegressionTest0 > test43 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:667
+
+RegressionTest0 > test45 FAILED
+    java.lang.AssertionError at RegressionTest0.java:714
+
+testers.QueueArTester0 > test055 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:721
+
+testers.QueueArTester0 > test057 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:751
+
+testers.QueueArTester0 > test076 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:986
+
+testers.QueueArTester0 > test175 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:2433
+
+testers.QueueArTester0 > test187 FAILED
+    java.lang.ArrayIndexOutOfBoundsException
+
+testers.QueueArTester0 > test189 FAILED
+    java.lang.ArrayIndexOutOfBoundsException
+Results: FAILURE (343 tests, 253 successes, 90 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

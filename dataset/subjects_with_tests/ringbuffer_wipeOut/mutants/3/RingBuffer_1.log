@@ -1,0 +1,430 @@
+:clean
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.RingBuffer_ESTest STANDARD_OUT
+    16:23:41.608 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest
+    16:23:41.611 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest'.
+    16:23:41.649 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest_scaffolding
+    16:23:41.650 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest_scaffolding'.
+    16:23:41.654 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest_scaffolding
+    16:23:41.655 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest
+    16:23:42.005 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    16:23:42.005 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    16:23:42.006 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    16:23:42.006 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    16:23:42.006 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    16:23:42.006 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    16:23:42.006 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    16:23:42.006 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    16:23:42.006 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    16:23:42.007 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:59570 to /127.0.0.1:59569 workers Thread 2"
+    16:23:42.007 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:59570 to /127.0.0.1:59569 workers Thread 3"
+    16:23:42.086 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer
+    16:23:42.087 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer'.
+    16:23:42.113 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/RingBuffer
+    16:23:42.400 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/RingBuffer
+    16:23:42.401 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer
+
+examples.RingBuffer_ESTest > test08 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException
+
+examples.RingBuffer_ESTest > test09 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:112
+
+examples.RingBuffer_ESTest > test07 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException
+
+examples.RingBuffer_ESTest > test15 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:197
+
+examples.RingBuffer_ESTest > test02 STANDARD_OUT
+    16:23:42.459 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.RingBuffer_ESTest > test13 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:161
+
+examples.RingBuffer_ESTest > test11 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:142
+
+examples.RingBuffer_ESTest > test10 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:130
+
+RegressionTest > RegressionTest0.test03 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:36
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:52
+
+RegressionTest > RegressionTest0.test05 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:65
+
+RegressionTest > RegressionTest0.test06 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:81
+
+RegressionTest > RegressionTest0.test07 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:97
+
+RegressionTest > RegressionTest0.test09 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:127
+
+RegressionTest > RegressionTest0.test11 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:152
+
+RegressionTest > RegressionTest0.test12 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:168
+
+RegressionTest > RegressionTest0.test14 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:195
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:226
+
+RegressionTest > RegressionTest0.test18 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:249
+
+RegressionTest > RegressionTest0.test19 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:263
+
+RegressionTest > RegressionTest0.test20 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:278
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:301
+
+RegressionTest > RegressionTest0.test22 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:311
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:330
+
+RegressionTest > RegressionTest0.test24 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:351
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:371
+
+RegressionTest > RegressionTest0.test27 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:400
+
+RegressionTest > RegressionTest0.test29 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:419
+
+RegressionTest > RegressionTest0.test31 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:445
+
+RegressionTest > RegressionTest0.test33 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:476
+
+RegressionTest > RegressionTest0.test34 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:483
+
+RegressionTest > RegressionTest0.test35 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:500
+
+RegressionTest > RegressionTest0.test36 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:513
+
+RegressionTest > RegressionTest0.test38 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:533
+
+RegressionTest > RegressionTest0.test40 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:565
+
+RegressionTest > RegressionTest0.test41 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:583
+
+RegressionTest > RegressionTest0.test42 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:599
+
+RegressionTest > RegressionTest0.test43 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:617
+
+RegressionTest > RegressionTest0.test44 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:634
+
+RegressionTest > RegressionTest0.test45 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:650
+
+RegressionTest > RegressionTest0.test46 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:669
+
+RegressionTest > RegressionTest0.test47 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:688
+
+RegressionTest > RegressionTest0.test48 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:702
+
+RegressionTest > RegressionTest0.test49 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:715
+
+RegressionTest > RegressionTest0.test50 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:733
+
+RegressionTest > RegressionTest0.test52 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:766
+
+RegressionTest > RegressionTest0.test53 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:775
+
+RegressionTest > RegressionTest0.test54 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:790
+
+RegressionTest > RegressionTest0.test55 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:807
+
+RegressionTest > RegressionTest0.test56 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:825
+
+RegressionTest > RegressionTest0.test57 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:839
+
+RegressionTest > RegressionTest0.test59 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:869
+
+RegressionTest > RegressionTest0.test63 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:923
+
+RegressionTest > RegressionTest0.test64 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:938
+
+RegressionTest > RegressionTest0.test67 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:971
+
+RegressionTest > RegressionTest0.test68 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:984
+
+RegressionTest > RegressionTest0.test70 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1013
+
+RegressionTest > RegressionTest0.test72 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1053
+
+RegressionTest > RegressionTest0.test73 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1068
+
+RegressionTest > RegressionTest0.test75 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1106
+
+RegressionTest > RegressionTest0.test76 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1121
+
+RegressionTest > RegressionTest0.test77 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1136
+
+RegressionTest > RegressionTest0.test78 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1149
+
+RegressionTest > RegressionTest0.test81 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1188
+
+RegressionTest0 > test03 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:36
+
+RegressionTest0 > test04 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:52
+
+RegressionTest0 > test05 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:65
+
+RegressionTest0 > test06 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:81
+
+RegressionTest0 > test07 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:97
+
+RegressionTest0 > test09 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:127
+
+RegressionTest0 > test11 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:152
+
+RegressionTest0 > test12 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:168
+
+RegressionTest0 > test14 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:195
+
+RegressionTest0 > test17 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:226
+
+RegressionTest0 > test18 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:249
+
+RegressionTest0 > test19 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:263
+
+RegressionTest0 > test20 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:278
+
+RegressionTest0 > test21 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:301
+
+RegressionTest0 > test22 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:311
+
+RegressionTest0 > test23 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:330
+
+RegressionTest0 > test24 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:351
+
+RegressionTest0 > test25 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:371
+
+RegressionTest0 > test27 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:400
+
+RegressionTest0 > test29 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:419
+
+RegressionTest0 > test31 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:445
+
+RegressionTest0 > test33 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:476
+
+RegressionTest0 > test34 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:483
+
+RegressionTest0 > test35 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:500
+
+RegressionTest0 > test36 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:513
+
+RegressionTest0 > test38 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:533
+
+RegressionTest0 > test40 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:565
+
+RegressionTest0 > test41 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:583
+
+RegressionTest0 > test42 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:599
+
+RegressionTest0 > test43 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:617
+
+RegressionTest0 > test44 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:634
+
+RegressionTest0 > test45 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:650
+
+RegressionTest0 > test46 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:669
+
+RegressionTest0 > test47 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:688
+
+RegressionTest0 > test48 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:702
+
+RegressionTest0 > test49 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:715
+
+RegressionTest0 > test50 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:733
+
+RegressionTest0 > test52 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:766
+
+RegressionTest0 > test53 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:775
+
+RegressionTest0 > test54 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:790
+
+RegressionTest0 > test55 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:807
+
+RegressionTest0 > test56 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:825
+
+RegressionTest0 > test57 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:839
+
+RegressionTest0 > test59 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:869
+
+RegressionTest0 > test63 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:923
+
+RegressionTest0 > test64 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:938
+
+RegressionTest0 > test67 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:971
+
+RegressionTest0 > test68 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:984
+
+RegressionTest0 > test70 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1013
+
+RegressionTest0 > test72 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1053
+
+RegressionTest0 > test73 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1068
+
+RegressionTest0 > test75 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1106
+
+RegressionTest0 > test76 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1121
+
+RegressionTest0 > test77 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1136
+
+RegressionTest0 > test78 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1149
+
+RegressionTest0 > test81 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1188
+
+testers.RingBufferTester0 > test005 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:65
+
+testers.RingBufferTester0 > test061 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:825
+
+testers.RingBufferTester0 > test096 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1335
+
+testers.RingBufferTester0 > test098 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1356
+
+testers.RingBufferTester0 > test117 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1639
+
+testers.RingBufferTester0 > test122 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1714
+
+testers.RingBufferTester0 > test171 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2433
+
+testers.RingBufferTester0 > test220 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3119
+
+testers.RingBufferTester0 > test254 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3659
+
+testers.RingBufferTester0 > test262 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3766
+Results: FAILURE (465 tests, 336 successes, 129 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

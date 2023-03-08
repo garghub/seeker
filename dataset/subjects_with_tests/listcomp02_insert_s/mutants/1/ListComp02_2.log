@@ -1,0 +1,56 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.ListComp02_ESTest STANDARD_OUT
+    01:02:43.606 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.ListComp02_ESTest
+    01:02:43.610 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.ListComp02_ESTest'.
+    01:02:43.662 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.ListComp02_ESTest_scaffolding
+    01:02:43.662 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.ListComp02_ESTest_scaffolding'.
+    01:02:43.664 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.ListComp02_ESTest_scaffolding
+    01:02:43.665 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.ListComp02_ESTest
+    01:02:43.962 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    01:02:43.963 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    01:02:43.963 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    01:02:43.963 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    01:02:43.963 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    01:02:43.963 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    01:02:43.963 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    01:02:43.963 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    01:02:43.963 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    01:02:43.963 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:59576 to /127.0.0.1:59575 workers Thread 2"
+    01:02:43.963 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:59576 to /127.0.0.1:59575 workers Thread 3"
+    01:02:44.052 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.ListComp02
+    01:02:44.052 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.ListComp02'.
+    01:02:44.079 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/ListComp02
+    01:02:44.334 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/ListComp02
+    01:02:44.335 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.ListComp02
+    01:02:44.336 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.S
+    01:02:44.336 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.S'.
+    01:02:44.337 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/S
+    01:02:44.339 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/S
+    01:02:44.339 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.S
+    01:02:44.342 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.R
+    01:02:44.343 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.R'.
+    01:02:44.346 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/R
+    01:02:44.347 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/R
+    01:02:44.348 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.R
+
+examples.ListComp02_ESTest > test0 STANDARD_OUT
+    01:02:44.392 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+Results: SUCCESS (25 tests, 25 successes, 0 failures, 0 skipped)
+:check
+:build
+
+BUILD SUCCESSFUL in 12s
+4 actionable tasks: 4 executed

@@ -1,0 +1,54 @@
+:clean
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+DataStructures.QueueAr_ESTest STANDARD_OUT
+    13:58:57.081 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.QueueAr_ESTest
+    13:58:57.083 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.QueueAr_ESTest'.
+    13:58:57.104 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.QueueAr_ESTest_scaffolding
+    13:58:57.104 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.QueueAr_ESTest_scaffolding'.
+    13:58:57.106 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.QueueAr_ESTest_scaffolding
+    13:58:57.107 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.QueueAr_ESTest
+    13:58:57.187 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    13:58:57.187 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    13:58:57.187 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    13:58:57.187 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    13:58:57.187 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    13:58:57.187 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    13:58:57.187 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    13:58:57.187 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    13:58:57.187 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    13:58:57.187 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:54780 to /127.0.0.1:54779 workers Thread 2"
+    13:58:57.187 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:54780 to /127.0.0.1:54779 workers Thread 3"
+    13:58:57.225 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.QueueAr
+    13:58:57.225 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.QueueAr'.
+    13:58:57.238 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/QueueAr
+    13:58:57.362 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/QueueAr
+    13:58:57.362 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.QueueAr
+    13:58:57.362 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Overflow
+    13:58:57.362 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Overflow'.
+    13:58:57.363 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Overflow
+    13:58:57.364 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Overflow
+    13:58:57.364 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Overflow
+
+DataStructures.QueueAr_ESTest > test12 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueAr_ESTest.java:141
+
+DataStructures.QueueAr_ESTest > test04 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueAr_ESTest.java:69
+
+testers.QueueArTester0 > test063 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at QueueArTester0.java:822
+Results: FAILURE (344 tests, 341 successes, 3 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

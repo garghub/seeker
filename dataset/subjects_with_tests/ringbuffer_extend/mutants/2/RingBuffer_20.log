@@ -1,0 +1,322 @@
+:clean
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.RingBuffer_ESTest STANDARD_OUT
+    16:07:36.380 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest
+    16:07:36.382 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest'.
+    16:07:36.404 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest_scaffolding
+    16:07:36.404 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest_scaffolding'.
+    16:07:36.407 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest_scaffolding
+    16:07:36.407 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest
+    16:07:36.677 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    16:07:36.677 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    16:07:36.677 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    16:07:36.677 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    16:07:36.677 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    16:07:36.677 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    16:07:36.677 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    16:07:36.677 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    16:07:36.678 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    16:07:36.678 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:63478 to /127.0.0.1:63477 workers Thread 2"
+    16:07:36.678 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:63478 to /127.0.0.1:63477 workers Thread 3"
+    16:07:36.715 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer
+    16:07:36.715 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer'.
+    16:07:36.728 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/RingBuffer
+    16:07:36.850 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/RingBuffer
+    16:07:36.850 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer
+
+examples.RingBuffer_ESTest > test08 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:96
+
+examples.RingBuffer_ESTest > test06 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException
+
+examples.RingBuffer_ESTest > test17 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:208
+
+examples.RingBuffer_ESTest > test07 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:88
+
+examples.RingBuffer_ESTest > test04 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:60
+
+examples.RingBuffer_ESTest > test05 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException
+
+examples.RingBuffer_ESTest > test16 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:200
+
+examples.RingBuffer_ESTest > test02 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:42
+
+examples.RingBuffer_ESTest > test13 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:156
+
+examples.RingBuffer_ESTest > test03 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:48
+
+examples.RingBuffer_ESTest > test14 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:176
+
+examples.RingBuffer_ESTest > test00 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:22
+
+examples.RingBuffer_ESTest > test11 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:138
+
+examples.RingBuffer_ESTest > test01 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:32
+
+examples.RingBuffer_ESTest > test12 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:147
+
+examples.RingBuffer_ESTest > test10 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:119
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:57
+
+RegressionTest > RegressionTest0.test07 FAILED
+    java.lang.AssertionError at RegressionTest0.java:106
+
+RegressionTest > RegressionTest0.test09 FAILED
+    java.lang.AssertionError at RegressionTest0.java:138
+
+RegressionTest > RegressionTest0.test11 FAILED
+    java.lang.AssertionError at RegressionTest0.java:161
+
+RegressionTest > RegressionTest0.test13 FAILED
+    java.lang.AssertionError at RegressionTest0.java:188
+
+RegressionTest > RegressionTest0.test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:198
+
+RegressionTest > RegressionTest0.test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:212
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.AssertionError at RegressionTest0.java:233
+
+RegressionTest > RegressionTest0.test19 FAILED
+    java.lang.AssertionError at RegressionTest0.java:269
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:298
+
+RegressionTest > RegressionTest0.test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:321
+
+RegressionTest > RegressionTest0.test24 FAILED
+    java.lang.AssertionError at RegressionTest0.java:349
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:372
+
+RegressionTest > RegressionTest0.test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:391
+
+RegressionTest > RegressionTest0.test27 FAILED
+    java.lang.AssertionError at RegressionTest0.java:406
+
+RegressionTest > RegressionTest0.test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:441
+
+RegressionTest > RegressionTest0.test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:452
+
+RegressionTest > RegressionTest0.test33 FAILED
+    java.lang.AssertionError at RegressionTest0.java:482
+
+RegressionTest > RegressionTest0.test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:500
+
+RegressionTest > RegressionTest0.test36 FAILED
+    java.lang.AssertionError at RegressionTest0.java:529
+
+RegressionTest > RegressionTest0.test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:555
+
+RegressionTest > RegressionTest0.test39 FAILED
+    java.lang.AssertionError at RegressionTest0.java:573
+
+RegressionTest > RegressionTest0.test40 FAILED
+    java.lang.AssertionError at RegressionTest0.java:588
+
+RegressionTest > RegressionTest0.test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:601
+
+RegressionTest > RegressionTest0.test42 FAILED
+    java.lang.AssertionError at RegressionTest0.java:614
+
+RegressionTest > RegressionTest0.test44 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:631
+
+RegressionTest > RegressionTest0.test45 FAILED
+    java.lang.AssertionError at RegressionTest0.java:654
+
+RegressionTest > RegressionTest0.test46 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:667
+
+RegressionTest > RegressionTest0.test47 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:683
+
+RegressionTest > RegressionTest0.test48 FAILED
+    java.lang.AssertionError at RegressionTest0.java:703
+
+RegressionTest > RegressionTest0.test49 FAILED
+    java.lang.AssertionError at RegressionTest0.java:720
+
+RegressionTest > RegressionTest0.test50 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:732
+
+RegressionTest > RegressionTest0.test51 FAILED
+    java.lang.AssertionError at RegressionTest0.java:754
+
+RegressionTest > RegressionTest0.test52 FAILED
+    java.lang.AssertionError at RegressionTest0.java:774
+
+RegressionTest > RegressionTest0.test53 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:786
+
+RegressionTest > RegressionTest0.test54 FAILED
+    java.lang.AssertionError at RegressionTest0.java:802
+
+RegressionTest > RegressionTest0.test55 FAILED
+    java.lang.AssertionError at RegressionTest0.java:819
+
+RegressionTest > RegressionTest0.test56 FAILED
+    java.lang.AssertionError at RegressionTest0.java:834
+
+RegressionTest > RegressionTest0.test57 FAILED
+    java.lang.AssertionError at RegressionTest0.java:854
+
+RegressionTest0 > test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:57
+
+RegressionTest0 > test07 FAILED
+    java.lang.AssertionError at RegressionTest0.java:106
+
+RegressionTest0 > test09 FAILED
+    java.lang.AssertionError at RegressionTest0.java:138
+
+RegressionTest0 > test11 FAILED
+    java.lang.AssertionError at RegressionTest0.java:161
+
+RegressionTest0 > test13 FAILED
+    java.lang.AssertionError at RegressionTest0.java:188
+
+RegressionTest0 > test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:198
+
+RegressionTest0 > test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:212
+
+RegressionTest0 > test17 FAILED
+    java.lang.AssertionError at RegressionTest0.java:233
+
+RegressionTest0 > test19 FAILED
+    java.lang.AssertionError at RegressionTest0.java:269
+
+RegressionTest0 > test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:298
+
+RegressionTest0 > test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:321
+
+RegressionTest0 > test24 FAILED
+    java.lang.AssertionError at RegressionTest0.java:349
+
+RegressionTest0 > test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:372
+
+RegressionTest0 > test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:391
+
+RegressionTest0 > test27 FAILED
+    java.lang.AssertionError at RegressionTest0.java:406
+
+RegressionTest0 > test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:441
+
+RegressionTest0 > test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:452
+
+RegressionTest0 > test33 FAILED
+    java.lang.AssertionError at RegressionTest0.java:482
+
+RegressionTest0 > test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:500
+
+RegressionTest0 > test36 FAILED
+    java.lang.AssertionError at RegressionTest0.java:529
+
+RegressionTest0 > test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:555
+
+RegressionTest0 > test39 FAILED
+    java.lang.AssertionError at RegressionTest0.java:573
+
+RegressionTest0 > test40 FAILED
+    java.lang.AssertionError at RegressionTest0.java:588
+
+RegressionTest0 > test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:601
+
+RegressionTest0 > test42 FAILED
+    java.lang.AssertionError at RegressionTest0.java:614
+
+RegressionTest0 > test44 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:631
+
+RegressionTest0 > test45 FAILED
+    java.lang.AssertionError at RegressionTest0.java:654
+
+RegressionTest0 > test46 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:667
+
+RegressionTest0 > test47 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:683
+
+RegressionTest0 > test48 FAILED
+    java.lang.AssertionError at RegressionTest0.java:703
+
+RegressionTest0 > test49 FAILED
+    java.lang.AssertionError at RegressionTest0.java:720
+
+RegressionTest0 > test50 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:732
+
+RegressionTest0 > test51 FAILED
+    java.lang.AssertionError at RegressionTest0.java:754
+
+RegressionTest0 > test52 FAILED
+    java.lang.AssertionError at RegressionTest0.java:774
+
+RegressionTest0 > test53 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:786
+
+RegressionTest0 > test54 FAILED
+    java.lang.AssertionError at RegressionTest0.java:802
+
+RegressionTest0 > test55 FAILED
+    java.lang.AssertionError at RegressionTest0.java:819
+
+RegressionTest0 > test56 FAILED
+    java.lang.AssertionError at RegressionTest0.java:834
+
+RegressionTest0 > test57 FAILED
+    java.lang.AssertionError at RegressionTest0.java:854
+Results: FAILURE (132 tests, 38 successes, 94 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

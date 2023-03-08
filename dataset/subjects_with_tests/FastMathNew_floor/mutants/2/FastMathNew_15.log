@@ -1,0 +1,47 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+org.apache.commons.math3.util.FastMathNew_ESTest STANDARD_OUT
+    20:36:14.722 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.FastMathNew_ESTest
+    20:36:14.728 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.FastMathNew_ESTest'.
+    20:36:14.766 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.FastMathNew_ESTest_scaffolding
+    20:36:14.767 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.FastMathNew_ESTest_scaffolding'.
+    20:36:14.769 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.FastMathNew_ESTest_scaffolding
+    20:36:14.769 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.FastMathNew_ESTest
+    20:36:15.176 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    20:36:15.176 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    20:36:15.176 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    20:36:15.177 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    20:36:15.177 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    20:36:15.177 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    20:36:15.177 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    20:36:15.177 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    20:36:15.177 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    20:36:15.177 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:49885 to /127.0.0.1:49884 workers Thread 2"
+    20:36:15.178 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:49885 to /127.0.0.1:49884 workers Thread 3"
+    20:36:15.286 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.FastMathNew
+    20:36:15.286 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.FastMathNew'.
+    20:36:15.320 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/FastMathNew
+    20:36:15.641 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/util/FastMathNew
+    20:36:15.642 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field TWO_POWER_52
+    20:36:15.644 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.FastMathNew
+
+org.apache.commons.math3.util.FastMathNew_ESTest > test5 FAILED
+    java.lang.AssertionError at FastMathNew_ESTest.java:57
+
+org.apache.commons.math3.util.FastMathNew_ESTest > test0 FAILED
+    java.lang.AssertionError at FastMathNew_ESTest.java:22
+Results: FAILURE (404 tests, 402 successes, 2 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

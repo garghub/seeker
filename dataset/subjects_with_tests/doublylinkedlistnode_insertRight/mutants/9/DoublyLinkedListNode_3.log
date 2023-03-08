@@ -1,0 +1,109 @@
+:clean
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.DoublyLinkedListNode_ESTest STANDARD_OUT
+    20:00:50.583 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.DoublyLinkedListNode_ESTest
+    20:00:50.588 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.DoublyLinkedListNode_ESTest'.
+    20:00:50.627 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.DoublyLinkedListNode_ESTest_scaffolding
+    20:00:50.627 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.DoublyLinkedListNode_ESTest_scaffolding'.
+    20:00:50.630 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.DoublyLinkedListNode_ESTest_scaffolding
+    20:00:50.630 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.DoublyLinkedListNode_ESTest
+    20:00:50.920 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    20:00:50.921 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    20:00:50.921 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    20:00:50.921 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    20:00:50.921 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    20:00:50.921 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    20:00:50.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    20:00:50.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    20:00:50.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    20:00:50.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:54200 to /127.0.0.1:54199 workers Thread 2"
+    20:00:50.922 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:54200 to /127.0.0.1:54199 workers Thread 3"
+    20:00:50.994 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.DoublyLinkedListNode
+    20:00:50.994 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.DoublyLinkedListNode'.
+    20:00:51.016 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/DoublyLinkedListNode
+    20:00:51.241 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/DoublyLinkedListNode
+    20:00:51.242 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.DoublyLinkedListNode
+
+examples.DoublyLinkedListNode_ESTest > test3 FAILED
+    java.lang.NullPointerException at DoublyLinkedListNode_ESTest.java:62
+
+RegressionTest > RegressionTest0.test028 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:562
+
+RegressionTest > RegressionTest0.test039 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:885
+
+RegressionTest > RegressionTest0.test061 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:1673
+
+RegressionTest > RegressionTest0.test079 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:2285
+
+RegressionTest > RegressionTest0.test132 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4687
+
+RegressionTest > RegressionTest0.test136 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4883
+
+RegressionTest0 > test028 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:562
+
+RegressionTest0 > test039 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:885
+
+RegressionTest0 > test061 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:1673
+
+RegressionTest0 > test079 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:2285
+
+RegressionTest0 > test132 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4687
+
+RegressionTest0 > test136 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4883
+
+testers.DoublyLinkedListNodeTester0 > test028 FAILED
+    java.lang.NullPointerException at DoublyLinkedListNodeTester0.java:547
+
+testers.DoublyLinkedListNodeTester0 > test039 FAILED
+    java.lang.NullPointerException at DoublyLinkedListNodeTester0.java:866
+
+testers.DoublyLinkedListNodeTester0 > test061 FAILED
+    java.lang.NullPointerException at DoublyLinkedListNodeTester0.java:1646
+
+testers.DoublyLinkedListNodeTester0 > test078 FAILED
+    java.lang.NullPointerException at DoublyLinkedListNodeTester0.java:2205
+
+testers.DoublyLinkedListNodeTester0 > test119 FAILED
+    java.lang.NullPointerException at DoublyLinkedListNodeTester0.java:4200
+
+testers.DoublyLinkedListNodeTester0 > test122 FAILED
+    java.lang.NullPointerException at DoublyLinkedListNodeTester0.java:4351
+
+testers.DoublyLinkedListNodeTester0 > test185 FAILED
+    java.lang.NullPointerException at DoublyLinkedListNodeTester0.java:7657
+
+testers.DoublyLinkedListNodeTester0 > test192 FAILED
+    java.lang.NullPointerException at DoublyLinkedListNodeTester0.java:7955
+
+testers.DoublyLinkedListNodeTester0 > test198 FAILED
+    java.lang.NullPointerException at DoublyLinkedListNodeTester0.java:8221
+
+testers.DoublyLinkedListNodeTester0 > test285 FAILED
+    java.lang.NullPointerException
+Results: FAILURE (608 tests, 585 successes, 23 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

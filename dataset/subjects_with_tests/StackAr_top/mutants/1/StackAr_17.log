@@ -1,0 +1,681 @@
+:clean
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+DataStructures.StackAr_ESTest STANDARD_OUT
+    14:06:13.319 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr_ESTest
+    14:06:13.328 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr_ESTest'.
+    14:06:13.400 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr_ESTest_scaffolding
+    14:06:13.400 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr_ESTest_scaffolding'.
+    14:06:13.404 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr_ESTest_scaffolding
+    14:06:13.405 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr_ESTest
+    14:06:13.748 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    14:06:13.748 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    14:06:13.748 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    14:06:13.748 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    14:06:13.748 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    14:06:13.748 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    14:06:13.748 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    14:06:13.748 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    14:06:13.749 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    14:06:13.749 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:60739 to /127.0.0.1:60738 workers Thread 2"
+    14:06:13.749 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:60739 to /127.0.0.1:60738 workers Thread 3"
+    14:06:13.840 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr
+    14:06:13.840 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr'.
+    14:06:13.862 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/StackAr
+    14:06:14.089 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/StackAr
+    14:06:14.090 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_CAPACITY
+    14:06:14.092 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr
+    14:06:14.094 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Underflow
+    14:06:14.095 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Underflow'.
+    14:06:14.098 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Underflow
+    14:06:14.101 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Underflow
+    14:06:14.102 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Underflow
+    14:06:14.102 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Overflow
+    14:06:14.103 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Overflow'.
+    14:06:14.110 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Overflow
+    14:06:14.111 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Overflow
+    14:06:14.112 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Overflow
+
+DataStructures.StackAr_ESTest > test06 FAILED
+    DataStructures.Overflow
+
+DataStructures.StackAr_ESTest > test09 FAILED
+    DataStructures.Overflow
+
+DataStructures.StackAr_ESTest > test01 FAILED
+    DataStructures.Overflow at StackAr_ESTest.java:30
+
+DataStructures.StackAr_ESTest > test12 FAILED
+    DataStructures.Overflow at StackAr_ESTest.java:143
+
+DataStructures.StackAr_ESTest > test00 FAILED
+    DataStructures.Overflow at StackAr_ESTest.java:22
+
+DataStructures.StackAr_ESTest > test02 FAILED
+    DataStructures.Overflow at StackAr_ESTest.java:40
+
+RegressionTest > RegressionTest0.test02 FAILED
+    java.lang.AssertionError at RegressionTest0.java:33
+
+RegressionTest > RegressionTest0.test04 FAILED
+    DataStructures.Overflow at RegressionTest0.java:55
+
+RegressionTest > RegressionTest0.test06 FAILED
+    DataStructures.Overflow at RegressionTest0.java:72
+
+RegressionTest > RegressionTest0.test08 FAILED
+    DataStructures.Overflow at RegressionTest0.java:93
+
+RegressionTest > RegressionTest0.test09 FAILED
+    DataStructures.Overflow at RegressionTest0.java:104
+
+RegressionTest > RegressionTest0.test10 FAILED
+    DataStructures.Overflow at RegressionTest0.java:121
+
+RegressionTest > RegressionTest0.test11 FAILED
+    DataStructures.Overflow at RegressionTest0.java:131
+
+RegressionTest > RegressionTest0.test13 FAILED
+    DataStructures.Overflow at RegressionTest0.java:153
+
+RegressionTest > RegressionTest0.test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:168
+
+RegressionTest > RegressionTest0.test15 FAILED
+    DataStructures.Overflow at RegressionTest0.java:177
+
+RegressionTest > RegressionTest0.test16 FAILED
+    DataStructures.Overflow at RegressionTest0.java:190
+
+RegressionTest > RegressionTest0.test17 FAILED
+    DataStructures.Overflow at RegressionTest0.java:209
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:255
+
+RegressionTest > RegressionTest0.test22 FAILED
+    DataStructures.Overflow at RegressionTest0.java:265
+
+RegressionTest > RegressionTest0.test23 FAILED
+    DataStructures.Overflow at RegressionTest0.java:281
+
+RegressionTest > RegressionTest0.test27 FAILED
+    DataStructures.Overflow at RegressionTest0.java:335
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:349
+
+RegressionTest > RegressionTest0.test29 FAILED
+    DataStructures.Overflow at RegressionTest0.java:360
+
+RegressionTest > RegressionTest0.test30 FAILED
+    DataStructures.Overflow at RegressionTest0.java:377
+
+RegressionTest > RegressionTest0.test33 FAILED
+    DataStructures.Overflow at RegressionTest0.java:421
+
+RegressionTest > RegressionTest0.test34 FAILED
+    DataStructures.Overflow at RegressionTest0.java:433
+
+RegressionTest > RegressionTest0.test36 FAILED
+    DataStructures.Overflow at RegressionTest0.java:455
+
+RegressionTest > RegressionTest0.test37 FAILED
+    DataStructures.Overflow at RegressionTest0.java:466
+
+RegressionTest0 > test02 FAILED
+    java.lang.AssertionError at RegressionTest0.java:33
+
+RegressionTest0 > test04 FAILED
+    DataStructures.Overflow at RegressionTest0.java:55
+
+RegressionTest0 > test06 FAILED
+    DataStructures.Overflow at RegressionTest0.java:72
+
+RegressionTest0 > test08 FAILED
+    DataStructures.Overflow at RegressionTest0.java:93
+
+RegressionTest0 > test09 FAILED
+    DataStructures.Overflow at RegressionTest0.java:104
+
+RegressionTest0 > test10 FAILED
+    DataStructures.Overflow at RegressionTest0.java:121
+
+RegressionTest0 > test11 FAILED
+    DataStructures.Overflow at RegressionTest0.java:131
+
+RegressionTest0 > test13 FAILED
+    DataStructures.Overflow at RegressionTest0.java:153
+
+RegressionTest0 > test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:168
+
+RegressionTest0 > test15 FAILED
+    DataStructures.Overflow at RegressionTest0.java:177
+
+RegressionTest0 > test16 FAILED
+    DataStructures.Overflow at RegressionTest0.java:190
+
+RegressionTest0 > test17 FAILED
+    DataStructures.Overflow at RegressionTest0.java:209
+
+RegressionTest0 > test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:255
+
+RegressionTest0 > test22 FAILED
+    DataStructures.Overflow at RegressionTest0.java:265
+
+RegressionTest0 > test23 FAILED
+    DataStructures.Overflow at RegressionTest0.java:281
+
+RegressionTest0 > test27 FAILED
+    DataStructures.Overflow at RegressionTest0.java:335
+
+RegressionTest0 > test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:349
+
+RegressionTest0 > test29 FAILED
+    DataStructures.Overflow at RegressionTest0.java:360
+
+RegressionTest0 > test30 FAILED
+    DataStructures.Overflow at RegressionTest0.java:377
+
+RegressionTest0 > test33 FAILED
+    DataStructures.Overflow at RegressionTest0.java:421
+
+RegressionTest0 > test34 FAILED
+    DataStructures.Overflow at RegressionTest0.java:433
+
+RegressionTest0 > test36 FAILED
+    DataStructures.Overflow at RegressionTest0.java:455
+
+RegressionTest0 > test37 FAILED
+    DataStructures.Overflow at RegressionTest0.java:466
+
+testers.StackArTester0 > test003 FAILED
+    DataStructures.Overflow at StackArTester0.java:41
+
+testers.StackArTester0 > test004 FAILED
+    DataStructures.Overflow at StackArTester0.java:50
+
+testers.StackArTester0 > test007 FAILED
+    DataStructures.Overflow at StackArTester0.java:87
+
+testers.StackArTester0 > test008 FAILED
+    DataStructures.Overflow at StackArTester0.java:100
+
+testers.StackArTester0 > test009 FAILED
+    DataStructures.Overflow at StackArTester0.java:110
+
+testers.StackArTester0 > test010 FAILED
+    DataStructures.Overflow at StackArTester0.java:122
+
+testers.StackArTester0 > test011 FAILED
+    DataStructures.Overflow at StackArTester0.java:138
+
+testers.StackArTester0 > test014 FAILED
+    DataStructures.Overflow at StackArTester0.java:175
+
+testers.StackArTester0 > test015 FAILED
+    DataStructures.Overflow at StackArTester0.java:187
+
+testers.StackArTester0 > test018 FAILED
+    DataStructures.Overflow at StackArTester0.java:224
+
+testers.StackArTester0 > test021 FAILED
+    DataStructures.Overflow at StackArTester0.java:259
+
+testers.StackArTester0 > test024 FAILED
+    DataStructures.Overflow at StackArTester0.java:303
+
+testers.StackArTester0 > test026 FAILED
+    DataStructures.Overflow at StackArTester0.java:325
+
+testers.StackArTester0 > test027 FAILED
+    DataStructures.Overflow at StackArTester0.java:343
+
+testers.StackArTester0 > test028 FAILED
+    DataStructures.Overflow at StackArTester0.java:361
+
+testers.StackArTester0 > test030 FAILED
+    DataStructures.Overflow at StackArTester0.java:384
+
+testers.StackArTester0 > test037 FAILED
+    DataStructures.Overflow at StackArTester0.java:468
+
+testers.StackArTester0 > test038 FAILED
+    DataStructures.Overflow at StackArTester0.java:480
+
+testers.StackArTester0 > test039 FAILED
+    DataStructures.Overflow at StackArTester0.java:490
+
+testers.StackArTester0 > test041 FAILED
+    DataStructures.Overflow at StackArTester0.java:520
+
+testers.StackArTester0 > test043 FAILED
+    DataStructures.Overflow at StackArTester0.java:551
+
+testers.StackArTester0 > test047 FAILED
+    DataStructures.Overflow at StackArTester0.java:609
+
+testers.StackArTester0 > test049 FAILED
+    DataStructures.Overflow at StackArTester0.java:638
+
+testers.StackArTester0 > test050 FAILED
+    DataStructures.Overflow at StackArTester0.java:650
+
+testers.StackArTester0 > test054 FAILED
+    DataStructures.Overflow at StackArTester0.java:707
+
+testers.StackArTester0 > test055 FAILED
+    DataStructures.Overflow at StackArTester0.java:717
+
+testers.StackArTester0 > test056 FAILED
+    DataStructures.Overflow at StackArTester0.java:728
+
+testers.StackArTester0 > test057 FAILED
+    DataStructures.Overflow at StackArTester0.java:746
+
+testers.StackArTester0 > test061 FAILED
+    DataStructures.Overflow at StackArTester0.java:794
+
+testers.StackArTester0 > test062 FAILED
+    DataStructures.Overflow at StackArTester0.java:805
+
+testers.StackArTester0 > test067 FAILED
+    DataStructures.Overflow at StackArTester0.java:872
+
+testers.StackArTester0 > test068 FAILED
+    DataStructures.Overflow at StackArTester0.java:888
+
+testers.StackArTester0 > test070 FAILED
+    DataStructures.Overflow at StackArTester0.java:910
+
+testers.StackArTester0 > test071 FAILED
+    DataStructures.Overflow at StackArTester0.java:931
+
+testers.StackArTester0 > test074 FAILED
+    DataStructures.Overflow at StackArTester0.java:979
+
+testers.StackArTester0 > test075 FAILED
+    DataStructures.Overflow at StackArTester0.java:992
+
+testers.StackArTester0 > test077 FAILED
+    DataStructures.Overflow at StackArTester0.java:1013
+
+testers.StackArTester0 > test078 FAILED
+    DataStructures.Overflow at StackArTester0.java:1035
+
+testers.StackArTester0 > test080 FAILED
+    DataStructures.Overflow at StackArTester0.java:1059
+
+testers.StackArTester0 > test084 FAILED
+    DataStructures.Overflow at StackArTester0.java:1123
+
+testers.StackArTester0 > test085 FAILED
+    DataStructures.Overflow at StackArTester0.java:1135
+
+testers.StackArTester0 > test086 FAILED
+    DataStructures.Overflow at StackArTester0.java:1149
+
+testers.StackArTester0 > test087 FAILED
+    DataStructures.Overflow at StackArTester0.java:1162
+
+testers.StackArTester0 > test088 FAILED
+    DataStructures.Overflow at StackArTester0.java:1174
+
+testers.StackArTester0 > test089 FAILED
+    DataStructures.Overflow at StackArTester0.java:1190
+
+testers.StackArTester0 > test091 FAILED
+    DataStructures.Overflow at StackArTester0.java:1216
+
+testers.StackArTester0 > test092 FAILED
+    DataStructures.Overflow at StackArTester0.java:1228
+
+testers.StackArTester0 > test093 FAILED
+    DataStructures.Overflow at StackArTester0.java:1247
+
+testers.StackArTester0 > test094 FAILED
+    DataStructures.Overflow at StackArTester0.java:1257
+
+testers.StackArTester0 > test095 FAILED
+    DataStructures.Overflow at StackArTester0.java:1271
+
+testers.StackArTester0 > test097 FAILED
+    DataStructures.Overflow at StackArTester0.java:1309
+
+testers.StackArTester0 > test100 FAILED
+    DataStructures.Overflow at StackArTester0.java:1349
+
+testers.StackArTester0 > test104 FAILED
+    DataStructures.Overflow at StackArTester0.java:1398
+
+testers.StackArTester0 > test107 FAILED
+    DataStructures.Overflow at StackArTester0.java:1432
+
+testers.StackArTester0 > test108 FAILED
+    DataStructures.Overflow at StackArTester0.java:1445
+
+testers.StackArTester0 > test109 FAILED
+    DataStructures.Overflow at StackArTester0.java:1459
+
+testers.StackArTester0 > test110 FAILED
+    DataStructures.Overflow at StackArTester0.java:1473
+
+testers.StackArTester0 > test115 FAILED
+    DataStructures.Overflow at StackArTester0.java:1531
+
+testers.StackArTester0 > test116 FAILED
+    DataStructures.Overflow at StackArTester0.java:1549
+
+testers.StackArTester0 > test118 FAILED
+    DataStructures.Overflow at StackArTester0.java:1573
+
+testers.StackArTester0 > test120 FAILED
+    DataStructures.Overflow at StackArTester0.java:1592
+
+testers.StackArTester0 > test121 FAILED
+    DataStructures.Overflow at StackArTester0.java:1613
+
+testers.StackArTester0 > test122 FAILED
+    DataStructures.Overflow at StackArTester0.java:1632
+
+testers.StackArTester0 > test123 FAILED
+    DataStructures.Overflow at StackArTester0.java:1650
+
+testers.StackArTester0 > test124 FAILED
+    DataStructures.Overflow at StackArTester0.java:1662
+
+testers.StackArTester0 > test126 FAILED
+    DataStructures.Overflow at StackArTester0.java:1689
+
+testers.StackArTester0 > test130 FAILED
+    DataStructures.Overflow at StackArTester0.java:1755
+
+testers.StackArTester0 > test133 FAILED
+    DataStructures.Overflow at StackArTester0.java:1806
+
+testers.StackArTester0 > test134 FAILED
+    DataStructures.Overflow at StackArTester0.java:1818
+
+testers.StackArTester0 > test135 FAILED
+    DataStructures.Overflow at StackArTester0.java:1830
+
+testers.StackArTester0 > test136 FAILED
+    DataStructures.Overflow at StackArTester0.java:1850
+
+testers.StackArTester0 > test137 FAILED
+    DataStructures.Overflow at StackArTester0.java:1874
+
+testers.StackArTester0 > test138 FAILED
+    DataStructures.Overflow at StackArTester0.java:1893
+
+testers.StackArTester0 > test139 FAILED
+    DataStructures.Overflow at StackArTester0.java:1911
+
+testers.StackArTester0 > test142 FAILED
+    DataStructures.Overflow at StackArTester0.java:1946
+
+testers.StackArTester0 > test143 FAILED
+    DataStructures.Overflow at StackArTester0.java:1978
+
+testers.StackArTester0 > test149 FAILED
+    DataStructures.Overflow at StackArTester0.java:2056
+
+testers.StackArTester0 > test150 FAILED
+    DataStructures.Overflow at StackArTester0.java:2072
+
+testers.StackArTester0 > test152 FAILED
+    DataStructures.Overflow at StackArTester0.java:2113
+
+testers.StackArTester0 > test154 FAILED
+    DataStructures.Overflow at StackArTester0.java:2139
+
+testers.StackArTester0 > test155 FAILED
+    DataStructures.Overflow at StackArTester0.java:2150
+
+testers.StackArTester0 > test157 FAILED
+    DataStructures.Overflow at StackArTester0.java:2178
+
+testers.StackArTester0 > test159 FAILED
+    DataStructures.Overflow at StackArTester0.java:2211
+
+testers.StackArTester0 > test160 FAILED
+    DataStructures.Overflow at StackArTester0.java:2230
+
+testers.StackArTester0 > test161 FAILED
+    DataStructures.Overflow at StackArTester0.java:2247
+
+testers.StackArTester0 > test162 FAILED
+    DataStructures.Overflow at StackArTester0.java:2263
+
+testers.StackArTester0 > test163 FAILED
+    DataStructures.Overflow at StackArTester0.java:2286
+
+testers.StackArTester0 > test164 FAILED
+    DataStructures.Overflow at StackArTester0.java:2311
+
+testers.StackArTester0 > test165 FAILED
+    DataStructures.Overflow at StackArTester0.java:2331
+
+testers.StackArTester0 > test166 FAILED
+    DataStructures.Overflow at StackArTester0.java:2343
+
+testers.StackArTester0 > test168 FAILED
+    DataStructures.Overflow at StackArTester0.java:2363
+
+testers.StackArTester0 > test169 FAILED
+    DataStructures.Overflow at StackArTester0.java:2376
+
+testers.StackArTester0 > test170 FAILED
+    DataStructures.Overflow at StackArTester0.java:2397
+
+testers.StackArTester0 > test172 FAILED
+    DataStructures.Overflow at StackArTester0.java:2417
+
+testers.StackArTester0 > test173 FAILED
+    DataStructures.Overflow at StackArTester0.java:2437
+
+testers.StackArTester0 > test174 FAILED
+    DataStructures.Overflow at StackArTester0.java:2467
+
+testers.StackArTester0 > test175 FAILED
+    DataStructures.Overflow at StackArTester0.java:2477
+
+testers.StackArTester0 > test176 FAILED
+    DataStructures.Overflow at StackArTester0.java:2494
+
+testers.StackArTester0 > test177 FAILED
+    DataStructures.Overflow at StackArTester0.java:2513
+
+testers.StackArTester0 > test180 FAILED
+    DataStructures.Overflow at StackArTester0.java:2548
+
+testers.StackArTester0 > test181 FAILED
+    DataStructures.Overflow at StackArTester0.java:2566
+
+testers.StackArTester0 > test182 FAILED
+    DataStructures.Overflow at StackArTester0.java:2579
+
+testers.StackArTester0 > test184 FAILED
+    DataStructures.Overflow at StackArTester0.java:2609
+
+testers.StackArTester0 > test188 FAILED
+    DataStructures.Overflow at StackArTester0.java:2653
+
+testers.StackArTester0 > test189 FAILED
+    DataStructures.Overflow at StackArTester0.java:2666
+
+testers.StackArTester0 > test192 FAILED
+    DataStructures.Overflow at StackArTester0.java:2705
+
+testers.StackArTester0 > test195 FAILED
+    DataStructures.Overflow at StackArTester0.java:2753
+
+testers.StackArTester0 > test196 FAILED
+    DataStructures.Overflow at StackArTester0.java:2766
+
+testers.StackArTester0 > test197 FAILED
+    DataStructures.Overflow at StackArTester0.java:2779
+
+testers.StackArTester0 > test198 FAILED
+    DataStructures.Overflow at StackArTester0.java:2801
+
+testers.StackArTester0 > test199 FAILED
+    DataStructures.Overflow at StackArTester0.java:2813
+
+testers.StackArTester0 > test200 FAILED
+    DataStructures.Overflow at StackArTester0.java:2828
+
+testers.StackArTester0 > test201 FAILED
+    DataStructures.Overflow at StackArTester0.java:2841
+
+testers.StackArTester0 > test202 FAILED
+    DataStructures.Overflow at StackArTester0.java:2867
+
+testers.StackArTester0 > test203 FAILED
+    DataStructures.Overflow at StackArTester0.java:2879
+
+testers.StackArTester0 > test204 FAILED
+    DataStructures.Overflow at StackArTester0.java:2893
+
+testers.StackArTester0 > test205 FAILED
+    DataStructures.Overflow at StackArTester0.java:2913
+
+testers.StackArTester0 > test207 FAILED
+    DataStructures.Overflow at StackArTester0.java:2941
+
+testers.StackArTester0 > test208 FAILED
+    DataStructures.Overflow at StackArTester0.java:2952
+
+testers.StackArTester0 > test210 FAILED
+    DataStructures.Overflow at StackArTester0.java:2978
+
+testers.StackArTester0 > test211 FAILED
+    DataStructures.Overflow at StackArTester0.java:2995
+
+testers.StackArTester0 > test212 FAILED
+    DataStructures.Overflow at StackArTester0.java:3009
+
+testers.StackArTester0 > test214 FAILED
+    DataStructures.Overflow at StackArTester0.java:3035
+
+testers.StackArTester0 > test215 FAILED
+    DataStructures.Overflow at StackArTester0.java:3050
+
+testers.StackArTester0 > test216 FAILED
+    DataStructures.Overflow at StackArTester0.java:3066
+
+testers.StackArTester0 > test217 FAILED
+    DataStructures.Overflow at StackArTester0.java:3081
+
+testers.StackArTester0 > test218 FAILED
+    DataStructures.Overflow at StackArTester0.java:3105
+
+testers.StackArTester0 > test219 FAILED
+    DataStructures.Overflow at StackArTester0.java:3121
+
+testers.StackArTester0 > test220 FAILED
+    DataStructures.Overflow at StackArTester0.java:3134
+
+testers.StackArTester0 > test221 FAILED
+    DataStructures.Overflow at StackArTester0.java:3152
+
+testers.StackArTester0 > test223 FAILED
+    DataStructures.Overflow at StackArTester0.java:3183
+
+testers.StackArTester0 > test224 FAILED
+    DataStructures.Overflow at StackArTester0.java:3198
+
+testers.StackArTester0 > test225 FAILED
+    DataStructures.Overflow at StackArTester0.java:3218
+
+testers.StackArTester0 > test226 FAILED
+    DataStructures.Overflow at StackArTester0.java:3235
+
+testers.StackArTester0 > test227 FAILED
+    DataStructures.Overflow at StackArTester0.java:3244
+
+testers.StackArTester0 > test228 FAILED
+    DataStructures.Overflow at StackArTester0.java:3262
+
+testers.StackArTester0 > test229 FAILED
+    DataStructures.Overflow at StackArTester0.java:3279
+
+testers.StackArTester0 > test231 FAILED
+    DataStructures.Overflow at StackArTester0.java:3304
+
+testers.StackArTester0 > test232 FAILED
+    DataStructures.Overflow at StackArTester0.java:3318
+
+testers.StackArTester0 > test233 FAILED
+    DataStructures.Overflow at StackArTester0.java:3339
+
+testers.StackArTester0 > test235 FAILED
+    DataStructures.Overflow at StackArTester0.java:3365
+
+testers.StackArTester0 > test236 FAILED
+    DataStructures.Overflow at StackArTester0.java:3384
+
+testers.StackArTester0 > test237 FAILED
+    DataStructures.Overflow at StackArTester0.java:3399
+
+testers.StackArTester0 > test238 FAILED
+    DataStructures.Overflow at StackArTester0.java:3418
+
+testers.StackArTester0 > test239 FAILED
+    DataStructures.Overflow at StackArTester0.java:3433
+
+testers.StackArTester0 > test242 FAILED
+    DataStructures.Overflow at StackArTester0.java:3473
+
+testers.StackArTester0 > test243 FAILED
+    DataStructures.Overflow at StackArTester0.java:3486
+
+testers.StackArTester0 > test244 FAILED
+    DataStructures.Overflow at StackArTester0.java:3503
+
+testers.StackArTester0 > test245 FAILED
+    DataStructures.Overflow at StackArTester0.java:3512
+
+testers.StackArTester0 > test246 FAILED
+    DataStructures.Overflow at StackArTester0.java:3538
+
+testers.StackArTester0 > test247 FAILED
+    DataStructures.Overflow at StackArTester0.java:3552
+
+testers.StackArTester0 > test249 FAILED
+    DataStructures.Overflow at StackArTester0.java:3582
+
+testers.StackArTester0 > test250 FAILED
+    DataStructures.Overflow at StackArTester0.java:3595
+
+testers.StackArTester0 > test252 FAILED
+    DataStructures.Overflow at StackArTester0.java:3631
+
+testers.StackArTester0 > test254 FAILED
+    DataStructures.Overflow at StackArTester0.java:3661
+
+testers.StackArTester0 > test257 FAILED
+    DataStructures.Overflow at StackArTester0.java:3705
+
+testers.StackArTester0 > test258 FAILED
+    DataStructures.Overflow at StackArTester0.java:3717
+
+testers.StackArTester0 > test259 FAILED
+    DataStructures.Overflow at StackArTester0.java:3730
+Results: FAILURE (346 tests, 136 successes, 210 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

@@ -1,0 +1,315 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+DataStructures.StackAr_ESTest STANDARD_OUT
+    14:53:58.246 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr_ESTest
+    14:53:58.249 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr_ESTest'.
+    14:53:58.289 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr_ESTest_scaffolding
+    14:53:58.289 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr_ESTest_scaffolding'.
+    14:53:58.294 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr_ESTest_scaffolding
+    14:53:58.294 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr_ESTest
+    14:53:58.681 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    14:53:58.682 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    14:53:58.682 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    14:53:58.682 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    14:53:58.682 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    14:53:58.682 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    14:53:58.683 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    14:53:58.683 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    14:53:58.683 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    14:53:58.683 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:49798 to /127.0.0.1:49796 workers Thread 2"
+    14:53:58.683 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:49798 to /127.0.0.1:49796 workers Thread 3"
+    14:53:58.748 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr
+    14:53:58.748 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr'.
+    14:53:58.778 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/StackAr
+    14:53:59.006 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/StackAr
+    14:53:59.007 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_CAPACITY
+    14:53:59.009 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr
+    14:53:59.009 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Underflow
+    14:53:59.009 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Underflow'.
+    14:53:59.010 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Underflow
+    14:53:59.011 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Underflow
+    14:53:59.011 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Underflow
+    14:53:59.011 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Overflow
+    14:53:59.012 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Overflow'.
+    14:53:59.013 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Overflow
+    14:53:59.014 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Overflow
+    14:53:59.014 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Overflow
+
+DataStructures.StackAr_ESTest > test12 FAILED
+    java.lang.AssertionError at StackAr_ESTest.java:144
+
+DataStructures.StackAr_ESTest > test00 FAILED
+    java.lang.AssertionError at StackAr_ESTest.java:24
+
+RegressionTest > RegressionTest0.test11 FAILED
+    java.lang.AssertionError at RegressionTest0.java:134
+
+RegressionTest > RegressionTest0.test13 FAILED
+    DataStructures.Underflow at RegressionTest0.java:155
+
+RegressionTest > RegressionTest0.test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:181
+
+RegressionTest > RegressionTest0.test16 FAILED
+    java.lang.AssertionError at RegressionTest0.java:198
+
+RegressionTest > RegressionTest0.test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:271
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:290
+
+RegressionTest > RegressionTest0.test29 FAILED
+    java.lang.AssertionError at RegressionTest0.java:363
+
+RegressionTest > RegressionTest0.test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:438
+
+RegressionTest > RegressionTest0.test36 FAILED
+    DataStructures.Underflow at RegressionTest0.java:456
+
+RegressionTest > RegressionTest0.test37 FAILED
+    java.lang.AssertionError at RegressionTest0.java:468
+
+RegressionTest0 > test11 FAILED
+    java.lang.AssertionError at RegressionTest0.java:134
+
+RegressionTest0 > test13 FAILED
+    DataStructures.Underflow at RegressionTest0.java:155
+
+RegressionTest0 > test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:181
+
+RegressionTest0 > test16 FAILED
+    java.lang.AssertionError at RegressionTest0.java:198
+
+RegressionTest0 > test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:271
+
+RegressionTest0 > test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:290
+
+RegressionTest0 > test29 FAILED
+    java.lang.AssertionError at RegressionTest0.java:363
+
+RegressionTest0 > test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:438
+
+RegressionTest0 > test36 FAILED
+    DataStructures.Underflow at RegressionTest0.java:456
+
+RegressionTest0 > test37 FAILED
+    java.lang.AssertionError at RegressionTest0.java:468
+
+testers.StackArTester0 > test011 FAILED
+    DataStructures.Underflow at StackArTester0.java:140
+
+testers.StackArTester0 > test015 FAILED
+    DataStructures.Underflow at StackArTester0.java:188
+
+testers.StackArTester0 > test021 FAILED
+    DataStructures.Underflow at StackArTester0.java:262
+
+testers.StackArTester0 > test027 FAILED
+    DataStructures.Underflow at StackArTester0.java:345
+
+testers.StackArTester0 > test028 FAILED
+    DataStructures.Underflow at StackArTester0.java:362
+
+testers.StackArTester0 > test043 FAILED
+    DataStructures.Underflow at StackArTester0.java:552
+
+testers.StackArTester0 > test055 FAILED
+    DataStructures.Underflow at StackArTester0.java:719
+
+testers.StackArTester0 > test056 FAILED
+    DataStructures.Underflow at StackArTester0.java:730
+
+testers.StackArTester0 > test057 FAILED
+    DataStructures.Underflow at StackArTester0.java:750
+
+testers.StackArTester0 > test062 FAILED
+    DataStructures.Underflow at StackArTester0.java:807
+
+testers.StackArTester0 > test068 FAILED
+    DataStructures.Underflow at StackArTester0.java:889
+
+testers.StackArTester0 > test070 FAILED
+    DataStructures.Underflow at StackArTester0.java:921
+
+testers.StackArTester0 > test077 FAILED
+    DataStructures.Underflow at StackArTester0.java:1018
+
+testers.StackArTester0 > test080 FAILED
+    DataStructures.Underflow at StackArTester0.java:1061
+
+testers.StackArTester0 > test085 FAILED
+    DataStructures.Underflow at StackArTester0.java:1137
+
+testers.StackArTester0 > test087 FAILED
+    DataStructures.Underflow at StackArTester0.java:1164
+
+testers.StackArTester0 > test094 FAILED
+    java.lang.NullPointerException at StackArTester0.java:1262
+
+testers.StackArTester0 > test095 FAILED
+    DataStructures.Underflow at StackArTester0.java:1277
+
+testers.StackArTester0 > test104 FAILED
+    DataStructures.Underflow at StackArTester0.java:1400
+
+testers.StackArTester0 > test109 FAILED
+    DataStructures.Underflow at StackArTester0.java:1465
+
+testers.StackArTester0 > test115 FAILED
+    DataStructures.Underflow at StackArTester0.java:1533
+
+testers.StackArTester0 > test120 FAILED
+    DataStructures.Underflow at StackArTester0.java:1603
+
+testers.StackArTester0 > test121 FAILED
+    DataStructures.Underflow at StackArTester0.java:1615
+
+testers.StackArTester0 > test123 FAILED
+    DataStructures.Underflow at StackArTester0.java:1652
+
+testers.StackArTester0 > test124 FAILED
+    DataStructures.Underflow at StackArTester0.java:1664
+
+testers.StackArTester0 > test126 FAILED
+    DataStructures.Underflow at StackArTester0.java:1690
+
+testers.StackArTester0 > test130 FAILED
+    DataStructures.Underflow at StackArTester0.java:1756
+
+testers.StackArTester0 > test133 FAILED
+    DataStructures.Underflow at StackArTester0.java:1809
+
+testers.StackArTester0 > test134 FAILED
+    DataStructures.Underflow at StackArTester0.java:1819
+
+testers.StackArTester0 > test136 FAILED
+    DataStructures.Underflow at StackArTester0.java:1852
+
+testers.StackArTester0 > test150 FAILED
+    DataStructures.Underflow at StackArTester0.java:2073
+
+testers.StackArTester0 > test155 FAILED
+    DataStructures.Underflow at StackArTester0.java:2151
+
+testers.StackArTester0 > test157 FAILED
+    DataStructures.Underflow at StackArTester0.java:2182
+
+testers.StackArTester0 > test159 FAILED
+    DataStructures.Underflow at StackArTester0.java:2220
+
+testers.StackArTester0 > test160 FAILED
+    DataStructures.Underflow at StackArTester0.java:2238
+
+testers.StackArTester0 > test161 FAILED
+    DataStructures.Underflow at StackArTester0.java:2252
+
+testers.StackArTester0 > test163 FAILED
+    DataStructures.Underflow at StackArTester0.java:2287
+
+testers.StackArTester0 > test166 FAILED
+    DataStructures.Underflow at StackArTester0.java:2346
+
+testers.StackArTester0 > test168 FAILED
+    DataStructures.Underflow at StackArTester0.java:2365
+
+testers.StackArTester0 > test175 FAILED
+    DataStructures.Underflow at StackArTester0.java:2480
+
+testers.StackArTester0 > test177 FAILED
+    DataStructures.Underflow at StackArTester0.java:2516
+
+testers.StackArTester0 > test180 FAILED
+    DataStructures.Underflow at StackArTester0.java:2557
+
+testers.StackArTester0 > test189 FAILED
+    DataStructures.Underflow at StackArTester0.java:2671
+
+testers.StackArTester0 > test192 FAILED
+    DataStructures.Underflow at StackArTester0.java:2706
+
+testers.StackArTester0 > test195 FAILED
+    DataStructures.Underflow at StackArTester0.java:2756
+
+testers.StackArTester0 > test198 FAILED
+    DataStructures.Underflow at StackArTester0.java:2805
+
+testers.StackArTester0 > test200 FAILED
+    DataStructures.Underflow at StackArTester0.java:2833
+
+testers.StackArTester0 > test205 FAILED
+    DataStructures.Underflow at StackArTester0.java:2915
+
+testers.StackArTester0 > test207 FAILED
+    DataStructures.Underflow at StackArTester0.java:2943
+
+testers.StackArTester0 > test208 FAILED
+    DataStructures.Underflow at StackArTester0.java:2954
+
+testers.StackArTester0 > test211 FAILED
+    DataStructures.Underflow at StackArTester0.java:3000
+
+testers.StackArTester0 > test212 FAILED
+    DataStructures.Underflow at StackArTester0.java:3013
+
+testers.StackArTester0 > test217 FAILED
+    DataStructures.Underflow at StackArTester0.java:3092
+
+testers.StackArTester0 > test220 FAILED
+    DataStructures.Underflow at StackArTester0.java:3135
+
+testers.StackArTester0 > test224 FAILED
+    DataStructures.Underflow at StackArTester0.java:3207
+
+testers.StackArTester0 > test227 FAILED
+    DataStructures.Underflow at StackArTester0.java:3246
+
+testers.StackArTester0 > test229 FAILED
+    DataStructures.Underflow at StackArTester0.java:3281
+
+testers.StackArTester0 > test232 FAILED
+    DataStructures.Underflow at StackArTester0.java:3330
+
+testers.StackArTester0 > test233 FAILED
+    DataStructures.Underflow at StackArTester0.java:3342
+
+testers.StackArTester0 > test235 FAILED
+    DataStructures.Underflow at StackArTester0.java:3374
+
+testers.StackArTester0 > test238 FAILED
+    DataStructures.Underflow at StackArTester0.java:3420
+
+testers.StackArTester0 > test249 FAILED
+    DataStructures.Underflow at StackArTester0.java:3584
+
+testers.StackArTester0 > test254 FAILED
+    DataStructures.Underflow at StackArTester0.java:3662
+
+testers.StackArTester0 > test257 FAILED
+    DataStructures.Underflow at StackArTester0.java:3707
+
+testers.StackArTester0 > test258 FAILED
+    DataStructures.Underflow at StackArTester0.java:3719
+
+testers.StackArTester0 > test259 FAILED
+    DataStructures.Underflow at StackArTester0.java:3731
+Results: FAILURE (346 tests, 258 successes, 88 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

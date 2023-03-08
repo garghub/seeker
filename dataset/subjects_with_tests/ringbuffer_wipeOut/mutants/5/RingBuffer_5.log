@@ -1,0 +1,1357 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.RingBuffer_ESTest STANDARD_OUT
+    16:37:24.251 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest
+    16:37:24.256 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest'.
+    16:37:24.296 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest_scaffolding
+    16:37:24.297 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest_scaffolding'.
+    16:37:24.300 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest_scaffolding
+    16:37:24.301 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest
+    16:37:25.048 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    16:37:25.048 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    16:37:25.049 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    16:37:25.049 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    16:37:25.049 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    16:37:25.049 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    16:37:25.049 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    16:37:25.049 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    16:37:25.049 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    16:37:25.049 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:60994 to /127.0.0.1:60993 workers Thread 2"
+    16:37:25.050 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:60994 to /127.0.0.1:60993 workers Thread 3"
+    16:37:25.120 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer
+    16:37:25.120 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer'.
+    16:37:25.143 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/RingBuffer
+    16:37:25.455 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/RingBuffer
+    16:37:25.466 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer
+
+examples.RingBuffer_ESTest > test08 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException
+
+examples.RingBuffer_ESTest > test09 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:112
+
+examples.RingBuffer_ESTest > test06 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:81
+
+examples.RingBuffer_ESTest > test07 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException
+
+examples.RingBuffer_ESTest > test04 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException
+
+examples.RingBuffer_ESTest > test15 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:197
+
+examples.RingBuffer_ESTest > test05 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException
+
+examples.RingBuffer_ESTest > test02 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:50
+
+examples.RingBuffer_ESTest > test13 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException
+
+examples.RingBuffer_ESTest > test03 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException
+
+examples.RingBuffer_ESTest > test00 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:21
+
+examples.RingBuffer_ESTest > test11 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:142
+
+examples.RingBuffer_ESTest > test01 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:36
+
+examples.RingBuffer_ESTest > test12 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:152
+
+examples.RingBuffer_ESTest > test10 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at RingBuffer_ESTest.java:130
+
+RegressionTest > RegressionTest0.test03 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:36
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:52
+
+RegressionTest > RegressionTest0.test05 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:65
+
+RegressionTest > RegressionTest0.test06 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:81
+
+RegressionTest > RegressionTest0.test07 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:97
+
+RegressionTest > RegressionTest0.test08 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:113
+
+RegressionTest > RegressionTest0.test09 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:127
+
+RegressionTest > RegressionTest0.test10 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:145
+
+RegressionTest > RegressionTest0.test11 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:152
+
+RegressionTest > RegressionTest0.test12 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:168
+
+RegressionTest > RegressionTest0.test13 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:179
+
+RegressionTest > RegressionTest0.test14 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:195
+
+RegressionTest > RegressionTest0.test15 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:206
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:226
+
+RegressionTest > RegressionTest0.test18 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:249
+
+RegressionTest > RegressionTest0.test19 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:263
+
+RegressionTest > RegressionTest0.test20 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:278
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:301
+
+RegressionTest > RegressionTest0.test22 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:311
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:330
+
+RegressionTest > RegressionTest0.test24 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:351
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:371
+
+RegressionTest > RegressionTest0.test26 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:388
+
+RegressionTest > RegressionTest0.test27 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:400
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:410
+
+RegressionTest > RegressionTest0.test29 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:419
+
+RegressionTest > RegressionTest0.test31 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:445
+
+RegressionTest > RegressionTest0.test32 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:463
+
+RegressionTest > RegressionTest0.test33 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:476
+
+RegressionTest > RegressionTest0.test34 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:483
+
+RegressionTest > RegressionTest0.test35 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:500
+
+RegressionTest > RegressionTest0.test36 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:513
+
+RegressionTest > RegressionTest0.test37 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:526
+
+RegressionTest > RegressionTest0.test38 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:533
+
+RegressionTest > RegressionTest0.test39 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:548
+
+RegressionTest > RegressionTest0.test40 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:565
+
+RegressionTest > RegressionTest0.test41 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:583
+
+RegressionTest > RegressionTest0.test42 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:599
+
+RegressionTest > RegressionTest0.test43 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:617
+
+RegressionTest > RegressionTest0.test44 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:634
+
+RegressionTest > RegressionTest0.test45 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:650
+
+RegressionTest > RegressionTest0.test46 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:669
+
+RegressionTest > RegressionTest0.test47 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:688
+
+RegressionTest > RegressionTest0.test48 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:702
+
+RegressionTest > RegressionTest0.test49 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:715
+
+RegressionTest > RegressionTest0.test50 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:733
+
+RegressionTest > RegressionTest0.test51 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:746
+
+RegressionTest > RegressionTest0.test52 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:766
+
+RegressionTest > RegressionTest0.test53 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:775
+
+RegressionTest > RegressionTest0.test54 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:790
+
+RegressionTest > RegressionTest0.test55 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:807
+
+RegressionTest > RegressionTest0.test56 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:825
+
+RegressionTest > RegressionTest0.test57 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:839
+
+RegressionTest > RegressionTest0.test58 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:856
+
+RegressionTest > RegressionTest0.test59 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:869
+
+RegressionTest > RegressionTest0.test60 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:885
+
+RegressionTest > RegressionTest0.test61 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:901
+
+RegressionTest > RegressionTest0.test62 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:914
+
+RegressionTest > RegressionTest0.test63 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:923
+
+RegressionTest > RegressionTest0.test64 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:938
+
+RegressionTest > RegressionTest0.test65 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:945
+
+RegressionTest > RegressionTest0.test66 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:960
+
+RegressionTest > RegressionTest0.test67 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:971
+
+RegressionTest > RegressionTest0.test68 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:984
+
+RegressionTest > RegressionTest0.test69 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1004
+
+RegressionTest > RegressionTest0.test70 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1013
+
+RegressionTest > RegressionTest0.test71 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1035
+
+RegressionTest > RegressionTest0.test72 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1053
+
+RegressionTest > RegressionTest0.test73 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1068
+
+RegressionTest > RegressionTest0.test75 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1106
+
+RegressionTest > RegressionTest0.test76 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1121
+
+RegressionTest > RegressionTest0.test77 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1136
+
+RegressionTest > RegressionTest0.test78 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1149
+
+RegressionTest > RegressionTest0.test79 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1170
+
+RegressionTest > RegressionTest0.test80 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1181
+
+RegressionTest > RegressionTest0.test81 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1188
+
+RegressionTest0 > test03 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:36
+
+RegressionTest0 > test04 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:52
+
+RegressionTest0 > test05 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:65
+
+RegressionTest0 > test06 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:81
+
+RegressionTest0 > test07 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:97
+
+RegressionTest0 > test08 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:113
+
+RegressionTest0 > test09 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:127
+
+RegressionTest0 > test10 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:145
+
+RegressionTest0 > test11 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:152
+
+RegressionTest0 > test12 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:168
+
+RegressionTest0 > test13 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:179
+
+RegressionTest0 > test14 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:195
+
+RegressionTest0 > test15 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:206
+
+RegressionTest0 > test17 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:226
+
+RegressionTest0 > test18 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:249
+
+RegressionTest0 > test19 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:263
+
+RegressionTest0 > test20 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:278
+
+RegressionTest0 > test21 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:301
+
+RegressionTest0 > test22 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:311
+
+RegressionTest0 > test23 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:330
+
+RegressionTest0 > test24 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:351
+
+RegressionTest0 > test25 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:371
+
+RegressionTest0 > test26 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:388
+
+RegressionTest0 > test27 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:400
+
+RegressionTest0 > test28 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:410
+
+RegressionTest0 > test29 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:419
+
+RegressionTest0 > test31 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:445
+
+RegressionTest0 > test32 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:463
+
+RegressionTest0 > test33 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:476
+
+RegressionTest0 > test34 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:483
+
+RegressionTest0 > test35 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:500
+
+RegressionTest0 > test36 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:513
+
+RegressionTest0 > test37 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:526
+
+RegressionTest0 > test38 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:533
+
+RegressionTest0 > test39 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:548
+
+RegressionTest0 > test40 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:565
+
+RegressionTest0 > test41 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:583
+
+RegressionTest0 > test42 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:599
+
+RegressionTest0 > test43 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:617
+
+RegressionTest0 > test44 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:634
+
+RegressionTest0 > test45 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:650
+
+RegressionTest0 > test46 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:669
+
+RegressionTest0 > test47 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:688
+
+RegressionTest0 > test48 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:702
+
+RegressionTest0 > test49 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:715
+
+RegressionTest0 > test50 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:733
+
+RegressionTest0 > test51 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:746
+
+RegressionTest0 > test52 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:766
+
+RegressionTest0 > test53 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:775
+
+RegressionTest0 > test54 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:790
+
+RegressionTest0 > test55 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:807
+
+RegressionTest0 > test56 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:825
+
+RegressionTest0 > test57 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:839
+
+RegressionTest0 > test58 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:856
+
+RegressionTest0 > test59 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:869
+
+RegressionTest0 > test60 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:885
+
+RegressionTest0 > test61 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:901
+
+RegressionTest0 > test62 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:914
+
+RegressionTest0 > test63 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:923
+
+RegressionTest0 > test64 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:938
+
+RegressionTest0 > test65 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:945
+
+RegressionTest0 > test66 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:960
+
+RegressionTest0 > test67 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:971
+
+RegressionTest0 > test68 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:984
+
+RegressionTest0 > test69 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1004
+
+RegressionTest0 > test70 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1013
+
+RegressionTest0 > test71 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1035
+
+RegressionTest0 > test72 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1053
+
+RegressionTest0 > test73 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1068
+
+RegressionTest0 > test75 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1106
+
+RegressionTest0 > test76 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1121
+
+RegressionTest0 > test77 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1136
+
+RegressionTest0 > test78 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1149
+
+RegressionTest0 > test79 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1170
+
+RegressionTest0 > test80 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1181
+
+RegressionTest0 > test81 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:1188
+
+testers.RingBufferTester0 > test004 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:50
+
+testers.RingBufferTester0 > test005 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:65
+
+testers.RingBufferTester0 > test006 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:72
+
+testers.RingBufferTester0 > test007 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:86
+
+testers.RingBufferTester0 > test008 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:101
+
+testers.RingBufferTester0 > test009 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:108
+
+testers.RingBufferTester0 > test010 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:122
+
+testers.RingBufferTester0 > test011 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:134
+
+testers.RingBufferTester0 > test012 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:152
+
+testers.RingBufferTester0 > test014 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:176
+
+testers.RingBufferTester0 > test015 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:192
+
+testers.RingBufferTester0 > test016 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:210
+
+testers.RingBufferTester0 > test017 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:228
+
+testers.RingBufferTester0 > test018 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:238
+
+testers.RingBufferTester0 > test019 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:258
+
+testers.RingBufferTester0 > test021 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:283
+
+testers.RingBufferTester0 > test022 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:295
+
+testers.RingBufferTester0 > test024 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:327
+
+testers.RingBufferTester0 > test025 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:336
+
+testers.RingBufferTester0 > test026 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:356
+
+testers.RingBufferTester0 > test027 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:369
+
+testers.RingBufferTester0 > test028 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:381
+
+testers.RingBufferTester0 > test029 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:389
+
+testers.RingBufferTester0 > test030 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:412
+
+testers.RingBufferTester0 > test031 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:423
+
+testers.RingBufferTester0 > test032 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:446
+
+testers.RingBufferTester0 > test033 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:455
+
+testers.RingBufferTester0 > test034 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:475
+
+testers.RingBufferTester0 > test035 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:488
+
+testers.RingBufferTester0 > test036 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:497
+
+testers.RingBufferTester0 > test037 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:513
+
+testers.RingBufferTester0 > test038 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:520
+
+testers.RingBufferTester0 > test039 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:531
+
+testers.RingBufferTester0 > test040 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:540
+
+testers.RingBufferTester0 > test042 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:565
+
+testers.RingBufferTester0 > test043 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:581
+
+testers.RingBufferTester0 > test044 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:600
+
+testers.RingBufferTester0 > test045 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:613
+
+testers.RingBufferTester0 > test046 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:620
+
+testers.RingBufferTester0 > test047 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:627
+
+testers.RingBufferTester0 > test048 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:636
+
+testers.RingBufferTester0 > test049 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:654
+
+testers.RingBufferTester0 > test050 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:668
+
+testers.RingBufferTester0 > test051 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:686
+
+testers.RingBufferTester0 > test052 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:703
+
+testers.RingBufferTester0 > test053 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:714
+
+testers.RingBufferTester0 > test054 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:723
+
+testers.RingBufferTester0 > test055 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:735
+
+testers.RingBufferTester0 > test056 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:748
+
+testers.RingBufferTester0 > test057 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:765
+
+testers.RingBufferTester0 > test058 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:776
+
+testers.RingBufferTester0 > test059 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:787
+
+testers.RingBufferTester0 > test060 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:811
+
+testers.RingBufferTester0 > test061 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:825
+
+testers.RingBufferTester0 > test062 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:839
+
+testers.RingBufferTester0 > test063 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:854
+
+testers.RingBufferTester0 > test064 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:862
+
+testers.RingBufferTester0 > test065 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:882
+
+testers.RingBufferTester0 > test066 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:899
+
+testers.RingBufferTester0 > test067 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:918
+
+testers.RingBufferTester0 > test068 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:930
+
+testers.RingBufferTester0 > test069 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:941
+
+testers.RingBufferTester0 > test070 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:957
+
+testers.RingBufferTester0 > test071 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:968
+
+testers.RingBufferTester0 > test072 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:981
+
+testers.RingBufferTester0 > test073 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:993
+
+testers.RingBufferTester0 > test074 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1009
+
+testers.RingBufferTester0 > test075 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1027
+
+testers.RingBufferTester0 > test076 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1046
+
+testers.RingBufferTester0 > test077 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1053
+
+testers.RingBufferTester0 > test078 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1063
+
+testers.RingBufferTester0 > test079 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1079
+
+testers.RingBufferTester0 > test081 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1105
+
+testers.RingBufferTester0 > test082 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1119
+
+testers.RingBufferTester0 > test083 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1133
+
+testers.RingBufferTester0 > test084 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1151
+
+testers.RingBufferTester0 > test085 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1167
+
+testers.RingBufferTester0 > test086 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1185
+
+testers.RingBufferTester0 > test087 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1201
+
+testers.RingBufferTester0 > test088 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1216
+
+testers.RingBufferTester0 > test089 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1235
+
+testers.RingBufferTester0 > test090 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1248
+
+testers.RingBufferTester0 > test091 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1262
+
+testers.RingBufferTester0 > test092 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1276
+
+testers.RingBufferTester0 > test093 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1296
+
+testers.RingBufferTester0 > test094 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1308
+
+testers.RingBufferTester0 > test095 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1319
+
+testers.RingBufferTester0 > test096 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1335
+
+testers.RingBufferTester0 > test097 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1349
+
+testers.RingBufferTester0 > test098 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1356
+
+testers.RingBufferTester0 > test099 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1364
+
+testers.RingBufferTester0 > test100 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1375
+
+testers.RingBufferTester0 > test101 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1395
+
+testers.RingBufferTester0 > test102 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1410
+
+testers.RingBufferTester0 > test103 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1425
+
+testers.RingBufferTester0 > test104 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1442
+
+testers.RingBufferTester0 > test105 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1467
+
+testers.RingBufferTester0 > test106 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1482
+
+testers.RingBufferTester0 > test107 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1494
+
+testers.RingBufferTester0 > test108 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1510
+
+testers.RingBufferTester0 > test109 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1524
+
+testers.RingBufferTester0 > test110 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1539
+
+testers.RingBufferTester0 > test111 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1552
+
+testers.RingBufferTester0 > test112 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1565
+
+testers.RingBufferTester0 > test113 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1582
+
+testers.RingBufferTester0 > test114 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1600
+
+testers.RingBufferTester0 > test115 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1612
+
+testers.RingBufferTester0 > test117 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1639
+
+testers.RingBufferTester0 > test118 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1653
+
+testers.RingBufferTester0 > test119 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1667
+
+testers.RingBufferTester0 > test120 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1681
+
+testers.RingBufferTester0 > test121 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1693
+
+testers.RingBufferTester0 > test122 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1714
+
+testers.RingBufferTester0 > test124 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1734
+
+testers.RingBufferTester0 > test125 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1751
+
+testers.RingBufferTester0 > test126 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1766
+
+testers.RingBufferTester0 > test127 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1775
+
+testers.RingBufferTester0 > test128 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1790
+
+testers.RingBufferTester0 > test129 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1802
+
+testers.RingBufferTester0 > test130 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1814
+
+testers.RingBufferTester0 > test131 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1822
+
+testers.RingBufferTester0 > test132 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1842
+
+testers.RingBufferTester0 > test133 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1856
+
+testers.RingBufferTester0 > test134 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1872
+
+testers.RingBufferTester0 > test135 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1885
+
+testers.RingBufferTester0 > test136 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1907
+
+testers.RingBufferTester0 > test137 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1927
+
+testers.RingBufferTester0 > test138 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1940
+
+testers.RingBufferTester0 > test139 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1954
+
+testers.RingBufferTester0 > test140 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1969
+
+testers.RingBufferTester0 > test141 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1988
+
+testers.RingBufferTester0 > test142 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:1999
+
+testers.RingBufferTester0 > test143 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2013
+
+testers.RingBufferTester0 > test144 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2023
+
+testers.RingBufferTester0 > test145 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2037
+
+testers.RingBufferTester0 > test146 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2052
+
+testers.RingBufferTester0 > test147 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2071
+
+testers.RingBufferTester0 > test148 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2080
+
+testers.RingBufferTester0 > test149 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2098
+
+testers.RingBufferTester0 > test150 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2116
+
+testers.RingBufferTester0 > test151 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2135
+
+testers.RingBufferTester0 > test152 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2146
+
+testers.RingBufferTester0 > test153 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2164
+
+testers.RingBufferTester0 > test154 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2181
+
+testers.RingBufferTester0 > test155 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2197
+
+testers.RingBufferTester0 > test156 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2211
+
+testers.RingBufferTester0 > test157 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2221
+
+testers.RingBufferTester0 > test158 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2233
+
+testers.RingBufferTester0 > test159 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2252
+
+testers.RingBufferTester0 > test160 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2272
+
+testers.RingBufferTester0 > test161 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2283
+
+testers.RingBufferTester0 > test162 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2296
+
+testers.RingBufferTester0 > test163 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2315
+
+testers.RingBufferTester0 > test164 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2329
+
+testers.RingBufferTester0 > test165 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2336
+
+testers.RingBufferTester0 > test166 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2354
+
+testers.RingBufferTester0 > test167 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2371
+
+testers.RingBufferTester0 > test168 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2389
+
+testers.RingBufferTester0 > test170 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2423
+
+testers.RingBufferTester0 > test171 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2433
+
+testers.RingBufferTester0 > test172 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2441
+
+testers.RingBufferTester0 > test173 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2458
+
+testers.RingBufferTester0 > test174 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2478
+
+testers.RingBufferTester0 > test175 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2491
+
+testers.RingBufferTester0 > test176 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2510
+
+testers.RingBufferTester0 > test177 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2530
+
+testers.RingBufferTester0 > test178 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2549
+
+testers.RingBufferTester0 > test179 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2561
+
+testers.RingBufferTester0 > test180 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2568
+
+testers.RingBufferTester0 > test181 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2589
+
+testers.RingBufferTester0 > test182 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2601
+
+testers.RingBufferTester0 > test183 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2621
+
+testers.RingBufferTester0 > test184 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2628
+
+testers.RingBufferTester0 > test185 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2640
+
+testers.RingBufferTester0 > test187 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2674
+
+testers.RingBufferTester0 > test190 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2714
+
+testers.RingBufferTester0 > test191 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2726
+
+testers.RingBufferTester0 > test192 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2747
+
+testers.RingBufferTester0 > test193 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2755
+
+testers.RingBufferTester0 > test194 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2769
+
+testers.RingBufferTester0 > test195 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2779
+
+testers.RingBufferTester0 > test196 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2794
+
+testers.RingBufferTester0 > test197 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2813
+
+testers.RingBufferTester0 > test198 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2820
+
+testers.RingBufferTester0 > test199 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2833
+
+testers.RingBufferTester0 > test200 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2846
+
+testers.RingBufferTester0 > test201 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2853
+
+testers.RingBufferTester0 > test202 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2864
+
+testers.RingBufferTester0 > test203 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2877
+
+testers.RingBufferTester0 > test204 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2890
+
+testers.RingBufferTester0 > test205 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2900
+
+testers.RingBufferTester0 > test206 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2912
+
+testers.RingBufferTester0 > test207 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2926
+
+testers.RingBufferTester0 > test208 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2940
+
+testers.RingBufferTester0 > test209 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2955
+
+testers.RingBufferTester0 > test210 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2971
+
+testers.RingBufferTester0 > test211 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2987
+
+testers.RingBufferTester0 > test212 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:2997
+
+testers.RingBufferTester0 > test213 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3012
+
+testers.RingBufferTester0 > test214 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3025
+
+testers.RingBufferTester0 > test215 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3037
+
+testers.RingBufferTester0 > test216 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3051
+
+testers.RingBufferTester0 > test217 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3072
+
+testers.RingBufferTester0 > test218 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3085
+
+testers.RingBufferTester0 > test220 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3119
+
+testers.RingBufferTester0 > test221 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3127
+
+testers.RingBufferTester0 > test222 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3139
+
+testers.RingBufferTester0 > test223 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3156
+
+testers.RingBufferTester0 > test224 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3169
+
+testers.RingBufferTester0 > test225 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3179
+
+testers.RingBufferTester0 > test226 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3191
+
+testers.RingBufferTester0 > test227 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3213
+
+testers.RingBufferTester0 > test228 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3230
+
+testers.RingBufferTester0 > test229 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3245
+
+testers.RingBufferTester0 > test230 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3258
+
+testers.RingBufferTester0 > test231 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3273
+
+testers.RingBufferTester0 > test232 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3286
+
+testers.RingBufferTester0 > test233 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3301
+
+testers.RingBufferTester0 > test234 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3316
+
+testers.RingBufferTester0 > test235 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3334
+
+testers.RingBufferTester0 > test236 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3354
+
+testers.RingBufferTester0 > test237 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3368
+
+testers.RingBufferTester0 > test238 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3388
+
+testers.RingBufferTester0 > test239 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3404
+
+testers.RingBufferTester0 > test240 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3417
+
+testers.RingBufferTester0 > test241 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3430
+
+testers.RingBufferTester0 > test242 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3445
+
+testers.RingBufferTester0 > test243 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3466
+
+testers.RingBufferTester0 > test244 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3479
+
+testers.RingBufferTester0 > test245 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3496
+
+testers.RingBufferTester0 > test246 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3509
+
+testers.RingBufferTester0 > test247 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3525
+
+testers.RingBufferTester0 > test248 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3541
+
+testers.RingBufferTester0 > test249 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3555
+
+testers.RingBufferTester0 > test250 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3583
+
+testers.RingBufferTester0 > test251 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3600
+
+testers.RingBufferTester0 > test252 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3619
+
+testers.RingBufferTester0 > test253 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3639
+
+testers.RingBufferTester0 > test254 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3659
+
+testers.RingBufferTester0 > test255 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3666
+
+testers.RingBufferTester0 > test256 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3687
+
+testers.RingBufferTester0 > test257 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3698
+
+testers.RingBufferTester0 > test258 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3712
+
+testers.RingBufferTester0 > test259 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3726
+
+testers.RingBufferTester0 > test260 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3740
+
+testers.RingBufferTester0 > test261 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3752
+
+testers.RingBufferTester0 > test262 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3766
+
+testers.RingBufferTester0 > test263 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3775
+
+testers.RingBufferTester0 > test264 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3787
+
+testers.RingBufferTester0 > test265 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3801
+
+testers.RingBufferTester0 > test266 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3824
+
+testers.RingBufferTester0 > test267 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3842
+
+testers.RingBufferTester0 > test268 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3858
+
+testers.RingBufferTester0 > test269 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3878
+
+testers.RingBufferTester0 > test270 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3897
+
+testers.RingBufferTester0 > test271 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3912
+
+testers.RingBufferTester0 > test272 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3929
+
+testers.RingBufferTester0 > test273 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3950
+
+testers.RingBufferTester0 > test274 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3968
+
+testers.RingBufferTester0 > test275 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3979
+
+testers.RingBufferTester0 > test276 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:3995
+
+testers.RingBufferTester0 > test277 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:4012
+
+testers.RingBufferTester0 > test278 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:4032
+
+testers.RingBufferTester0 > test279 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:4043
+
+testers.RingBufferTester0 > test280 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:4057
+
+testers.RingBufferTester0 > test281 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:4075
+
+testers.RingBufferTester0 > test282 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:4093
+
+testers.RingBufferTester0 > test283 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:4111
+
+testers.RingBufferTester0 > test284 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:4125
+
+testers.RingBufferTester0 > test285 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:4144
+
+testers.RingBufferTester0 > test286 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:4156
+
+testers.RingBufferTester0 > test287 FAILED
+    java.lang.IllegalArgumentException at RingBufferTester0.java:4173
+Results: FAILURE (465 tests, 26 successes, 439 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

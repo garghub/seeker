@@ -1,0 +1,450 @@
+:clean
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+DataStructures.QueueAr_ESTest STANDARD_OUT
+    22:50:53.977 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.QueueAr_ESTest
+    22:50:53.979 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.QueueAr_ESTest'.
+    22:50:54.000 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.QueueAr_ESTest_scaffolding
+    22:50:54.000 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.QueueAr_ESTest_scaffolding'.
+    22:50:54.001 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.QueueAr_ESTest_scaffolding
+    22:50:54.002 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.QueueAr_ESTest
+    22:50:54.164 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    22:50:54.164 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    22:50:54.164 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    22:50:54.164 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    22:50:54.164 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    22:50:54.164 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    22:50:54.164 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    22:50:54.164 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    22:50:54.164 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    22:50:54.164 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:61889 to /127.0.0.1:61888 workers Thread 2"
+    22:50:54.164 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:61889 to /127.0.0.1:61888 workers Thread 3"
+    22:50:54.202 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.QueueAr
+    22:50:54.202 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.QueueAr'.
+    22:50:54.215 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/QueueAr
+    22:50:54.334 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class DataStructures/QueueAr
+    22:50:54.336 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.QueueAr
+    22:50:54.336 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Overflow
+    22:50:54.337 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Overflow'.
+    22:50:54.337 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Overflow
+    22:50:54.338 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Overflow
+    22:50:54.338 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Overflow
+
+DataStructures.QueueAr_ESTest > test08 FAILED
+    java.lang.AssertionError at QueueAr_ESTest.java:102
+
+RegressionTest > RegressionTest0.test02 FAILED
+    java.lang.AssertionError at RegressionTest0.java:33
+
+RegressionTest > RegressionTest0.test03 FAILED
+    java.lang.AssertionError at RegressionTest0.java:53
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:69
+
+RegressionTest > RegressionTest0.test13 FAILED
+    java.lang.AssertionError at RegressionTest0.java:249
+
+RegressionTest > RegressionTest0.test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:319
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:357
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:387
+
+RegressionTest > RegressionTest0.test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:427
+
+RegressionTest > RegressionTest0.test29 FAILED
+    java.lang.AssertionError at RegressionTest0.java:476
+
+RegressionTest > RegressionTest0.test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:509
+
+RegressionTest > RegressionTest0.test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:548
+
+RegressionTest > RegressionTest0.test37 FAILED
+    java.lang.AssertionError at RegressionTest0.java:588
+
+RegressionTest > RegressionTest0.test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:601
+
+RegressionTest > RegressionTest0.test40 FAILED
+    java.lang.AssertionError at RegressionTest0.java:634
+
+RegressionTest > RegressionTest0.test44 FAILED
+    java.lang.AssertionError at RegressionTest0.java:686
+
+RegressionTest0 > test02 FAILED
+    java.lang.AssertionError at RegressionTest0.java:33
+
+RegressionTest0 > test03 FAILED
+    java.lang.AssertionError at RegressionTest0.java:53
+
+RegressionTest0 > test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:69
+
+RegressionTest0 > test13 FAILED
+    java.lang.AssertionError at RegressionTest0.java:249
+
+RegressionTest0 > test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:319
+
+RegressionTest0 > test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:357
+
+RegressionTest0 > test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:387
+
+RegressionTest0 > test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:427
+
+RegressionTest0 > test29 FAILED
+    java.lang.AssertionError at RegressionTest0.java:476
+
+RegressionTest0 > test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:509
+
+RegressionTest0 > test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:548
+
+RegressionTest0 > test37 FAILED
+    java.lang.AssertionError at RegressionTest0.java:588
+
+RegressionTest0 > test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:601
+
+RegressionTest0 > test40 FAILED
+    java.lang.AssertionError at RegressionTest0.java:634
+
+RegressionTest0 > test44 FAILED
+    java.lang.AssertionError at RegressionTest0.java:686
+
+testers.QueueArTester0 > test010 FAILED
+    java.lang.AssertionError at QueueArTester0.java:135
+
+testers.QueueArTester0 > test012 FAILED
+    java.lang.AssertionError at QueueArTester0.java:173
+
+testers.QueueArTester0 > test014 FAILED
+    java.lang.AssertionError at QueueArTester0.java:209
+
+testers.QueueArTester0 > test018 FAILED
+    java.lang.AssertionError at QueueArTester0.java:251
+
+testers.QueueArTester0 > test025 FAILED
+    java.lang.AssertionError at QueueArTester0.java:331
+
+testers.QueueArTester0 > test026 FAILED
+    java.lang.AssertionError at QueueArTester0.java:340
+
+testers.QueueArTester0 > test027 FAILED
+    java.lang.AssertionError at QueueArTester0.java:366
+
+testers.QueueArTester0 > test029 FAILED
+    java.lang.AssertionError at QueueArTester0.java:386
+
+testers.QueueArTester0 > test033 FAILED
+    java.lang.AssertionError at QueueArTester0.java:428
+
+testers.QueueArTester0 > test036 FAILED
+    java.lang.AssertionError at QueueArTester0.java:474
+
+testers.QueueArTester0 > test039 FAILED
+    java.lang.AssertionError at QueueArTester0.java:508
+
+testers.QueueArTester0 > test042 FAILED
+    java.lang.AssertionError at QueueArTester0.java:535
+
+testers.QueueArTester0 > test044 FAILED
+    java.lang.AssertionError at QueueArTester0.java:576
+
+testers.QueueArTester0 > test046 FAILED
+    java.lang.AssertionError at QueueArTester0.java:598
+
+testers.QueueArTester0 > test049 FAILED
+    java.lang.AssertionError at QueueArTester0.java:629
+
+testers.QueueArTester0 > test050 FAILED
+    java.lang.AssertionError at QueueArTester0.java:642
+
+testers.QueueArTester0 > test055 FAILED
+    java.lang.AssertionError at QueueArTester0.java:716
+
+testers.QueueArTester0 > test056 FAILED
+    java.lang.AssertionError at QueueArTester0.java:734
+
+testers.QueueArTester0 > test063 FAILED
+    java.lang.AssertionError at QueueArTester0.java:822
+
+testers.QueueArTester0 > test065 FAILED
+    java.lang.AssertionError at QueueArTester0.java:844
+
+testers.QueueArTester0 > test066 FAILED
+    java.lang.AssertionError at QueueArTester0.java:858
+
+testers.QueueArTester0 > test068 FAILED
+    java.lang.AssertionError at QueueArTester0.java:881
+
+testers.QueueArTester0 > test072 FAILED
+    java.lang.AssertionError at QueueArTester0.java:938
+
+testers.QueueArTester0 > test075 FAILED
+    java.lang.AssertionError at QueueArTester0.java:976
+
+testers.QueueArTester0 > test079 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1018
+
+testers.QueueArTester0 > test080 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1031
+
+testers.QueueArTester0 > test081 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1045
+
+testers.QueueArTester0 > test084 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1086
+
+testers.QueueArTester0 > test085 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1107
+
+testers.QueueArTester0 > test086 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1129
+
+testers.QueueArTester0 > test088 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1152
+
+testers.QueueArTester0 > test089 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1171
+
+testers.QueueArTester0 > test090 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1187
+
+testers.QueueArTester0 > test091 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1203
+
+testers.QueueArTester0 > test093 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1237
+
+testers.QueueArTester0 > test095 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1277
+
+testers.QueueArTester0 > test096 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1304
+
+testers.QueueArTester0 > test100 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1352
+
+testers.QueueArTester0 > test109 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1467
+
+testers.QueueArTester0 > test111 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1504
+
+testers.QueueArTester0 > test112 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1520
+
+testers.QueueArTester0 > test114 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1542
+
+testers.QueueArTester0 > test115 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1552
+
+testers.QueueArTester0 > test120 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1613
+
+testers.QueueArTester0 > test122 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1639
+
+testers.QueueArTester0 > test123 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1652
+
+testers.QueueArTester0 > test126 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1697
+
+testers.QueueArTester0 > test127 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1714
+
+testers.QueueArTester0 > test128 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1733
+
+testers.QueueArTester0 > test129 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1755
+
+testers.QueueArTester0 > test130 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1768
+
+testers.QueueArTester0 > test136 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1861
+
+testers.QueueArTester0 > test139 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1894
+
+testers.QueueArTester0 > test140 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1910
+
+testers.QueueArTester0 > test141 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1924
+
+testers.QueueArTester0 > test142 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1940
+
+testers.QueueArTester0 > test145 FAILED
+    java.lang.AssertionError at QueueArTester0.java:1988
+
+testers.QueueArTester0 > test148 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2048
+
+testers.QueueArTester0 > test149 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2061
+
+testers.QueueArTester0 > test151 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2084
+
+testers.QueueArTester0 > test152 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2094
+
+testers.QueueArTester0 > test155 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2134
+
+testers.QueueArTester0 > test157 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2159
+
+testers.QueueArTester0 > test161 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2210
+
+testers.QueueArTester0 > test164 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2257
+
+testers.QueueArTester0 > test166 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2287
+
+testers.QueueArTester0 > test171 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2343
+
+testers.QueueArTester0 > test172 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2358
+
+testers.QueueArTester0 > test174 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2402
+
+testers.QueueArTester0 > test175 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2426
+
+testers.QueueArTester0 > test176 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2452
+
+testers.QueueArTester0 > test177 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2477
+
+testers.QueueArTester0 > test179 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2506
+
+testers.QueueArTester0 > test184 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2558
+
+testers.QueueArTester0 > test186 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2590
+
+testers.QueueArTester0 > test189 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2626
+
+testers.QueueArTester0 > test190 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2635
+
+testers.QueueArTester0 > test191 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2651
+
+testers.QueueArTester0 > test193 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2684
+
+testers.QueueArTester0 > test194 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2704
+
+testers.QueueArTester0 > test196 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2735
+
+testers.QueueArTester0 > test198 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2768
+
+testers.QueueArTester0 > test199 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2787
+
+testers.QueueArTester0 > test201 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2810
+
+testers.QueueArTester0 > test204 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2862
+
+testers.QueueArTester0 > test206 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2885
+
+testers.QueueArTester0 > test207 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2898
+
+testers.QueueArTester0 > test208 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2908
+
+testers.QueueArTester0 > test209 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2927
+
+testers.QueueArTester0 > test211 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2957
+
+testers.QueueArTester0 > test214 FAILED
+    java.lang.AssertionError at QueueArTester0.java:2990
+
+testers.QueueArTester0 > test218 FAILED
+    java.lang.AssertionError at QueueArTester0.java:3029
+
+testers.QueueArTester0 > test221 FAILED
+    java.lang.AssertionError at QueueArTester0.java:3081
+
+testers.QueueArTester0 > test222 FAILED
+    java.lang.AssertionError at QueueArTester0.java:3094
+
+testers.QueueArTester0 > test224 FAILED
+    java.lang.AssertionError at QueueArTester0.java:3122
+
+testers.QueueArTester0 > test225 FAILED
+    java.lang.AssertionError at QueueArTester0.java:3143
+
+testers.QueueArTester0 > test227 FAILED
+    java.lang.AssertionError at QueueArTester0.java:3174
+
+testers.QueueArTester0 > test229 FAILED
+    java.lang.AssertionError at QueueArTester0.java:3201
+
+testers.QueueArTester0 > test230 FAILED
+    java.lang.AssertionError at QueueArTester0.java:3214
+
+testers.QueueArTester0 > test231 FAILED
+    java.lang.AssertionError at QueueArTester0.java:3235
+
+testers.QueueArTester0 > test234 FAILED
+    java.lang.AssertionError at QueueArTester0.java:3290
+
+testers.QueueArTester0 > test238 FAILED
+    java.lang.AssertionError at QueueArTester0.java:3355
+
+testers.QueueArTester0 > test240 FAILED
+    java.lang.AssertionError at QueueArTester0.java:3375
+
+testers.QueueArTester0 > test241 FAILED
+    java.lang.AssertionError at QueueArTester0.java:3383
+Results: FAILURE (344 tests, 209 successes, 135 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

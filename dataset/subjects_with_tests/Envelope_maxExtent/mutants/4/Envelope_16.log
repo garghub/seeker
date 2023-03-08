@@ -1,0 +1,46 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+jts.Envelope_ESTest STANDARD_OUT
+    00:17:39.123 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: jts.Envelope_ESTest
+    00:17:39.127 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'jts.Envelope_ESTest'.
+    00:17:39.166 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: jts.Envelope_ESTest_scaffolding
+    00:17:39.167 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'jts.Envelope_ESTest_scaffolding'.
+    00:17:39.174 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: jts.Envelope_ESTest_scaffolding
+    00:17:39.174 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: jts.Envelope_ESTest
+    00:17:39.466 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    00:17:39.466 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    00:17:39.466 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    00:17:39.467 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    00:17:39.468 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    00:17:39.468 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    00:17:39.468 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    00:17:39.468 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    00:17:39.468 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    00:17:39.468 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:56629 to /127.0.0.1:56628 workers Thread 2"
+    00:17:39.468 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:56629 to /127.0.0.1:56628 workers Thread 3"
+    00:17:39.558 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: jts.Envelope
+    00:17:39.559 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'jts.Envelope'.
+    00:17:39.592 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class jts/Envelope
+    00:17:39.861 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class jts/Envelope
+    00:17:39.862 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: jts.Envelope
+
+jts.Envelope_ESTest > test6 STANDARD_OUT
+    00:17:39.916 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+Results: SUCCESS (114 tests, 114 successes, 0 failures, 0 skipped)
+:check
+:build
+
+BUILD SUCCESSFUL in 12s
+4 actionable tasks: 4 executed

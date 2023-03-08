@@ -1,0 +1,850 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.RingBuffer_ESTest STANDARD_OUT
+    14:43:09.659 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest
+    14:43:09.662 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest'.
+    14:43:09.702 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest_scaffolding
+    14:43:09.702 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest_scaffolding'.
+    14:43:09.709 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest_scaffolding
+    14:43:09.710 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest
+    14:43:10.061 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    14:43:10.061 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    14:43:10.061 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    14:43:10.061 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    14:43:10.061 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    14:43:10.061 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    14:43:10.061 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    14:43:10.061 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    14:43:10.061 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    14:43:10.061 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64847 to /127.0.0.1:64846 workers Thread 2"
+    14:43:10.062 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64847 to /127.0.0.1:64846 workers Thread 3"
+    14:43:10.129 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer
+    14:43:10.130 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer'.
+    14:43:10.152 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/RingBuffer
+    14:43:10.376 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/RingBuffer
+    14:43:10.376 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer
+
+examples.RingBuffer_ESTest > test09 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:112
+
+examples.RingBuffer_ESTest > test06 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:82
+
+examples.RingBuffer_ESTest > test17 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:215
+
+examples.RingBuffer_ESTest > test18 STANDARD_OUT
+    14:43:10.471 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.RingBuffer_ESTest > test18 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:224
+
+examples.RingBuffer_ESTest > test15 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:191
+
+examples.RingBuffer_ESTest > test02 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:47
+
+examples.RingBuffer_ESTest > test13 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:166
+
+examples.RingBuffer_ESTest > test14 FAILED
+    java.lang.IndexOutOfBoundsException at RingBuffer_ESTest.java:175
+
+examples.RingBuffer_ESTest > test00 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:24
+
+examples.RingBuffer_ESTest > test11 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:144
+
+examples.RingBuffer_ESTest > test01 STANDARD_OUT
+    14:43:10.498 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.RingBuffer_ESTest > test01 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException
+
+examples.RingBuffer_ESTest > test10 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:130
+
+RegressionTest > RegressionTest0.test003 FAILED
+    java.lang.AssertionError at RegressionTest0.java:41
+
+RegressionTest > RegressionTest0.test004 FAILED
+    java.lang.AssertionError at RegressionTest0.java:56
+
+RegressionTest > RegressionTest0.test005 FAILED
+    java.lang.AssertionError at RegressionTest0.java:70
+
+RegressionTest > RegressionTest0.test006 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:85
+
+RegressionTest > RegressionTest0.test007 FAILED
+    java.lang.AssertionError at RegressionTest0.java:102
+
+RegressionTest > RegressionTest0.test008 FAILED
+    java.lang.AssertionError at RegressionTest0.java:117
+
+RegressionTest > RegressionTest0.test009 FAILED
+    java.lang.AssertionError at RegressionTest0.java:133
+
+RegressionTest > RegressionTest0.test011 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:156
+
+RegressionTest > RegressionTest0.test012 FAILED
+    java.lang.AssertionError at RegressionTest0.java:171
+
+RegressionTest > RegressionTest0.test013 FAILED
+    java.lang.AssertionError at RegressionTest0.java:184
+
+RegressionTest > RegressionTest0.test017 FAILED
+    java.lang.AssertionError at RegressionTest0.java:239
+
+RegressionTest > RegressionTest0.test018 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:252
+
+RegressionTest > RegressionTest0.test019 FAILED
+    java.lang.AssertionError at RegressionTest0.java:268
+
+RegressionTest > RegressionTest0.test020 FAILED
+    java.lang.AssertionError at RegressionTest0.java:291
+
+RegressionTest > RegressionTest0.test021 FAILED
+    java.lang.AssertionError at RegressionTest0.java:309
+
+RegressionTest > RegressionTest0.test022 FAILED
+    java.lang.AssertionError at RegressionTest0.java:332
+
+RegressionTest > RegressionTest0.test023 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:347
+
+RegressionTest > RegressionTest0.test024 FAILED
+    java.lang.AssertionError at RegressionTest0.java:368
+
+RegressionTest > RegressionTest0.test027 FAILED
+    java.lang.AssertionError at RegressionTest0.java:408
+
+RegressionTest > RegressionTest0.test028 FAILED
+    java.lang.AssertionError at RegressionTest0.java:423
+
+RegressionTest > RegressionTest0.test030 FAILED
+    java.lang.AssertionError at RegressionTest0.java:445
+
+RegressionTest > RegressionTest0.test031 FAILED
+    java.lang.AssertionError at RegressionTest0.java:460
+
+RegressionTest > RegressionTest0.test033 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:480
+
+RegressionTest > RegressionTest0.test035 FAILED
+    java.lang.AssertionError at RegressionTest0.java:515
+
+RegressionTest > RegressionTest0.test036 FAILED
+    java.lang.AssertionError at RegressionTest0.java:531
+
+RegressionTest > RegressionTest0.test037 FAILED
+    java.lang.AssertionError at RegressionTest0.java:549
+
+RegressionTest > RegressionTest0.test038 FAILED
+    java.lang.AssertionError at RegressionTest0.java:566
+
+RegressionTest > RegressionTest0.test040 FAILED
+    java.lang.AssertionError at RegressionTest0.java:595
+
+RegressionTest > RegressionTest0.test041 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:612
+
+RegressionTest > RegressionTest0.test043 FAILED
+    java.lang.AssertionError at RegressionTest0.java:641
+
+RegressionTest > RegressionTest0.test044 FAILED
+    java.lang.AssertionError at RegressionTest0.java:657
+
+RegressionTest > RegressionTest0.test045 FAILED
+    java.lang.AssertionError at RegressionTest0.java:673
+
+RegressionTest > RegressionTest0.test047 FAILED
+    java.lang.AssertionError at RegressionTest0.java:700
+
+RegressionTest > RegressionTest0.test048 FAILED
+    java.lang.AssertionError at RegressionTest0.java:715
+
+RegressionTest > RegressionTest0.test050 FAILED
+    java.lang.AssertionError at RegressionTest0.java:745
+
+RegressionTest > RegressionTest0.test053 FAILED
+    java.lang.AssertionError at RegressionTest0.java:776
+
+RegressionTest > RegressionTest0.test055 FAILED
+    java.lang.AssertionError at RegressionTest0.java:803
+
+RegressionTest > RegressionTest0.test056 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:821
+
+RegressionTest > RegressionTest0.test057 FAILED
+    java.lang.AssertionError at RegressionTest0.java:848
+
+RegressionTest > RegressionTest0.test059 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:876
+
+RegressionTest > RegressionTest0.test061 FAILED
+    java.lang.AssertionError at RegressionTest0.java:906
+
+RegressionTest > RegressionTest0.test062 FAILED
+    java.lang.AssertionError at RegressionTest0.java:923
+
+RegressionTest > RegressionTest0.test063 FAILED
+    java.lang.AssertionError at RegressionTest0.java:939
+
+RegressionTest > RegressionTest0.test065 FAILED
+    java.lang.AssertionError at RegressionTest0.java:961
+
+RegressionTest > RegressionTest0.test066 FAILED
+    java.lang.AssertionError at RegressionTest0.java:979
+
+RegressionTest > RegressionTest0.test067 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1000
+
+RegressionTest > RegressionTest0.test068 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:1022
+
+RegressionTest > RegressionTest0.test070 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1056
+
+RegressionTest > RegressionTest0.test071 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1072
+
+RegressionTest > RegressionTest0.test074 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1105
+
+RegressionTest > RegressionTest0.test075 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1124
+
+RegressionTest > RegressionTest0.test076 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:1142
+
+RegressionTest > RegressionTest0.test077 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1159
+
+RegressionTest > RegressionTest0.test078 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1173
+
+RegressionTest > RegressionTest0.test079 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1192
+
+RegressionTest > RegressionTest0.test080 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1206
+
+RegressionTest > RegressionTest0.test081 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1230
+
+RegressionTest > RegressionTest0.test082 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1248
+
+RegressionTest > RegressionTest0.test086 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:1295
+
+RegressionTest > RegressionTest0.test087 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1325
+
+RegressionTest > RegressionTest0.test089 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1351
+
+RegressionTest > RegressionTest0.test091 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1387
+
+RegressionTest > RegressionTest0.test093 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1415
+
+RegressionTest > RegressionTest0.test095 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1446
+
+RegressionTest > RegressionTest0.test096 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1461
+
+RegressionTest > RegressionTest0.test097 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1480
+
+RegressionTest > RegressionTest0.test098 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1499
+
+RegressionTest > RegressionTest0.test099 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1517
+
+RegressionTest > RegressionTest0.test100 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1537
+
+RegressionTest > RegressionTest0.test101 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1557
+
+RegressionTest > RegressionTest0.test102 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1583
+
+RegressionTest > RegressionTest0.test103 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1599
+
+RegressionTest > RegressionTest0.test104 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1616
+
+RegressionTest > RegressionTest0.test106 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1649
+
+RegressionTest > RegressionTest0.test107 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1672
+
+RegressionTest > RegressionTest0.test108 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:1685
+
+RegressionTest > RegressionTest0.test109 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1703
+
+RegressionTest > RegressionTest0.test110 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1720
+
+RegressionTest > RegressionTest0.test111 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1736
+
+RegressionTest > RegressionTest0.test112 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1751
+
+RegressionTest > RegressionTest0.test115 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1781
+
+RegressionTest > RegressionTest0.test116 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1792
+
+RegressionTest > RegressionTest0.test117 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1806
+
+RegressionTest > RegressionTest0.test118 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1822
+
+RegressionTest > RegressionTest0.test119 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1839
+
+RegressionTest > RegressionTest0.test120 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1855
+
+RegressionTest > RegressionTest0.test121 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1869
+
+RegressionTest > RegressionTest0.test122 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1883
+
+RegressionTest > RegressionTest0.test124 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1908
+
+RegressionTest0 > test003 FAILED
+    java.lang.AssertionError at RegressionTest0.java:41
+
+RegressionTest0 > test004 FAILED
+    java.lang.AssertionError at RegressionTest0.java:56
+
+RegressionTest0 > test005 FAILED
+    java.lang.AssertionError at RegressionTest0.java:70
+
+RegressionTest0 > test006 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:85
+
+RegressionTest0 > test007 FAILED
+    java.lang.AssertionError at RegressionTest0.java:102
+
+RegressionTest0 > test008 FAILED
+    java.lang.AssertionError at RegressionTest0.java:117
+
+RegressionTest0 > test009 FAILED
+    java.lang.AssertionError at RegressionTest0.java:133
+
+RegressionTest0 > test011 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:156
+
+RegressionTest0 > test012 FAILED
+    java.lang.AssertionError at RegressionTest0.java:171
+
+RegressionTest0 > test013 FAILED
+    java.lang.AssertionError at RegressionTest0.java:184
+
+RegressionTest0 > test017 FAILED
+    java.lang.AssertionError at RegressionTest0.java:239
+
+RegressionTest0 > test018 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:252
+
+RegressionTest0 > test019 FAILED
+    java.lang.AssertionError at RegressionTest0.java:268
+
+RegressionTest0 > test020 FAILED
+    java.lang.AssertionError at RegressionTest0.java:291
+
+RegressionTest0 > test021 FAILED
+    java.lang.AssertionError at RegressionTest0.java:309
+
+RegressionTest0 > test022 FAILED
+    java.lang.AssertionError at RegressionTest0.java:332
+
+RegressionTest0 > test023 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:347
+
+RegressionTest0 > test024 FAILED
+    java.lang.AssertionError at RegressionTest0.java:368
+
+RegressionTest0 > test027 FAILED
+    java.lang.AssertionError at RegressionTest0.java:408
+
+RegressionTest0 > test028 FAILED
+    java.lang.AssertionError at RegressionTest0.java:423
+
+RegressionTest0 > test030 FAILED
+    java.lang.AssertionError at RegressionTest0.java:445
+
+RegressionTest0 > test031 FAILED
+    java.lang.AssertionError at RegressionTest0.java:460
+
+RegressionTest0 > test033 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:480
+
+RegressionTest0 > test035 FAILED
+    java.lang.AssertionError at RegressionTest0.java:515
+
+RegressionTest0 > test036 FAILED
+    java.lang.AssertionError at RegressionTest0.java:531
+
+RegressionTest0 > test037 FAILED
+    java.lang.AssertionError at RegressionTest0.java:549
+
+RegressionTest0 > test038 FAILED
+    java.lang.AssertionError at RegressionTest0.java:566
+
+RegressionTest0 > test040 FAILED
+    java.lang.AssertionError at RegressionTest0.java:595
+
+RegressionTest0 > test041 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:612
+
+RegressionTest0 > test043 FAILED
+    java.lang.AssertionError at RegressionTest0.java:641
+
+RegressionTest0 > test044 FAILED
+    java.lang.AssertionError at RegressionTest0.java:657
+
+RegressionTest0 > test045 FAILED
+    java.lang.AssertionError at RegressionTest0.java:673
+
+RegressionTest0 > test047 FAILED
+    java.lang.AssertionError at RegressionTest0.java:700
+
+RegressionTest0 > test048 FAILED
+    java.lang.AssertionError at RegressionTest0.java:715
+
+RegressionTest0 > test050 FAILED
+    java.lang.AssertionError at RegressionTest0.java:745
+
+RegressionTest0 > test053 FAILED
+    java.lang.AssertionError at RegressionTest0.java:776
+
+RegressionTest0 > test055 FAILED
+    java.lang.AssertionError at RegressionTest0.java:803
+
+RegressionTest0 > test056 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:821
+
+RegressionTest0 > test057 FAILED
+    java.lang.AssertionError at RegressionTest0.java:848
+
+RegressionTest0 > test059 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:876
+
+RegressionTest0 > test061 FAILED
+    java.lang.AssertionError at RegressionTest0.java:906
+
+RegressionTest0 > test062 FAILED
+    java.lang.AssertionError at RegressionTest0.java:923
+
+RegressionTest0 > test063 FAILED
+    java.lang.AssertionError at RegressionTest0.java:939
+
+RegressionTest0 > test065 FAILED
+    java.lang.AssertionError at RegressionTest0.java:961
+
+RegressionTest0 > test066 FAILED
+    java.lang.AssertionError at RegressionTest0.java:979
+
+RegressionTest0 > test067 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1000
+
+RegressionTest0 > test068 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:1022
+
+RegressionTest0 > test070 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1056
+
+RegressionTest0 > test071 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1072
+
+RegressionTest0 > test074 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1105
+
+RegressionTest0 > test075 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1124
+
+RegressionTest0 > test076 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:1142
+
+RegressionTest0 > test077 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1159
+
+RegressionTest0 > test078 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1173
+
+RegressionTest0 > test079 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1192
+
+RegressionTest0 > test080 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1206
+
+RegressionTest0 > test081 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1230
+
+RegressionTest0 > test082 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1248
+
+RegressionTest0 > test086 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:1295
+
+RegressionTest0 > test087 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1325
+
+RegressionTest0 > test089 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1351
+
+RegressionTest0 > test091 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1387
+
+RegressionTest0 > test093 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1415
+
+RegressionTest0 > test095 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1446
+
+RegressionTest0 > test096 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1461
+
+RegressionTest0 > test097 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1480
+
+RegressionTest0 > test098 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1499
+
+RegressionTest0 > test099 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1517
+
+RegressionTest0 > test100 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1537
+
+RegressionTest0 > test101 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1557
+
+RegressionTest0 > test102 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1583
+
+RegressionTest0 > test103 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1599
+
+RegressionTest0 > test104 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1616
+
+RegressionTest0 > test106 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1649
+
+RegressionTest0 > test107 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1672
+
+RegressionTest0 > test108 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:1685
+
+RegressionTest0 > test109 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1703
+
+RegressionTest0 > test110 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1720
+
+RegressionTest0 > test111 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1736
+
+RegressionTest0 > test112 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1751
+
+RegressionTest0 > test115 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1781
+
+RegressionTest0 > test116 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1792
+
+RegressionTest0 > test117 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1806
+
+RegressionTest0 > test118 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1822
+
+RegressionTest0 > test119 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1839
+
+RegressionTest0 > test120 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1855
+
+RegressionTest0 > test121 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1869
+
+RegressionTest0 > test122 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1883
+
+RegressionTest0 > test124 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1908
+
+testers.RingBufferTester0 > test004 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:54
+
+testers.RingBufferTester0 > test006 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:76
+
+testers.RingBufferTester0 > test007 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:91
+
+testers.RingBufferTester0 > test009 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:111
+
+testers.RingBufferTester0 > test011 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:142
+
+testers.RingBufferTester0 > test014 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:182
+
+testers.RingBufferTester0 > test015 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:199
+
+testers.RingBufferTester0 > test016 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:217
+
+testers.RingBufferTester0 > test018 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:247
+
+testers.RingBufferTester0 > test022 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:304
+
+testers.RingBufferTester0 > test025 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:345
+
+testers.RingBufferTester0 > test029 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:401
+
+testers.RingBufferTester0 > test031 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:436
+
+testers.RingBufferTester0 > test033 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:465
+
+testers.RingBufferTester0 > test036 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:502
+
+testers.RingBufferTester0 > test043 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:589
+
+testers.RingBufferTester0 > test050 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:676
+
+testers.RingBufferTester0 > test051 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:693
+
+testers.RingBufferTester0 > test056 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:754
+
+testers.RingBufferTester0 > test059 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:797
+
+testers.RingBufferTester0 > test061 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:829
+
+testers.RingBufferTester0 > test062 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:843
+
+testers.RingBufferTester0 > test065 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:889
+
+testers.RingBufferTester0 > test066 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:908
+
+testers.RingBufferTester0 > test069 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:947
+
+testers.RingBufferTester0 > test074 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1017
+
+testers.RingBufferTester0 > test075 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:1035
+
+testers.RingBufferTester0 > test078 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:1068
+
+testers.RingBufferTester0 > test083 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1141
+
+testers.RingBufferTester0 > test088 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1225
+
+testers.RingBufferTester0 > test092 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1286
+
+testers.RingBufferTester0 > test095 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1325
+
+testers.RingBufferTester0 > test096 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1339
+
+testers.RingBufferTester0 > test100 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:1384
+
+testers.RingBufferTester0 > test101 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1403
+
+testers.RingBufferTester0 > test104 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1453
+
+testers.RingBufferTester0 > test105 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1475
+
+testers.RingBufferTester0 > test108 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:1513
+
+testers.RingBufferTester0 > test111 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1558
+
+testers.RingBufferTester0 > test113 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1590
+
+testers.RingBufferTester0 > test115 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1618
+
+testers.RingBufferTester0 > test117 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1643
+
+testers.RingBufferTester0 > test121 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1704
+
+testers.RingBufferTester0 > test131 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1832
+
+testers.RingBufferTester0 > test133 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:1861
+
+testers.RingBufferTester0 > test135 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1897
+
+testers.RingBufferTester0 > test136 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1918
+
+testers.RingBufferTester0 > test146 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:2064
+
+testers.RingBufferTester0 > test158 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:2241
+
+testers.RingBufferTester0 > test159 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:2262
+
+testers.RingBufferTester0 > test165 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:2344
+
+testers.RingBufferTester0 > test166 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:2360
+
+testers.RingBufferTester0 > test167 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:2378
+
+testers.RingBufferTester0 > test173 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:2469
+
+testers.RingBufferTester0 > test176 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:2520
+
+testers.RingBufferTester0 > test177 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:2539
+
+testers.RingBufferTester0 > test180 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:2579
+
+testers.RingBufferTester0 > test185 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:2650
+
+testers.RingBufferTester0 > test191 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:2737
+
+testers.RingBufferTester0 > test193 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:2758
+
+testers.RingBufferTester0 > test215 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3043
+
+testers.RingBufferTester0 > test216 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:3061
+
+testers.RingBufferTester0 > test218 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3096
+
+testers.RingBufferTester0 > test226 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:3202
+
+testers.RingBufferTester0 > test235 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3344
+
+testers.RingBufferTester0 > test242 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3456
+
+testers.RingBufferTester0 > test249 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3565
+
+testers.RingBufferTester0 > test250 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3593
+
+testers.RingBufferTester0 > test252 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3629
+
+testers.RingBufferTester0 > test253 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3649
+
+testers.RingBufferTester0 > test265 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:3813
+
+testers.RingBufferTester0 > test269 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:3886
+
+testers.RingBufferTester0 > test271 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3921
+
+testers.RingBufferTester0 > test272 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:3939
+
+testers.RingBufferTester0 > test273 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3958
+
+testers.RingBufferTester0 > test277 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:4022
+
+testers.RingBufferTester0 > test286 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:4165
+
+testers.RingBufferTester0 > test287 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:4183
+Results: FAILURE (554 tests, 286 successes, 268 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

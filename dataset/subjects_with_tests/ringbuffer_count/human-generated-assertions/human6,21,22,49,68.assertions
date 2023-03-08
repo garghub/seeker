@@ -1,0 +1,3 @@
+assert(ch.usi.gassert.util.Implies.implies(x >= 0, result == x));
+assert(ch.usi.gassert.util.Implies.implies(x < 0, result == x * -1));
+assert( (ch.usi.gassert.util.Implies.implies(x >= 0, result == x) && ch.usi.gassert.util.Implies.implies(x < 0, result == x * -1)));

@@ -1,0 +1,91 @@
+:clean
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.RingBuffer_ESTest STANDARD_OUT
+    16:21:15.061 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest
+    16:21:15.064 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest'.
+    16:21:15.085 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest_scaffolding
+    16:21:15.086 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest_scaffolding'.
+    16:21:15.087 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest_scaffolding
+    16:21:15.088 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest
+    16:21:15.368 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    16:21:15.369 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    16:21:15.369 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    16:21:15.369 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    16:21:15.369 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    16:21:15.369 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    16:21:15.369 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    16:21:15.369 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    16:21:15.369 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    16:21:15.369 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:65315 to /127.0.0.1:65314 workers Thread 2"
+    16:21:15.369 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:65315 to /127.0.0.1:65314 workers Thread 3"
+    16:21:15.407 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer
+    16:21:15.407 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer'.
+    16:21:15.420 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/RingBuffer
+    16:21:15.540 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/RingBuffer
+    16:21:15.541 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer
+
+examples.RingBuffer_ESTest > test05 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:69
+
+examples.RingBuffer_ESTest > test13 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:157
+
+examples.RingBuffer_ESTest > test03 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:49
+
+examples.RingBuffer_ESTest > test14 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:177
+
+examples.RingBuffer_ESTest > test00 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:23
+
+examples.RingBuffer_ESTest > test11 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:141
+
+examples.RingBuffer_ESTest > test01 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:33
+
+examples.RingBuffer_ESTest > test12 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:149
+
+examples.RingBuffer_ESTest > test10 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:120
+
+RegressionTest > RegressionTest0.test44 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:633
+
+RegressionTest > RegressionTest0.test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:688
+
+RegressionTest > RegressionTest0.test50 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:734
+
+RegressionTest > RegressionTest0.test53 FAILED
+    java.lang.AssertionError at RegressionTest0.java:790
+
+RegressionTest0 > test44 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:633
+
+RegressionTest0 > test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:688
+
+RegressionTest0 > test50 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:734
+
+RegressionTest0 > test53 FAILED
+    java.lang.AssertionError at RegressionTest0.java:790
+Results: FAILURE (132 tests, 115 successes, 17 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

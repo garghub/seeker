@@ -1,0 +1,137 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+org.apache.commons.math3.util.FastMathNew_ESTest STANDARD_OUT
+    21:53:40.449 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.FastMathNew_ESTest
+    21:53:40.455 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.FastMathNew_ESTest'.
+    21:53:40.504 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.FastMathNew_ESTest_scaffolding
+    21:53:40.504 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.FastMathNew_ESTest_scaffolding'.
+    21:53:40.509 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.FastMathNew_ESTest_scaffolding
+    21:53:40.509 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.FastMathNew_ESTest
+    21:53:40.905 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    21:53:40.905 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    21:53:40.905 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    21:53:40.905 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    21:53:40.905 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    21:53:40.905 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    21:53:40.905 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    21:53:40.905 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    21:53:40.906 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    21:53:40.906 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:61559 to /127.0.0.1:61558 workers Thread 2"
+    21:53:40.906 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:61559 to /127.0.0.1:61558 workers Thread 3"
+    21:53:41.003 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.FastMathNew
+    21:53:41.004 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.FastMathNew'.
+    21:53:41.039 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/FastMathNew
+    21:53:41.337 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/commons/math3/util/FastMathNew
+    21:53:41.337 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field TWO_POWER_52
+    21:53:41.339 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.FastMathNew
+
+org.apache.commons.math3.util.FastMathNew_ESTest > test4 FAILED
+    java.lang.AssertionError at FastMathNew_ESTest.java:50
+
+org.apache.commons.math3.util.FastMathNew_ESTest > test0 STANDARD_OUT
+    21:53:41.415 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+RegressionTest > RegressionTest0.test10 FAILED
+    java.lang.AssertionError at RegressionTest0.java:128
+
+RegressionTest > RegressionTest0.test20 FAILED
+    java.lang.AssertionError at RegressionTest0.java:271
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:312
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:346
+
+RegressionTest > RegressionTest0.test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:360
+
+RegressionTest > RegressionTest0.test27 FAILED
+    java.lang.AssertionError at RegressionTest0.java:375
+
+RegressionTest > RegressionTest0.test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:424
+
+RegressionTest > RegressionTest0.test32 FAILED
+    java.lang.AssertionError at RegressionTest0.java:453
+
+RegressionTest > RegressionTest0.test35 FAILED
+    java.lang.AssertionError at RegressionTest0.java:505
+
+RegressionTest > RegressionTest0.test39 FAILED
+    java.lang.AssertionError at RegressionTest0.java:565
+
+RegressionTest > RegressionTest0.test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:600
+
+RegressionTest > RegressionTest0.test42 FAILED
+    java.lang.AssertionError at RegressionTest0.java:615
+
+RegressionTest > RegressionTest0.test46 FAILED
+    java.lang.AssertionError at RegressionTest0.java:675
+
+RegressionTest > RegressionTest0.test48 FAILED
+    java.lang.AssertionError at RegressionTest0.java:707
+
+RegressionTest > RegressionTest0.test55 FAILED
+    java.lang.AssertionError at RegressionTest0.java:832
+
+RegressionTest0 > test10 FAILED
+    java.lang.AssertionError at RegressionTest0.java:128
+
+RegressionTest0 > test20 FAILED
+    java.lang.AssertionError at RegressionTest0.java:271
+
+RegressionTest0 > test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:312
+
+RegressionTest0 > test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:346
+
+RegressionTest0 > test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:360
+
+RegressionTest0 > test27 FAILED
+    java.lang.AssertionError at RegressionTest0.java:375
+
+RegressionTest0 > test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:424
+
+RegressionTest0 > test32 FAILED
+    java.lang.AssertionError at RegressionTest0.java:453
+
+RegressionTest0 > test35 FAILED
+    java.lang.AssertionError at RegressionTest0.java:505
+
+RegressionTest0 > test39 FAILED
+    java.lang.AssertionError at RegressionTest0.java:565
+
+RegressionTest0 > test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:600
+
+RegressionTest0 > test42 FAILED
+    java.lang.AssertionError at RegressionTest0.java:615
+
+RegressionTest0 > test46 FAILED
+    java.lang.AssertionError at RegressionTest0.java:675
+
+RegressionTest0 > test48 FAILED
+    java.lang.AssertionError at RegressionTest0.java:707
+
+RegressionTest0 > test55 FAILED
+    java.lang.AssertionError at RegressionTest0.java:832
+Results: FAILURE (404 tests, 373 successes, 31 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

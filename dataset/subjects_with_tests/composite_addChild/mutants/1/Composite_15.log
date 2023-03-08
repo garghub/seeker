@@ -1,0 +1,925 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.Composite_ESTest STANDARD_OUT
+    19:18:13.861 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Composite_ESTest
+    19:18:13.865 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Composite_ESTest'.
+    19:18:13.920 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Composite_ESTest_scaffolding
+    19:18:13.920 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Composite_ESTest_scaffolding'.
+    19:18:13.925 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Composite_ESTest_scaffolding
+    19:18:13.925 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Composite_ESTest
+    19:18:14.366 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    19:18:14.366 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    19:18:14.367 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    19:18:14.367 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    19:18:14.367 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    19:18:14.367 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    19:18:14.367 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    19:18:14.367 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    19:18:14.367 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    19:18:14.367 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:58642 to /127.0.0.1:58641 workers Thread 2"
+    19:18:14.367 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:58642 to /127.0.0.1:58641 workers Thread 3"
+    19:18:14.450 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Composite
+    19:18:14.450 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Composite'.
+    19:18:14.481 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/Composite
+    19:18:14.791 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/Composite
+    19:18:14.792 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Composite
+
+examples.Composite_ESTest > test1 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException
+
+examples.Composite_ESTest > test0 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at Composite_ESTest.java:24
+
+examples.Composite_ESTest > test7 STANDARD_OUT
+    19:18:14.839 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.Composite_ESTest > test3 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at Composite_ESTest.java:51
+
+examples.Composite_ESTest > test2 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at Composite_ESTest.java:41
+
+examples.Composite_ESTest > test5 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at Composite_ESTest.java:77
+
+examples.Composite_ESTest > test4 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException at Composite_ESTest.java:59
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:47
+
+RegressionTest > RegressionTest0.test05 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:60
+
+RegressionTest > RegressionTest0.test07 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:92
+
+RegressionTest > RegressionTest0.test11 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:152
+
+RegressionTest > RegressionTest0.test16 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:203
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:234
+
+RegressionTest > RegressionTest0.test22 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:298
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:318
+
+RegressionTest > RegressionTest0.test26 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:349
+
+RegressionTest > RegressionTest0.test27 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:393
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:420
+
+RegressionTest > RegressionTest0.test30 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:444
+
+RegressionTest > RegressionTest0.test31 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:468
+
+RegressionTest > RegressionTest0.test32 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:493
+
+RegressionTest > RegressionTest0.test33 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:511
+
+RegressionTest > RegressionTest0.test35 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:534
+
+RegressionTest > RegressionTest0.test37 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:566
+
+RegressionTest > RegressionTest0.test39 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:588
+
+RegressionTest > RegressionTest0.test40 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:613
+
+RegressionTest > RegressionTest0.test42 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:651
+
+RegressionTest > RegressionTest0.test44 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:697
+
+RegressionTest > RegressionTest0.test45 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:722
+
+RegressionTest > RegressionTest0.test46 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:741
+
+RegressionTest > RegressionTest0.test47 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:774
+
+RegressionTest > RegressionTest0.test48 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:801
+
+RegressionTest > RegressionTest0.test49 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:833
+
+RegressionTest > RegressionTest0.test50 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:857
+
+RegressionTest > RegressionTest0.test52 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:887
+
+RegressionTest > RegressionTest0.test53 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:899
+
+RegressionTest0 > test04 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:47
+
+RegressionTest0 > test05 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:60
+
+RegressionTest0 > test07 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:92
+
+RegressionTest0 > test11 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:152
+
+RegressionTest0 > test16 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:203
+
+RegressionTest0 > test17 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:234
+
+RegressionTest0 > test22 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:298
+
+RegressionTest0 > test23 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:318
+
+RegressionTest0 > test26 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:349
+
+RegressionTest0 > test27 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:393
+
+RegressionTest0 > test28 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:420
+
+RegressionTest0 > test30 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:444
+
+RegressionTest0 > test31 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:468
+
+RegressionTest0 > test32 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:493
+
+RegressionTest0 > test33 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:511
+
+RegressionTest0 > test35 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:534
+
+RegressionTest0 > test37 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:566
+
+RegressionTest0 > test39 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:588
+
+RegressionTest0 > test40 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:613
+
+RegressionTest0 > test42 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:651
+
+RegressionTest0 > test44 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:697
+
+RegressionTest0 > test45 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:722
+
+RegressionTest0 > test46 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:741
+
+RegressionTest0 > test47 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:774
+
+RegressionTest0 > test48 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:801
+
+RegressionTest0 > test49 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:833
+
+RegressionTest0 > test50 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:857
+
+RegressionTest0 > test52 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:887
+
+RegressionTest0 > test53 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:899
+
+testers.CompositeTester0 > test004 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:44
+
+testers.CompositeTester0 > test005 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:60
+
+testers.CompositeTester0 > test009 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:100
+
+testers.CompositeTester0 > test011 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:119
+
+testers.CompositeTester0 > test015 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:168
+
+testers.CompositeTester0 > test016 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:192
+
+testers.CompositeTester0 > test017 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:202
+
+testers.CompositeTester0 > test018 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:214
+
+testers.CompositeTester0 > test019 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:224
+
+testers.CompositeTester0 > test020 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:240
+
+testers.CompositeTester0 > test021 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:256
+
+testers.CompositeTester0 > test023 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:280
+
+testers.CompositeTester0 > test025 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:315
+
+testers.CompositeTester0 > test027 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:346
+
+testers.CompositeTester0 > test028 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:372
+
+testers.CompositeTester0 > test031 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:405
+
+testers.CompositeTester0 > test032 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:431
+
+testers.CompositeTester0 > test035 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:474
+
+testers.CompositeTester0 > test036 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:484
+
+testers.CompositeTester0 > test037 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:504
+
+testers.CompositeTester0 > test039 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:542
+
+testers.CompositeTester0 > test041 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:579
+
+testers.CompositeTester0 > test043 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:605
+
+testers.CompositeTester0 > test044 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:636
+
+testers.CompositeTester0 > test045 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:647
+
+testers.CompositeTester0 > test046 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:672
+
+testers.CompositeTester0 > test047 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:704
+
+testers.CompositeTester0 > test049 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:724
+
+testers.CompositeTester0 > test050 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:735
+
+testers.CompositeTester0 > test051 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:757
+
+testers.CompositeTester0 > test052 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:796
+
+testers.CompositeTester0 > test053 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:813
+
+testers.CompositeTester0 > test054 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:834
+
+testers.CompositeTester0 > test055 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:856
+
+testers.CompositeTester0 > test057 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:884
+
+testers.CompositeTester0 > test058 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:910
+
+testers.CompositeTester0 > test059 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:932
+
+testers.CompositeTester0 > test060 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:945
+
+testers.CompositeTester0 > test062 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:966
+
+testers.CompositeTester0 > test063 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1001
+
+testers.CompositeTester0 > test064 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1018
+
+testers.CompositeTester0 > test065 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1042
+
+testers.CompositeTester0 > test066 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1057
+
+testers.CompositeTester0 > test067 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1083
+
+testers.CompositeTester0 > test068 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1106
+
+testers.CompositeTester0 > test069 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1132
+
+testers.CompositeTester0 > test071 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1164
+
+testers.CompositeTester0 > test073 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1187
+
+testers.CompositeTester0 > test074 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1215
+
+testers.CompositeTester0 > test076 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1251
+
+testers.CompositeTester0 > test077 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1264
+
+testers.CompositeTester0 > test079 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1310
+
+testers.CompositeTester0 > test082 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1347
+
+testers.CompositeTester0 > test083 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1374
+
+testers.CompositeTester0 > test084 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1397
+
+testers.CompositeTester0 > test085 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1410
+
+testers.CompositeTester0 > test086 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1423
+
+testers.CompositeTester0 > test087 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1439
+
+testers.CompositeTester0 > test090 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1484
+
+testers.CompositeTester0 > test091 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1498
+
+testers.CompositeTester0 > test092 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1516
+
+testers.CompositeTester0 > test093 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1528
+
+testers.CompositeTester0 > test095 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1561
+
+testers.CompositeTester0 > test096 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1590
+
+testers.CompositeTester0 > test097 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1606
+
+testers.CompositeTester0 > test098 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1618
+
+testers.CompositeTester0 > test100 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1647
+
+testers.CompositeTester0 > test101 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1673
+
+testers.CompositeTester0 > test102 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1701
+
+testers.CompositeTester0 > test103 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1718
+
+testers.CompositeTester0 > test105 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1745
+
+testers.CompositeTester0 > test106 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1776
+
+testers.CompositeTester0 > test107 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1795
+
+testers.CompositeTester0 > test108 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1814
+
+testers.CompositeTester0 > test109 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1851
+
+testers.CompositeTester0 > test110 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1877
+
+testers.CompositeTester0 > test111 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1913
+
+testers.CompositeTester0 > test112 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1930
+
+testers.CompositeTester0 > test113 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1941
+
+testers.CompositeTester0 > test114 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1953
+
+testers.CompositeTester0 > test115 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1964
+
+testers.CompositeTester0 > test116 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:1992
+
+testers.CompositeTester0 > test117 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2018
+
+testers.CompositeTester0 > test119 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2047
+
+testers.CompositeTester0 > test121 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2069
+
+testers.CompositeTester0 > test122 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2094
+
+testers.CompositeTester0 > test123 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2111
+
+testers.CompositeTester0 > test124 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2126
+
+testers.CompositeTester0 > test125 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2141
+
+testers.CompositeTester0 > test126 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2161
+
+testers.CompositeTester0 > test127 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2171
+
+testers.CompositeTester0 > test128 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2197
+
+testers.CompositeTester0 > test129 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2213
+
+testers.CompositeTester0 > test131 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2256
+
+testers.CompositeTester0 > test132 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2269
+
+testers.CompositeTester0 > test135 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2303
+
+testers.CompositeTester0 > test136 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2330
+
+testers.CompositeTester0 > test137 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2342
+
+testers.CompositeTester0 > test138 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2366
+
+testers.CompositeTester0 > test139 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2396
+
+testers.CompositeTester0 > test140 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2424
+
+testers.CompositeTester0 > test141 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2444
+
+testers.CompositeTester0 > test142 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2455
+
+testers.CompositeTester0 > test143 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2485
+
+testers.CompositeTester0 > test144 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2499
+
+testers.CompositeTester0 > test145 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2518
+
+testers.CompositeTester0 > test147 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2549
+
+testers.CompositeTester0 > test148 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2567
+
+testers.CompositeTester0 > test149 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2584
+
+testers.CompositeTester0 > test150 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2604
+
+testers.CompositeTester0 > test151 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2622
+
+testers.CompositeTester0 > test152 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2631
+
+testers.CompositeTester0 > test154 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2656
+
+testers.CompositeTester0 > test158 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2705
+
+testers.CompositeTester0 > test159 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2734
+
+testers.CompositeTester0 > test160 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2757
+
+testers.CompositeTester0 > test161 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2772
+
+testers.CompositeTester0 > test162 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2786
+
+testers.CompositeTester0 > test164 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2815
+
+testers.CompositeTester0 > test165 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2831
+
+testers.CompositeTester0 > test167 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2869
+
+testers.CompositeTester0 > test168 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2893
+
+testers.CompositeTester0 > test169 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2915
+
+testers.CompositeTester0 > test171 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2942
+
+testers.CompositeTester0 > test172 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:2974
+
+testers.CompositeTester0 > test174 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3012
+
+testers.CompositeTester0 > test176 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3041
+
+testers.CompositeTester0 > test177 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3053
+
+testers.CompositeTester0 > test179 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3071
+
+testers.CompositeTester0 > test180 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3113
+
+testers.CompositeTester0 > test181 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3127
+
+testers.CompositeTester0 > test182 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3152
+
+testers.CompositeTester0 > test183 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3178
+
+testers.CompositeTester0 > test185 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3198
+
+testers.CompositeTester0 > test187 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3220
+
+testers.CompositeTester0 > test190 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3272
+
+testers.CompositeTester0 > test191 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3308
+
+testers.CompositeTester0 > test192 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3323
+
+testers.CompositeTester0 > test193 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3341
+
+testers.CompositeTester0 > test194 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3369
+
+testers.CompositeTester0 > test195 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3394
+
+testers.CompositeTester0 > test196 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3424
+
+testers.CompositeTester0 > test197 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3443
+
+testers.CompositeTester0 > test198 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3455
+
+testers.CompositeTester0 > test199 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3473
+
+testers.CompositeTester0 > test200 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3498
+
+testers.CompositeTester0 > test201 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3524
+
+testers.CompositeTester0 > test202 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3562
+
+testers.CompositeTester0 > test203 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3594
+
+testers.CompositeTester0 > test204 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3616
+
+testers.CompositeTester0 > test205 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3629
+
+testers.CompositeTester0 > test206 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3642
+
+testers.CompositeTester0 > test207 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3660
+
+testers.CompositeTester0 > test208 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3684
+
+testers.CompositeTester0 > test209 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3703
+
+testers.CompositeTester0 > test210 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3720
+
+testers.CompositeTester0 > test211 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3734
+
+testers.CompositeTester0 > test214 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3765
+
+testers.CompositeTester0 > test217 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3804
+
+testers.CompositeTester0 > test218 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3835
+
+testers.CompositeTester0 > test219 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3851
+
+testers.CompositeTester0 > test220 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3882
+
+testers.CompositeTester0 > test222 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3902
+
+testers.CompositeTester0 > test223 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3917
+
+testers.CompositeTester0 > test224 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3944
+
+testers.CompositeTester0 > test225 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3954
+
+testers.CompositeTester0 > test226 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:3966
+
+testers.CompositeTester0 > test227 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4000
+
+testers.CompositeTester0 > test228 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4037
+
+testers.CompositeTester0 > test229 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4057
+
+testers.CompositeTester0 > test230 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4078
+
+testers.CompositeTester0 > test233 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4118
+
+testers.CompositeTester0 > test235 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4146
+
+testers.CompositeTester0 > test236 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4174
+
+testers.CompositeTester0 > test237 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4188
+
+testers.CompositeTester0 > test238 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4200
+
+testers.CompositeTester0 > test239 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4226
+
+testers.CompositeTester0 > test241 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4255
+
+testers.CompositeTester0 > test242 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4287
+
+testers.CompositeTester0 > test243 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4300
+
+testers.CompositeTester0 > test245 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4330
+
+testers.CompositeTester0 > test246 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4344
+
+testers.CompositeTester0 > test247 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4365
+
+testers.CompositeTester0 > test248 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4380
+
+testers.CompositeTester0 > test249 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4392
+
+testers.CompositeTester0 > test250 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4406
+
+testers.CompositeTester0 > test251 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4428
+
+testers.CompositeTester0 > test253 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4471
+
+testers.CompositeTester0 > test254 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4502
+
+testers.CompositeTester0 > test255 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4529
+
+testers.CompositeTester0 > test256 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4566
+
+testers.CompositeTester0 > test257 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4579
+
+testers.CompositeTester0 > test258 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4589
+
+testers.CompositeTester0 > test259 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4605
+
+testers.CompositeTester0 > test260 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4623
+
+testers.CompositeTester0 > test261 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4635
+
+testers.CompositeTester0 > test262 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4652
+
+testers.CompositeTester0 > test263 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4669
+
+testers.CompositeTester0 > test264 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4684
+
+testers.CompositeTester0 > test265 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4705
+
+testers.CompositeTester0 > test266 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4721
+
+testers.CompositeTester0 > test267 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4736
+
+testers.CompositeTester0 > test268 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4758
+
+testers.CompositeTester0 > test269 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4767
+
+testers.CompositeTester0 > test270 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4788
+
+testers.CompositeTester0 > test271 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4803
+
+testers.CompositeTester0 > test272 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4827
+
+testers.CompositeTester0 > test273 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4843
+
+testers.CompositeTester0 > test274 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4854
+
+testers.CompositeTester0 > test275 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4871
+
+testers.CompositeTester0 > test276 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4887
+
+testers.CompositeTester0 > test277 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4913
+
+testers.CompositeTester0 > test279 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4939
+
+testers.CompositeTester0 > test280 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4985
+
+testers.CompositeTester0 > test281 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:4998
+
+testers.CompositeTester0 > test282 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5014
+
+testers.CompositeTester0 > test284 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5044
+
+testers.CompositeTester0 > test285 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5058
+
+testers.CompositeTester0 > test287 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5100
+
+testers.CompositeTester0 > test288 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5122
+
+testers.CompositeTester0 > test289 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5137
+
+testers.CompositeTester0 > test290 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5146
+
+testers.CompositeTester0 > test291 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5163
+
+testers.CompositeTester0 > test292 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5179
+
+testers.CompositeTester0 > test293 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5191
+
+testers.CompositeTester0 > test294 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5225
+
+testers.CompositeTester0 > test295 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5242
+
+testers.CompositeTester0 > test296 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5268
+
+testers.CompositeTester0 > test298 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5300
+
+testers.CompositeTester0 > test299 FAILED
+    java.lang.IllegalArgumentException at CompositeTester0.java:5317
+Results: FAILURE (414 tests, 120 successes, 294 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

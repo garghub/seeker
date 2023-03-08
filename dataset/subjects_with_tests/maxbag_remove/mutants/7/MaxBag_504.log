@@ -1,0 +1,81 @@
+:clean
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.MaxBag_ESTest STANDARD_OUT
+    14:38:27.807 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest
+    14:38:27.809 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest'.
+    14:38:27.832 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest_scaffolding
+    14:38:27.832 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest_scaffolding'.
+    14:38:27.834 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest_scaffolding
+    14:38:27.834 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest
+    14:38:28.104 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    14:38:28.104 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    14:38:28.104 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    14:38:28.104 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    14:38:28.104 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    14:38:28.104 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    14:38:28.104 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    14:38:28.104 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    14:38:28.104 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    14:38:28.104 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:52189 to /127.0.0.1:52188 workers Thread 2"
+    14:38:28.104 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:52189 to /127.0.0.1:52188 workers Thread 3"
+    14:38:28.142 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag
+    14:38:28.142 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag'.
+    14:38:28.155 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/MaxBag
+    14:38:28.277 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/MaxBag
+    14:38:28.277 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag
+    14:38:28.278 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples._Type328393
+    14:38:28.278 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples._Type328393'.
+    14:38:28.279 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/_Type328393
+    14:38:28.279 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/_Type328393
+    14:38:28.280 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples._Type328393
+
+examples.MaxBag_ESTest > test14 FAILED
+    java.lang.ArithmeticException at MaxBag_ESTest.java:222
+
+examples.MaxBag_ESTest > test08 FAILED
+    java.lang.ArithmeticException at MaxBag_ESTest.java:141
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.ArithmeticException at RegressionTest0.java:47
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.ArithmeticException at RegressionTest0.java:336
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.ArithmeticException at RegressionTest0.java:365
+
+RegressionTest > RegressionTest0.test27 FAILED
+    java.lang.ArithmeticException at RegressionTest0.java:394
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.ArithmeticException at RegressionTest0.java:404
+
+RegressionTest0 > test04 FAILED
+    java.lang.ArithmeticException at RegressionTest0.java:47
+
+RegressionTest0 > test23 FAILED
+    java.lang.ArithmeticException at RegressionTest0.java:336
+
+RegressionTest0 > test25 FAILED
+    java.lang.ArithmeticException at RegressionTest0.java:365
+
+RegressionTest0 > test27 FAILED
+    java.lang.ArithmeticException at RegressionTest0.java:394
+
+RegressionTest0 > test28 FAILED
+    java.lang.ArithmeticException at RegressionTest0.java:404
+Results: FAILURE (75 tests, 63 successes, 12 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

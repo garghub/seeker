@@ -1,0 +1,553 @@
+:clean
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.Polyupdate_ESTest STANDARD_OUT
+    09:42:11.558 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Polyupdate_ESTest
+    09:42:11.562 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Polyupdate_ESTest'.
+    09:42:11.610 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Polyupdate_ESTest_scaffolding
+    09:42:11.611 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Polyupdate_ESTest_scaffolding'.
+    09:42:11.616 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Polyupdate_ESTest_scaffolding
+    09:42:11.617 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Polyupdate_ESTest
+    09:42:11.993 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    09:42:11.993 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    09:42:11.993 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    09:42:11.993 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    09:42:11.993 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    09:42:11.993 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    09:42:11.993 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    09:42:11.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    09:42:11.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    09:42:11.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:51895 to /127.0.0.1:51894 workers Thread 2"
+    09:42:11.994 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:51895 to /127.0.0.1:51894 workers Thread 3"
+    09:42:12.069 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Polyupdate
+    09:42:12.069 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Polyupdate'.
+    09:42:12.089 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/Polyupdate
+    09:42:12.336 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class examples/Polyupdate
+    09:42:12.338 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Polyupdate
+
+examples.Polyupdate_ESTest > test07 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:90
+
+examples.Polyupdate_ESTest > test06 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:82
+
+examples.Polyupdate_ESTest > test01 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:33
+
+examples.Polyupdate_ESTest > test00 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:24
+
+examples.Polyupdate_ESTest > test05 STANDARD_OUT
+    09:42:12.409 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+RegressionTest > RegressionTest0.test06 FAILED
+    java.lang.AssertionError at RegressionTest0.java:71
+
+RegressionTest > RegressionTest0.test09 FAILED
+    java.lang.AssertionError at RegressionTest0.java:110
+
+RegressionTest > RegressionTest0.test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:179
+
+RegressionTest > RegressionTest0.test16 FAILED
+    java.lang.AssertionError at RegressionTest0.java:207
+
+RegressionTest > RegressionTest0.test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:236
+
+RegressionTest > RegressionTest0.test19 FAILED
+    java.lang.AssertionError at RegressionTest0.java:249
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:268
+
+RegressionTest > RegressionTest0.test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:281
+
+RegressionTest > RegressionTest0.test27 FAILED
+    java.lang.AssertionError at RegressionTest0.java:351
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:363
+
+RegressionTest > RegressionTest0.test29 FAILED
+    java.lang.AssertionError at RegressionTest0.java:380
+
+RegressionTest > RegressionTest0.test32 FAILED
+    java.lang.AssertionError at RegressionTest0.java:423
+
+RegressionTest > RegressionTest0.test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:512
+
+RegressionTest > RegressionTest0.test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:555
+
+RegressionTest > RegressionTest0.test43 FAILED
+    java.lang.AssertionError at RegressionTest0.java:580
+
+RegressionTest > RegressionTest0.test45 FAILED
+    java.lang.AssertionError at RegressionTest0.java:602
+
+RegressionTest > RegressionTest0.test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:630
+
+RegressionTest > RegressionTest0.test51 FAILED
+    java.lang.AssertionError at RegressionTest0.java:694
+
+RegressionTest > RegressionTest0.test55 FAILED
+    java.lang.AssertionError at RegressionTest0.java:745
+
+RegressionTest0 > test06 FAILED
+    java.lang.AssertionError at RegressionTest0.java:71
+
+RegressionTest0 > test09 FAILED
+    java.lang.AssertionError at RegressionTest0.java:110
+
+RegressionTest0 > test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:179
+
+RegressionTest0 > test16 FAILED
+    java.lang.AssertionError at RegressionTest0.java:207
+
+RegressionTest0 > test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:236
+
+RegressionTest0 > test19 FAILED
+    java.lang.AssertionError at RegressionTest0.java:249
+
+RegressionTest0 > test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:268
+
+RegressionTest0 > test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:281
+
+RegressionTest0 > test27 FAILED
+    java.lang.AssertionError at RegressionTest0.java:351
+
+RegressionTest0 > test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:363
+
+RegressionTest0 > test29 FAILED
+    java.lang.AssertionError at RegressionTest0.java:380
+
+RegressionTest0 > test32 FAILED
+    java.lang.AssertionError at RegressionTest0.java:423
+
+RegressionTest0 > test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:512
+
+RegressionTest0 > test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:555
+
+RegressionTest0 > test43 FAILED
+    java.lang.AssertionError at RegressionTest0.java:580
+
+RegressionTest0 > test45 FAILED
+    java.lang.AssertionError at RegressionTest0.java:602
+
+RegressionTest0 > test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:630
+
+RegressionTest0 > test51 FAILED
+    java.lang.AssertionError at RegressionTest0.java:694
+
+RegressionTest0 > test55 FAILED
+    java.lang.AssertionError at RegressionTest0.java:745
+
+testers.PolyupdateTester0 > test005 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:53
+
+testers.PolyupdateTester0 > test006 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:62
+
+testers.PolyupdateTester0 > test008 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:84
+
+testers.PolyupdateTester0 > test011 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:123
+
+testers.PolyupdateTester0 > test012 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:134
+
+testers.PolyupdateTester0 > test014 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:156
+
+testers.PolyupdateTester0 > test015 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:169
+
+testers.PolyupdateTester0 > test018 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:198
+
+testers.PolyupdateTester0 > test022 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:250
+
+testers.PolyupdateTester0 > test028 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:333
+
+testers.PolyupdateTester0 > test031 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:364
+
+testers.PolyupdateTester0 > test034 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:400
+
+testers.PolyupdateTester0 > test036 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:428
+
+testers.PolyupdateTester0 > test037 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:445
+
+testers.PolyupdateTester0 > test040 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:483
+
+testers.PolyupdateTester0 > test041 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:494
+
+testers.PolyupdateTester0 > test044 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:531
+
+testers.PolyupdateTester0 > test046 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:549
+
+testers.PolyupdateTester0 > test048 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:577
+
+testers.PolyupdateTester0 > test052 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:626
+
+testers.PolyupdateTester0 > test054 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:655
+
+testers.PolyupdateTester0 > test056 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:681
+
+testers.PolyupdateTester0 > test057 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:694
+
+testers.PolyupdateTester0 > test058 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:712
+
+testers.PolyupdateTester0 > test061 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:754
+
+testers.PolyupdateTester0 > test065 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:806
+
+testers.PolyupdateTester0 > test066 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:819
+
+testers.PolyupdateTester0 > test067 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:829
+
+testers.PolyupdateTester0 > test069 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:857
+
+testers.PolyupdateTester0 > test071 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:876
+
+testers.PolyupdateTester0 > test074 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:918
+
+testers.PolyupdateTester0 > test075 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:932
+
+testers.PolyupdateTester0 > test076 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:944
+
+testers.PolyupdateTester0 > test080 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:989
+
+testers.PolyupdateTester0 > test081 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:998
+
+testers.PolyupdateTester0 > test082 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1011
+
+testers.PolyupdateTester0 > test083 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1029
+
+testers.PolyupdateTester0 > test084 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1037
+
+testers.PolyupdateTester0 > test085 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1053
+
+testers.PolyupdateTester0 > test086 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1063
+
+testers.PolyupdateTester0 > test087 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1075
+
+testers.PolyupdateTester0 > test089 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1099
+
+testers.PolyupdateTester0 > test092 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1145
+
+testers.PolyupdateTester0 > test093 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1154
+
+testers.PolyupdateTester0 > test095 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1190
+
+testers.PolyupdateTester0 > test096 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1200
+
+testers.PolyupdateTester0 > test100 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1253
+
+testers.PolyupdateTester0 > test101 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1271
+
+testers.PolyupdateTester0 > test103 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1297
+
+testers.PolyupdateTester0 > test105 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1320
+
+testers.PolyupdateTester0 > test107 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1348
+
+testers.PolyupdateTester0 > test108 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1359
+
+testers.PolyupdateTester0 > test115 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1462
+
+testers.PolyupdateTester0 > test120 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1530
+
+testers.PolyupdateTester0 > test121 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1541
+
+testers.PolyupdateTester0 > test124 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1588
+
+testers.PolyupdateTester0 > test127 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1627
+
+testers.PolyupdateTester0 > test128 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1642
+
+testers.PolyupdateTester0 > test129 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1657
+
+testers.PolyupdateTester0 > test133 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1710
+
+testers.PolyupdateTester0 > test134 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1726
+
+testers.PolyupdateTester0 > test135 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1737
+
+testers.PolyupdateTester0 > test136 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1752
+
+testers.PolyupdateTester0 > test138 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1780
+
+testers.PolyupdateTester0 > test141 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1820
+
+testers.PolyupdateTester0 > test144 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1855
+
+testers.PolyupdateTester0 > test148 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1904
+
+testers.PolyupdateTester0 > test149 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1916
+
+testers.PolyupdateTester0 > test151 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1942
+
+testers.PolyupdateTester0 > test155 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:1993
+
+testers.PolyupdateTester0 > test157 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2022
+
+testers.PolyupdateTester0 > test159 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2050
+
+testers.PolyupdateTester0 > test162 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2087
+
+testers.PolyupdateTester0 > test163 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2106
+
+testers.PolyupdateTester0 > test165 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2129
+
+testers.PolyupdateTester0 > test166 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2146
+
+testers.PolyupdateTester0 > test167 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2156
+
+testers.PolyupdateTester0 > test176 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2284
+
+testers.PolyupdateTester0 > test178 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2314
+
+testers.PolyupdateTester0 > test179 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2327
+
+testers.PolyupdateTester0 > test180 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2343
+
+testers.PolyupdateTester0 > test181 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2356
+
+testers.PolyupdateTester0 > test184 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2399
+
+testers.PolyupdateTester0 > test185 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2408
+
+testers.PolyupdateTester0 > test187 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2435
+
+testers.PolyupdateTester0 > test190 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2477
+
+testers.PolyupdateTester0 > test193 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2514
+
+testers.PolyupdateTester0 > test194 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2527
+
+testers.PolyupdateTester0 > test195 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2536
+
+testers.PolyupdateTester0 > test198 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2573
+
+testers.PolyupdateTester0 > test200 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2611
+
+testers.PolyupdateTester0 > test201 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2625
+
+testers.PolyupdateTester0 > test202 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2640
+
+testers.PolyupdateTester0 > test205 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2685
+
+testers.PolyupdateTester0 > test206 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2699
+
+testers.PolyupdateTester0 > test207 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2712
+
+testers.PolyupdateTester0 > test208 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2727
+
+testers.PolyupdateTester0 > test211 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2762
+
+testers.PolyupdateTester0 > test212 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2778
+
+testers.PolyupdateTester0 > test213 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2788
+
+testers.PolyupdateTester0 > test214 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2806
+
+testers.PolyupdateTester0 > test218 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2857
+
+testers.PolyupdateTester0 > test219 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2870
+
+testers.PolyupdateTester0 > test223 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2929
+
+testers.PolyupdateTester0 > test226 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2970
+
+testers.PolyupdateTester0 > test227 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2981
+
+testers.PolyupdateTester0 > test228 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:2998
+
+testers.PolyupdateTester0 > test229 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3015
+
+testers.PolyupdateTester0 > test230 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3027
+
+testers.PolyupdateTester0 > test232 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3059
+
+testers.PolyupdateTester0 > test233 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3072
+
+testers.PolyupdateTester0 > test234 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3090
+
+testers.PolyupdateTester0 > test235 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3099
+
+testers.PolyupdateTester0 > test236 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3112
+
+testers.PolyupdateTester0 > test238 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3138
+
+testers.PolyupdateTester0 > test239 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3149
+
+testers.PolyupdateTester0 > test242 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3192
+
+testers.PolyupdateTester0 > test243 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3200
+
+testers.PolyupdateTester0 > test244 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3219
+
+testers.PolyupdateTester0 > test245 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3231
+
+testers.PolyupdateTester0 > test249 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3289
+
+testers.PolyupdateTester0 > test251 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3312
+
+testers.PolyupdateTester0 > test253 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3342
+
+testers.PolyupdateTester0 > test254 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3353
+
+testers.PolyupdateTester0 > test255 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3366
+
+testers.PolyupdateTester0 > test259 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3426
+
+testers.PolyupdateTester0 > test260 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3441
+
+testers.PolyupdateTester0 > test270 FAILED
+    java.lang.AssertionError at PolyupdateTester0.java:3576
+Results: FAILURE (394 tests, 224 successes, 170 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

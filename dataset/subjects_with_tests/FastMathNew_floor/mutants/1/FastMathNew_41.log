@@ -1,0 +1,1225 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+org.apache.commons.math3.util.FastMathNew_ESTest STANDARD_OUT
+    20:21:19.548 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.FastMathNew_ESTest
+    20:21:19.553 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.FastMathNew_ESTest'.
+    20:21:19.598 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.FastMathNew_ESTest_scaffolding
+    20:21:19.599 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.FastMathNew_ESTest_scaffolding'.
+    20:21:19.604 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.FastMathNew_ESTest_scaffolding
+    20:21:19.604 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.FastMathNew_ESTest
+    20:21:19.977 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    20:21:19.977 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    20:21:19.977 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    20:21:19.978 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    20:21:19.978 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    20:21:19.978 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    20:21:19.978 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    20:21:19.978 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    20:21:19.978 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    20:21:19.979 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:52321 to /127.0.0.1:52320 workers Thread 2"
+    20:21:19.979 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:52321 to /127.0.0.1:52320 workers Thread 3"
+    20:21:20.066 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: org.apache.commons.math3.util.FastMathNew
+    20:21:20.066 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'org.apache.commons.math3.util.FastMathNew'.
+    20:21:20.129 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/commons/math3/util/FastMathNew
+    20:21:20.419 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class org/apache/commons/math3/util/FastMathNew
+    20:21:20.423 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: org.apache.commons.math3.util.FastMathNew
+
+org.apache.commons.math3.util.FastMathNew_ESTest > test5 FAILED
+    java.lang.AssertionError at FastMathNew_ESTest.java:56
+
+org.apache.commons.math3.util.FastMathNew_ESTest > test4 FAILED
+    java.lang.AssertionError at FastMathNew_ESTest.java:49
+
+org.apache.commons.math3.util.FastMathNew_ESTest > test6 STANDARD_OUT
+    20:21:20.489 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+org.apache.commons.math3.util.FastMathNew_ESTest > test1 FAILED
+    java.lang.AssertionError at FastMathNew_ESTest.java:28
+
+org.apache.commons.math3.util.FastMathNew_ESTest > test0 FAILED
+    java.lang.AssertionError at FastMathNew_ESTest.java:21
+
+RegressionTest > RegressionTest0.test02 FAILED
+    java.lang.AssertionError at RegressionTest0.java:24
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:46
+
+RegressionTest > RegressionTest0.test05 FAILED
+    java.lang.AssertionError at RegressionTest0.java:57
+
+RegressionTest > RegressionTest0.test06 FAILED
+    java.lang.AssertionError at RegressionTest0.java:68
+
+RegressionTest > RegressionTest0.test07 FAILED
+    java.lang.AssertionError at RegressionTest0.java:79
+
+RegressionTest > RegressionTest0.test08 FAILED
+    java.lang.AssertionError at RegressionTest0.java:96
+
+RegressionTest > RegressionTest0.test09 FAILED
+    java.lang.AssertionError at RegressionTest0.java:109
+
+RegressionTest > RegressionTest0.test10 FAILED
+    java.lang.AssertionError at RegressionTest0.java:122
+
+RegressionTest > RegressionTest0.test11 FAILED
+    java.lang.AssertionError at RegressionTest0.java:137
+
+RegressionTest > RegressionTest0.test12 FAILED
+    java.lang.AssertionError at RegressionTest0.java:150
+
+RegressionTest > RegressionTest0.test13 FAILED
+    java.lang.AssertionError at RegressionTest0.java:161
+
+RegressionTest > RegressionTest0.test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:176
+
+RegressionTest > RegressionTest0.test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:187
+
+RegressionTest > RegressionTest0.test16 FAILED
+    java.lang.AssertionError at RegressionTest0.java:204
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.AssertionError at RegressionTest0.java:223
+
+RegressionTest > RegressionTest0.test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:234
+
+RegressionTest > RegressionTest0.test19 FAILED
+    java.lang.AssertionError at RegressionTest0.java:253
+
+RegressionTest > RegressionTest0.test20 FAILED
+    java.lang.AssertionError at RegressionTest0.java:264
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:281
+
+RegressionTest > RegressionTest0.test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:296
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:307
+
+RegressionTest > RegressionTest0.test24 FAILED
+    java.lang.AssertionError at RegressionTest0.java:320
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:341
+
+RegressionTest > RegressionTest0.test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:354
+
+RegressionTest > RegressionTest0.test27 FAILED
+    java.lang.AssertionError at RegressionTest0.java:369
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:384
+
+RegressionTest > RegressionTest0.test29 FAILED
+    java.lang.AssertionError at RegressionTest0.java:399
+
+RegressionTest > RegressionTest0.test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:416
+
+RegressionTest > RegressionTest0.test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:435
+
+RegressionTest > RegressionTest0.test32 FAILED
+    java.lang.AssertionError at RegressionTest0.java:446
+
+RegressionTest > RegressionTest0.test33 FAILED
+    java.lang.AssertionError at RegressionTest0.java:463
+
+RegressionTest > RegressionTest0.test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:480
+
+RegressionTest > RegressionTest0.test35 FAILED
+    java.lang.AssertionError at RegressionTest0.java:499
+
+RegressionTest > RegressionTest0.test36 FAILED
+    java.lang.AssertionError at RegressionTest0.java:514
+
+RegressionTest > RegressionTest0.test37 FAILED
+    java.lang.AssertionError at RegressionTest0.java:529
+
+RegressionTest > RegressionTest0.test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:544
+
+RegressionTest > RegressionTest0.test39 FAILED
+    java.lang.AssertionError at RegressionTest0.java:559
+
+RegressionTest > RegressionTest0.test40 FAILED
+    java.lang.AssertionError at RegressionTest0.java:574
+
+RegressionTest > RegressionTest0.test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:591
+
+RegressionTest > RegressionTest0.test42 FAILED
+    java.lang.AssertionError at RegressionTest0.java:608
+
+RegressionTest > RegressionTest0.test43 FAILED
+    java.lang.AssertionError at RegressionTest0.java:625
+
+RegressionTest > RegressionTest0.test44 FAILED
+    java.lang.AssertionError at RegressionTest0.java:640
+
+RegressionTest > RegressionTest0.test45 FAILED
+    java.lang.AssertionError at RegressionTest0.java:655
+
+RegressionTest > RegressionTest0.test46 FAILED
+    java.lang.AssertionError at RegressionTest0.java:668
+
+RegressionTest > RegressionTest0.test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:685
+
+RegressionTest > RegressionTest0.test48 FAILED
+    java.lang.AssertionError at RegressionTest0.java:704
+
+RegressionTest > RegressionTest0.test49 FAILED
+    java.lang.AssertionError at RegressionTest0.java:715
+
+RegressionTest > RegressionTest0.test50 FAILED
+    java.lang.AssertionError at RegressionTest0.java:732
+
+RegressionTest > RegressionTest0.test51 FAILED
+    java.lang.AssertionError at RegressionTest0.java:755
+
+RegressionTest > RegressionTest0.test52 FAILED
+    java.lang.AssertionError at RegressionTest0.java:776
+
+RegressionTest > RegressionTest0.test53 FAILED
+    java.lang.AssertionError at RegressionTest0.java:791
+
+RegressionTest > RegressionTest0.test54 FAILED
+    java.lang.AssertionError at RegressionTest0.java:810
+
+RegressionTest > RegressionTest0.test55 FAILED
+    java.lang.AssertionError at RegressionTest0.java:829
+
+RegressionTest0 > test02 FAILED
+    java.lang.AssertionError at RegressionTest0.java:24
+
+RegressionTest0 > test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:46
+
+RegressionTest0 > test05 FAILED
+    java.lang.AssertionError at RegressionTest0.java:57
+
+RegressionTest0 > test06 FAILED
+    java.lang.AssertionError at RegressionTest0.java:68
+
+RegressionTest0 > test07 FAILED
+    java.lang.AssertionError at RegressionTest0.java:79
+
+RegressionTest0 > test08 FAILED
+    java.lang.AssertionError at RegressionTest0.java:96
+
+RegressionTest0 > test09 FAILED
+    java.lang.AssertionError at RegressionTest0.java:109
+
+RegressionTest0 > test10 FAILED
+    java.lang.AssertionError at RegressionTest0.java:122
+
+RegressionTest0 > test11 FAILED
+    java.lang.AssertionError at RegressionTest0.java:137
+
+RegressionTest0 > test12 FAILED
+    java.lang.AssertionError at RegressionTest0.java:150
+
+RegressionTest0 > test13 FAILED
+    java.lang.AssertionError at RegressionTest0.java:161
+
+RegressionTest0 > test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:176
+
+RegressionTest0 > test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:187
+
+RegressionTest0 > test16 FAILED
+    java.lang.AssertionError at RegressionTest0.java:204
+
+RegressionTest0 > test17 FAILED
+    java.lang.AssertionError at RegressionTest0.java:223
+
+RegressionTest0 > test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:234
+
+RegressionTest0 > test19 FAILED
+    java.lang.AssertionError at RegressionTest0.java:253
+
+RegressionTest0 > test20 FAILED
+    java.lang.AssertionError at RegressionTest0.java:264
+
+RegressionTest0 > test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:281
+
+RegressionTest0 > test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:296
+
+RegressionTest0 > test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:307
+
+RegressionTest0 > test24 FAILED
+    java.lang.AssertionError at RegressionTest0.java:320
+
+RegressionTest0 > test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:341
+
+RegressionTest0 > test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:354
+
+RegressionTest0 > test27 FAILED
+    java.lang.AssertionError at RegressionTest0.java:369
+
+RegressionTest0 > test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:384
+
+RegressionTest0 > test29 FAILED
+    java.lang.AssertionError at RegressionTest0.java:399
+
+RegressionTest0 > test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:416
+
+RegressionTest0 > test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:435
+
+RegressionTest0 > test32 FAILED
+    java.lang.AssertionError at RegressionTest0.java:446
+
+RegressionTest0 > test33 FAILED
+    java.lang.AssertionError at RegressionTest0.java:463
+
+RegressionTest0 > test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:480
+
+RegressionTest0 > test35 FAILED
+    java.lang.AssertionError at RegressionTest0.java:499
+
+RegressionTest0 > test36 FAILED
+    java.lang.AssertionError at RegressionTest0.java:514
+
+RegressionTest0 > test37 FAILED
+    java.lang.AssertionError at RegressionTest0.java:529
+
+RegressionTest0 > test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:544
+
+RegressionTest0 > test39 FAILED
+    java.lang.AssertionError at RegressionTest0.java:559
+
+RegressionTest0 > test40 FAILED
+    java.lang.AssertionError at RegressionTest0.java:574
+
+RegressionTest0 > test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:591
+
+RegressionTest0 > test42 FAILED
+    java.lang.AssertionError at RegressionTest0.java:608
+
+RegressionTest0 > test43 FAILED
+    java.lang.AssertionError at RegressionTest0.java:625
+
+RegressionTest0 > test44 FAILED
+    java.lang.AssertionError at RegressionTest0.java:640
+
+RegressionTest0 > test45 FAILED
+    java.lang.AssertionError at RegressionTest0.java:655
+
+RegressionTest0 > test46 FAILED
+    java.lang.AssertionError at RegressionTest0.java:668
+
+RegressionTest0 > test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:685
+
+RegressionTest0 > test48 FAILED
+    java.lang.AssertionError at RegressionTest0.java:704
+
+RegressionTest0 > test49 FAILED
+    java.lang.AssertionError at RegressionTest0.java:715
+
+RegressionTest0 > test50 FAILED
+    java.lang.AssertionError at RegressionTest0.java:732
+
+RegressionTest0 > test51 FAILED
+    java.lang.AssertionError at RegressionTest0.java:755
+
+RegressionTest0 > test52 FAILED
+    java.lang.AssertionError at RegressionTest0.java:776
+
+RegressionTest0 > test53 FAILED
+    java.lang.AssertionError at RegressionTest0.java:791
+
+RegressionTest0 > test54 FAILED
+    java.lang.AssertionError at RegressionTest0.java:810
+
+RegressionTest0 > test55 FAILED
+    java.lang.AssertionError at RegressionTest0.java:829
+
+testers.FastMathNewTester0 > test002 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:25
+
+testers.FastMathNewTester0 > test004 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:43
+
+testers.FastMathNewTester0 > test005 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:52
+
+testers.FastMathNewTester0 > test006 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:61
+
+testers.FastMathNewTester0 > test007 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:70
+
+testers.FastMathNewTester0 > test008 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:82
+
+testers.FastMathNewTester0 > test009 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:92
+
+testers.FastMathNewTester0 > test010 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:102
+
+testers.FastMathNewTester0 > test011 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:113
+
+testers.FastMathNewTester0 > test012 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:123
+
+testers.FastMathNewTester0 > test013 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:133
+
+testers.FastMathNewTester0 > test014 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:145
+
+testers.FastMathNewTester0 > test015 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:154
+
+testers.FastMathNewTester0 > test016 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:167
+
+testers.FastMathNewTester0 > test017 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:179
+
+testers.FastMathNewTester0 > test018 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:190
+
+testers.FastMathNewTester0 > test019 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:202
+
+testers.FastMathNewTester0 > test020 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:213
+
+testers.FastMathNewTester0 > test021 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:223
+
+testers.FastMathNewTester0 > test022 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:234
+
+testers.FastMathNewTester0 > test023 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:246
+
+testers.FastMathNewTester0 > test024 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:259
+
+testers.FastMathNewTester0 > test025 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:271
+
+testers.FastMathNewTester0 > test026 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:280
+
+testers.FastMathNewTester0 > test027 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:290
+
+testers.FastMathNewTester0 > test028 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:302
+
+testers.FastMathNewTester0 > test029 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:313
+
+testers.FastMathNewTester0 > test030 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:326
+
+testers.FastMathNewTester0 > test031 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:339
+
+testers.FastMathNewTester0 > test032 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:352
+
+testers.FastMathNewTester0 > test033 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:363
+
+testers.FastMathNewTester0 > test034 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:374
+
+testers.FastMathNewTester0 > test035 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:385
+
+testers.FastMathNewTester0 > test036 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:397
+
+testers.FastMathNewTester0 > test037 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:408
+
+testers.FastMathNewTester0 > test038 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:421
+
+testers.FastMathNewTester0 > test039 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:435
+
+testers.FastMathNewTester0 > test040 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:446
+
+testers.FastMathNewTester0 > test041 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:457
+
+testers.FastMathNewTester0 > test042 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:469
+
+testers.FastMathNewTester0 > test043 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:480
+
+testers.FastMathNewTester0 > test044 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:491
+
+testers.FastMathNewTester0 > test045 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:502
+
+testers.FastMathNewTester0 > test046 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:514
+
+testers.FastMathNewTester0 > test047 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:527
+
+testers.FastMathNewTester0 > test048 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:540
+
+testers.FastMathNewTester0 > test049 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:551
+
+testers.FastMathNewTester0 > test050 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:563
+
+testers.FastMathNewTester0 > test051 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:575
+
+testers.FastMathNewTester0 > test052 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:587
+
+testers.FastMathNewTester0 > test053 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:598
+
+testers.FastMathNewTester0 > test054 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:612
+
+testers.FastMathNewTester0 > test055 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:626
+
+testers.FastMathNewTester0 > test056 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:641
+
+testers.FastMathNewTester0 > test057 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:654
+
+testers.FastMathNewTester0 > test058 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:667
+
+testers.FastMathNewTester0 > test059 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:679
+
+testers.FastMathNewTester0 > test060 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:690
+
+testers.FastMathNewTester0 > test061 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:703
+
+testers.FastMathNewTester0 > test062 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:716
+
+testers.FastMathNewTester0 > test063 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:728
+
+testers.FastMathNewTester0 > test064 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:741
+
+testers.FastMathNewTester0 > test065 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:751
+
+testers.FastMathNewTester0 > test066 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:762
+
+testers.FastMathNewTester0 > test067 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:772
+
+testers.FastMathNewTester0 > test068 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:787
+
+testers.FastMathNewTester0 > test069 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:798
+
+testers.FastMathNewTester0 > test070 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:809
+
+testers.FastMathNewTester0 > test071 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:824
+
+testers.FastMathNewTester0 > test072 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:835
+
+testers.FastMathNewTester0 > test073 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:848
+
+testers.FastMathNewTester0 > test074 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:862
+
+testers.FastMathNewTester0 > test075 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:874
+
+testers.FastMathNewTester0 > test076 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:889
+
+testers.FastMathNewTester0 > test077 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:899
+
+testers.FastMathNewTester0 > test078 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:912
+
+testers.FastMathNewTester0 > test079 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:923
+
+testers.FastMathNewTester0 > test080 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:935
+
+testers.FastMathNewTester0 > test081 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:944
+
+testers.FastMathNewTester0 > test082 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:955
+
+testers.FastMathNewTester0 > test083 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:967
+
+testers.FastMathNewTester0 > test084 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:981
+
+testers.FastMathNewTester0 > test085 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:994
+
+testers.FastMathNewTester0 > test086 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1009
+
+testers.FastMathNewTester0 > test087 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1021
+
+testers.FastMathNewTester0 > test088 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1035
+
+testers.FastMathNewTester0 > test089 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1047
+
+testers.FastMathNewTester0 > test090 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1059
+
+testers.FastMathNewTester0 > test091 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1071
+
+testers.FastMathNewTester0 > test092 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1083
+
+testers.FastMathNewTester0 > test093 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1094
+
+testers.FastMathNewTester0 > test094 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1107
+
+testers.FastMathNewTester0 > test095 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1118
+
+testers.FastMathNewTester0 > test096 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1131
+
+testers.FastMathNewTester0 > test097 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1145
+
+testers.FastMathNewTester0 > test098 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1155
+
+testers.FastMathNewTester0 > test099 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1167
+
+testers.FastMathNewTester0 > test100 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1178
+
+testers.FastMathNewTester0 > test101 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1190
+
+testers.FastMathNewTester0 > test102 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1202
+
+testers.FastMathNewTester0 > test103 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1215
+
+testers.FastMathNewTester0 > test104 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1229
+
+testers.FastMathNewTester0 > test105 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1240
+
+testers.FastMathNewTester0 > test106 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1254
+
+testers.FastMathNewTester0 > test107 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1265
+
+testers.FastMathNewTester0 > test108 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1277
+
+testers.FastMathNewTester0 > test109 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1290
+
+testers.FastMathNewTester0 > test110 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1303
+
+testers.FastMathNewTester0 > test111 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1316
+
+testers.FastMathNewTester0 > test112 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1330
+
+testers.FastMathNewTester0 > test113 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1346
+
+testers.FastMathNewTester0 > test114 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1361
+
+testers.FastMathNewTester0 > test115 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1373
+
+testers.FastMathNewTester0 > test116 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1388
+
+testers.FastMathNewTester0 > test117 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1401
+
+testers.FastMathNewTester0 > test118 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1414
+
+testers.FastMathNewTester0 > test119 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1424
+
+testers.FastMathNewTester0 > test120 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1436
+
+testers.FastMathNewTester0 > test121 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1448
+
+testers.FastMathNewTester0 > test122 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1459
+
+testers.FastMathNewTester0 > test123 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1470
+
+testers.FastMathNewTester0 > test124 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1485
+
+testers.FastMathNewTester0 > test125 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1501
+
+testers.FastMathNewTester0 > test126 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1513
+
+testers.FastMathNewTester0 > test127 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1525
+
+testers.FastMathNewTester0 > test128 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1537
+
+testers.FastMathNewTester0 > test129 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1549
+
+testers.FastMathNewTester0 > test130 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1563
+
+testers.FastMathNewTester0 > test131 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1575
+
+testers.FastMathNewTester0 > test132 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1588
+
+testers.FastMathNewTester0 > test133 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1599
+
+testers.FastMathNewTester0 > test134 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1609
+
+testers.FastMathNewTester0 > test135 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1621
+
+testers.FastMathNewTester0 > test136 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1633
+
+testers.FastMathNewTester0 > test137 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1649
+
+testers.FastMathNewTester0 > test138 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1663
+
+testers.FastMathNewTester0 > test139 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1672
+
+testers.FastMathNewTester0 > test140 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1682
+
+testers.FastMathNewTester0 > test141 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1698
+
+testers.FastMathNewTester0 > test142 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1711
+
+testers.FastMathNewTester0 > test143 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1722
+
+testers.FastMathNewTester0 > test144 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1734
+
+testers.FastMathNewTester0 > test145 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1745
+
+testers.FastMathNewTester0 > test146 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1757
+
+testers.FastMathNewTester0 > test147 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1770
+
+testers.FastMathNewTester0 > test148 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1786
+
+testers.FastMathNewTester0 > test149 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1801
+
+testers.FastMathNewTester0 > test150 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1813
+
+testers.FastMathNewTester0 > test151 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1824
+
+testers.FastMathNewTester0 > test152 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1838
+
+testers.FastMathNewTester0 > test153 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1851
+
+testers.FastMathNewTester0 > test154 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1862
+
+testers.FastMathNewTester0 > test155 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1874
+
+testers.FastMathNewTester0 > test156 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1888
+
+testers.FastMathNewTester0 > test157 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1905
+
+testers.FastMathNewTester0 > test158 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1919
+
+testers.FastMathNewTester0 > test159 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1931
+
+testers.FastMathNewTester0 > test160 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1943
+
+testers.FastMathNewTester0 > test161 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1955
+
+testers.FastMathNewTester0 > test162 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1966
+
+testers.FastMathNewTester0 > test163 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1977
+
+testers.FastMathNewTester0 > test164 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:1991
+
+testers.FastMathNewTester0 > test165 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2006
+
+testers.FastMathNewTester0 > test166 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2016
+
+testers.FastMathNewTester0 > test167 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2028
+
+testers.FastMathNewTester0 > test168 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2039
+
+testers.FastMathNewTester0 > test169 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2049
+
+testers.FastMathNewTester0 > test170 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2063
+
+testers.FastMathNewTester0 > test171 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2079
+
+testers.FastMathNewTester0 > test172 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2090
+
+testers.FastMathNewTester0 > test173 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2102
+
+testers.FastMathNewTester0 > test174 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2115
+
+testers.FastMathNewTester0 > test175 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2126
+
+testers.FastMathNewTester0 > test176 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2138
+
+testers.FastMathNewTester0 > test177 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2156
+
+testers.FastMathNewTester0 > test178 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2167
+
+testers.FastMathNewTester0 > test179 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2185
+
+testers.FastMathNewTester0 > test180 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2197
+
+testers.FastMathNewTester0 > test181 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2209
+
+testers.FastMathNewTester0 > test182 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2221
+
+testers.FastMathNewTester0 > test183 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2232
+
+testers.FastMathNewTester0 > test184 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2247
+
+testers.FastMathNewTester0 > test185 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2259
+
+testers.FastMathNewTester0 > test186 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2271
+
+testers.FastMathNewTester0 > test187 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2283
+
+testers.FastMathNewTester0 > test188 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2295
+
+testers.FastMathNewTester0 > test189 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2310
+
+testers.FastMathNewTester0 > test190 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2324
+
+testers.FastMathNewTester0 > test191 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2340
+
+testers.FastMathNewTester0 > test192 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2353
+
+testers.FastMathNewTester0 > test193 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2369
+
+testers.FastMathNewTester0 > test194 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2381
+
+testers.FastMathNewTester0 > test195 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2395
+
+testers.FastMathNewTester0 > test196 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2403
+
+testers.FastMathNewTester0 > test197 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2418
+
+testers.FastMathNewTester0 > test198 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2430
+
+testers.FastMathNewTester0 > test199 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2445
+
+testers.FastMathNewTester0 > test200 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2456
+
+testers.FastMathNewTester0 > test201 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2471
+
+testers.FastMathNewTester0 > test202 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2483
+
+testers.FastMathNewTester0 > test203 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2497
+
+testers.FastMathNewTester0 > test204 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2509
+
+testers.FastMathNewTester0 > test205 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2522
+
+testers.FastMathNewTester0 > test206 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2538
+
+testers.FastMathNewTester0 > test207 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2554
+
+testers.FastMathNewTester0 > test208 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2568
+
+testers.FastMathNewTester0 > test209 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2584
+
+testers.FastMathNewTester0 > test210 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2600
+
+testers.FastMathNewTester0 > test211 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2613
+
+testers.FastMathNewTester0 > test212 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2626
+
+testers.FastMathNewTester0 > test213 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2639
+
+testers.FastMathNewTester0 > test214 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2652
+
+testers.FastMathNewTester0 > test215 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2662
+
+testers.FastMathNewTester0 > test216 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2672
+
+testers.FastMathNewTester0 > test217 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2685
+
+testers.FastMathNewTester0 > test218 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2700
+
+testers.FastMathNewTester0 > test219 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2711
+
+testers.FastMathNewTester0 > test220 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2723
+
+testers.FastMathNewTester0 > test221 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2736
+
+testers.FastMathNewTester0 > test222 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2751
+
+testers.FastMathNewTester0 > test223 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2763
+
+testers.FastMathNewTester0 > test224 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2774
+
+testers.FastMathNewTester0 > test225 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2788
+
+testers.FastMathNewTester0 > test226 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2801
+
+testers.FastMathNewTester0 > test227 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2814
+
+testers.FastMathNewTester0 > test228 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2824
+
+testers.FastMathNewTester0 > test229 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2841
+
+testers.FastMathNewTester0 > test230 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2857
+
+testers.FastMathNewTester0 > test231 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2870
+
+testers.FastMathNewTester0 > test232 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2884
+
+testers.FastMathNewTester0 > test233 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2895
+
+testers.FastMathNewTester0 > test234 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2907
+
+testers.FastMathNewTester0 > test235 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2921
+
+testers.FastMathNewTester0 > test236 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2932
+
+testers.FastMathNewTester0 > test237 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2947
+
+testers.FastMathNewTester0 > test238 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2960
+
+testers.FastMathNewTester0 > test239 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2971
+
+testers.FastMathNewTester0 > test240 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2983
+
+testers.FastMathNewTester0 > test241 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:2999
+
+testers.FastMathNewTester0 > test242 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3010
+
+testers.FastMathNewTester0 > test243 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3025
+
+testers.FastMathNewTester0 > test244 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3037
+
+testers.FastMathNewTester0 > test245 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3048
+
+testers.FastMathNewTester0 > test246 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3060
+
+testers.FastMathNewTester0 > test247 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3073
+
+testers.FastMathNewTester0 > test248 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3087
+
+testers.FastMathNewTester0 > test249 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3100
+
+testers.FastMathNewTester0 > test250 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3113
+
+testers.FastMathNewTester0 > test251 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3124
+
+testers.FastMathNewTester0 > test252 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3137
+
+testers.FastMathNewTester0 > test253 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3149
+
+testers.FastMathNewTester0 > test254 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3163
+
+testers.FastMathNewTester0 > test255 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3177
+
+testers.FastMathNewTester0 > test256 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3188
+
+testers.FastMathNewTester0 > test257 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3201
+
+testers.FastMathNewTester0 > test258 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3214
+
+testers.FastMathNewTester0 > test259 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3233
+
+testers.FastMathNewTester0 > test260 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3245
+
+testers.FastMathNewTester0 > test261 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3259
+
+testers.FastMathNewTester0 > test262 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3272
+
+testers.FastMathNewTester0 > test263 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3286
+
+testers.FastMathNewTester0 > test264 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3300
+
+testers.FastMathNewTester0 > test265 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3312
+
+testers.FastMathNewTester0 > test266 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3328
+
+testers.FastMathNewTester0 > test267 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3343
+
+testers.FastMathNewTester0 > test268 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3354
+
+testers.FastMathNewTester0 > test269 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3365
+
+testers.FastMathNewTester0 > test270 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3378
+
+testers.FastMathNewTester0 > test271 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3393
+
+testers.FastMathNewTester0 > test272 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3408
+
+testers.FastMathNewTester0 > test273 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3423
+
+testers.FastMathNewTester0 > test274 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3438
+
+testers.FastMathNewTester0 > test275 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3449
+
+testers.FastMathNewTester0 > test276 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3462
+
+testers.FastMathNewTester0 > test277 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3475
+
+testers.FastMathNewTester0 > test278 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3491
+
+testers.FastMathNewTester0 > test279 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3504
+
+testers.FastMathNewTester0 > test280 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3518
+
+testers.FastMathNewTester0 > test281 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3530
+
+testers.FastMathNewTester0 > test282 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3542
+
+testers.FastMathNewTester0 > test283 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3554
+
+testers.FastMathNewTester0 > test284 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3567
+
+testers.FastMathNewTester0 > test285 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3582
+
+testers.FastMathNewTester0 > test286 FAILED
+    java.lang.AssertionError at FastMathNewTester0.java:3597
+Results: FAILURE (404 tests, 10 successes, 394 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

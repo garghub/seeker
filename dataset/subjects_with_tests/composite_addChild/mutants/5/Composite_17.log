@@ -1,0 +1,148 @@
+:clean
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.Composite_ESTest STANDARD_OUT
+    16:24:28.545 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Composite_ESTest
+    16:24:28.547 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Composite_ESTest'.
+    16:24:28.571 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Composite_ESTest_scaffolding
+    16:24:28.571 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Composite_ESTest_scaffolding'.
+    16:24:28.573 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Composite_ESTest_scaffolding
+    16:24:28.573 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Composite_ESTest
+    16:24:28.890 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    16:24:28.891 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    16:24:28.891 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    16:24:28.891 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    16:24:28.891 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    16:24:28.891 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    16:24:28.891 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    16:24:28.891 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    16:24:28.891 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    16:24:28.891 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:53650 to /127.0.0.1:53649 workers Thread 2"
+    16:24:28.891 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:53650 to /127.0.0.1:53649 workers Thread 3"
+    16:24:28.941 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Composite
+    16:24:28.941 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Composite'.
+    16:24:28.957 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/Composite
+    16:24:29.108 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/Composite
+    16:24:29.108 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Composite
+
+examples.Composite_ESTest > test4 FAILED
+    java.lang.AssertionError at Composite_ESTest.java:63
+
+RegressionTest > RegressionTest0.test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:449
+
+RegressionTest > RegressionTest0.test49 FAILED
+    java.lang.AssertionError at RegressionTest0.java:838
+
+RegressionTest > RegressionTest0.test50 FAILED
+    java.lang.AssertionError at RegressionTest0.java:862
+
+RegressionTest0 > test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:449
+
+RegressionTest0 > test49 FAILED
+    java.lang.AssertionError at RegressionTest0.java:838
+
+RegressionTest0 > test50 FAILED
+    java.lang.AssertionError at RegressionTest0.java:862
+
+testers.CompositeTester0 > test025 FAILED
+    java.lang.AssertionError at CompositeTester0.java:324
+
+testers.CompositeTester0 > test027 FAILED
+    java.lang.AssertionError at CompositeTester0.java:359
+
+testers.CompositeTester0 > test028 FAILED
+    java.lang.AssertionError at CompositeTester0.java:376
+
+testers.CompositeTester0 > test043 FAILED
+    java.lang.AssertionError at CompositeTester0.java:621
+
+testers.CompositeTester0 > test046 FAILED
+    java.lang.AssertionError at CompositeTester0.java:690
+
+testers.CompositeTester0 > test051 FAILED
+    java.lang.AssertionError at CompositeTester0.java:778
+
+testers.CompositeTester0 > test052 FAILED
+    java.lang.AssertionError at CompositeTester0.java:800
+
+testers.CompositeTester0 > test057 FAILED
+    java.lang.AssertionError at CompositeTester0.java:894
+
+testers.CompositeTester0 > test063 FAILED
+    java.lang.AssertionError at CompositeTester0.java:1005
+
+testers.CompositeTester0 > test066 FAILED
+    java.lang.AssertionError at CompositeTester0.java:1068
+
+testers.CompositeTester0 > test083 FAILED
+    java.lang.AssertionError at CompositeTester0.java:1384
+
+testers.CompositeTester0 > test103 FAILED
+    java.lang.AssertionError at CompositeTester0.java:1723
+
+testers.CompositeTester0 > test122 FAILED
+    java.lang.AssertionError at CompositeTester0.java:2099
+
+testers.CompositeTester0 > test129 FAILED
+    java.lang.AssertionError at CompositeTester0.java:2230
+
+testers.CompositeTester0 > test142 FAILED
+    java.lang.AssertionError at CompositeTester0.java:2473
+
+testers.CompositeTester0 > test154 FAILED
+    java.lang.AssertionError at CompositeTester0.java:2667
+
+testers.CompositeTester0 > test164 FAILED
+    java.lang.AssertionError at CompositeTester0.java:2819
+
+testers.CompositeTester0 > test182 FAILED
+    java.lang.AssertionError at CompositeTester0.java:3166
+
+testers.CompositeTester0 > test190 FAILED
+    java.lang.AssertionError at CompositeTester0.java:3294
+
+testers.CompositeTester0 > test192 FAILED
+    java.lang.AssertionError at CompositeTester0.java:3327
+
+testers.CompositeTester0 > test201 FAILED
+    java.lang.AssertionError at CompositeTester0.java:3548
+
+testers.CompositeTester0 > test203 FAILED
+    java.lang.AssertionError at CompositeTester0.java:3604
+
+testers.CompositeTester0 > test227 FAILED
+    java.lang.AssertionError at CompositeTester0.java:4019
+
+testers.CompositeTester0 > test228 FAILED
+    java.lang.AssertionError at CompositeTester0.java:4045
+
+testers.CompositeTester0 > test235 FAILED
+    java.lang.AssertionError at CompositeTester0.java:4158
+
+testers.CompositeTester0 > test251 FAILED
+    java.lang.AssertionError at CompositeTester0.java:4446
+
+testers.CompositeTester0 > test255 FAILED
+    java.lang.AssertionError at CompositeTester0.java:4549
+
+testers.CompositeTester0 > test262 FAILED
+    java.lang.AssertionError at CompositeTester0.java:4656
+
+testers.CompositeTester0 > test271 FAILED
+    java.lang.AssertionError at CompositeTester0.java:4813
+Results: FAILURE (414 tests, 378 successes, 36 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

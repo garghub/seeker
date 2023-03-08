@@ -1,0 +1,603 @@
+:clean
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.MaxBag_ESTest STANDARD_OUT
+    16:44:10.068 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest
+    16:44:10.070 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest'.
+    16:44:10.093 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest_scaffolding
+    16:44:10.093 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest_scaffolding'.
+    16:44:10.095 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest_scaffolding
+    16:44:10.095 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest
+    16:44:10.251 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    16:44:10.251 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    16:44:10.251 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    16:44:10.251 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    16:44:10.251 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    16:44:10.252 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    16:44:10.252 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    16:44:10.252 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    16:44:10.252 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    16:44:10.252 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:49912 to /127.0.0.1:49911 workers Thread 2"
+    16:44:10.252 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:49912 to /127.0.0.1:49911 workers Thread 3"
+    16:44:10.289 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag
+    16:44:10.290 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag'.
+    16:44:10.302 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/MaxBag
+    16:44:10.422 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/MaxBag
+    16:44:10.423 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag
+    16:44:10.424 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples._Type328393
+    16:44:10.424 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples._Type328393'.
+    16:44:10.425 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/_Type328393
+    16:44:10.425 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/_Type328393
+    16:44:10.425 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples._Type328393
+
+examples.MaxBag_ESTest > test01 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:46
+
+examples.MaxBag_ESTest > test11 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:192
+
+examples.MaxBag_ESTest > test10 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:177
+
+examples.MaxBag_ESTest > test15 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:236
+
+examples.MaxBag_ESTest > test13 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:216
+
+examples.MaxBag_ESTest > test09 FAILED
+    java.lang.AssertionError at MaxBag_ESTest.java:156
+
+examples.MaxBag_ESTest > test08 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:148
+
+examples.MaxBag_ESTest > test19 FAILED
+    java.lang.NullPointerException at MaxBag_ESTest.java:293
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:47
+
+RegressionTest > RegressionTest0.test05 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:57
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:404
+
+RegressionTest0 > test04 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:47
+
+RegressionTest0 > test05 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:57
+
+RegressionTest0 > test28 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:404
+
+testers.MaxBagTester0 > test004 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:42
+
+testers.MaxBagTester0 > test005 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:51
+
+testers.MaxBagTester0 > test007 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:73
+
+testers.MaxBagTester0 > test008 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:85
+
+testers.MaxBagTester0 > test009 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:95
+
+testers.MaxBagTester0 > test010 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:109
+
+testers.MaxBagTester0 > test011 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:119
+
+testers.MaxBagTester0 > test012 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:133
+
+testers.MaxBagTester0 > test014 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:153
+
+testers.MaxBagTester0 > test016 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:179
+
+testers.MaxBagTester0 > test019 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:210
+
+testers.MaxBagTester0 > test020 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:227
+
+testers.MaxBagTester0 > test021 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:239
+
+testers.MaxBagTester0 > test023 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:264
+
+testers.MaxBagTester0 > test024 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:274
+
+testers.MaxBagTester0 > test025 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:287
+
+testers.MaxBagTester0 > test026 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:302
+
+testers.MaxBagTester0 > test027 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:318
+
+testers.MaxBagTester0 > test030 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:352
+
+testers.MaxBagTester0 > test033 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:393
+
+testers.MaxBagTester0 > test034 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:407
+
+testers.MaxBagTester0 > test035 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:422
+
+testers.MaxBagTester0 > test036 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:435
+
+testers.MaxBagTester0 > test037 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:450
+
+testers.MaxBagTester0 > test038 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:466
+
+testers.MaxBagTester0 > test040 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:494
+
+testers.MaxBagTester0 > test042 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:518
+
+testers.MaxBagTester0 > test043 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:534
+
+testers.MaxBagTester0 > test046 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:577
+
+testers.MaxBagTester0 > test047 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:590
+
+testers.MaxBagTester0 > test048 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:601
+
+testers.MaxBagTester0 > test051 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:641
+
+testers.MaxBagTester0 > test054 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:682
+
+testers.MaxBagTester0 > test057 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:721
+
+testers.MaxBagTester0 > test058 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:735
+
+testers.MaxBagTester0 > test059 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:751
+
+testers.MaxBagTester0 > test060 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:761
+
+testers.MaxBagTester0 > test062 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:786
+
+testers.MaxBagTester0 > test063 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:800
+
+testers.MaxBagTester0 > test064 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:810
+
+testers.MaxBagTester0 > test065 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:829
+
+testers.MaxBagTester0 > test066 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:841
+
+testers.MaxBagTester0 > test067 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:856
+
+testers.MaxBagTester0 > test069 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:882
+
+testers.MaxBagTester0 > test071 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:906
+
+testers.MaxBagTester0 > test072 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:921
+
+testers.MaxBagTester0 > test074 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:951
+
+testers.MaxBagTester0 > test075 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:963
+
+testers.MaxBagTester0 > test076 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:978
+
+testers.MaxBagTester0 > test077 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:989
+
+testers.MaxBagTester0 > test078 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1007
+
+testers.MaxBagTester0 > test079 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1024
+
+testers.MaxBagTester0 > test080 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1043
+
+testers.MaxBagTester0 > test081 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1055
+
+testers.MaxBagTester0 > test082 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1072
+
+testers.MaxBagTester0 > test083 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1081
+
+testers.MaxBagTester0 > test085 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1112
+
+testers.MaxBagTester0 > test086 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1129
+
+testers.MaxBagTester0 > test087 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1143
+
+testers.MaxBagTester0 > test088 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1155
+
+testers.MaxBagTester0 > test090 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1183
+
+testers.MaxBagTester0 > test091 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1194
+
+testers.MaxBagTester0 > test092 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1207
+
+testers.MaxBagTester0 > test093 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1224
+
+testers.MaxBagTester0 > test095 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1251
+
+testers.MaxBagTester0 > test096 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1260
+
+testers.MaxBagTester0 > test097 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1280
+
+testers.MaxBagTester0 > test098 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1289
+
+testers.MaxBagTester0 > test099 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1300
+
+testers.MaxBagTester0 > test102 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1346
+
+testers.MaxBagTester0 > test103 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1360
+
+testers.MaxBagTester0 > test106 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1404
+
+testers.MaxBagTester0 > test107 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1419
+
+testers.MaxBagTester0 > test108 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1429
+
+testers.MaxBagTester0 > test109 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1441
+
+testers.MaxBagTester0 > test110 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1455
+
+testers.MaxBagTester0 > test111 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1467
+
+testers.MaxBagTester0 > test114 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1515
+
+testers.MaxBagTester0 > test115 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1528
+
+testers.MaxBagTester0 > test117 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1551
+
+testers.MaxBagTester0 > test118 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1565
+
+testers.MaxBagTester0 > test119 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1576
+
+testers.MaxBagTester0 > test121 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1611
+
+testers.MaxBagTester0 > test123 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1640
+
+testers.MaxBagTester0 > test125 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1665
+
+testers.MaxBagTester0 > test126 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1678
+
+testers.MaxBagTester0 > test127 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1696
+
+testers.MaxBagTester0 > test128 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1706
+
+testers.MaxBagTester0 > test130 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1736
+
+testers.MaxBagTester0 > test132 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1773
+
+testers.MaxBagTester0 > test133 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1787
+
+testers.MaxBagTester0 > test134 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1796
+
+testers.MaxBagTester0 > test135 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1809
+
+testers.MaxBagTester0 > test136 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1826
+
+testers.MaxBagTester0 > test138 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1847
+
+testers.MaxBagTester0 > test139 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1861
+
+testers.MaxBagTester0 > test142 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1903
+
+testers.MaxBagTester0 > test143 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1919
+
+testers.MaxBagTester0 > test144 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1932
+
+testers.MaxBagTester0 > test146 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1960
+
+testers.MaxBagTester0 > test147 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1971
+
+testers.MaxBagTester0 > test148 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:1989
+
+testers.MaxBagTester0 > test151 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2036
+
+testers.MaxBagTester0 > test152 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2051
+
+testers.MaxBagTester0 > test153 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2067
+
+testers.MaxBagTester0 > test154 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2081
+
+testers.MaxBagTester0 > test156 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2115
+
+testers.MaxBagTester0 > test157 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2128
+
+testers.MaxBagTester0 > test159 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2156
+
+testers.MaxBagTester0 > test160 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2172
+
+testers.MaxBagTester0 > test161 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2186
+
+testers.MaxBagTester0 > test163 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2210
+
+testers.MaxBagTester0 > test164 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2227
+
+testers.MaxBagTester0 > test165 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2245
+
+testers.MaxBagTester0 > test166 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2261
+
+testers.MaxBagTester0 > test167 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2272
+
+testers.MaxBagTester0 > test168 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2284
+
+testers.MaxBagTester0 > test169 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2303
+
+testers.MaxBagTester0 > test170 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2318
+
+testers.MaxBagTester0 > test171 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2331
+
+testers.MaxBagTester0 > test172 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2348
+
+testers.MaxBagTester0 > test173 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2361
+
+testers.MaxBagTester0 > test175 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2387
+
+testers.MaxBagTester0 > test177 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2411
+
+testers.MaxBagTester0 > test178 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2422
+
+testers.MaxBagTester0 > test180 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2451
+
+testers.MaxBagTester0 > test181 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2460
+
+testers.MaxBagTester0 > test182 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2471
+
+testers.MaxBagTester0 > test183 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2488
+
+testers.MaxBagTester0 > test186 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2529
+
+testers.MaxBagTester0 > test189 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2580
+
+testers.MaxBagTester0 > test190 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2592
+
+testers.MaxBagTester0 > test191 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2605
+
+testers.MaxBagTester0 > test192 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2619
+
+testers.MaxBagTester0 > test195 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2661
+
+testers.MaxBagTester0 > test196 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2676
+
+testers.MaxBagTester0 > test198 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2705
+
+testers.MaxBagTester0 > test199 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2724
+
+testers.MaxBagTester0 > test200 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2743
+
+testers.MaxBagTester0 > test201 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2759
+
+testers.MaxBagTester0 > test206 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2831
+
+testers.MaxBagTester0 > test207 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2846
+
+testers.MaxBagTester0 > test209 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2878
+
+testers.MaxBagTester0 > test210 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2895
+
+testers.MaxBagTester0 > test211 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2908
+
+testers.MaxBagTester0 > test214 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:2950
+
+testers.MaxBagTester0 > test221 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3042
+
+testers.MaxBagTester0 > test224 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3086
+
+testers.MaxBagTester0 > test225 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3101
+
+testers.MaxBagTester0 > test227 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3131
+
+testers.MaxBagTester0 > test228 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3149
+
+testers.MaxBagTester0 > test230 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3172
+
+testers.MaxBagTester0 > test231 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3190
+
+testers.MaxBagTester0 > test232 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3206
+
+testers.MaxBagTester0 > test233 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3223
+
+testers.MaxBagTester0 > test234 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3235
+
+testers.MaxBagTester0 > test235 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3250
+
+testers.MaxBagTester0 > test236 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3267
+
+testers.MaxBagTester0 > test237 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3283
+
+testers.MaxBagTester0 > test238 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3297
+
+testers.MaxBagTester0 > test242 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3349
+
+testers.MaxBagTester0 > test243 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3362
+
+testers.MaxBagTester0 > test245 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3384
+
+testers.MaxBagTester0 > test247 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3416
+
+testers.MaxBagTester0 > test248 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3429
+
+testers.MaxBagTester0 > test249 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3443
+
+testers.MaxBagTester0 > test250 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3457
+
+testers.MaxBagTester0 > test251 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3468
+
+testers.MaxBagTester0 > test253 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3495
+
+testers.MaxBagTester0 > test254 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3510
+
+testers.MaxBagTester0 > test255 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3523
+
+testers.MaxBagTester0 > test256 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3538
+Results: FAILURE (332 tests, 146 successes, 186 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

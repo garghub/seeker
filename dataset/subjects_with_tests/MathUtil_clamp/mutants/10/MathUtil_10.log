@@ -1,0 +1,616 @@
+:clean
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+jts.MathUtil_ESTest STANDARD_OUT
+    01:20:31.835 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: jts.MathUtil_ESTest
+    01:20:31.843 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'jts.MathUtil_ESTest'.
+    01:20:31.896 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: jts.MathUtil_ESTest_scaffolding
+    01:20:31.898 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'jts.MathUtil_ESTest_scaffolding'.
+    01:20:31.903 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: jts.MathUtil_ESTest_scaffolding
+    01:20:31.903 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: jts.MathUtil_ESTest
+    01:20:32.235 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    01:20:32.235 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    01:20:32.235 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    01:20:32.235 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    01:20:32.235 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    01:20:32.235 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    01:20:32.235 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    01:20:32.236 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    01:20:32.236 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    01:20:32.236 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:60720 to /127.0.0.1:60719 workers Thread 2"
+    01:20:32.236 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:60720 to /127.0.0.1:60719 workers Thread 3"
+    01:20:32.312 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: jts.MathUtil
+    01:20:32.313 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'jts.MathUtil'.
+    01:20:32.343 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class jts/MathUtil
+    01:20:32.607 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class jts/MathUtil
+    01:20:32.609 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: jts.MathUtil
+
+jts.MathUtil_ESTest > test0 FAILED
+    java.lang.AssertionError at MathUtil_ESTest.java:20
+
+jts.MathUtil_ESTest > test1 FAILED
+    java.lang.AssertionError at MathUtil_ESTest.java:26
+
+jts.MathUtil_ESTest > test2 FAILED
+    java.lang.AssertionError at MathUtil_ESTest.java:32
+
+jts.MathUtil_ESTest > test3 FAILED
+    java.lang.AssertionError at MathUtil_ESTest.java:38
+
+RegressionTest > RegressionTest0.test02 FAILED
+    java.lang.AssertionError at RegressionTest0.java:23
+
+RegressionTest > RegressionTest0.test03 FAILED
+    java.lang.AssertionError at RegressionTest0.java:31
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:39
+
+RegressionTest > RegressionTest0.test05 FAILED
+    java.lang.AssertionError at RegressionTest0.java:47
+
+RegressionTest > RegressionTest0.test06 FAILED
+    java.lang.AssertionError at RegressionTest0.java:55
+
+RegressionTest > RegressionTest0.test07 FAILED
+    java.lang.AssertionError at RegressionTest0.java:63
+
+RegressionTest > RegressionTest0.test08 FAILED
+    java.lang.AssertionError at RegressionTest0.java:71
+
+RegressionTest > RegressionTest0.test10 FAILED
+    java.lang.AssertionError at RegressionTest0.java:88
+
+RegressionTest > RegressionTest0.test11 FAILED
+    java.lang.AssertionError at RegressionTest0.java:96
+
+RegressionTest > RegressionTest0.test12 FAILED
+    java.lang.AssertionError at RegressionTest0.java:104
+
+RegressionTest > RegressionTest0.test13 FAILED
+    java.lang.AssertionError at RegressionTest0.java:112
+
+RegressionTest > RegressionTest0.test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:120
+
+RegressionTest > RegressionTest0.test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:128
+
+RegressionTest > RegressionTest0.test16 FAILED
+    java.lang.AssertionError at RegressionTest0.java:136
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.AssertionError at RegressionTest0.java:144
+
+RegressionTest > RegressionTest0.test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:152
+
+RegressionTest > RegressionTest0.test19 FAILED
+    java.lang.AssertionError at RegressionTest0.java:160
+
+RegressionTest > RegressionTest0.test20 FAILED
+    java.lang.AssertionError at RegressionTest0.java:168
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:176
+
+RegressionTest > RegressionTest0.test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:184
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:192
+
+RegressionTest > RegressionTest0.test24 FAILED
+    java.lang.AssertionError at RegressionTest0.java:200
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:208
+
+RegressionTest > RegressionTest0.test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:216
+
+RegressionTest > RegressionTest0.test27 FAILED
+    java.lang.AssertionError at RegressionTest0.java:224
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:232
+
+RegressionTest > RegressionTest0.test29 FAILED
+    java.lang.AssertionError at RegressionTest0.java:240
+
+RegressionTest > RegressionTest0.test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:248
+
+RegressionTest > RegressionTest0.test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:256
+
+RegressionTest > RegressionTest0.test32 FAILED
+    java.lang.AssertionError at RegressionTest0.java:264
+
+RegressionTest > RegressionTest0.test33 FAILED
+    java.lang.AssertionError at RegressionTest0.java:272
+
+RegressionTest > RegressionTest0.test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:280
+
+RegressionTest > RegressionTest0.test35 FAILED
+    java.lang.AssertionError at RegressionTest0.java:288
+
+RegressionTest > RegressionTest0.test36 FAILED
+    java.lang.AssertionError at RegressionTest0.java:296
+
+RegressionTest > RegressionTest0.test37 FAILED
+    java.lang.AssertionError at RegressionTest0.java:304
+
+RegressionTest > RegressionTest0.test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:312
+
+RegressionTest > RegressionTest0.test39 FAILED
+    java.lang.AssertionError at RegressionTest0.java:320
+
+RegressionTest > RegressionTest0.test40 FAILED
+    java.lang.AssertionError at RegressionTest0.java:328
+
+RegressionTest > RegressionTest0.test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:336
+
+RegressionTest > RegressionTest0.test42 FAILED
+    java.lang.AssertionError at RegressionTest0.java:344
+
+RegressionTest > RegressionTest0.test43 FAILED
+    java.lang.AssertionError at RegressionTest0.java:352
+
+RegressionTest > RegressionTest0.test44 FAILED
+    java.lang.AssertionError at RegressionTest0.java:360
+
+RegressionTest > RegressionTest0.test45 FAILED
+    java.lang.AssertionError at RegressionTest0.java:368
+
+RegressionTest > RegressionTest0.test46 FAILED
+    java.lang.AssertionError at RegressionTest0.java:376
+
+RegressionTest > RegressionTest0.test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:384
+
+RegressionTest > RegressionTest0.test48 FAILED
+    java.lang.AssertionError at RegressionTest0.java:392
+
+RegressionTest > RegressionTest0.test49 FAILED
+    java.lang.AssertionError at RegressionTest0.java:400
+
+RegressionTest > RegressionTest0.test50 FAILED
+    java.lang.AssertionError at RegressionTest0.java:408
+
+RegressionTest > RegressionTest0.test51 FAILED
+    java.lang.AssertionError at RegressionTest0.java:416
+
+RegressionTest > RegressionTest0.test52 FAILED
+    java.lang.AssertionError at RegressionTest0.java:424
+
+RegressionTest > RegressionTest0.test53 FAILED
+    java.lang.AssertionError at RegressionTest0.java:432
+
+RegressionTest > RegressionTest0.test54 FAILED
+    java.lang.AssertionError at RegressionTest0.java:440
+
+RegressionTest > RegressionTest0.test55 FAILED
+    java.lang.AssertionError at RegressionTest0.java:448
+
+RegressionTest > RegressionTest0.test56 FAILED
+    java.lang.AssertionError at RegressionTest0.java:456
+
+RegressionTest > RegressionTest0.test57 FAILED
+    java.lang.AssertionError at RegressionTest0.java:464
+
+RegressionTest > RegressionTest0.test58 FAILED
+    java.lang.AssertionError at RegressionTest0.java:472
+
+RegressionTest > RegressionTest0.test59 FAILED
+    java.lang.AssertionError at RegressionTest0.java:480
+
+RegressionTest > RegressionTest0.test60 FAILED
+    java.lang.AssertionError at RegressionTest0.java:488
+
+RegressionTest > RegressionTest0.test61 FAILED
+    java.lang.AssertionError at RegressionTest0.java:496
+
+RegressionTest > RegressionTest0.test62 FAILED
+    java.lang.AssertionError at RegressionTest0.java:504
+
+RegressionTest > RegressionTest0.test63 FAILED
+    java.lang.AssertionError at RegressionTest0.java:512
+
+RegressionTest > RegressionTest0.test64 FAILED
+    java.lang.AssertionError at RegressionTest0.java:520
+
+RegressionTest > RegressionTest0.test65 FAILED
+    java.lang.AssertionError at RegressionTest0.java:528
+
+RegressionTest > RegressionTest0.test66 FAILED
+    java.lang.AssertionError at RegressionTest0.java:536
+
+RegressionTest > RegressionTest0.test67 FAILED
+    java.lang.AssertionError at RegressionTest0.java:544
+
+RegressionTest > RegressionTest0.test68 FAILED
+    java.lang.AssertionError at RegressionTest0.java:552
+
+RegressionTest > RegressionTest0.test69 FAILED
+    java.lang.AssertionError at RegressionTest0.java:560
+
+RegressionTest > RegressionTest0.test70 FAILED
+    java.lang.AssertionError at RegressionTest0.java:568
+
+RegressionTest > RegressionTest0.test71 FAILED
+    java.lang.AssertionError at RegressionTest0.java:576
+
+RegressionTest > RegressionTest0.test72 FAILED
+    java.lang.AssertionError at RegressionTest0.java:584
+
+RegressionTest > RegressionTest0.test73 FAILED
+    java.lang.AssertionError at RegressionTest0.java:592
+
+RegressionTest > RegressionTest0.test74 FAILED
+    java.lang.AssertionError at RegressionTest0.java:600
+
+RegressionTest > RegressionTest0.test75 FAILED
+    java.lang.AssertionError at RegressionTest0.java:608
+
+RegressionTest > RegressionTest0.test76 FAILED
+    java.lang.AssertionError at RegressionTest0.java:616
+
+RegressionTest > RegressionTest0.test77 FAILED
+    java.lang.AssertionError at RegressionTest0.java:624
+
+RegressionTest > RegressionTest0.test78 FAILED
+    java.lang.AssertionError at RegressionTest0.java:632
+
+RegressionTest > RegressionTest0.test79 FAILED
+    java.lang.AssertionError at RegressionTest0.java:640
+
+RegressionTest > RegressionTest0.test80 FAILED
+    java.lang.AssertionError at RegressionTest0.java:648
+
+RegressionTest > RegressionTest0.test81 FAILED
+    java.lang.AssertionError at RegressionTest0.java:656
+
+RegressionTest > RegressionTest0.test82 FAILED
+    java.lang.AssertionError at RegressionTest0.java:664
+
+RegressionTest > RegressionTest0.test83 FAILED
+    java.lang.AssertionError at RegressionTest0.java:672
+
+RegressionTest > RegressionTest0.test84 FAILED
+    java.lang.AssertionError at RegressionTest0.java:680
+
+RegressionTest > RegressionTest0.test85 FAILED
+    java.lang.AssertionError at RegressionTest0.java:688
+
+RegressionTest > RegressionTest0.test86 FAILED
+    java.lang.AssertionError at RegressionTest0.java:696
+
+RegressionTest > RegressionTest0.test87 FAILED
+    java.lang.AssertionError at RegressionTest0.java:704
+
+RegressionTest > RegressionTest0.test88 FAILED
+    java.lang.AssertionError at RegressionTest0.java:712
+
+RegressionTest > RegressionTest0.test89 FAILED
+    java.lang.AssertionError at RegressionTest0.java:720
+
+RegressionTest > RegressionTest0.test90 FAILED
+    java.lang.AssertionError at RegressionTest0.java:728
+
+RegressionTest > RegressionTest0.test91 FAILED
+    java.lang.AssertionError at RegressionTest0.java:736
+
+RegressionTest > RegressionTest0.test92 FAILED
+    java.lang.AssertionError at RegressionTest0.java:744
+
+RegressionTest > RegressionTest0.test93 FAILED
+    java.lang.AssertionError at RegressionTest0.java:752
+
+RegressionTest > RegressionTest0.test94 FAILED
+    java.lang.AssertionError at RegressionTest0.java:760
+
+RegressionTest > RegressionTest0.test95 FAILED
+    java.lang.AssertionError at RegressionTest0.java:768
+
+RegressionTest > RegressionTest0.test96 FAILED
+    java.lang.AssertionError at RegressionTest0.java:776
+
+RegressionTest0 > test02 FAILED
+    java.lang.AssertionError at RegressionTest0.java:23
+
+RegressionTest0 > test03 FAILED
+    java.lang.AssertionError at RegressionTest0.java:31
+
+RegressionTest0 > test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:39
+
+RegressionTest0 > test05 FAILED
+    java.lang.AssertionError at RegressionTest0.java:47
+
+RegressionTest0 > test06 FAILED
+    java.lang.AssertionError at RegressionTest0.java:55
+
+RegressionTest0 > test07 FAILED
+    java.lang.AssertionError at RegressionTest0.java:63
+
+RegressionTest0 > test08 FAILED
+    java.lang.AssertionError at RegressionTest0.java:71
+
+RegressionTest0 > test10 FAILED
+    java.lang.AssertionError at RegressionTest0.java:88
+
+RegressionTest0 > test11 FAILED
+    java.lang.AssertionError at RegressionTest0.java:96
+
+RegressionTest0 > test12 FAILED
+    java.lang.AssertionError at RegressionTest0.java:104
+
+RegressionTest0 > test13 FAILED
+    java.lang.AssertionError at RegressionTest0.java:112
+
+RegressionTest0 > test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:120
+
+RegressionTest0 > test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:128
+
+RegressionTest0 > test16 FAILED
+    java.lang.AssertionError at RegressionTest0.java:136
+
+RegressionTest0 > test17 FAILED
+    java.lang.AssertionError at RegressionTest0.java:144
+
+RegressionTest0 > test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:152
+
+RegressionTest0 > test19 FAILED
+    java.lang.AssertionError at RegressionTest0.java:160
+
+RegressionTest0 > test20 FAILED
+    java.lang.AssertionError at RegressionTest0.java:168
+
+RegressionTest0 > test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:176
+
+RegressionTest0 > test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:184
+
+RegressionTest0 > test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:192
+
+RegressionTest0 > test24 FAILED
+    java.lang.AssertionError at RegressionTest0.java:200
+
+RegressionTest0 > test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:208
+
+RegressionTest0 > test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:216
+
+RegressionTest0 > test27 FAILED
+    java.lang.AssertionError at RegressionTest0.java:224
+
+RegressionTest0 > test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:232
+
+RegressionTest0 > test29 FAILED
+    java.lang.AssertionError at RegressionTest0.java:240
+
+RegressionTest0 > test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:248
+
+RegressionTest0 > test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:256
+
+RegressionTest0 > test32 FAILED
+    java.lang.AssertionError at RegressionTest0.java:264
+
+RegressionTest0 > test33 FAILED
+    java.lang.AssertionError at RegressionTest0.java:272
+
+RegressionTest0 > test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:280
+
+RegressionTest0 > test35 FAILED
+    java.lang.AssertionError at RegressionTest0.java:288
+
+RegressionTest0 > test36 FAILED
+    java.lang.AssertionError at RegressionTest0.java:296
+
+RegressionTest0 > test37 FAILED
+    java.lang.AssertionError at RegressionTest0.java:304
+
+RegressionTest0 > test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:312
+
+RegressionTest0 > test39 FAILED
+    java.lang.AssertionError at RegressionTest0.java:320
+
+RegressionTest0 > test40 FAILED
+    java.lang.AssertionError at RegressionTest0.java:328
+
+RegressionTest0 > test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:336
+
+RegressionTest0 > test42 FAILED
+    java.lang.AssertionError at RegressionTest0.java:344
+
+RegressionTest0 > test43 FAILED
+    java.lang.AssertionError at RegressionTest0.java:352
+
+RegressionTest0 > test44 FAILED
+    java.lang.AssertionError at RegressionTest0.java:360
+
+RegressionTest0 > test45 FAILED
+    java.lang.AssertionError at RegressionTest0.java:368
+
+RegressionTest0 > test46 FAILED
+    java.lang.AssertionError at RegressionTest0.java:376
+
+RegressionTest0 > test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:384
+
+RegressionTest0 > test48 FAILED
+    java.lang.AssertionError at RegressionTest0.java:392
+
+RegressionTest0 > test49 FAILED
+    java.lang.AssertionError at RegressionTest0.java:400
+
+RegressionTest0 > test50 FAILED
+    java.lang.AssertionError at RegressionTest0.java:408
+
+RegressionTest0 > test51 FAILED
+    java.lang.AssertionError at RegressionTest0.java:416
+
+RegressionTest0 > test52 FAILED
+    java.lang.AssertionError at RegressionTest0.java:424
+
+RegressionTest0 > test53 FAILED
+    java.lang.AssertionError at RegressionTest0.java:432
+
+RegressionTest0 > test54 FAILED
+    java.lang.AssertionError at RegressionTest0.java:440
+
+RegressionTest0 > test55 FAILED
+    java.lang.AssertionError at RegressionTest0.java:448
+
+RegressionTest0 > test56 FAILED
+    java.lang.AssertionError at RegressionTest0.java:456
+
+RegressionTest0 > test57 FAILED
+    java.lang.AssertionError at RegressionTest0.java:464
+
+RegressionTest0 > test58 FAILED
+    java.lang.AssertionError at RegressionTest0.java:472
+
+RegressionTest0 > test59 FAILED
+    java.lang.AssertionError at RegressionTest0.java:480
+
+RegressionTest0 > test60 FAILED
+    java.lang.AssertionError at RegressionTest0.java:488
+
+RegressionTest0 > test61 FAILED
+    java.lang.AssertionError at RegressionTest0.java:496
+
+RegressionTest0 > test62 FAILED
+    java.lang.AssertionError at RegressionTest0.java:504
+
+RegressionTest0 > test63 FAILED
+    java.lang.AssertionError at RegressionTest0.java:512
+
+RegressionTest0 > test64 FAILED
+    java.lang.AssertionError at RegressionTest0.java:520
+
+RegressionTest0 > test65 FAILED
+    java.lang.AssertionError at RegressionTest0.java:528
+
+RegressionTest0 > test66 FAILED
+    java.lang.AssertionError at RegressionTest0.java:536
+
+RegressionTest0 > test67 FAILED
+    java.lang.AssertionError at RegressionTest0.java:544
+
+RegressionTest0 > test68 FAILED
+    java.lang.AssertionError at RegressionTest0.java:552
+
+RegressionTest0 > test69 FAILED
+    java.lang.AssertionError at RegressionTest0.java:560
+
+RegressionTest0 > test70 FAILED
+    java.lang.AssertionError at RegressionTest0.java:568
+
+RegressionTest0 > test71 FAILED
+    java.lang.AssertionError at RegressionTest0.java:576
+
+RegressionTest0 > test72 FAILED
+    java.lang.AssertionError at RegressionTest0.java:584
+
+RegressionTest0 > test73 FAILED
+    java.lang.AssertionError at RegressionTest0.java:592
+
+RegressionTest0 > test74 FAILED
+    java.lang.AssertionError at RegressionTest0.java:600
+
+RegressionTest0 > test75 FAILED
+    java.lang.AssertionError at RegressionTest0.java:608
+
+RegressionTest0 > test76 FAILED
+    java.lang.AssertionError at RegressionTest0.java:616
+
+RegressionTest0 > test77 FAILED
+    java.lang.AssertionError at RegressionTest0.java:624
+
+RegressionTest0 > test78 FAILED
+    java.lang.AssertionError at RegressionTest0.java:632
+
+RegressionTest0 > test79 FAILED
+    java.lang.AssertionError at RegressionTest0.java:640
+
+RegressionTest0 > test80 FAILED
+    java.lang.AssertionError at RegressionTest0.java:648
+
+RegressionTest0 > test81 FAILED
+    java.lang.AssertionError at RegressionTest0.java:656
+
+RegressionTest0 > test82 FAILED
+    java.lang.AssertionError at RegressionTest0.java:664
+
+RegressionTest0 > test83 FAILED
+    java.lang.AssertionError at RegressionTest0.java:672
+
+RegressionTest0 > test84 FAILED
+    java.lang.AssertionError at RegressionTest0.java:680
+
+RegressionTest0 > test85 FAILED
+    java.lang.AssertionError at RegressionTest0.java:688
+
+RegressionTest0 > test86 FAILED
+    java.lang.AssertionError at RegressionTest0.java:696
+
+RegressionTest0 > test87 FAILED
+    java.lang.AssertionError at RegressionTest0.java:704
+
+RegressionTest0 > test88 FAILED
+    java.lang.AssertionError at RegressionTest0.java:712
+
+RegressionTest0 > test89 FAILED
+    java.lang.AssertionError at RegressionTest0.java:720
+
+RegressionTest0 > test90 FAILED
+    java.lang.AssertionError at RegressionTest0.java:728
+
+RegressionTest0 > test91 FAILED
+    java.lang.AssertionError at RegressionTest0.java:736
+
+RegressionTest0 > test92 FAILED
+    java.lang.AssertionError at RegressionTest0.java:744
+
+RegressionTest0 > test93 FAILED
+    java.lang.AssertionError at RegressionTest0.java:752
+
+RegressionTest0 > test94 FAILED
+    java.lang.AssertionError at RegressionTest0.java:760
+
+RegressionTest0 > test95 FAILED
+    java.lang.AssertionError at RegressionTest0.java:768
+
+RegressionTest0 > test96 FAILED
+    java.lang.AssertionError at RegressionTest0.java:776
+Results: FAILURE (197 tests, 5 successes, 192 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

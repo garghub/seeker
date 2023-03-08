@@ -1,0 +1,130 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.RingBuffer_ESTest STANDARD_OUT
+    14:38:07.956 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest
+    14:38:07.959 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest'.
+    14:38:08.011 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest_scaffolding
+    14:38:08.011 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest_scaffolding'.
+    14:38:08.014 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest_scaffolding
+    14:38:08.014 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest
+    14:38:08.381 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    14:38:08.381 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    14:38:08.381 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    14:38:08.381 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    14:38:08.381 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    14:38:08.381 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    14:38:08.381 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    14:38:08.381 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    14:38:08.381 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    14:38:08.381 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64221 to /127.0.0.1:64220 workers Thread 2"
+    14:38:08.381 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64221 to /127.0.0.1:64220 workers Thread 3"
+    14:38:08.467 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer
+    14:38:08.467 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer'.
+    14:38:08.494 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/RingBuffer
+    14:38:08.824 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class examples/RingBuffer
+    14:38:08.828 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer
+
+examples.RingBuffer_ESTest > test08 STANDARD_OUT
+    14:38:08.864 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.RingBuffer_ESTest > test15 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:191
+
+examples.RingBuffer_ESTest > test02 FAILED
+    java.lang.AssertionError at RingBuffer_ESTest.java:47
+
+examples.RingBuffer_ESTest > test00 STANDARD_OUT
+    14:38:08.929 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+RegressionTest > RegressionTest0.test076 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1142
+
+RegressionTest > RegressionTest0.test086 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1295
+
+RegressionTest0 > test076 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1142
+
+RegressionTest0 > test086 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1295
+
+testers.RingBufferTester0 > test059 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:797
+
+testers.RingBufferTester0 > test073 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1001
+
+testers.RingBufferTester0 > test103 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1433
+
+testers.RingBufferTester0 > test105 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1475
+
+testers.RingBufferTester0 > test115 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:1618
+
+testers.RingBufferTester0 > test152 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:2154
+
+testers.RingBufferTester0 > test176 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:2520
+
+testers.RingBufferTester0 > test215 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3043
+
+testers.RingBufferTester0 > test227 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3221
+
+testers.RingBufferTester0 > test242 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3458
+
+testers.RingBufferTester0 > test246 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3517
+
+testers.RingBufferTester0 > test247 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3532
+
+testers.RingBufferTester0 > test249 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3565
+
+testers.RingBufferTester0 > test250 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3593
+
+testers.RingBufferTester0 > test252 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3629
+
+testers.RingBufferTester0 > test253 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3649
+
+testers.RingBufferTester0 > test259 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3732
+
+testers.RingBufferTester0 > test266 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:3832
+
+testers.RingBufferTester0 > test277 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:4022
+
+testers.RingBufferTester0 > test281 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:4083
+
+testers.RingBufferTester0 > test282 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:4101
+
+testers.RingBufferTester0 > test287 FAILED
+    java.lang.AssertionError at RingBufferTester0.java:4183
+Results: FAILURE (554 tests, 526 successes, 28 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

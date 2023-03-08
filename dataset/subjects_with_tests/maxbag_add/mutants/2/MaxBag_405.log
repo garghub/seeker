@@ -1,0 +1,531 @@
+:clean
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.MaxBag_ESTest STANDARD_OUT
+    01:34:38.844 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest
+    01:34:38.846 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest'.
+    01:34:38.869 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest_scaffolding
+    01:34:38.869 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest_scaffolding'.
+    01:34:38.871 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest_scaffolding
+    01:34:38.871 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest
+    01:34:39.066 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    01:34:39.066 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    01:34:39.066 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    01:34:39.066 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    01:34:39.066 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    01:34:39.066 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    01:34:39.067 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    01:34:39.067 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    01:34:39.067 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    01:34:39.067 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:58722 to /127.0.0.1:58721 workers Thread 2"
+    01:34:39.067 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:58722 to /127.0.0.1:58721 workers Thread 3"
+    01:34:39.104 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag
+    01:34:39.104 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag'.
+    01:34:39.116 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/MaxBag
+    01:34:39.235 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/MaxBag
+    01:34:39.235 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag
+    01:34:39.236 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples._Type328393
+    01:34:39.236 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples._Type328393'.
+    01:34:39.237 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/_Type328393
+    01:34:39.238 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/_Type328393
+    01:34:39.238 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples._Type328393
+
+examples.MaxBag_ESTest > test01 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBag_ESTest.java:46
+
+examples.MaxBag_ESTest > test11 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBag_ESTest.java:194
+
+examples.MaxBag_ESTest > test10 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBag_ESTest.java:177
+
+examples.MaxBag_ESTest > test15 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBag_ESTest.java:236
+
+examples.MaxBag_ESTest > test09 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBag_ESTest.java:158
+
+examples.MaxBag_ESTest > test18 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBag_ESTest.java:284
+
+examples.MaxBag_ESTest > test06 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBag_ESTest.java:114
+
+RegressionTest > RegressionTest0.test05 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:57
+
+RegressionTest > RegressionTest0.test10 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:130
+
+RegressionTest > RegressionTest0.test16 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:219
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:235
+
+RegressionTest > RegressionTest0.test18 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:253
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:335
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:364
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:405
+
+RegressionTest0 > test05 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:57
+
+RegressionTest0 > test10 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:130
+
+RegressionTest0 > test16 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:219
+
+RegressionTest0 > test17 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:235
+
+RegressionTest0 > test18 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:253
+
+RegressionTest0 > test23 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:335
+
+RegressionTest0 > test25 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:364
+
+RegressionTest0 > test28 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:405
+
+testers.MaxBagTester0 > test004 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:42
+
+testers.MaxBagTester0 > test005 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:53
+
+testers.MaxBagTester0 > test008 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:85
+
+testers.MaxBagTester0 > test010 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:110
+
+testers.MaxBagTester0 > test018 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:201
+
+testers.MaxBagTester0 > test020 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:227
+
+testers.MaxBagTester0 > test021 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:239
+
+testers.MaxBagTester0 > test026 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:308
+
+testers.MaxBagTester0 > test027 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:318
+
+testers.MaxBagTester0 > test030 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:357
+
+testers.MaxBagTester0 > test031 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:372
+
+testers.MaxBagTester0 > test035 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:424
+
+testers.MaxBagTester0 > test037 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:455
+
+testers.MaxBagTester0 > test038 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:470
+
+testers.MaxBagTester0 > test040 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:499
+
+testers.MaxBagTester0 > test046 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:578
+
+testers.MaxBagTester0 > test049 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:620
+
+testers.MaxBagTester0 > test051 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:648
+
+testers.MaxBagTester0 > test053 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:674
+
+testers.MaxBagTester0 > test056 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:710
+
+testers.MaxBagTester0 > test057 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:721
+
+testers.MaxBagTester0 > test058 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:740
+
+testers.MaxBagTester0 > test059 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:751
+
+testers.MaxBagTester0 > test063 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:800
+
+testers.MaxBagTester0 > test064 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:817
+
+testers.MaxBagTester0 > test065 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:829
+
+testers.MaxBagTester0 > test067 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:856
+
+testers.MaxBagTester0 > test071 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:906
+
+testers.MaxBagTester0 > test072 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:928
+
+testers.MaxBagTester0 > test073 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:941
+
+testers.MaxBagTester0 > test074 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:951
+
+testers.MaxBagTester0 > test076 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:978
+
+testers.MaxBagTester0 > test077 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:996
+
+testers.MaxBagTester0 > test078 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1014
+
+testers.MaxBagTester0 > test079 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1032
+
+testers.MaxBagTester0 > test083 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1088
+
+testers.MaxBagTester0 > test085 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1119
+
+testers.MaxBagTester0 > test086 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1131
+
+testers.MaxBagTester0 > test090 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1183
+
+testers.MaxBagTester0 > test092 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1214
+
+testers.MaxBagTester0 > test093 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1224
+
+testers.MaxBagTester0 > test095 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1252
+
+testers.MaxBagTester0 > test096 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1265
+
+testers.MaxBagTester0 > test098 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1289
+
+testers.MaxBagTester0 > test099 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1307
+
+testers.MaxBagTester0 > test101 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1338
+
+testers.MaxBagTester0 > test102 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1348
+
+testers.MaxBagTester0 > test106 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1404
+
+testers.MaxBagTester0 > test107 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1419
+
+testers.MaxBagTester0 > test108 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1429
+
+testers.MaxBagTester0 > test111 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1475
+
+testers.MaxBagTester0 > test112 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1489
+
+testers.MaxBagTester0 > test113 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1502
+
+testers.MaxBagTester0 > test114 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1515
+
+testers.MaxBagTester0 > test118 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1565
+
+testers.MaxBagTester0 > test119 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1583
+
+testers.MaxBagTester0 > test120 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1602
+
+testers.MaxBagTester0 > test121 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1611
+
+testers.MaxBagTester0 > test122 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1629
+
+testers.MaxBagTester0 > test124 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1655
+
+testers.MaxBagTester0 > test126 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1683
+
+testers.MaxBagTester0 > test127 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1696
+
+testers.MaxBagTester0 > test129 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1727
+
+testers.MaxBagTester0 > test130 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1743
+
+testers.MaxBagTester0 > test132 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1773
+
+testers.MaxBagTester0 > test133 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1787
+
+testers.MaxBagTester0 > test135 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1816
+
+testers.MaxBagTester0 > test139 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1866
+
+testers.MaxBagTester0 > test140 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1882
+
+testers.MaxBagTester0 > test142 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1905
+
+testers.MaxBagTester0 > test143 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1919
+
+testers.MaxBagTester0 > test144 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1936
+
+testers.MaxBagTester0 > test151 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2037
+
+testers.MaxBagTester0 > test152 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2056
+
+testers.MaxBagTester0 > test154 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2089
+
+testers.MaxBagTester0 > test156 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2115
+
+testers.MaxBagTester0 > test157 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2132
+
+testers.MaxBagTester0 > test158 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2148
+
+testers.MaxBagTester0 > test160 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2174
+
+testers.MaxBagTester0 > test161 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2186
+
+testers.MaxBagTester0 > test162 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2200
+
+testers.MaxBagTester0 > test164 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2232
+
+testers.MaxBagTester0 > test165 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2245
+
+testers.MaxBagTester0 > test166 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2262
+
+testers.MaxBagTester0 > test168 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2293
+
+testers.MaxBagTester0 > test169 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2303
+
+testers.MaxBagTester0 > test171 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2331
+
+testers.MaxBagTester0 > test172 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2349
+
+testers.MaxBagTester0 > test173 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2361
+
+testers.MaxBagTester0 > test176 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2403
+
+testers.MaxBagTester0 > test178 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2428
+
+testers.MaxBagTester0 > test179 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2440
+
+testers.MaxBagTester0 > test181 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2460
+
+testers.MaxBagTester0 > test182 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2478
+
+testers.MaxBagTester0 > test183 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2495
+
+testers.MaxBagTester0 > test186 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2538
+
+testers.MaxBagTester0 > test187 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2555
+
+testers.MaxBagTester0 > test189 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2580
+
+testers.MaxBagTester0 > test190 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2592
+
+testers.MaxBagTester0 > test191 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2607
+
+testers.MaxBagTester0 > test192 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2628
+
+testers.MaxBagTester0 > test193 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2639
+
+testers.MaxBagTester0 > test194 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2652
+
+testers.MaxBagTester0 > test195 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2668
+
+testers.MaxBagTester0 > test196 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2683
+
+testers.MaxBagTester0 > test197 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2697
+
+testers.MaxBagTester0 > test198 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2710
+
+testers.MaxBagTester0 > test199 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2731
+
+testers.MaxBagTester0 > test203 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2794
+
+testers.MaxBagTester0 > test204 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2807
+
+testers.MaxBagTester0 > test206 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2832
+
+testers.MaxBagTester0 > test207 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2853
+
+testers.MaxBagTester0 > test208 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2866
+
+testers.MaxBagTester0 > test209 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2883
+
+testers.MaxBagTester0 > test210 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2895
+
+testers.MaxBagTester0 > test211 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2908
+
+testers.MaxBagTester0 > test214 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2950
+
+testers.MaxBagTester0 > test216 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2985
+
+testers.MaxBagTester0 > test223 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3076
+
+testers.MaxBagTester0 > test227 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3140
+
+testers.MaxBagTester0 > test228 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3149
+
+testers.MaxBagTester0 > test230 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3180
+
+testers.MaxBagTester0 > test231 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3193
+
+testers.MaxBagTester0 > test232 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3207
+
+testers.MaxBagTester0 > test233 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3224
+
+testers.MaxBagTester0 > test235 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3257
+
+testers.MaxBagTester0 > test236 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3274
+
+testers.MaxBagTester0 > test237 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3285
+
+testers.MaxBagTester0 > test238 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3299
+
+testers.MaxBagTester0 > test241 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3341
+
+testers.MaxBagTester0 > test242 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3351
+
+testers.MaxBagTester0 > test245 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3386
+
+testers.MaxBagTester0 > test246 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3406
+
+testers.MaxBagTester0 > test247 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3417
+
+testers.MaxBagTester0 > test248 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3430
+
+testers.MaxBagTester0 > test250 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3460
+
+testers.MaxBagTester0 > test251 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3472
+
+testers.MaxBagTester0 > test253 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3495
+
+testers.MaxBagTester0 > test255 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3524
+Results: FAILURE (332 tests, 170 successes, 162 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

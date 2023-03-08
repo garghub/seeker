@@ -1,0 +1,814 @@
+:clean
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.Structure_ESTest STANDARD_OUT
+    16:46:20.457 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Structure_ESTest
+    16:46:20.460 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Structure_ESTest'.
+    16:46:20.516 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Structure_ESTest_scaffolding
+    16:46:20.517 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Structure_ESTest_scaffolding'.
+    16:46:20.521 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Structure_ESTest_scaffolding
+    16:46:20.521 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Structure_ESTest
+    16:46:20.998 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    16:46:20.998 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    16:46:20.998 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    16:46:20.998 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    16:46:20.999 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    16:46:20.999 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    16:46:20.999 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    16:46:20.999 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    16:46:20.999 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    16:46:20.999 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:62081 to /127.0.0.1:62080 workers Thread 2"
+    16:46:21.000 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:62081 to /127.0.0.1:62080 workers Thread 3"
+    16:46:21.097 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Structure
+    16:46:21.097 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Structure'.
+    16:46:21.124 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/Structure
+    16:46:21.383 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class examples/Structure
+    16:46:21.386 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Structure
+
+examples.Structure_ESTest > test2 STANDARD_OUT
+    16:46:21.407 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.Structure_ESTest > test2 FAILED
+    java.lang.AssertionError at Structure_ESTest.java:38
+
+examples.Structure_ESTest > test3 FAILED
+    java.lang.AssertionError at Structure_ESTest.java:46
+
+RegressionTest > RegressionTest0.test05 FAILED
+    java.lang.AssertionError at RegressionTest0.java:55
+
+RegressionTest > RegressionTest0.test06 FAILED
+    java.lang.AssertionError at RegressionTest0.java:65
+
+RegressionTest > RegressionTest0.test07 FAILED
+    java.lang.AssertionError at RegressionTest0.java:78
+
+RegressionTest > RegressionTest0.test08 FAILED
+    java.lang.AssertionError at RegressionTest0.java:92
+
+RegressionTest > RegressionTest0.test09 FAILED
+    java.lang.AssertionError at RegressionTest0.java:104
+
+RegressionTest > RegressionTest0.test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:151
+
+RegressionTest > RegressionTest0.test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:159
+
+RegressionTest > RegressionTest0.test16 FAILED
+    java.lang.AssertionError at RegressionTest0.java:169
+
+RegressionTest > RegressionTest0.test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:195
+
+RegressionTest > RegressionTest0.test19 FAILED
+    java.lang.AssertionError at RegressionTest0.java:205
+
+RegressionTest > RegressionTest0.test20 FAILED
+    java.lang.AssertionError at RegressionTest0.java:214
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:229
+
+RegressionTest > RegressionTest0.test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:240
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:250
+
+RegressionTest > RegressionTest0.test24 FAILED
+    java.lang.AssertionError at RegressionTest0.java:263
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:279
+
+RegressionTest > RegressionTest0.test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:330
+
+RegressionTest > RegressionTest0.test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:348
+
+RegressionTest > RegressionTest0.test36 FAILED
+    java.lang.AssertionError at RegressionTest0.java:395
+
+RegressionTest > RegressionTest0.test37 FAILED
+    java.lang.AssertionError at RegressionTest0.java:413
+
+RegressionTest > RegressionTest0.test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:431
+
+RegressionTest > RegressionTest0.test39 FAILED
+    java.lang.AssertionError at RegressionTest0.java:451
+
+RegressionTest > RegressionTest0.test40 FAILED
+    java.lang.AssertionError at RegressionTest0.java:469
+
+RegressionTest > RegressionTest0.test42 FAILED
+    java.lang.AssertionError at RegressionTest0.java:492
+
+RegressionTest > RegressionTest0.test43 FAILED
+    java.lang.AssertionError at RegressionTest0.java:503
+
+RegressionTest > RegressionTest0.test44 FAILED
+    java.lang.AssertionError at RegressionTest0.java:520
+
+RegressionTest > RegressionTest0.test45 FAILED
+    java.lang.AssertionError at RegressionTest0.java:533
+
+RegressionTest > RegressionTest0.test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:557
+
+RegressionTest > RegressionTest0.test48 FAILED
+    java.lang.AssertionError at RegressionTest0.java:577
+
+RegressionTest > RegressionTest0.test50 FAILED
+    java.lang.AssertionError at RegressionTest0.java:602
+
+RegressionTest > RegressionTest0.test52 FAILED
+    java.lang.AssertionError at RegressionTest0.java:618
+
+RegressionTest0 > test05 FAILED
+    java.lang.AssertionError at RegressionTest0.java:55
+
+RegressionTest0 > test06 FAILED
+    java.lang.AssertionError at RegressionTest0.java:65
+
+RegressionTest0 > test07 FAILED
+    java.lang.AssertionError at RegressionTest0.java:78
+
+RegressionTest0 > test08 FAILED
+    java.lang.AssertionError at RegressionTest0.java:92
+
+RegressionTest0 > test09 FAILED
+    java.lang.AssertionError at RegressionTest0.java:104
+
+RegressionTest0 > test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:151
+
+RegressionTest0 > test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:159
+
+RegressionTest0 > test16 FAILED
+    java.lang.AssertionError at RegressionTest0.java:169
+
+RegressionTest0 > test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:195
+
+RegressionTest0 > test19 FAILED
+    java.lang.AssertionError at RegressionTest0.java:205
+
+RegressionTest0 > test20 FAILED
+    java.lang.AssertionError at RegressionTest0.java:214
+
+RegressionTest0 > test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:229
+
+RegressionTest0 > test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:240
+
+RegressionTest0 > test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:250
+
+RegressionTest0 > test24 FAILED
+    java.lang.AssertionError at RegressionTest0.java:263
+
+RegressionTest0 > test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:279
+
+RegressionTest0 > test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:330
+
+RegressionTest0 > test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:348
+
+RegressionTest0 > test36 FAILED
+    java.lang.AssertionError at RegressionTest0.java:395
+
+RegressionTest0 > test37 FAILED
+    java.lang.AssertionError at RegressionTest0.java:413
+
+RegressionTest0 > test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:431
+
+RegressionTest0 > test39 FAILED
+    java.lang.AssertionError at RegressionTest0.java:451
+
+RegressionTest0 > test40 FAILED
+    java.lang.AssertionError at RegressionTest0.java:469
+
+RegressionTest0 > test42 FAILED
+    java.lang.AssertionError at RegressionTest0.java:492
+
+RegressionTest0 > test43 FAILED
+    java.lang.AssertionError at RegressionTest0.java:503
+
+RegressionTest0 > test44 FAILED
+    java.lang.AssertionError at RegressionTest0.java:520
+
+RegressionTest0 > test45 FAILED
+    java.lang.AssertionError at RegressionTest0.java:533
+
+RegressionTest0 > test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:557
+
+RegressionTest0 > test48 FAILED
+    java.lang.AssertionError at RegressionTest0.java:577
+
+RegressionTest0 > test50 FAILED
+    java.lang.AssertionError at RegressionTest0.java:602
+
+RegressionTest0 > test52 FAILED
+    java.lang.AssertionError at RegressionTest0.java:618
+
+testers.StructureTester0 > test004 FAILED
+    java.lang.AssertionError at StructureTester0.java:42
+
+testers.StructureTester0 > test006 FAILED
+    java.lang.AssertionError at StructureTester0.java:59
+
+testers.StructureTester0 > test009 FAILED
+    java.lang.AssertionError at StructureTester0.java:89
+
+testers.StructureTester0 > test010 FAILED
+    java.lang.AssertionError at StructureTester0.java:102
+
+testers.StructureTester0 > test011 FAILED
+    java.lang.AssertionError at StructureTester0.java:117
+
+testers.StructureTester0 > test015 FAILED
+    java.lang.AssertionError at StructureTester0.java:157
+
+testers.StructureTester0 > test017 FAILED
+    java.lang.AssertionError at StructureTester0.java:176
+
+testers.StructureTester0 > test018 FAILED
+    java.lang.AssertionError at StructureTester0.java:185
+
+testers.StructureTester0 > test019 FAILED
+    java.lang.AssertionError at StructureTester0.java:196
+
+testers.StructureTester0 > test020 FAILED
+    java.lang.AssertionError at StructureTester0.java:205
+
+testers.StructureTester0 > test021 FAILED
+    java.lang.AssertionError at StructureTester0.java:217
+
+testers.StructureTester0 > test022 FAILED
+    java.lang.AssertionError at StructureTester0.java:228
+
+testers.StructureTester0 > test023 FAILED
+    java.lang.AssertionError at StructureTester0.java:238
+
+testers.StructureTester0 > test024 FAILED
+    java.lang.AssertionError at StructureTester0.java:247
+
+testers.StructureTester0 > test025 FAILED
+    java.lang.AssertionError at StructureTester0.java:258
+
+testers.StructureTester0 > test027 FAILED
+    java.lang.AssertionError at StructureTester0.java:277
+
+testers.StructureTester0 > test029 FAILED
+    java.lang.AssertionError at StructureTester0.java:300
+
+testers.StructureTester0 > test030 FAILED
+    java.lang.AssertionError at StructureTester0.java:310
+
+testers.StructureTester0 > test032 FAILED
+    java.lang.AssertionError at StructureTester0.java:328
+
+testers.StructureTester0 > test033 FAILED
+    java.lang.AssertionError at StructureTester0.java:343
+
+testers.StructureTester0 > test035 FAILED
+    java.lang.AssertionError at StructureTester0.java:359
+
+testers.StructureTester0 > test037 FAILED
+    java.lang.AssertionError at StructureTester0.java:378
+
+testers.StructureTester0 > test038 FAILED
+    java.lang.AssertionError at StructureTester0.java:395
+
+testers.StructureTester0 > test039 FAILED
+    java.lang.AssertionError at StructureTester0.java:407
+
+testers.StructureTester0 > test041 FAILED
+    java.lang.AssertionError at StructureTester0.java:425
+
+testers.StructureTester0 > test043 FAILED
+    java.lang.AssertionError at StructureTester0.java:447
+
+testers.StructureTester0 > test044 FAILED
+    java.lang.AssertionError at StructureTester0.java:462
+
+testers.StructureTester0 > test046 FAILED
+    java.lang.AssertionError at StructureTester0.java:480
+
+testers.StructureTester0 > test048 FAILED
+    java.lang.AssertionError at StructureTester0.java:504
+
+testers.StructureTester0 > test049 FAILED
+    java.lang.AssertionError at StructureTester0.java:515
+
+testers.StructureTester0 > test051 FAILED
+    java.lang.AssertionError at StructureTester0.java:534
+
+testers.StructureTester0 > test052 FAILED
+    java.lang.AssertionError at StructureTester0.java:550
+
+testers.StructureTester0 > test053 FAILED
+    java.lang.AssertionError at StructureTester0.java:560
+
+testers.StructureTester0 > test054 FAILED
+    java.lang.AssertionError at StructureTester0.java:571
+
+testers.StructureTester0 > test055 FAILED
+    java.lang.AssertionError at StructureTester0.java:582
+
+testers.StructureTester0 > test060 FAILED
+    java.lang.AssertionError at StructureTester0.java:633
+
+testers.StructureTester0 > test061 FAILED
+    java.lang.AssertionError at StructureTester0.java:642
+
+testers.StructureTester0 > test062 FAILED
+    java.lang.AssertionError at StructureTester0.java:652
+
+testers.StructureTester0 > test064 FAILED
+    java.lang.AssertionError at StructureTester0.java:676
+
+testers.StructureTester0 > test065 FAILED
+    java.lang.AssertionError at StructureTester0.java:690
+
+testers.StructureTester0 > test067 FAILED
+    java.lang.AssertionError at StructureTester0.java:714
+
+testers.StructureTester0 > test068 FAILED
+    java.lang.AssertionError at StructureTester0.java:724
+
+testers.StructureTester0 > test069 FAILED
+    java.lang.AssertionError at StructureTester0.java:733
+
+testers.StructureTester0 > test070 FAILED
+    java.lang.AssertionError at StructureTester0.java:749
+
+testers.StructureTester0 > test071 FAILED
+    java.lang.AssertionError at StructureTester0.java:764
+
+testers.StructureTester0 > test072 FAILED
+    java.lang.AssertionError at StructureTester0.java:777
+
+testers.StructureTester0 > test073 FAILED
+    java.lang.AssertionError at StructureTester0.java:788
+
+testers.StructureTester0 > test074 FAILED
+    java.lang.AssertionError at StructureTester0.java:796
+
+testers.StructureTester0 > test075 FAILED
+    java.lang.AssertionError at StructureTester0.java:809
+
+testers.StructureTester0 > test076 FAILED
+    java.lang.AssertionError at StructureTester0.java:821
+
+testers.StructureTester0 > test077 FAILED
+    java.lang.AssertionError at StructureTester0.java:832
+
+testers.StructureTester0 > test078 FAILED
+    java.lang.AssertionError at StructureTester0.java:841
+
+testers.StructureTester0 > test079 FAILED
+    java.lang.AssertionError at StructureTester0.java:851
+
+testers.StructureTester0 > test082 FAILED
+    java.lang.AssertionError at StructureTester0.java:876
+
+testers.StructureTester0 > test083 FAILED
+    java.lang.AssertionError at StructureTester0.java:892
+
+testers.StructureTester0 > test084 FAILED
+    java.lang.AssertionError at StructureTester0.java:908
+
+testers.StructureTester0 > test085 FAILED
+    java.lang.AssertionError at StructureTester0.java:920
+
+testers.StructureTester0 > test087 FAILED
+    java.lang.AssertionError at StructureTester0.java:941
+
+testers.StructureTester0 > test088 FAILED
+    java.lang.AssertionError at StructureTester0.java:954
+
+testers.StructureTester0 > test089 FAILED
+    java.lang.AssertionError at StructureTester0.java:965
+
+testers.StructureTester0 > test091 FAILED
+    java.lang.AssertionError at StructureTester0.java:982
+
+testers.StructureTester0 > test092 FAILED
+    java.lang.AssertionError at StructureTester0.java:991
+
+testers.StructureTester0 > test093 FAILED
+    java.lang.AssertionError at StructureTester0.java:1003
+
+testers.StructureTester0 > test094 FAILED
+    java.lang.AssertionError at StructureTester0.java:1012
+
+testers.StructureTester0 > test095 FAILED
+    java.lang.AssertionError at StructureTester0.java:1027
+
+testers.StructureTester0 > test096 FAILED
+    java.lang.AssertionError at StructureTester0.java:1036
+
+testers.StructureTester0 > test098 FAILED
+    java.lang.AssertionError at StructureTester0.java:1055
+
+testers.StructureTester0 > test100 FAILED
+    java.lang.AssertionError at StructureTester0.java:1074
+
+testers.StructureTester0 > test102 FAILED
+    java.lang.AssertionError at StructureTester0.java:1091
+
+testers.StructureTester0 > test103 FAILED
+    java.lang.AssertionError at StructureTester0.java:1100
+
+testers.StructureTester0 > test104 FAILED
+    java.lang.AssertionError at StructureTester0.java:1114
+
+testers.StructureTester0 > test105 FAILED
+    java.lang.AssertionError at StructureTester0.java:1126
+
+testers.StructureTester0 > test107 FAILED
+    java.lang.AssertionError at StructureTester0.java:1148
+
+testers.StructureTester0 > test108 FAILED
+    java.lang.AssertionError at StructureTester0.java:1165
+
+testers.StructureTester0 > test109 FAILED
+    java.lang.AssertionError at StructureTester0.java:1176
+
+testers.StructureTester0 > test110 FAILED
+    java.lang.AssertionError at StructureTester0.java:1194
+
+testers.StructureTester0 > test111 FAILED
+    java.lang.AssertionError at StructureTester0.java:1211
+
+testers.StructureTester0 > test113 FAILED
+    java.lang.AssertionError at StructureTester0.java:1239
+
+testers.StructureTester0 > test116 FAILED
+    java.lang.AssertionError at StructureTester0.java:1266
+
+testers.StructureTester0 > test117 FAILED
+    java.lang.AssertionError at StructureTester0.java:1281
+
+testers.StructureTester0 > test118 FAILED
+    java.lang.AssertionError at StructureTester0.java:1289
+
+testers.StructureTester0 > test119 FAILED
+    java.lang.AssertionError at StructureTester0.java:1298
+
+testers.StructureTester0 > test121 FAILED
+    java.lang.AssertionError at StructureTester0.java:1316
+
+testers.StructureTester0 > test122 FAILED
+    java.lang.AssertionError at StructureTester0.java:1326
+
+testers.StructureTester0 > test123 FAILED
+    java.lang.AssertionError at StructureTester0.java:1337
+
+testers.StructureTester0 > test124 FAILED
+    java.lang.AssertionError at StructureTester0.java:1348
+
+testers.StructureTester0 > test125 FAILED
+    java.lang.AssertionError at StructureTester0.java:1357
+
+testers.StructureTester0 > test126 FAILED
+    java.lang.AssertionError at StructureTester0.java:1369
+
+testers.StructureTester0 > test127 FAILED
+    java.lang.AssertionError at StructureTester0.java:1378
+
+testers.StructureTester0 > test128 FAILED
+    java.lang.AssertionError at StructureTester0.java:1397
+
+testers.StructureTester0 > test131 FAILED
+    java.lang.AssertionError at StructureTester0.java:1423
+
+testers.StructureTester0 > test133 FAILED
+    java.lang.AssertionError at StructureTester0.java:1440
+
+testers.StructureTester0 > test134 FAILED
+    java.lang.AssertionError at StructureTester0.java:1455
+
+testers.StructureTester0 > test136 FAILED
+    java.lang.AssertionError at StructureTester0.java:1475
+
+testers.StructureTester0 > test137 FAILED
+    java.lang.AssertionError at StructureTester0.java:1484
+
+testers.StructureTester0 > test138 FAILED
+    java.lang.AssertionError at StructureTester0.java:1494
+
+testers.StructureTester0 > test139 FAILED
+    java.lang.AssertionError at StructureTester0.java:1502
+
+testers.StructureTester0 > test140 FAILED
+    java.lang.AssertionError at StructureTester0.java:1517
+
+testers.StructureTester0 > test141 FAILED
+    java.lang.AssertionError at StructureTester0.java:1528
+
+testers.StructureTester0 > test144 FAILED
+    java.lang.AssertionError at StructureTester0.java:1562
+
+testers.StructureTester0 > test145 FAILED
+    java.lang.AssertionError at StructureTester0.java:1572
+
+testers.StructureTester0 > test146 FAILED
+    java.lang.AssertionError at StructureTester0.java:1583
+
+testers.StructureTester0 > test147 FAILED
+    java.lang.AssertionError at StructureTester0.java:1594
+
+testers.StructureTester0 > test149 FAILED
+    java.lang.AssertionError at StructureTester0.java:1619
+
+testers.StructureTester0 > test150 FAILED
+    java.lang.AssertionError at StructureTester0.java:1630
+
+testers.StructureTester0 > test152 FAILED
+    java.lang.AssertionError at StructureTester0.java:1647
+
+testers.StructureTester0 > test153 FAILED
+    java.lang.AssertionError at StructureTester0.java:1662
+
+testers.StructureTester0 > test154 FAILED
+    java.lang.AssertionError at StructureTester0.java:1674
+
+testers.StructureTester0 > test155 FAILED
+    java.lang.AssertionError at StructureTester0.java:1683
+
+testers.StructureTester0 > test156 FAILED
+    java.lang.AssertionError at StructureTester0.java:1694
+
+testers.StructureTester0 > test157 FAILED
+    java.lang.AssertionError at StructureTester0.java:1703
+
+testers.StructureTester0 > test158 FAILED
+    java.lang.AssertionError at StructureTester0.java:1712
+
+testers.StructureTester0 > test159 FAILED
+    java.lang.AssertionError at StructureTester0.java:1727
+
+testers.StructureTester0 > test160 FAILED
+    java.lang.AssertionError at StructureTester0.java:1740
+
+testers.StructureTester0 > test163 FAILED
+    java.lang.AssertionError at StructureTester0.java:1774
+
+testers.StructureTester0 > test164 FAILED
+    java.lang.AssertionError at StructureTester0.java:1787
+
+testers.StructureTester0 > test165 FAILED
+    java.lang.AssertionError at StructureTester0.java:1795
+
+testers.StructureTester0 > test166 FAILED
+    java.lang.AssertionError at StructureTester0.java:1803
+
+testers.StructureTester0 > test167 FAILED
+    java.lang.AssertionError at StructureTester0.java:1814
+
+testers.StructureTester0 > test168 FAILED
+    java.lang.AssertionError at StructureTester0.java:1826
+
+testers.StructureTester0 > test169 FAILED
+    java.lang.AssertionError at StructureTester0.java:1835
+
+testers.StructureTester0 > test171 FAILED
+    java.lang.AssertionError at StructureTester0.java:1853
+
+testers.StructureTester0 > test173 FAILED
+    java.lang.AssertionError at StructureTester0.java:1871
+
+testers.StructureTester0 > test176 FAILED
+    java.lang.AssertionError at StructureTester0.java:1900
+
+testers.StructureTester0 > test177 FAILED
+    java.lang.AssertionError at StructureTester0.java:1911
+
+testers.StructureTester0 > test178 FAILED
+    java.lang.AssertionError at StructureTester0.java:1919
+
+testers.StructureTester0 > test180 FAILED
+    java.lang.AssertionError at StructureTester0.java:1935
+
+testers.StructureTester0 > test181 FAILED
+    java.lang.AssertionError at StructureTester0.java:1955
+
+testers.StructureTester0 > test182 FAILED
+    java.lang.AssertionError at StructureTester0.java:1964
+
+testers.StructureTester0 > test183 FAILED
+    java.lang.AssertionError at StructureTester0.java:1974
+
+testers.StructureTester0 > test184 FAILED
+    java.lang.AssertionError at StructureTester0.java:1985
+
+testers.StructureTester0 > test185 FAILED
+    java.lang.AssertionError at StructureTester0.java:1994
+
+testers.StructureTester0 > test186 FAILED
+    java.lang.AssertionError at StructureTester0.java:2006
+
+testers.StructureTester0 > test187 FAILED
+    java.lang.AssertionError at StructureTester0.java:2015
+
+testers.StructureTester0 > test188 FAILED
+    java.lang.AssertionError at StructureTester0.java:2027
+
+testers.StructureTester0 > test189 FAILED
+    java.lang.AssertionError at StructureTester0.java:2047
+
+testers.StructureTester0 > test190 FAILED
+    java.lang.AssertionError at StructureTester0.java:2059
+
+testers.StructureTester0 > test191 FAILED
+    java.lang.AssertionError at StructureTester0.java:2072
+
+testers.StructureTester0 > test192 FAILED
+    java.lang.AssertionError at StructureTester0.java:2086
+
+testers.StructureTester0 > test193 FAILED
+    java.lang.AssertionError at StructureTester0.java:2097
+
+testers.StructureTester0 > test194 FAILED
+    java.lang.AssertionError at StructureTester0.java:2108
+
+testers.StructureTester0 > test195 FAILED
+    java.lang.AssertionError at StructureTester0.java:2118
+
+testers.StructureTester0 > test196 FAILED
+    java.lang.AssertionError at StructureTester0.java:2130
+
+testers.StructureTester0 > test197 FAILED
+    java.lang.AssertionError at StructureTester0.java:2141
+
+testers.StructureTester0 > test198 FAILED
+    java.lang.AssertionError at StructureTester0.java:2162
+
+testers.StructureTester0 > test199 FAILED
+    java.lang.AssertionError at StructureTester0.java:2171
+
+testers.StructureTester0 > test201 FAILED
+    java.lang.AssertionError at StructureTester0.java:2190
+
+testers.StructureTester0 > test203 FAILED
+    java.lang.AssertionError at StructureTester0.java:2210
+
+testers.StructureTester0 > test204 FAILED
+    java.lang.AssertionError at StructureTester0.java:2219
+
+testers.StructureTester0 > test205 FAILED
+    java.lang.AssertionError at StructureTester0.java:2228
+
+testers.StructureTester0 > test206 FAILED
+    java.lang.AssertionError at StructureTester0.java:2239
+
+testers.StructureTester0 > test208 FAILED
+    java.lang.AssertionError at StructureTester0.java:2259
+
+testers.StructureTester0 > test209 FAILED
+    java.lang.AssertionError at StructureTester0.java:2267
+
+testers.StructureTester0 > test210 FAILED
+    java.lang.AssertionError at StructureTester0.java:2280
+
+testers.StructureTester0 > test212 FAILED
+    java.lang.AssertionError at StructureTester0.java:2304
+
+testers.StructureTester0 > test214 FAILED
+    java.lang.AssertionError at StructureTester0.java:2328
+
+testers.StructureTester0 > test215 FAILED
+    java.lang.AssertionError at StructureTester0.java:2336
+
+testers.StructureTester0 > test216 FAILED
+    java.lang.AssertionError at StructureTester0.java:2352
+
+testers.StructureTester0 > test219 FAILED
+    java.lang.AssertionError at StructureTester0.java:2380
+
+testers.StructureTester0 > test220 FAILED
+    java.lang.AssertionError at StructureTester0.java:2393
+
+testers.StructureTester0 > test221 FAILED
+    java.lang.AssertionError at StructureTester0.java:2406
+
+testers.StructureTester0 > test222 FAILED
+    java.lang.AssertionError at StructureTester0.java:2418
+
+testers.StructureTester0 > test223 FAILED
+    java.lang.AssertionError at StructureTester0.java:2439
+
+testers.StructureTester0 > test224 FAILED
+    java.lang.AssertionError at StructureTester0.java:2448
+
+testers.StructureTester0 > test225 FAILED
+    java.lang.AssertionError at StructureTester0.java:2464
+
+testers.StructureTester0 > test226 FAILED
+    java.lang.AssertionError at StructureTester0.java:2473
+
+testers.StructureTester0 > test227 FAILED
+    java.lang.AssertionError at StructureTester0.java:2490
+
+testers.StructureTester0 > test228 FAILED
+    java.lang.AssertionError at StructureTester0.java:2505
+
+testers.StructureTester0 > test229 FAILED
+    java.lang.AssertionError at StructureTester0.java:2513
+
+testers.StructureTester0 > test230 FAILED
+    java.lang.AssertionError at StructureTester0.java:2522
+
+testers.StructureTester0 > test231 FAILED
+    java.lang.AssertionError at StructureTester0.java:2536
+
+testers.StructureTester0 > test232 FAILED
+    java.lang.AssertionError at StructureTester0.java:2544
+
+testers.StructureTester0 > test235 FAILED
+    java.lang.AssertionError at StructureTester0.java:2580
+
+testers.StructureTester0 > test236 FAILED
+    java.lang.AssertionError at StructureTester0.java:2594
+
+testers.StructureTester0 > test237 FAILED
+    java.lang.AssertionError at StructureTester0.java:2607
+
+testers.StructureTester0 > test238 FAILED
+    java.lang.AssertionError at StructureTester0.java:2617
+
+testers.StructureTester0 > test241 FAILED
+    java.lang.AssertionError at StructureTester0.java:2653
+
+testers.StructureTester0 > test242 FAILED
+    java.lang.AssertionError at StructureTester0.java:2664
+
+testers.StructureTester0 > test244 FAILED
+    java.lang.AssertionError at StructureTester0.java:2680
+
+testers.StructureTester0 > test245 FAILED
+    java.lang.AssertionError at StructureTester0.java:2695
+
+testers.StructureTester0 > test246 FAILED
+    java.lang.AssertionError at StructureTester0.java:2710
+
+testers.StructureTester0 > test247 FAILED
+    java.lang.AssertionError at StructureTester0.java:2722
+
+testers.StructureTester0 > test248 FAILED
+    java.lang.AssertionError at StructureTester0.java:2735
+
+testers.StructureTester0 > test249 FAILED
+    java.lang.AssertionError at StructureTester0.java:2746
+
+testers.StructureTester0 > test250 FAILED
+    java.lang.AssertionError at StructureTester0.java:2757
+
+testers.StructureTester0 > test251 FAILED
+    java.lang.AssertionError at StructureTester0.java:2770
+
+testers.StructureTester0 > test252 FAILED
+    java.lang.AssertionError at StructureTester0.java:2782
+
+testers.StructureTester0 > test253 FAILED
+    java.lang.AssertionError at StructureTester0.java:2800
+
+testers.StructureTester0 > test258 FAILED
+    java.lang.AssertionError at StructureTester0.java:2849
+
+testers.StructureTester0 > test259 FAILED
+    java.lang.AssertionError at StructureTester0.java:2860
+
+testers.StructureTester0 > test261 FAILED
+    java.lang.AssertionError at StructureTester0.java:2882
+
+testers.StructureTester0 > test262 FAILED
+    java.lang.AssertionError at StructureTester0.java:2901
+
+testers.StructureTester0 > test264 FAILED
+    java.lang.AssertionError at StructureTester0.java:2919
+Results: FAILURE (373 tests, 116 successes, 257 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

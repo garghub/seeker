@@ -1,0 +1,1165 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.Map_ESTest STANDARD_OUT
+    01:25:24.370 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Map_ESTest
+    01:25:24.374 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Map_ESTest'.
+    01:25:24.427 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Map_ESTest_scaffolding
+    01:25:24.427 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Map_ESTest_scaffolding'.
+    01:25:24.431 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Map_ESTest_scaffolding
+    01:25:24.432 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Map_ESTest
+    01:25:24.813 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    01:25:24.814 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    01:25:24.815 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    01:25:24.816 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    01:25:24.816 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    01:25:24.816 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    01:25:24.816 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    01:25:24.817 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    01:25:24.817 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    01:25:24.817 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64609 to /127.0.0.1:64608 workers Thread 2"
+    01:25:24.817 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64609 to /127.0.0.1:64608 workers Thread 3"
+    01:25:24.919 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Map
+    01:25:24.919 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Map'.
+    01:25:24.950 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/Map
+    01:25:25.268 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class examples/Map
+    01:25:25.272 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Map
+
+examples.Map_ESTest > test03 STANDARD_OUT
+    01:25:25.302 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.Map_ESTest > test03 FAILED
+    java.lang.AssertionError at Map_ESTest.java:63
+
+examples.Map_ESTest > test14 FAILED
+    java.lang.AssertionError at Map_ESTest.java:172
+
+examples.Map_ESTest > test05 FAILED
+    java.lang.AssertionError at Map_ESTest.java:80
+
+examples.Map_ESTest > test10 FAILED
+    java.lang.AssertionError at Map_ESTest.java:123
+
+examples.Map_ESTest > test01 FAILED
+    java.lang.AssertionError at Map_ESTest.java:42
+
+examples.Map_ESTest > test00 FAILED
+    java.lang.AssertionError at Map_ESTest.java:25
+
+examples.Map_ESTest > test11 FAILED
+    java.lang.AssertionError at Map_ESTest.java:133
+
+examples.Map_ESTest > test08 FAILED
+    java.lang.AssertionError at Map_ESTest.java:104
+
+RegressionTest > RegressionTest0.test03 FAILED
+    java.lang.AssertionError at RegressionTest0.java:47
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:67
+
+RegressionTest > RegressionTest0.test05 FAILED
+    java.lang.AssertionError at RegressionTest0.java:79
+
+RegressionTest > RegressionTest0.test06 FAILED
+    java.lang.AssertionError at RegressionTest0.java:93
+
+RegressionTest > RegressionTest0.test07 FAILED
+    java.lang.AssertionError at RegressionTest0.java:111
+
+RegressionTest > RegressionTest0.test08 FAILED
+    java.lang.AssertionError at RegressionTest0.java:131
+
+RegressionTest > RegressionTest0.test09 FAILED
+    java.lang.AssertionError at RegressionTest0.java:151
+
+RegressionTest > RegressionTest0.test11 FAILED
+    java.lang.AssertionError at RegressionTest0.java:177
+
+RegressionTest > RegressionTest0.test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:224
+
+RegressionTest > RegressionTest0.test16 FAILED
+    java.lang.AssertionError at RegressionTest0.java:253
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.AssertionError at RegressionTest0.java:273
+
+RegressionTest > RegressionTest0.test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:286
+
+RegressionTest > RegressionTest0.test19 FAILED
+    java.lang.AssertionError at RegressionTest0.java:299
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:332
+
+RegressionTest > RegressionTest0.test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:353
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:368
+
+RegressionTest > RegressionTest0.test24 FAILED
+    java.lang.AssertionError at RegressionTest0.java:390
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:408
+
+RegressionTest > RegressionTest0.test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:425
+
+RegressionTest > RegressionTest0.test27 FAILED
+    java.lang.AssertionError at RegressionTest0.java:442
+
+RegressionTest > RegressionTest0.test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:492
+
+RegressionTest > RegressionTest0.test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:512
+
+RegressionTest > RegressionTest0.test32 FAILED
+    java.lang.AssertionError at RegressionTest0.java:527
+
+RegressionTest > RegressionTest0.test33 FAILED
+    java.lang.AssertionError at RegressionTest0.java:551
+
+RegressionTest > RegressionTest0.test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:573
+
+RegressionTest > RegressionTest0.test35 FAILED
+    java.lang.AssertionError at RegressionTest0.java:590
+
+RegressionTest > RegressionTest0.test36 FAILED
+    java.lang.AssertionError at RegressionTest0.java:613
+
+RegressionTest > RegressionTest0.test37 FAILED
+    java.lang.AssertionError at RegressionTest0.java:637
+
+RegressionTest > RegressionTest0.test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:654
+
+RegressionTest > RegressionTest0.test40 FAILED
+    java.lang.AssertionError at RegressionTest0.java:690
+
+RegressionTest > RegressionTest0.test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:715
+
+RegressionTest > RegressionTest0.test43 FAILED
+    java.lang.AssertionError at RegressionTest0.java:743
+
+RegressionTest > RegressionTest0.test44 FAILED
+    java.lang.AssertionError at RegressionTest0.java:766
+
+RegressionTest > RegressionTest0.test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:816
+
+RegressionTest > RegressionTest0.test48 FAILED
+    java.lang.AssertionError at RegressionTest0.java:831
+
+RegressionTest > RegressionTest0.test49 FAILED
+    java.lang.AssertionError at RegressionTest0.java:847
+
+RegressionTest > RegressionTest0.test50 FAILED
+    java.lang.AssertionError at RegressionTest0.java:864
+
+RegressionTest > RegressionTest0.test51 FAILED
+    java.lang.AssertionError at RegressionTest0.java:883
+
+RegressionTest > RegressionTest0.test52 FAILED
+    java.lang.AssertionError at RegressionTest0.java:898
+
+RegressionTest > RegressionTest0.test54 FAILED
+    java.lang.AssertionError at RegressionTest0.java:920
+
+RegressionTest > RegressionTest0.test55 FAILED
+    java.lang.AssertionError at RegressionTest0.java:933
+
+RegressionTest > RegressionTest0.test56 FAILED
+    java.lang.AssertionError at RegressionTest0.java:948
+
+RegressionTest > RegressionTest0.test58 FAILED
+    java.lang.AssertionError at RegressionTest0.java:978
+
+RegressionTest > RegressionTest0.test59 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1003
+
+RegressionTest > RegressionTest0.test60 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1024
+
+RegressionTest > RegressionTest0.test61 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1039
+
+RegressionTest > RegressionTest0.test62 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1057
+
+RegressionTest > RegressionTest0.test63 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1079
+
+RegressionTest > RegressionTest0.test67 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1147
+
+RegressionTest > RegressionTest0.test68 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1164
+
+RegressionTest > RegressionTest0.test69 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1184
+
+RegressionTest > RegressionTest0.test70 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1206
+
+RegressionTest > RegressionTest0.test72 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1229
+
+RegressionTest > RegressionTest0.test75 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1281
+
+RegressionTest > RegressionTest0.test76 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1302
+
+RegressionTest > RegressionTest0.test77 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1313
+
+RegressionTest > RegressionTest0.test79 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1354
+
+RegressionTest > RegressionTest0.test80 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1378
+
+RegressionTest > RegressionTest0.test81 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1401
+
+RegressionTest > RegressionTest0.test82 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1422
+
+RegressionTest > RegressionTest0.test83 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1441
+
+RegressionTest > RegressionTest0.test84 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1463
+
+RegressionTest0 > test03 FAILED
+    java.lang.AssertionError at RegressionTest0.java:47
+
+RegressionTest0 > test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:67
+
+RegressionTest0 > test05 FAILED
+    java.lang.AssertionError at RegressionTest0.java:79
+
+RegressionTest0 > test06 FAILED
+    java.lang.AssertionError at RegressionTest0.java:93
+
+RegressionTest0 > test07 FAILED
+    java.lang.AssertionError at RegressionTest0.java:111
+
+RegressionTest0 > test08 FAILED
+    java.lang.AssertionError at RegressionTest0.java:131
+
+RegressionTest0 > test09 FAILED
+    java.lang.AssertionError at RegressionTest0.java:151
+
+RegressionTest0 > test11 FAILED
+    java.lang.AssertionError at RegressionTest0.java:177
+
+RegressionTest0 > test14 FAILED
+    java.lang.AssertionError at RegressionTest0.java:224
+
+RegressionTest0 > test16 FAILED
+    java.lang.AssertionError at RegressionTest0.java:253
+
+RegressionTest0 > test17 FAILED
+    java.lang.AssertionError at RegressionTest0.java:273
+
+RegressionTest0 > test18 FAILED
+    java.lang.AssertionError at RegressionTest0.java:286
+
+RegressionTest0 > test19 FAILED
+    java.lang.AssertionError at RegressionTest0.java:299
+
+RegressionTest0 > test21 FAILED
+    java.lang.AssertionError at RegressionTest0.java:332
+
+RegressionTest0 > test22 FAILED
+    java.lang.AssertionError at RegressionTest0.java:353
+
+RegressionTest0 > test23 FAILED
+    java.lang.AssertionError at RegressionTest0.java:368
+
+RegressionTest0 > test24 FAILED
+    java.lang.AssertionError at RegressionTest0.java:390
+
+RegressionTest0 > test25 FAILED
+    java.lang.AssertionError at RegressionTest0.java:408
+
+RegressionTest0 > test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:425
+
+RegressionTest0 > test27 FAILED
+    java.lang.AssertionError at RegressionTest0.java:442
+
+RegressionTest0 > test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:492
+
+RegressionTest0 > test31 FAILED
+    java.lang.AssertionError at RegressionTest0.java:512
+
+RegressionTest0 > test32 FAILED
+    java.lang.AssertionError at RegressionTest0.java:527
+
+RegressionTest0 > test33 FAILED
+    java.lang.AssertionError at RegressionTest0.java:551
+
+RegressionTest0 > test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:573
+
+RegressionTest0 > test35 FAILED
+    java.lang.AssertionError at RegressionTest0.java:590
+
+RegressionTest0 > test36 FAILED
+    java.lang.AssertionError at RegressionTest0.java:613
+
+RegressionTest0 > test37 FAILED
+    java.lang.AssertionError at RegressionTest0.java:637
+
+RegressionTest0 > test38 FAILED
+    java.lang.AssertionError at RegressionTest0.java:654
+
+RegressionTest0 > test40 FAILED
+    java.lang.AssertionError at RegressionTest0.java:690
+
+RegressionTest0 > test41 FAILED
+    java.lang.AssertionError at RegressionTest0.java:715
+
+RegressionTest0 > test43 FAILED
+    java.lang.AssertionError at RegressionTest0.java:743
+
+RegressionTest0 > test44 FAILED
+    java.lang.AssertionError at RegressionTest0.java:766
+
+RegressionTest0 > test47 FAILED
+    java.lang.AssertionError at RegressionTest0.java:816
+
+RegressionTest0 > test48 FAILED
+    java.lang.AssertionError at RegressionTest0.java:831
+
+RegressionTest0 > test49 FAILED
+    java.lang.AssertionError at RegressionTest0.java:847
+
+RegressionTest0 > test50 FAILED
+    java.lang.AssertionError at RegressionTest0.java:864
+
+RegressionTest0 > test51 FAILED
+    java.lang.AssertionError at RegressionTest0.java:883
+
+RegressionTest0 > test52 FAILED
+    java.lang.AssertionError at RegressionTest0.java:898
+
+RegressionTest0 > test54 FAILED
+    java.lang.AssertionError at RegressionTest0.java:920
+
+RegressionTest0 > test55 FAILED
+    java.lang.AssertionError at RegressionTest0.java:933
+
+RegressionTest0 > test56 FAILED
+    java.lang.AssertionError at RegressionTest0.java:948
+
+RegressionTest0 > test58 FAILED
+    java.lang.AssertionError at RegressionTest0.java:978
+
+RegressionTest0 > test59 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1003
+
+RegressionTest0 > test60 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1024
+
+RegressionTest0 > test61 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1039
+
+RegressionTest0 > test62 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1057
+
+RegressionTest0 > test63 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1079
+
+RegressionTest0 > test67 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1147
+
+RegressionTest0 > test68 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1164
+
+RegressionTest0 > test69 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1184
+
+RegressionTest0 > test70 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1206
+
+RegressionTest0 > test72 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1229
+
+RegressionTest0 > test75 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1281
+
+RegressionTest0 > test76 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1302
+
+RegressionTest0 > test77 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1313
+
+RegressionTest0 > test79 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1354
+
+RegressionTest0 > test80 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1378
+
+RegressionTest0 > test81 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1401
+
+RegressionTest0 > test82 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1422
+
+RegressionTest0 > test83 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1441
+
+RegressionTest0 > test84 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1463
+
+testers.MapTester0 > test003 FAILED
+    java.lang.AssertionError at MapTester0.java:47
+
+testers.MapTester0 > test004 FAILED
+    java.lang.AssertionError at MapTester0.java:65
+
+testers.MapTester0 > test005 FAILED
+    java.lang.AssertionError at MapTester0.java:77
+
+testers.MapTester0 > test006 FAILED
+    java.lang.AssertionError at MapTester0.java:88
+
+testers.MapTester0 > test007 FAILED
+    java.lang.AssertionError at MapTester0.java:104
+
+testers.MapTester0 > test008 FAILED
+    java.lang.AssertionError at MapTester0.java:121
+
+testers.MapTester0 > test009 FAILED
+    java.lang.AssertionError at MapTester0.java:138
+
+testers.MapTester0 > test011 FAILED
+    java.lang.AssertionError at MapTester0.java:159
+
+testers.MapTester0 > test014 FAILED
+    java.lang.AssertionError at MapTester0.java:199
+
+testers.MapTester0 > test016 FAILED
+    java.lang.AssertionError at MapTester0.java:224
+
+testers.MapTester0 > test017 FAILED
+    java.lang.AssertionError at MapTester0.java:241
+
+testers.MapTester0 > test018 FAILED
+    java.lang.AssertionError at MapTester0.java:251
+
+testers.MapTester0 > test020 FAILED
+    java.lang.AssertionError at MapTester0.java:278
+
+testers.MapTester0 > test021 FAILED
+    java.lang.AssertionError at MapTester0.java:296
+
+testers.MapTester0 > test022 FAILED
+    java.lang.AssertionError at MapTester0.java:307
+
+testers.MapTester0 > test023 FAILED
+    java.lang.AssertionError at MapTester0.java:326
+
+testers.MapTester0 > test024 FAILED
+    java.lang.AssertionError at MapTester0.java:341
+
+testers.MapTester0 > test025 FAILED
+    java.lang.AssertionError at MapTester0.java:354
+
+testers.MapTester0 > test026 FAILED
+    java.lang.AssertionError at MapTester0.java:365
+
+testers.MapTester0 > test029 FAILED
+    java.lang.AssertionError at MapTester0.java:408
+
+testers.MapTester0 > test030 FAILED
+    java.lang.AssertionError at MapTester0.java:425
+
+testers.MapTester0 > test031 FAILED
+    java.lang.AssertionError at MapTester0.java:445
+
+testers.MapTester0 > test032 FAILED
+    java.lang.AssertionError at MapTester0.java:463
+
+testers.MapTester0 > test033 FAILED
+    java.lang.AssertionError at MapTester0.java:482
+
+testers.MapTester0 > test034 FAILED
+    java.lang.AssertionError at MapTester0.java:501
+
+testers.MapTester0 > test036 FAILED
+    java.lang.AssertionError at MapTester0.java:526
+
+testers.MapTester0 > test037 FAILED
+    java.lang.AssertionError at MapTester0.java:546
+
+testers.MapTester0 > test038 FAILED
+    java.lang.AssertionError at MapTester0.java:563
+
+testers.MapTester0 > test042 FAILED
+    java.lang.AssertionError at MapTester0.java:605
+
+testers.MapTester0 > test043 FAILED
+    java.lang.AssertionError at MapTester0.java:615
+
+testers.MapTester0 > test044 FAILED
+    java.lang.AssertionError at MapTester0.java:635
+
+testers.MapTester0 > test045 FAILED
+    java.lang.AssertionError at MapTester0.java:651
+
+testers.MapTester0 > test046 FAILED
+    java.lang.AssertionError at MapTester0.java:660
+
+testers.MapTester0 > test047 FAILED
+    java.lang.AssertionError at MapTester0.java:676
+
+testers.MapTester0 > test048 FAILED
+    java.lang.AssertionError at MapTester0.java:694
+
+testers.MapTester0 > test050 FAILED
+    java.lang.AssertionError at MapTester0.java:732
+
+testers.MapTester0 > test053 FAILED
+    java.lang.AssertionError at MapTester0.java:769
+
+testers.MapTester0 > test054 FAILED
+    java.lang.AssertionError at MapTester0.java:778
+
+testers.MapTester0 > test055 FAILED
+    java.lang.AssertionError at MapTester0.java:797
+
+testers.MapTester0 > test056 FAILED
+    java.lang.AssertionError at MapTester0.java:816
+
+testers.MapTester0 > test057 FAILED
+    java.lang.AssertionError at MapTester0.java:835
+
+testers.MapTester0 > test058 FAILED
+    java.lang.AssertionError at MapTester0.java:848
+
+testers.MapTester0 > test059 FAILED
+    java.lang.AssertionError at MapTester0.java:860
+
+testers.MapTester0 > test060 FAILED
+    java.lang.AssertionError at MapTester0.java:879
+
+testers.MapTester0 > test061 FAILED
+    java.lang.AssertionError at MapTester0.java:897
+
+testers.MapTester0 > test063 FAILED
+    java.lang.AssertionError at MapTester0.java:918
+
+testers.MapTester0 > test064 FAILED
+    java.lang.AssertionError at MapTester0.java:936
+
+testers.MapTester0 > test065 FAILED
+    java.lang.AssertionError at MapTester0.java:949
+
+testers.MapTester0 > test066 FAILED
+    java.lang.AssertionError at MapTester0.java:969
+
+testers.MapTester0 > test067 FAILED
+    java.lang.AssertionError at MapTester0.java:986
+
+testers.MapTester0 > test068 FAILED
+    java.lang.AssertionError at MapTester0.java:1006
+
+testers.MapTester0 > test072 FAILED
+    java.lang.AssertionError at MapTester0.java:1046
+
+testers.MapTester0 > test073 FAILED
+    java.lang.AssertionError at MapTester0.java:1063
+
+testers.MapTester0 > test074 FAILED
+    java.lang.AssertionError at MapTester0.java:1081
+
+testers.MapTester0 > test075 FAILED
+    java.lang.AssertionError at MapTester0.java:1095
+
+testers.MapTester0 > test076 FAILED
+    java.lang.AssertionError at MapTester0.java:1113
+
+testers.MapTester0 > test077 FAILED
+    java.lang.AssertionError at MapTester0.java:1137
+
+testers.MapTester0 > test078 FAILED
+    java.lang.AssertionError at MapTester0.java:1152
+
+testers.MapTester0 > test079 FAILED
+    java.lang.AssertionError at MapTester0.java:1164
+
+testers.MapTester0 > test080 FAILED
+    java.lang.AssertionError at MapTester0.java:1177
+
+testers.MapTester0 > test081 FAILED
+    java.lang.AssertionError at MapTester0.java:1194
+
+testers.MapTester0 > test082 FAILED
+    java.lang.AssertionError at MapTester0.java:1207
+
+testers.MapTester0 > test083 FAILED
+    java.lang.AssertionError at MapTester0.java:1228
+
+testers.MapTester0 > test084 FAILED
+    java.lang.AssertionError at MapTester0.java:1240
+
+testers.MapTester0 > test085 FAILED
+    java.lang.AssertionError at MapTester0.java:1253
+
+testers.MapTester0 > test087 FAILED
+    java.lang.AssertionError at MapTester0.java:1273
+
+testers.MapTester0 > test088 FAILED
+    java.lang.AssertionError at MapTester0.java:1284
+
+testers.MapTester0 > test089 FAILED
+    java.lang.AssertionError at MapTester0.java:1299
+
+testers.MapTester0 > test090 FAILED
+    java.lang.AssertionError at MapTester0.java:1315
+
+testers.MapTester0 > test092 FAILED
+    java.lang.AssertionError at MapTester0.java:1344
+
+testers.MapTester0 > test094 FAILED
+    java.lang.AssertionError at MapTester0.java:1379
+
+testers.MapTester0 > test095 FAILED
+    java.lang.AssertionError at MapTester0.java:1395
+
+testers.MapTester0 > test096 FAILED
+    java.lang.AssertionError at MapTester0.java:1407
+
+testers.MapTester0 > test098 FAILED
+    java.lang.AssertionError at MapTester0.java:1439
+
+testers.MapTester0 > test099 FAILED
+    java.lang.AssertionError at MapTester0.java:1454
+
+testers.MapTester0 > test100 FAILED
+    java.lang.AssertionError at MapTester0.java:1472
+
+testers.MapTester0 > test101 FAILED
+    java.lang.AssertionError at MapTester0.java:1493
+
+testers.MapTester0 > test103 FAILED
+    java.lang.AssertionError at MapTester0.java:1527
+
+testers.MapTester0 > test104 FAILED
+    java.lang.AssertionError at MapTester0.java:1538
+
+testers.MapTester0 > test105 FAILED
+    java.lang.AssertionError at MapTester0.java:1554
+
+testers.MapTester0 > test106 FAILED
+    java.lang.AssertionError at MapTester0.java:1568
+
+testers.MapTester0 > test107 FAILED
+    java.lang.AssertionError at MapTester0.java:1587
+
+testers.MapTester0 > test108 FAILED
+    java.lang.AssertionError at MapTester0.java:1599
+
+testers.MapTester0 > test109 FAILED
+    java.lang.AssertionError at MapTester0.java:1612
+
+testers.MapTester0 > test110 FAILED
+    java.lang.AssertionError at MapTester0.java:1624
+
+testers.MapTester0 > test114 FAILED
+    java.lang.AssertionError at MapTester0.java:1658
+
+testers.MapTester0 > test115 FAILED
+    java.lang.AssertionError at MapTester0.java:1674
+
+testers.MapTester0 > test116 FAILED
+    java.lang.AssertionError at MapTester0.java:1693
+
+testers.MapTester0 > test117 FAILED
+    java.lang.AssertionError at MapTester0.java:1712
+
+testers.MapTester0 > test118 FAILED
+    java.lang.AssertionError at MapTester0.java:1722
+
+testers.MapTester0 > test120 FAILED
+    java.lang.AssertionError at MapTester0.java:1743
+
+testers.MapTester0 > test121 FAILED
+    java.lang.AssertionError at MapTester0.java:1762
+
+testers.MapTester0 > test123 FAILED
+    java.lang.AssertionError at MapTester0.java:1785
+
+testers.MapTester0 > test125 FAILED
+    java.lang.AssertionError at MapTester0.java:1816
+
+testers.MapTester0 > test126 FAILED
+    java.lang.AssertionError at MapTester0.java:1830
+
+testers.MapTester0 > test127 FAILED
+    java.lang.AssertionError at MapTester0.java:1842
+
+testers.MapTester0 > test128 FAILED
+    java.lang.AssertionError at MapTester0.java:1860
+
+testers.MapTester0 > test129 FAILED
+    java.lang.AssertionError at MapTester0.java:1874
+
+testers.MapTester0 > test130 FAILED
+    java.lang.AssertionError at MapTester0.java:1895
+
+testers.MapTester0 > test131 FAILED
+    java.lang.AssertionError at MapTester0.java:1910
+
+testers.MapTester0 > test132 FAILED
+    java.lang.AssertionError at MapTester0.java:1921
+
+testers.MapTester0 > test134 FAILED
+    java.lang.AssertionError at MapTester0.java:1952
+
+testers.MapTester0 > test136 FAILED
+    java.lang.AssertionError at MapTester0.java:1973
+
+testers.MapTester0 > test137 FAILED
+    java.lang.AssertionError at MapTester0.java:1986
+
+testers.MapTester0 > test138 FAILED
+    java.lang.AssertionError at MapTester0.java:2008
+
+testers.MapTester0 > test139 FAILED
+    java.lang.AssertionError at MapTester0.java:2029
+
+testers.MapTester0 > test140 FAILED
+    java.lang.AssertionError at MapTester0.java:2040
+
+testers.MapTester0 > test141 FAILED
+    java.lang.AssertionError at MapTester0.java:2059
+
+testers.MapTester0 > test143 FAILED
+    java.lang.AssertionError at MapTester0.java:2081
+
+testers.MapTester0 > test144 FAILED
+    java.lang.AssertionError at MapTester0.java:2093
+
+testers.MapTester0 > test145 FAILED
+    java.lang.AssertionError at MapTester0.java:2111
+
+testers.MapTester0 > test146 FAILED
+    java.lang.AssertionError at MapTester0.java:2122
+
+testers.MapTester0 > test147 FAILED
+    java.lang.AssertionError at MapTester0.java:2138
+
+testers.MapTester0 > test148 FAILED
+    java.lang.AssertionError at MapTester0.java:2151
+
+testers.MapTester0 > test149 FAILED
+    java.lang.AssertionError at MapTester0.java:2163
+
+testers.MapTester0 > test150 FAILED
+    java.lang.AssertionError at MapTester0.java:2178
+
+testers.MapTester0 > test151 FAILED
+    java.lang.AssertionError at MapTester0.java:2189
+
+testers.MapTester0 > test153 FAILED
+    java.lang.AssertionError at MapTester0.java:2212
+
+testers.MapTester0 > test154 FAILED
+    java.lang.AssertionError at MapTester0.java:2228
+
+testers.MapTester0 > test156 FAILED
+    java.lang.AssertionError at MapTester0.java:2245
+
+testers.MapTester0 > test157 FAILED
+    java.lang.AssertionError at MapTester0.java:2259
+
+testers.MapTester0 > test158 FAILED
+    java.lang.AssertionError at MapTester0.java:2274
+
+testers.MapTester0 > test159 FAILED
+    java.lang.AssertionError at MapTester0.java:2288
+
+testers.MapTester0 > test160 FAILED
+    java.lang.AssertionError at MapTester0.java:2308
+
+testers.MapTester0 > test161 FAILED
+    java.lang.AssertionError at MapTester0.java:2333
+
+testers.MapTester0 > test162 FAILED
+    java.lang.AssertionError at MapTester0.java:2341
+
+testers.MapTester0 > test163 FAILED
+    java.lang.AssertionError at MapTester0.java:2361
+
+testers.MapTester0 > test165 FAILED
+    java.lang.AssertionError at MapTester0.java:2393
+
+testers.MapTester0 > test166 FAILED
+    java.lang.AssertionError at MapTester0.java:2409
+
+testers.MapTester0 > test168 FAILED
+    java.lang.AssertionError at MapTester0.java:2424
+
+testers.MapTester0 > test169 FAILED
+    java.lang.AssertionError at MapTester0.java:2447
+
+testers.MapTester0 > test170 FAILED
+    java.lang.AssertionError at MapTester0.java:2458
+
+testers.MapTester0 > test171 FAILED
+    java.lang.AssertionError at MapTester0.java:2472
+
+testers.MapTester0 > test172 FAILED
+    java.lang.AssertionError at MapTester0.java:2484
+
+testers.MapTester0 > test173 FAILED
+    java.lang.AssertionError at MapTester0.java:2502
+
+testers.MapTester0 > test174 FAILED
+    java.lang.AssertionError at MapTester0.java:2510
+
+testers.MapTester0 > test175 FAILED
+    java.lang.AssertionError at MapTester0.java:2523
+
+testers.MapTester0 > test176 FAILED
+    java.lang.AssertionError at MapTester0.java:2535
+
+testers.MapTester0 > test177 FAILED
+    java.lang.AssertionError at MapTester0.java:2559
+
+testers.MapTester0 > test179 FAILED
+    java.lang.AssertionError at MapTester0.java:2586
+
+testers.MapTester0 > test180 FAILED
+    java.lang.AssertionError at MapTester0.java:2605
+
+testers.MapTester0 > test181 FAILED
+    java.lang.AssertionError at MapTester0.java:2614
+
+testers.MapTester0 > test182 FAILED
+    java.lang.AssertionError at MapTester0.java:2628
+
+testers.MapTester0 > test183 FAILED
+    java.lang.AssertionError at MapTester0.java:2642
+
+testers.MapTester0 > test184 FAILED
+    java.lang.AssertionError at MapTester0.java:2662
+
+testers.MapTester0 > test186 FAILED
+    java.lang.AssertionError at MapTester0.java:2687
+
+testers.MapTester0 > test187 FAILED
+    java.lang.AssertionError at MapTester0.java:2707
+
+testers.MapTester0 > test188 FAILED
+    java.lang.AssertionError at MapTester0.java:2721
+
+testers.MapTester0 > test190 FAILED
+    java.lang.AssertionError at MapTester0.java:2751
+
+testers.MapTester0 > test191 FAILED
+    java.lang.AssertionError at MapTester0.java:2768
+
+testers.MapTester0 > test192 FAILED
+    java.lang.AssertionError at MapTester0.java:2780
+
+testers.MapTester0 > test193 FAILED
+    java.lang.AssertionError at MapTester0.java:2799
+
+testers.MapTester0 > test194 FAILED
+    java.lang.AssertionError at MapTester0.java:2818
+
+testers.MapTester0 > test195 FAILED
+    java.lang.AssertionError at MapTester0.java:2838
+
+testers.MapTester0 > test196 FAILED
+    java.lang.AssertionError at MapTester0.java:2854
+
+testers.MapTester0 > test197 FAILED
+    java.lang.AssertionError at MapTester0.java:2865
+
+testers.MapTester0 > test198 FAILED
+    java.lang.AssertionError at MapTester0.java:2880
+
+testers.MapTester0 > test200 FAILED
+    java.lang.AssertionError at MapTester0.java:2909
+
+testers.MapTester0 > test202 FAILED
+    java.lang.AssertionError at MapTester0.java:2940
+
+testers.MapTester0 > test203 FAILED
+    java.lang.AssertionError at MapTester0.java:2967
+
+testers.MapTester0 > test204 FAILED
+    java.lang.AssertionError at MapTester0.java:2979
+
+testers.MapTester0 > test205 FAILED
+    java.lang.AssertionError at MapTester0.java:2991
+
+testers.MapTester0 > test206 FAILED
+    java.lang.AssertionError at MapTester0.java:3004
+
+testers.MapTester0 > test207 FAILED
+    java.lang.AssertionError at MapTester0.java:3022
+
+testers.MapTester0 > test208 FAILED
+    java.lang.AssertionError at MapTester0.java:3030
+
+testers.MapTester0 > test209 FAILED
+    java.lang.AssertionError at MapTester0.java:3043
+
+testers.MapTester0 > test210 FAILED
+    java.lang.AssertionError at MapTester0.java:3055
+
+testers.MapTester0 > test211 FAILED
+    java.lang.AssertionError at MapTester0.java:3068
+
+testers.MapTester0 > test212 FAILED
+    java.lang.AssertionError at MapTester0.java:3080
+
+testers.MapTester0 > test213 FAILED
+    java.lang.AssertionError at MapTester0.java:3092
+
+testers.MapTester0 > test214 FAILED
+    java.lang.AssertionError at MapTester0.java:3109
+
+testers.MapTester0 > test215 FAILED
+    java.lang.AssertionError at MapTester0.java:3118
+
+testers.MapTester0 > test217 FAILED
+    java.lang.AssertionError at MapTester0.java:3145
+
+testers.MapTester0 > test218 FAILED
+    java.lang.AssertionError at MapTester0.java:3160
+
+testers.MapTester0 > test219 FAILED
+    java.lang.AssertionError at MapTester0.java:3173
+
+testers.MapTester0 > test220 FAILED
+    java.lang.AssertionError at MapTester0.java:3200
+
+testers.MapTester0 > test221 FAILED
+    java.lang.AssertionError at MapTester0.java:3209
+
+testers.MapTester0 > test223 FAILED
+    java.lang.AssertionError at MapTester0.java:3240
+
+testers.MapTester0 > test225 FAILED
+    java.lang.AssertionError at MapTester0.java:3256
+
+testers.MapTester0 > test226 FAILED
+    java.lang.AssertionError at MapTester0.java:3270
+
+testers.MapTester0 > test227 FAILED
+    java.lang.AssertionError at MapTester0.java:3284
+
+testers.MapTester0 > test228 FAILED
+    java.lang.AssertionError at MapTester0.java:3297
+
+testers.MapTester0 > test229 FAILED
+    java.lang.AssertionError at MapTester0.java:3316
+
+testers.MapTester0 > test231 FAILED
+    java.lang.AssertionError at MapTester0.java:3343
+
+testers.MapTester0 > test232 FAILED
+    java.lang.AssertionError at MapTester0.java:3357
+
+testers.MapTester0 > test233 FAILED
+    java.lang.AssertionError at MapTester0.java:3371
+
+testers.MapTester0 > test235 FAILED
+    java.lang.AssertionError at MapTester0.java:3402
+
+testers.MapTester0 > test236 FAILED
+    java.lang.AssertionError at MapTester0.java:3412
+
+testers.MapTester0 > test237 FAILED
+    java.lang.AssertionError at MapTester0.java:3425
+
+testers.MapTester0 > test238 FAILED
+    java.lang.AssertionError at MapTester0.java:3442
+
+testers.MapTester0 > test239 FAILED
+    java.lang.AssertionError at MapTester0.java:3450
+
+testers.MapTester0 > test240 FAILED
+    java.lang.AssertionError at MapTester0.java:3468
+
+testers.MapTester0 > test242 FAILED
+    java.lang.AssertionError at MapTester0.java:3496
+
+testers.MapTester0 > test244 FAILED
+    java.lang.AssertionError at MapTester0.java:3529
+
+testers.MapTester0 > test245 FAILED
+    java.lang.AssertionError at MapTester0.java:3542
+
+testers.MapTester0 > test246 FAILED
+    java.lang.AssertionError at MapTester0.java:3559
+
+testers.MapTester0 > test247 FAILED
+    java.lang.AssertionError at MapTester0.java:3572
+
+testers.MapTester0 > test248 FAILED
+    java.lang.AssertionError at MapTester0.java:3587
+
+testers.MapTester0 > test249 FAILED
+    java.lang.AssertionError at MapTester0.java:3610
+
+testers.MapTester0 > test250 FAILED
+    java.lang.AssertionError at MapTester0.java:3625
+
+testers.MapTester0 > test251 FAILED
+    java.lang.AssertionError at MapTester0.java:3637
+
+testers.MapTester0 > test255 FAILED
+    java.lang.AssertionError at MapTester0.java:3693
+
+testers.MapTester0 > test257 FAILED
+    java.lang.AssertionError at MapTester0.java:3719
+
+testers.MapTester0 > test258 FAILED
+    java.lang.AssertionError at MapTester0.java:3745
+
+testers.MapTester0 > test260 FAILED
+    java.lang.AssertionError at MapTester0.java:3763
+
+testers.MapTester0 > test261 FAILED
+    java.lang.AssertionError at MapTester0.java:3771
+
+testers.MapTester0 > test262 FAILED
+    java.lang.AssertionError at MapTester0.java:3783
+
+testers.MapTester0 > test264 FAILED
+    java.lang.AssertionError at MapTester0.java:3809
+
+testers.MapTester0 > test265 FAILED
+    java.lang.AssertionError at MapTester0.java:3821
+
+testers.MapTester0 > test266 FAILED
+    java.lang.AssertionError at MapTester0.java:3842
+
+testers.MapTester0 > test267 FAILED
+    java.lang.AssertionError at MapTester0.java:3854
+
+testers.MapTester0 > test268 FAILED
+    java.lang.AssertionError at MapTester0.java:3870
+
+testers.MapTester0 > test270 FAILED
+    java.lang.AssertionError at MapTester0.java:3890
+
+testers.MapTester0 > test271 FAILED
+    java.lang.AssertionError at MapTester0.java:3906
+
+testers.MapTester0 > test272 FAILED
+    java.lang.AssertionError at MapTester0.java:3919
+
+testers.MapTester0 > test273 FAILED
+    java.lang.AssertionError at MapTester0.java:3940
+
+testers.MapTester0 > test274 FAILED
+    java.lang.AssertionError at MapTester0.java:3952
+
+testers.MapTester0 > test275 FAILED
+    java.lang.AssertionError at MapTester0.java:3966
+
+testers.MapTester0 > test276 FAILED
+    java.lang.AssertionError at MapTester0.java:3980
+
+testers.MapTester0 > test277 FAILED
+    java.lang.AssertionError at MapTester0.java:4001
+
+testers.MapTester0 > test279 FAILED
+    java.lang.AssertionError at MapTester0.java:4022
+
+testers.MapTester0 > test280 FAILED
+    java.lang.AssertionError at MapTester0.java:4035
+
+testers.MapTester0 > test281 FAILED
+    java.lang.AssertionError at MapTester0.java:4048
+
+testers.MapTester0 > test282 FAILED
+    java.lang.AssertionError at MapTester0.java:4069
+
+testers.MapTester0 > test283 FAILED
+    java.lang.AssertionError at MapTester0.java:4082
+
+testers.MapTester0 > test284 FAILED
+    java.lang.AssertionError at MapTester0.java:4098
+
+testers.MapTester0 > test286 FAILED
+    java.lang.AssertionError at MapTester0.java:4127
+
+testers.MapTester0 > test287 FAILED
+    java.lang.AssertionError at MapTester0.java:4140
+
+testers.MapTester0 > test288 FAILED
+    java.lang.AssertionError at MapTester0.java:4153
+
+testers.MapTester0 > test290 FAILED
+    java.lang.AssertionError at MapTester0.java:4182
+
+testers.MapTester0 > test291 FAILED
+    java.lang.AssertionError at MapTester0.java:4195
+
+testers.MapTester0 > test293 FAILED
+    java.lang.AssertionError at MapTester0.java:4225
+
+testers.MapTester0 > test294 FAILED
+    java.lang.AssertionError at MapTester0.java:4236
+
+testers.MapTester0 > test295 FAILED
+    java.lang.AssertionError at MapTester0.java:4251
+
+testers.MapTester0 > test297 FAILED
+    java.lang.AssertionError at MapTester0.java:4273
+
+testers.MapTester0 > test298 FAILED
+    java.lang.AssertionError at MapTester0.java:4286
+
+testers.MapTester0 > test301 FAILED
+    java.lang.AssertionError at MapTester0.java:4319
+
+testers.MapTester0 > test302 FAILED
+    java.lang.AssertionError at MapTester0.java:4330
+
+testers.MapTester0 > test303 FAILED
+    java.lang.AssertionError at MapTester0.java:4345
+
+testers.MapTester0 > test305 FAILED
+    java.lang.AssertionError at MapTester0.java:4365
+
+testers.MapTester0 > test306 FAILED
+    java.lang.AssertionError at MapTester0.java:4375
+
+testers.MapTester0 > test307 FAILED
+    java.lang.AssertionError at MapTester0.java:4392
+Results: FAILURE (490 tests, 116 successes, 374 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

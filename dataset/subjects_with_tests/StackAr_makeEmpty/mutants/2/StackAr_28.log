@@ -1,0 +1,224 @@
+:clean
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+DataStructures.StackAr_ESTest STANDARD_OUT
+    11:09:12.804 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr_ESTest
+    11:09:12.808 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr_ESTest'.
+    11:09:12.853 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr_ESTest_scaffolding
+    11:09:12.854 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr_ESTest_scaffolding'.
+    11:09:12.866 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr_ESTest_scaffolding
+    11:09:12.867 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr_ESTest
+    11:09:13.182 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    11:09:13.183 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    11:09:13.183 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    11:09:13.183 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    11:09:13.183 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    11:09:13.183 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    11:09:13.183 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    11:09:13.183 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    11:09:13.183 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    11:09:13.183 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:61841 to /127.0.0.1:61840 workers Thread 2"
+    11:09:13.183 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:61841 to /127.0.0.1:61840 workers Thread 3"
+    11:09:13.246 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr
+    11:09:13.246 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr'.
+    11:09:13.265 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/StackAr
+    11:09:13.529 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/StackAr
+    11:09:13.530 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr
+    11:09:13.530 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Underflow
+    11:09:13.531 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Underflow'.
+    11:09:13.532 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Underflow
+    11:09:13.533 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Underflow
+    11:09:13.533 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Underflow
+    11:09:13.533 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Overflow
+    11:09:13.534 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Overflow'.
+    11:09:13.535 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Overflow
+    11:09:13.536 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Overflow
+    11:09:13.536 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Overflow
+
+DataStructures.StackAr_ESTest > test01 FAILED
+    java.lang.AssertionError at StackAr_ESTest.java:35
+
+RegressionTest > RegressionTest0.test05 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:82
+
+RegressionTest > RegressionTest0.test10 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:146
+
+RegressionTest > RegressionTest0.test11 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:157
+
+RegressionTest > RegressionTest0.test12 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:174
+
+RegressionTest > RegressionTest0.test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:221
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.AssertionError at RegressionTest0.java:261
+
+RegressionTest > RegressionTest0.test20 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:301
+
+RegressionTest > RegressionTest0.test22 FAILED
+    DataStructures.Overflow at RegressionTest0.java:324
+
+RegressionTest > RegressionTest0.test24 FAILED
+    DataStructures.Overflow at RegressionTest0.java:352
+
+RegressionTest > RegressionTest0.test25 FAILED
+    DataStructures.Overflow at RegressionTest0.java:361
+
+RegressionTest > RegressionTest0.test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:374
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:399
+
+RegressionTest > RegressionTest0.test29 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:416
+
+RegressionTest > RegressionTest0.test30 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:437
+
+RegressionTest > RegressionTest0.test33 FAILED
+    DataStructures.Overflow at RegressionTest0.java:479
+
+RegressionTest > RegressionTest0.test34 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:492
+
+RegressionTest > RegressionTest0.test36 FAILED
+    java.lang.AssertionError at RegressionTest0.java:529
+
+RegressionTest0 > test05 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:82
+
+RegressionTest0 > test10 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:146
+
+RegressionTest0 > test11 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:157
+
+RegressionTest0 > test12 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:174
+
+RegressionTest0 > test15 FAILED
+    java.lang.AssertionError at RegressionTest0.java:221
+
+RegressionTest0 > test17 FAILED
+    java.lang.AssertionError at RegressionTest0.java:261
+
+RegressionTest0 > test20 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:301
+
+RegressionTest0 > test22 FAILED
+    DataStructures.Overflow at RegressionTest0.java:324
+
+RegressionTest0 > test24 FAILED
+    DataStructures.Overflow at RegressionTest0.java:352
+
+RegressionTest0 > test25 FAILED
+    DataStructures.Overflow at RegressionTest0.java:361
+
+RegressionTest0 > test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:374
+
+RegressionTest0 > test28 FAILED
+    java.lang.AssertionError at RegressionTest0.java:399
+
+RegressionTest0 > test29 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:416
+
+RegressionTest0 > test30 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:437
+
+RegressionTest0 > test33 FAILED
+    DataStructures.Overflow at RegressionTest0.java:479
+
+RegressionTest0 > test34 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at RegressionTest0.java:492
+
+RegressionTest0 > test36 FAILED
+    java.lang.AssertionError at RegressionTest0.java:529
+
+testers.StackArTester0 > test008 FAILED
+    java.lang.AssertionError at StackArTester0.java:108
+
+testers.StackArTester0 > test019 FAILED
+    java.lang.AssertionError at StackArTester0.java:276
+
+testers.StackArTester0 > test023 FAILED
+    java.lang.AssertionError at StackArTester0.java:336
+
+testers.StackArTester0 > test028 FAILED
+    java.lang.AssertionError at StackArTester0.java:406
+
+testers.StackArTester0 > test035 FAILED
+    java.lang.AssertionError at StackArTester0.java:504
+
+testers.StackArTester0 > test037 FAILED
+    java.lang.AssertionError at StackArTester0.java:538
+
+testers.StackArTester0 > test046 FAILED
+    java.lang.AssertionError at StackArTester0.java:666
+
+testers.StackArTester0 > test086 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at StackArTester0.java:1207
+
+testers.StackArTester0 > test087 FAILED
+    java.lang.AssertionError at StackArTester0.java:1235
+
+testers.StackArTester0 > test092 FAILED
+    java.lang.AssertionError at StackArTester0.java:1312
+
+testers.StackArTester0 > test121 FAILED
+    java.lang.AssertionError at StackArTester0.java:1757
+
+testers.StackArTester0 > test141 FAILED
+    java.lang.AssertionError at StackArTester0.java:2077
+
+testers.StackArTester0 > test142 FAILED
+    java.lang.AssertionError at StackArTester0.java:2092
+
+testers.StackArTester0 > test153 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at StackArTester0.java:2267
+
+testers.StackArTester0 > test157 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at StackArTester0.java:2340
+
+testers.StackArTester0 > test169 FAILED
+    java.lang.AssertionError at StackArTester0.java:2524
+
+testers.StackArTester0 > test196 FAILED
+    java.lang.AssertionError at StackArTester0.java:2919
+
+testers.StackArTester0 > test200 FAILED
+    java.lang.AssertionError at StackArTester0.java:2982
+
+testers.StackArTester0 > test203 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at StackArTester0.java:3048
+
+testers.StackArTester0 > test225 FAILED
+    java.lang.AssertionError at StackArTester0.java:3358
+
+testers.StackArTester0 > test230 FAILED
+    java.lang.AssertionError at StackArTester0.java:3452
+
+testers.StackArTester0 > test247 FAILED
+    java.lang.AssertionError at StackArTester0.java:3723
+
+testers.StackArTester0 > test255 FAILED
+    java.lang.AssertionError at StackArTester0.java:3831
+Results: FAILURE (357 tests, 299 successes, 58 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

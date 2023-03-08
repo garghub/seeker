@@ -1,0 +1,270 @@
+:clean
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.MaxBag_ESTest STANDARD_OUT
+    06:32:02.247 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest
+    06:32:02.249 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest'.
+    06:32:02.273 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest_scaffolding
+    06:32:02.273 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest_scaffolding'.
+    06:32:02.275 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest_scaffolding
+    06:32:02.275 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest
+    06:32:02.467 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    06:32:02.467 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    06:32:02.467 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    06:32:02.467 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    06:32:02.467 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    06:32:02.467 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    06:32:02.467 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    06:32:02.467 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    06:32:02.467 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    06:32:02.467 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:62723 to /127.0.0.1:62722 workers Thread 2"
+    06:32:02.467 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:62723 to /127.0.0.1:62722 workers Thread 3"
+    06:32:02.504 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag
+    06:32:02.504 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag'.
+    06:32:02.517 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/MaxBag
+    06:32:02.635 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/MaxBag
+    06:32:02.636 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag
+    06:32:02.637 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples._Type328393
+    06:32:02.637 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples._Type328393'.
+    06:32:02.638 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/_Type328393
+    06:32:02.639 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/_Type328393
+    06:32:02.639 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples._Type328393
+
+examples.MaxBag_ESTest > test00 FAILED
+    java.lang.OutOfMemoryError at MaxBag_ESTest.java:32
+
+examples.MaxBag_ESTest > test11 FAILED
+    java.lang.OutOfMemoryError at MaxBag_ESTest.java:194
+
+examples.MaxBag_ESTest > test10 FAILED
+    java.lang.OutOfMemoryError
+
+examples.MaxBag_ESTest > test15 FAILED
+    java.lang.OutOfMemoryError
+
+examples.MaxBag_ESTest > test09 FAILED
+    java.lang.OutOfMemoryError
+
+examples.MaxBag_ESTest > test18 FAILED
+    java.lang.OutOfMemoryError
+
+examples.MaxBag_ESTest > test06 STANDARD_OUT
+    06:32:16.202 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+RegressionTest > RegressionTest0.test16 FAILED
+    java.lang.OutOfMemoryError
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.OutOfMemoryError
+
+RegressionTest > RegressionTest0.test18 FAILED
+    java.lang.OutOfMemoryError
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.OutOfMemoryError
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.OutOfMemoryError
+
+RegressionTest0 > test16 FAILED
+    java.lang.OutOfMemoryError
+
+RegressionTest0 > test17 FAILED
+    java.lang.OutOfMemoryError
+
+RegressionTest0 > test18 FAILED
+    java.lang.OutOfMemoryError
+
+RegressionTest0 > test23 FAILED
+    java.lang.OutOfMemoryError
+
+RegressionTest0 > test25 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test031 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test037 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test046 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test049 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test053 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test058 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test071 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test073 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test076 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test077 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test078 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test083 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test093 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test098 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test101 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test106 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test108 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test112 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test113 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test114 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test118 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test120 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test122 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test126 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test129 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test130 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test132 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test139 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test140 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test144 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test151 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test152 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test156 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test158 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test161 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test169 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test178 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test181 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test187 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test189 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test190 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test191 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test194 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test197 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test204 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test206 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test209 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test210 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test211 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test214 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test228 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test232 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test241 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test246 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test247 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test248 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test253 FAILED
+    java.lang.OutOfMemoryError
+
+testers.MaxBagTester0 > test255 FAILED
+    java.lang.OutOfMemoryError
+Results: FAILURE (332 tests, 258 successes, 74 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

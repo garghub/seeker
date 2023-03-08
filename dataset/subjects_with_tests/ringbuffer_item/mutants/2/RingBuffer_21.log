@@ -1,0 +1,241 @@
+:clean
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.RingBuffer_ESTest STANDARD_OUT
+    13:55:47.576 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest
+    13:55:47.580 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest'.
+    13:55:47.634 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest_scaffolding
+    13:55:47.634 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest_scaffolding'.
+    13:55:47.639 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest_scaffolding
+    13:55:47.640 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest
+    13:55:48.126 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    13:55:48.126 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    13:55:48.126 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    13:55:48.126 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    13:55:48.126 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    13:55:48.126 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    13:55:48.126 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    13:55:48.126 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    13:55:48.127 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    13:55:48.127 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:59682 to /127.0.0.1:59681 workers Thread 2"
+    13:55:48.127 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:59682 to /127.0.0.1:59681 workers Thread 3"
+    13:55:48.198 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer
+    13:55:48.198 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer'.
+    13:55:48.228 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/RingBuffer
+    13:55:48.463 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/RingBuffer
+    13:55:48.463 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer
+
+examples.RingBuffer_ESTest > test14 FAILED
+    java.lang.IndexOutOfBoundsException at RingBuffer_ESTest.java:175
+
+examples.RingBuffer_ESTest > test00 STANDARD_OUT
+    13:55:48.526 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.RingBuffer_ESTest > test11 STANDARD_OUT
+    13:55:48.537 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.RingBuffer_ESTest > test01 STANDARD_OUT
+    13:55:48.546 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+RegressionTest > RegressionTest0.test006 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:85
+
+RegressionTest > RegressionTest0.test011 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:156
+
+RegressionTest > RegressionTest0.test017 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:234
+
+RegressionTest > RegressionTest0.test018 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:252
+
+RegressionTest > RegressionTest0.test020 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:286
+
+RegressionTest > RegressionTest0.test022 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:327
+
+RegressionTest > RegressionTest0.test023 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:347
+
+RegressionTest > RegressionTest0.test034 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:496
+
+RegressionTest > RegressionTest0.test041 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:612
+
+RegressionTest > RegressionTest0.test056 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:821
+
+RegressionTest > RegressionTest0.test057 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:843
+
+RegressionTest > RegressionTest0.test068 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:1022
+
+RegressionTest > RegressionTest0.test087 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:1320
+
+RegressionTest > RegressionTest0.test102 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:1578
+
+RegressionTest > RegressionTest0.test108 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:1685
+
+RegressionTest0 > test006 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:85
+
+RegressionTest0 > test011 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:156
+
+RegressionTest0 > test017 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:234
+
+RegressionTest0 > test018 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:252
+
+RegressionTest0 > test020 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:286
+
+RegressionTest0 > test022 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:327
+
+RegressionTest0 > test023 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:347
+
+RegressionTest0 > test034 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:496
+
+RegressionTest0 > test041 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:612
+
+RegressionTest0 > test056 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:821
+
+RegressionTest0 > test057 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:843
+
+RegressionTest0 > test068 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:1022
+
+RegressionTest0 > test087 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:1320
+
+RegressionTest0 > test102 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:1578
+
+RegressionTest0 > test108 FAILED
+    java.lang.IndexOutOfBoundsException at RegressionTest0.java:1685
+
+testers.RingBufferTester0 > test004 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:54
+
+testers.RingBufferTester0 > test009 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:111
+
+testers.RingBufferTester0 > test015 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:199
+
+testers.RingBufferTester0 > test016 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:217
+
+testers.RingBufferTester0 > test018 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:247
+
+testers.RingBufferTester0 > test025 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:345
+
+testers.RingBufferTester0 > test029 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:401
+
+testers.RingBufferTester0 > test036 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:502
+
+testers.RingBufferTester0 > test043 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:589
+
+testers.RingBufferTester0 > test048 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:643
+
+testers.RingBufferTester0 > test056 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:754
+
+testers.RingBufferTester0 > test062 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:843
+
+testers.RingBufferTester0 > test075 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:1035
+
+testers.RingBufferTester0 > test078 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:1068
+
+testers.RingBufferTester0 > test100 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:1384
+
+testers.RingBufferTester0 > test108 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:1513
+
+testers.RingBufferTester0 > test133 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:1861
+
+testers.RingBufferTester0 > test140 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:1977
+
+testers.RingBufferTester0 > test158 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:2241
+
+testers.RingBufferTester0 > test166 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:2360
+
+testers.RingBufferTester0 > test167 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:2378
+
+testers.RingBufferTester0 > test168 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:2399
+
+testers.RingBufferTester0 > test185 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:2650
+
+testers.RingBufferTester0 > test193 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:2758
+
+testers.RingBufferTester0 > test196 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:2802
+
+testers.RingBufferTester0 > test216 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:3061
+
+testers.RingBufferTester0 > test226 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:3202
+
+testers.RingBufferTester0 > test234 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:3323
+
+testers.RingBufferTester0 > test237 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:3377
+
+testers.RingBufferTester0 > test265 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:3813
+
+testers.RingBufferTester0 > test269 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:3886
+
+testers.RingBufferTester0 > test272 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:3939
+
+testers.RingBufferTester0 > test287 FAILED
+    java.lang.IndexOutOfBoundsException at RingBufferTester0.java:4188
+Results: FAILURE (554 tests, 490 successes, 64 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

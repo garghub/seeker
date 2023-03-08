@@ -1,0 +1,103 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.Map_ESTest STANDARD_OUT
+    01:42:05.603 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Map_ESTest
+    01:42:05.610 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Map_ESTest'.
+    01:42:05.659 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Map_ESTest_scaffolding
+    01:42:05.659 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Map_ESTest_scaffolding'.
+    01:42:05.663 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Map_ESTest_scaffolding
+    01:42:05.663 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Map_ESTest
+    01:42:06.037 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    01:42:06.038 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    01:42:06.038 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    01:42:06.038 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    01:42:06.038 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    01:42:06.039 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    01:42:06.039 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    01:42:06.039 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    01:42:06.039 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    01:42:06.039 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:53465 to /127.0.0.1:53464 workers Thread 2"
+    01:42:06.039 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:53465 to /127.0.0.1:53464 workers Thread 3"
+    01:42:06.114 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Map
+    01:42:06.114 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Map'.
+    01:42:06.140 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/Map
+    01:42:06.391 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/Map
+    01:42:06.392 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Map
+
+examples.Map_ESTest > test09 FAILED
+    java.lang.AssertionError at Map_ESTest.java:115
+
+RegressionTest > RegressionTest0.test043 FAILED
+    java.lang.AssertionError at RegressionTest0.java:763
+
+RegressionTest > RegressionTest0.test047 FAILED
+    java.lang.AssertionError at RegressionTest0.java:813
+
+RegressionTest > RegressionTest0.test065 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1163
+
+RegressionTest > RegressionTest0.test079 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1407
+
+RegressionTest > RegressionTest0.test091 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1611
+
+RegressionTest > RegressionTest0.test103 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1815
+
+RegressionTest > RegressionTest0.test108 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1920
+
+RegressionTest > RegressionTest0.test109 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1936
+
+RegressionTest > RegressionTest0.test115 FAILED
+    java.lang.AssertionError at RegressionTest0.java:2065
+
+RegressionTest0 > test043 FAILED
+    java.lang.AssertionError at RegressionTest0.java:763
+
+RegressionTest0 > test047 FAILED
+    java.lang.AssertionError at RegressionTest0.java:813
+
+RegressionTest0 > test065 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1163
+
+RegressionTest0 > test079 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1407
+
+RegressionTest0 > test091 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1611
+
+RegressionTest0 > test103 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1815
+
+RegressionTest0 > test108 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1920
+
+RegressionTest0 > test109 FAILED
+    java.lang.AssertionError at RegressionTest0.java:1936
+
+RegressionTest0 > test115 FAILED
+    java.lang.AssertionError at RegressionTest0.java:2065
+
+testers.MapTester0 > test233 FAILED
+    java.lang.AssertionError at MapTester0.java:3379
+
+testers.MapTester0 > test248 FAILED
+    java.lang.AssertionError at MapTester0.java:3599
+Results: FAILURE (556 tests, 535 successes, 21 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

@@ -1,0 +1,219 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+DataStructures.StackAr_ESTest STANDARD_OUT
+    14:16:09.459 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr_ESTest
+    14:16:09.468 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr_ESTest'.
+    14:16:09.506 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr_ESTest_scaffolding
+    14:16:09.506 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr_ESTest_scaffolding'.
+    14:16:09.510 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr_ESTest_scaffolding
+    14:16:09.511 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr_ESTest
+    14:16:09.854 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    14:16:09.855 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    14:16:09.855 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    14:16:09.855 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    14:16:09.855 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    14:16:09.855 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    14:16:09.855 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    14:16:09.855 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    14:16:09.855 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    14:16:09.855 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:61906 to /127.0.0.1:61904 workers Thread 2"
+    14:16:09.855 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:61906 to /127.0.0.1:61904 workers Thread 3"
+    14:16:09.937 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr
+    14:16:09.938 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr'.
+    14:16:09.957 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/StackAr
+    14:16:10.249 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/StackAr
+    14:16:10.249 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_CAPACITY
+    14:16:10.251 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr
+    14:16:10.252 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Underflow
+    14:16:10.252 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Underflow'.
+    14:16:10.253 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Underflow
+    14:16:10.254 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Underflow
+    14:16:10.254 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Underflow
+    14:16:10.254 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Overflow
+    14:16:10.254 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Overflow'.
+    14:16:10.256 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Overflow
+    14:16:10.256 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Overflow
+    14:16:10.257 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Overflow
+
+DataStructures.StackAr_ESTest > test07 STANDARD_OUT
+    14:16:10.282 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:253
+
+RegressionTest > RegressionTest0.test24 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:302
+
+RegressionTest0 > test21 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:253
+
+RegressionTest0 > test24 FAILED
+    java.lang.IllegalArgumentException at RegressionTest0.java:302
+
+testers.StackArTester0 > test026 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:328
+
+testers.StackArTester0 > test039 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:493
+
+testers.StackArTester0 > test059 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:770
+
+testers.StackArTester0 > test066 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:857
+
+testers.StackArTester0 > test077 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1020
+
+testers.StackArTester0 > test078 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1038
+
+testers.StackArTester0 > test081 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1074
+
+testers.StackArTester0 > test083 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1108
+
+testers.StackArTester0 > test084 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1126
+
+testers.StackArTester0 > test088 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1177
+
+testers.StackArTester0 > test097 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1307
+
+testers.StackArTester0 > test098 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1322
+
+testers.StackArTester0 > test102 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1372
+
+testers.StackArTester0 > test105 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1411
+
+testers.StackArTester0 > test106 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1419
+
+testers.StackArTester0 > test114 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1522
+
+testers.StackArTester0 > test123 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1653
+
+testers.StackArTester0 > test125 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1679
+
+testers.StackArTester0 > test127 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1712
+
+testers.StackArTester0 > test128 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1727
+
+testers.StackArTester0 > test129 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1745
+
+testers.StackArTester0 > test132 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1790
+
+testers.StackArTester0 > test140 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1924
+
+testers.StackArTester0 > test143 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:1973
+
+testers.StackArTester0 > test146 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2013
+
+testers.StackArTester0 > test149 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2054
+
+testers.StackArTester0 > test152 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2116
+
+testers.StackArTester0 > test153 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2130
+
+testers.StackArTester0 > test156 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2169
+
+testers.StackArTester0 > test158 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2200
+
+testers.StackArTester0 > test161 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2254
+
+testers.StackArTester0 > test172 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2420
+
+testers.StackArTester0 > test178 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2529
+
+testers.StackArTester0 > test190 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2684
+
+testers.StackArTester0 > test193 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2724
+
+testers.StackArTester0 > test194 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2743
+
+testers.StackArTester0 > test198 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2799
+
+testers.StackArTester0 > test199 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2816
+
+testers.StackArTester0 > test204 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2896
+
+testers.StackArTester0 > test209 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:2967
+
+testers.StackArTester0 > test213 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:3026
+
+testers.StackArTester0 > test227 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:3247
+
+testers.StackArTester0 > test230 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:3291
+
+testers.StackArTester0 > test233 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:3343
+
+testers.StackArTester0 > test240 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:3447
+
+testers.StackArTester0 > test241 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:3461
+
+testers.StackArTester0 > test243 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:3489
+
+testers.StackArTester0 > test246 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:3544
+
+testers.StackArTester0 > test251 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:3613
+
+testers.StackArTester0 > test255 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:3687
+
+testers.StackArTester0 > test258 FAILED
+    java.lang.IllegalArgumentException at StackArTester0.java:3720
+Results: FAILURE (346 tests, 291 successes, 55 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

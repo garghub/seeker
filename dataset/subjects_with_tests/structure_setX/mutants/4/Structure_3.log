@@ -1,0 +1,67 @@
+:clean
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.Structure_ESTest STANDARD_OUT
+    16:58:55.058 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Structure_ESTest
+    16:58:55.066 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Structure_ESTest'.
+    16:58:55.098 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Structure_ESTest_scaffolding
+    16:58:55.098 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Structure_ESTest_scaffolding'.
+    16:58:55.102 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Structure_ESTest_scaffolding
+    16:58:55.102 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Structure_ESTest
+    16:58:55.482 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    16:58:55.482 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    16:58:55.482 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    16:58:55.482 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    16:58:55.482 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    16:58:55.482 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    16:58:55.482 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    16:58:55.482 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    16:58:55.482 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    16:58:55.482 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:63458 to /127.0.0.1:63457 workers Thread 2"
+    16:58:55.483 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:63458 to /127.0.0.1:63457 workers Thread 3"
+    16:58:55.547 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Structure
+    16:58:55.548 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Structure'.
+    16:58:55.574 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/Structure
+    16:58:55.857 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/Structure
+    16:58:55.858 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Structure
+
+examples.Structure_ESTest > test1 FAILED
+    java.lang.AssertionError at Structure_ESTest.java:30
+
+RegressionTest > RegressionTest0.test02 FAILED
+    java.lang.AssertionError at RegressionTest0.java:26
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.AssertionError at RegressionTest0.java:187
+
+RegressionTest > RegressionTest0.test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:298
+
+RegressionTest > RegressionTest0.test49 FAILED
+    java.lang.AssertionError at RegressionTest0.java:593
+
+RegressionTest0 > test02 FAILED
+    java.lang.AssertionError at RegressionTest0.java:26
+
+RegressionTest0 > test17 FAILED
+    java.lang.AssertionError at RegressionTest0.java:187
+
+RegressionTest0 > test26 FAILED
+    java.lang.AssertionError at RegressionTest0.java:298
+
+RegressionTest0 > test49 FAILED
+    java.lang.AssertionError at RegressionTest0.java:593
+Results: FAILURE (373 tests, 364 successes, 9 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

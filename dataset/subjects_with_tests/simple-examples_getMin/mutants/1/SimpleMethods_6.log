@@ -1,0 +1,880 @@
+:clean
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.SimpleMethods_ESTest STANDARD_OUT
+    13:31:04.951 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.SimpleMethods_ESTest
+    13:31:04.954 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.SimpleMethods_ESTest'.
+    13:31:05.003 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.SimpleMethods_ESTest_scaffolding
+    13:31:05.004 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.SimpleMethods_ESTest_scaffolding'.
+    13:31:05.010 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.SimpleMethods_ESTest_scaffolding
+    13:31:05.010 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.SimpleMethods_ESTest
+    13:31:05.611 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    13:31:05.611 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    13:31:05.611 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    13:31:05.611 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    13:31:05.611 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    13:31:05.611 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    13:31:05.611 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    13:31:05.612 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    13:31:05.612 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    13:31:05.612 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:54395 to /127.0.0.1:54389 workers Thread 2"
+    13:31:05.612 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:54395 to /127.0.0.1:54389 workers Thread 3"
+    13:31:05.702 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.SimpleMethods
+    13:31:05.702 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.SimpleMethods'.
+    13:31:05.732 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/SimpleMethods
+    13:31:06.005 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class examples/SimpleMethods
+    13:31:06.009 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.SimpleMethods
+
+examples.SimpleMethods_ESTest > test1 FAILED
+    java.lang.AssertionError at SimpleMethods_ESTest.java:28
+
+examples.SimpleMethods_ESTest > test0 FAILED
+    java.lang.AssertionError at SimpleMethods_ESTest.java:21
+
+examples.SimpleMethods_ESTest > test3 STANDARD_OUT
+    13:31:06.066 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.SimpleMethods_ESTest > test3 FAILED
+    java.lang.AssertionError at SimpleMethods_ESTest.java:42
+
+examples.SimpleMethods_ESTest > test2 FAILED
+    java.lang.AssertionError at SimpleMethods_ESTest.java:35
+
+testers.SimpleMethodsTester0 > test003 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:33
+
+testers.SimpleMethodsTester0 > test004 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:42
+
+testers.SimpleMethodsTester0 > test005 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:52
+
+testers.SimpleMethodsTester0 > test006 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:62
+
+testers.SimpleMethodsTester0 > test007 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:73
+
+testers.SimpleMethodsTester0 > test008 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:82
+
+testers.SimpleMethodsTester0 > test009 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:92
+
+testers.SimpleMethodsTester0 > test010 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:103
+
+testers.SimpleMethodsTester0 > test011 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:114
+
+testers.SimpleMethodsTester0 > test012 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:125
+
+testers.SimpleMethodsTester0 > test013 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:136
+
+testers.SimpleMethodsTester0 > test014 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:149
+
+testers.SimpleMethodsTester0 > test015 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:159
+
+testers.SimpleMethodsTester0 > test016 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:168
+
+testers.SimpleMethodsTester0 > test017 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:179
+
+testers.SimpleMethodsTester0 > test018 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:191
+
+testers.SimpleMethodsTester0 > test019 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:202
+
+testers.SimpleMethodsTester0 > test020 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:211
+
+testers.SimpleMethodsTester0 > test021 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:225
+
+testers.SimpleMethodsTester0 > test022 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:236
+
+testers.SimpleMethodsTester0 > test023 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:247
+
+testers.SimpleMethodsTester0 > test024 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:261
+
+testers.SimpleMethodsTester0 > test025 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:271
+
+testers.SimpleMethodsTester0 > test026 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:282
+
+testers.SimpleMethodsTester0 > test027 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:293
+
+testers.SimpleMethodsTester0 > test028 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:303
+
+testers.SimpleMethodsTester0 > test029 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:315
+
+testers.SimpleMethodsTester0 > test030 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:327
+
+testers.SimpleMethodsTester0 > test031 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:340
+
+testers.SimpleMethodsTester0 > test032 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:352
+
+testers.SimpleMethodsTester0 > test033 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:368
+
+testers.SimpleMethodsTester0 > test034 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:378
+
+testers.SimpleMethodsTester0 > test035 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:393
+
+testers.SimpleMethodsTester0 > test036 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:402
+
+testers.SimpleMethodsTester0 > test037 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:413
+
+testers.SimpleMethodsTester0 > test038 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:424
+
+testers.SimpleMethodsTester0 > test039 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:436
+
+testers.SimpleMethodsTester0 > test040 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:445
+
+testers.SimpleMethodsTester0 > test041 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:459
+
+testers.SimpleMethodsTester0 > test042 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:471
+
+testers.SimpleMethodsTester0 > test043 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:483
+
+testers.SimpleMethodsTester0 > test044 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:494
+
+testers.SimpleMethodsTester0 > test045 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:505
+
+testers.SimpleMethodsTester0 > test046 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:517
+
+testers.SimpleMethodsTester0 > test047 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:528
+
+testers.SimpleMethodsTester0 > test048 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:541
+
+testers.SimpleMethodsTester0 > test049 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:557
+
+testers.SimpleMethodsTester0 > test050 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:569
+
+testers.SimpleMethodsTester0 > test051 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:580
+
+testers.SimpleMethodsTester0 > test052 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:590
+
+testers.SimpleMethodsTester0 > test053 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:603
+
+testers.SimpleMethodsTester0 > test054 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:616
+
+testers.SimpleMethodsTester0 > test055 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:628
+
+testers.SimpleMethodsTester0 > test056 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:639
+
+testers.SimpleMethodsTester0 > test057 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:656
+
+testers.SimpleMethodsTester0 > test058 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:668
+
+testers.SimpleMethodsTester0 > test059 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:681
+
+testers.SimpleMethodsTester0 > test060 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:690
+
+testers.SimpleMethodsTester0 > test061 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:699
+
+testers.SimpleMethodsTester0 > test062 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:715
+
+testers.SimpleMethodsTester0 > test063 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:724
+
+testers.SimpleMethodsTester0 > test064 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:736
+
+testers.SimpleMethodsTester0 > test065 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:752
+
+testers.SimpleMethodsTester0 > test066 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:764
+
+testers.SimpleMethodsTester0 > test067 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:778
+
+testers.SimpleMethodsTester0 > test068 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:790
+
+testers.SimpleMethodsTester0 > test069 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:806
+
+testers.SimpleMethodsTester0 > test070 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:818
+
+testers.SimpleMethodsTester0 > test071 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:833
+
+testers.SimpleMethodsTester0 > test072 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:843
+
+testers.SimpleMethodsTester0 > test073 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:854
+
+testers.SimpleMethodsTester0 > test074 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:866
+
+testers.SimpleMethodsTester0 > test075 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:882
+
+testers.SimpleMethodsTester0 > test076 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:894
+
+testers.SimpleMethodsTester0 > test077 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:905
+
+testers.SimpleMethodsTester0 > test078 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:918
+
+testers.SimpleMethodsTester0 > test079 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:932
+
+testers.SimpleMethodsTester0 > test080 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:944
+
+testers.SimpleMethodsTester0 > test081 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:956
+
+testers.SimpleMethodsTester0 > test082 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:967
+
+testers.SimpleMethodsTester0 > test083 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:978
+
+testers.SimpleMethodsTester0 > test084 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:991
+
+testers.SimpleMethodsTester0 > test085 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1005
+
+testers.SimpleMethodsTester0 > test086 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1015
+
+testers.SimpleMethodsTester0 > test087 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1029
+
+testers.SimpleMethodsTester0 > test088 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1039
+
+testers.SimpleMethodsTester0 > test089 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1050
+
+testers.SimpleMethodsTester0 > test090 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1061
+
+testers.SimpleMethodsTester0 > test091 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1074
+
+testers.SimpleMethodsTester0 > test092 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1087
+
+testers.SimpleMethodsTester0 > test093 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1099
+
+testers.SimpleMethodsTester0 > test094 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1109
+
+testers.SimpleMethodsTester0 > test095 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1122
+
+testers.SimpleMethodsTester0 > test096 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1133
+
+testers.SimpleMethodsTester0 > test097 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1143
+
+testers.SimpleMethodsTester0 > test098 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1156
+
+testers.SimpleMethodsTester0 > test099 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1167
+
+testers.SimpleMethodsTester0 > test100 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1179
+
+testers.SimpleMethodsTester0 > test101 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1191
+
+testers.SimpleMethodsTester0 > test102 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1207
+
+testers.SimpleMethodsTester0 > test103 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1224
+
+testers.SimpleMethodsTester0 > test104 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1235
+
+testers.SimpleMethodsTester0 > test105 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1246
+
+testers.SimpleMethodsTester0 > test106 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1259
+
+testers.SimpleMethodsTester0 > test107 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1272
+
+testers.SimpleMethodsTester0 > test108 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1287
+
+testers.SimpleMethodsTester0 > test109 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1298
+
+testers.SimpleMethodsTester0 > test110 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1313
+
+testers.SimpleMethodsTester0 > test111 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1321
+
+testers.SimpleMethodsTester0 > test112 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1336
+
+testers.SimpleMethodsTester0 > test113 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1347
+
+testers.SimpleMethodsTester0 > test114 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1360
+
+testers.SimpleMethodsTester0 > test115 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1371
+
+testers.SimpleMethodsTester0 > test116 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1383
+
+testers.SimpleMethodsTester0 > test117 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1396
+
+testers.SimpleMethodsTester0 > test118 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1408
+
+testers.SimpleMethodsTester0 > test119 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1422
+
+testers.SimpleMethodsTester0 > test120 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1436
+
+testers.SimpleMethodsTester0 > test121 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1449
+
+testers.SimpleMethodsTester0 > test122 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1460
+
+testers.SimpleMethodsTester0 > test123 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1472
+
+testers.SimpleMethodsTester0 > test124 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1485
+
+testers.SimpleMethodsTester0 > test125 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1496
+
+testers.SimpleMethodsTester0 > test126 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1508
+
+testers.SimpleMethodsTester0 > test127 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1522
+
+testers.SimpleMethodsTester0 > test128 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1536
+
+testers.SimpleMethodsTester0 > test129 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1549
+
+testers.SimpleMethodsTester0 > test130 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1563
+
+testers.SimpleMethodsTester0 > test131 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1577
+
+testers.SimpleMethodsTester0 > test132 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1590
+
+testers.SimpleMethodsTester0 > test133 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1601
+
+testers.SimpleMethodsTester0 > test134 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1613
+
+testers.SimpleMethodsTester0 > test135 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1624
+
+testers.SimpleMethodsTester0 > test136 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1633
+
+testers.SimpleMethodsTester0 > test137 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1646
+
+testers.SimpleMethodsTester0 > test138 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1658
+
+testers.SimpleMethodsTester0 > test139 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1668
+
+testers.SimpleMethodsTester0 > test140 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1682
+
+testers.SimpleMethodsTester0 > test141 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1697
+
+testers.SimpleMethodsTester0 > test142 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1710
+
+testers.SimpleMethodsTester0 > test143 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1722
+
+testers.SimpleMethodsTester0 > test144 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1736
+
+testers.SimpleMethodsTester0 > test145 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1752
+
+testers.SimpleMethodsTester0 > test146 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1766
+
+testers.SimpleMethodsTester0 > test147 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1779
+
+testers.SimpleMethodsTester0 > test148 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1790
+
+testers.SimpleMethodsTester0 > test149 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1804
+
+testers.SimpleMethodsTester0 > test150 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1814
+
+testers.SimpleMethodsTester0 > test151 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1824
+
+testers.SimpleMethodsTester0 > test152 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1838
+
+testers.SimpleMethodsTester0 > test153 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1848
+
+testers.SimpleMethodsTester0 > test154 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1860
+
+testers.SimpleMethodsTester0 > test155 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1873
+
+testers.SimpleMethodsTester0 > test156 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1884
+
+testers.SimpleMethodsTester0 > test157 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1897
+
+testers.SimpleMethodsTester0 > test158 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1908
+
+testers.SimpleMethodsTester0 > test159 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1920
+
+testers.SimpleMethodsTester0 > test160 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1932
+
+testers.SimpleMethodsTester0 > test161 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1944
+
+testers.SimpleMethodsTester0 > test162 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1959
+
+testers.SimpleMethodsTester0 > test163 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1972
+
+testers.SimpleMethodsTester0 > test164 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1985
+
+testers.SimpleMethodsTester0 > test165 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:1999
+
+testers.SimpleMethodsTester0 > test166 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2013
+
+testers.SimpleMethodsTester0 > test167 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2023
+
+testers.SimpleMethodsTester0 > test168 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2037
+
+testers.SimpleMethodsTester0 > test169 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2051
+
+testers.SimpleMethodsTester0 > test170 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2063
+
+testers.SimpleMethodsTester0 > test171 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2076
+
+testers.SimpleMethodsTester0 > test172 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2086
+
+testers.SimpleMethodsTester0 > test173 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2095
+
+testers.SimpleMethodsTester0 > test174 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2110
+
+testers.SimpleMethodsTester0 > test175 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2121
+
+testers.SimpleMethodsTester0 > test176 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2135
+
+testers.SimpleMethodsTester0 > test177 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2149
+
+testers.SimpleMethodsTester0 > test178 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2158
+
+testers.SimpleMethodsTester0 > test179 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2170
+
+testers.SimpleMethodsTester0 > test180 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2184
+
+testers.SimpleMethodsTester0 > test181 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2196
+
+testers.SimpleMethodsTester0 > test182 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2209
+
+testers.SimpleMethodsTester0 > test183 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2222
+
+testers.SimpleMethodsTester0 > test184 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2236
+
+testers.SimpleMethodsTester0 > test185 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2250
+
+testers.SimpleMethodsTester0 > test186 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2263
+
+testers.SimpleMethodsTester0 > test187 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2274
+
+testers.SimpleMethodsTester0 > test188 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2284
+
+testers.SimpleMethodsTester0 > test189 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2296
+
+testers.SimpleMethodsTester0 > test190 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2308
+
+testers.SimpleMethodsTester0 > test191 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2321
+
+testers.SimpleMethodsTester0 > test192 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2333
+
+testers.SimpleMethodsTester0 > test193 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2348
+
+testers.SimpleMethodsTester0 > test194 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2360
+
+testers.SimpleMethodsTester0 > test195 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2373
+
+testers.SimpleMethodsTester0 > test196 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2386
+
+testers.SimpleMethodsTester0 > test197 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2400
+
+testers.SimpleMethodsTester0 > test198 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2413
+
+testers.SimpleMethodsTester0 > test199 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2424
+
+testers.SimpleMethodsTester0 > test200 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2439
+
+testers.SimpleMethodsTester0 > test201 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2453
+
+testers.SimpleMethodsTester0 > test202 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2465
+
+testers.SimpleMethodsTester0 > test203 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2481
+
+testers.SimpleMethodsTester0 > test204 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2495
+
+testers.SimpleMethodsTester0 > test205 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2508
+
+testers.SimpleMethodsTester0 > test206 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2519
+
+testers.SimpleMethodsTester0 > test207 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2532
+
+testers.SimpleMethodsTester0 > test208 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2541
+
+testers.SimpleMethodsTester0 > test209 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2552
+
+testers.SimpleMethodsTester0 > test210 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2566
+
+testers.SimpleMethodsTester0 > test211 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2581
+
+testers.SimpleMethodsTester0 > test212 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2593
+
+testers.SimpleMethodsTester0 > test213 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2605
+
+testers.SimpleMethodsTester0 > test214 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2617
+
+testers.SimpleMethodsTester0 > test215 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2631
+
+testers.SimpleMethodsTester0 > test216 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2640
+
+testers.SimpleMethodsTester0 > test217 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2651
+
+testers.SimpleMethodsTester0 > test218 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2665
+
+testers.SimpleMethodsTester0 > test219 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2675
+
+testers.SimpleMethodsTester0 > test220 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2688
+
+testers.SimpleMethodsTester0 > test221 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2705
+
+testers.SimpleMethodsTester0 > test222 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2718
+
+testers.SimpleMethodsTester0 > test223 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2731
+
+testers.SimpleMethodsTester0 > test224 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2747
+
+testers.SimpleMethodsTester0 > test225 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2761
+
+testers.SimpleMethodsTester0 > test226 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2772
+
+testers.SimpleMethodsTester0 > test227 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2785
+
+testers.SimpleMethodsTester0 > test228 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2796
+
+testers.SimpleMethodsTester0 > test229 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2811
+
+testers.SimpleMethodsTester0 > test230 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2823
+
+testers.SimpleMethodsTester0 > test231 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2835
+
+testers.SimpleMethodsTester0 > test232 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2849
+
+testers.SimpleMethodsTester0 > test233 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2861
+
+testers.SimpleMethodsTester0 > test234 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2869
+
+testers.SimpleMethodsTester0 > test235 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2880
+
+testers.SimpleMethodsTester0 > test236 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2893
+
+testers.SimpleMethodsTester0 > test237 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2907
+
+testers.SimpleMethodsTester0 > test238 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2919
+
+testers.SimpleMethodsTester0 > test239 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2932
+
+testers.SimpleMethodsTester0 > test240 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2946
+
+testers.SimpleMethodsTester0 > test241 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2961
+
+testers.SimpleMethodsTester0 > test242 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2975
+
+testers.SimpleMethodsTester0 > test243 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:2990
+
+testers.SimpleMethodsTester0 > test244 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3005
+
+testers.SimpleMethodsTester0 > test245 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3017
+
+testers.SimpleMethodsTester0 > test246 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3034
+
+testers.SimpleMethodsTester0 > test247 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3045
+
+testers.SimpleMethodsTester0 > test248 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3057
+
+testers.SimpleMethodsTester0 > test249 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3073
+
+testers.SimpleMethodsTester0 > test250 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3086
+
+testers.SimpleMethodsTester0 > test251 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3096
+
+testers.SimpleMethodsTester0 > test252 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3112
+
+testers.SimpleMethodsTester0 > test253 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3126
+
+testers.SimpleMethodsTester0 > test254 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3138
+
+testers.SimpleMethodsTester0 > test255 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3153
+
+testers.SimpleMethodsTester0 > test256 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3166
+
+testers.SimpleMethodsTester0 > test257 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3181
+
+testers.SimpleMethodsTester0 > test258 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3191
+
+testers.SimpleMethodsTester0 > test259 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3202
+
+testers.SimpleMethodsTester0 > test260 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3217
+
+testers.SimpleMethodsTester0 > test261 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3230
+
+testers.SimpleMethodsTester0 > test262 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3244
+
+testers.SimpleMethodsTester0 > test263 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3255
+
+testers.SimpleMethodsTester0 > test264 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3267
+
+testers.SimpleMethodsTester0 > test265 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3280
+
+testers.SimpleMethodsTester0 > test266 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3295
+
+testers.SimpleMethodsTester0 > test267 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3310
+
+testers.SimpleMethodsTester0 > test268 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3325
+
+testers.SimpleMethodsTester0 > test269 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3342
+
+testers.SimpleMethodsTester0 > test270 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3355
+
+testers.SimpleMethodsTester0 > test271 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3365
+
+testers.SimpleMethodsTester0 > test272 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3378
+
+testers.SimpleMethodsTester0 > test273 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3392
+
+testers.SimpleMethodsTester0 > test274 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3403
+
+testers.SimpleMethodsTester0 > test275 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3419
+
+testers.SimpleMethodsTester0 > test276 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3431
+
+testers.SimpleMethodsTester0 > test277 FAILED
+    java.lang.AssertionError at SimpleMethodsTester0.java:3443
+Results: FAILURE (281 tests, 2 successes, 279 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

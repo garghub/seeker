@@ -1,0 +1,43 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+math.IntMath_ESTest STANDARD_OUT
+    21:57:26.491 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: math.IntMath_ESTest
+    21:57:26.501 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'math.IntMath_ESTest'.
+    21:57:26.563 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: math.IntMath_ESTest_scaffolding
+    21:57:26.564 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'math.IntMath_ESTest_scaffolding'.
+    21:57:26.569 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: math.IntMath_ESTest_scaffolding
+    21:57:26.570 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: math.IntMath_ESTest
+    21:57:26.973 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    21:57:26.974 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    21:57:26.974 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    21:57:26.974 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    21:57:26.974 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    21:57:26.974 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    21:57:26.974 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    21:57:26.974 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    21:57:26.974 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    21:57:26.974 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:63601 to /127.0.0.1:63600 workers Thread 2"
+    21:57:26.975 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:63601 to /127.0.0.1:63600 workers Thread 3"
+    21:57:27.069 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: math.IntMath
+    21:57:27.069 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'math.IntMath'.
+    21:57:27.098 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class math/IntMath
+    21:57:27.389 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class math/IntMath
+    21:57:27.390 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: math.IntMath
+Results: SUCCESS (455 tests, 455 successes, 0 failures, 0 skipped)
+:check
+:build
+
+BUILD SUCCESSFUL in 13s
+4 actionable tasks: 4 executed

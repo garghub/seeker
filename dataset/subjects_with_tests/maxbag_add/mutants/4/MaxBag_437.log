@@ -1,0 +1,102 @@
+:clean
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.MaxBag_ESTest STANDARD_OUT
+    16:42:40.441 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest
+    16:42:40.443 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest'.
+    16:42:40.465 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag_ESTest_scaffolding
+    16:42:40.465 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag_ESTest_scaffolding'.
+    16:42:40.467 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest_scaffolding
+    16:42:40.467 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag_ESTest
+    16:42:40.627 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    16:42:40.627 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    16:42:40.627 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    16:42:40.627 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    16:42:40.628 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    16:42:40.628 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    16:42:40.628 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    16:42:40.628 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    16:42:40.628 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    16:42:40.628 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:65158 to /127.0.0.1:65157 workers Thread 2"
+    16:42:40.628 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:65158 to /127.0.0.1:65157 workers Thread 3"
+    16:42:40.668 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.MaxBag
+    16:42:40.668 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.MaxBag'.
+    16:42:40.681 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/MaxBag
+    16:42:40.801 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/MaxBag
+    16:42:40.802 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.MaxBag
+    16:42:40.802 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples._Type328393
+    16:42:40.802 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples._Type328393'.
+    16:42:40.803 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/_Type328393
+    16:42:40.804 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/_Type328393
+    16:42:40.804 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples._Type328393
+
+RegressionTest > RegressionTest0.test16 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:219
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:235
+
+RegressionTest > RegressionTest0.test18 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:253
+
+RegressionTest0 > test16 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:219
+
+RegressionTest0 > test17 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:235
+
+RegressionTest0 > test18 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:253
+
+testers.MaxBagTester0 > test031 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:372
+
+testers.MaxBagTester0 > test049 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:620
+
+testers.MaxBagTester0 > test053 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:674
+
+testers.MaxBagTester0 > test073 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:941
+
+testers.MaxBagTester0 > test113 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1502
+
+testers.MaxBagTester0 > test120 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1602
+
+testers.MaxBagTester0 > test129 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1727
+
+testers.MaxBagTester0 > test140 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:1882
+
+testers.MaxBagTester0 > test158 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2148
+
+testers.MaxBagTester0 > test194 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2652
+
+testers.MaxBagTester0 > test204 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:2807
+
+testers.MaxBagTester0 > test232 FAILED
+    java.lang.NullPointerException at MaxBagTester0.java:3213
+
+testers.MaxBagTester0 > test246 FAILED
+    java.lang.ArrayIndexOutOfBoundsException at MaxBagTester0.java:3406
+Results: FAILURE (332 tests, 313 successes, 19 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

@@ -1,0 +1,835 @@
+:clean
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.SimpleMethods_ESTest STANDARD_OUT
+    18:05:40.824 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.SimpleMethods_ESTest
+    18:05:40.829 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.SimpleMethods_ESTest'.
+    18:05:40.869 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.SimpleMethods_ESTest_scaffolding
+    18:05:40.869 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.SimpleMethods_ESTest_scaffolding'.
+    18:05:40.873 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.SimpleMethods_ESTest_scaffolding
+    18:05:40.873 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.SimpleMethods_ESTest
+    18:05:41.137 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    18:05:41.137 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    18:05:41.137 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    18:05:41.138 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    18:05:41.138 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    18:05:41.138 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    18:05:41.138 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    18:05:41.138 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    18:05:41.138 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    18:05:41.138 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:54804 to /127.0.0.1:54803 workers Thread 2"
+    18:05:41.138 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:54804 to /127.0.0.1:54803 workers Thread 3"
+    18:05:41.209 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.SimpleMethods
+    18:05:41.209 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.SimpleMethods'.
+    18:05:41.230 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/SimpleMethods
+    18:05:41.436 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/SimpleMethods
+    18:05:41.437 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.SimpleMethods
+
+examples.SimpleMethods_ESTest > test1 FAILED
+    java.lang.NullPointerException at SimpleMethods_ESTest.java:30
+
+RegressionTest > RegressionTest0.test043 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:2084
+
+RegressionTest > RegressionTest0.test055 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:2766
+
+RegressionTest > RegressionTest0.test075 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4048
+
+RegressionTest > RegressionTest0.test079 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4324
+
+RegressionTest > RegressionTest0.test082 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4499
+
+RegressionTest > RegressionTest0.test086 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4759
+
+RegressionTest > RegressionTest0.test087 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4806
+
+RegressionTest > RegressionTest0.test089 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4914
+
+RegressionTest > RegressionTest0.test097 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:5406
+
+RegressionTest > RegressionTest0.test101 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:5646
+
+RegressionTest > RegressionTest0.test111 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:6230
+
+RegressionTest > RegressionTest0.test112 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:6311
+
+RegressionTest > RegressionTest0.test115 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:6470
+
+RegressionTest > RegressionTest0.test117 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:6584
+
+RegressionTest > RegressionTest0.test119 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:6714
+
+RegressionTest0 > test043 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:2084
+
+RegressionTest0 > test055 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:2766
+
+RegressionTest0 > test075 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4048
+
+RegressionTest0 > test079 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4324
+
+RegressionTest0 > test082 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4499
+
+RegressionTest0 > test086 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4759
+
+RegressionTest0 > test087 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4806
+
+RegressionTest0 > test089 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:4914
+
+RegressionTest0 > test097 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:5406
+
+RegressionTest0 > test101 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:5646
+
+RegressionTest0 > test111 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:6230
+
+RegressionTest0 > test112 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:6311
+
+RegressionTest0 > test115 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:6470
+
+RegressionTest0 > test117 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:6584
+
+RegressionTest0 > test119 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:6714
+
+testers.SimpleMethodsTester0 > test018 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:372
+
+testers.SimpleMethodsTester0 > test019 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:392
+
+testers.SimpleMethodsTester0 > test021 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:428
+
+testers.SimpleMethodsTester0 > test023 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:480
+
+testers.SimpleMethodsTester0 > test024 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:500
+
+testers.SimpleMethodsTester0 > test025 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:525
+
+testers.SimpleMethodsTester0 > test030 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:652
+
+testers.SimpleMethodsTester0 > test031 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:672
+
+testers.SimpleMethodsTester0 > test033 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:712
+
+testers.SimpleMethodsTester0 > test034 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:745
+
+testers.SimpleMethodsTester0 > test035 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:776
+
+testers.SimpleMethodsTester0 > test036 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:792
+
+testers.SimpleMethodsTester0 > test037 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:841
+
+testers.SimpleMethodsTester0 > test038 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:862
+
+testers.SimpleMethodsTester0 > test041 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:940
+
+testers.SimpleMethodsTester0 > test042 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:963
+
+testers.SimpleMethodsTester0 > test044 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1026
+
+testers.SimpleMethodsTester0 > test045 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1056
+
+testers.SimpleMethodsTester0 > test047 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1112
+
+testers.SimpleMethodsTester0 > test048 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1141
+
+testers.SimpleMethodsTester0 > test052 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1270
+
+testers.SimpleMethodsTester0 > test054 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1328
+
+testers.SimpleMethodsTester0 > test055 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1373
+
+testers.SimpleMethodsTester0 > test056 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1394
+
+testers.SimpleMethodsTester0 > test057 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1437
+
+testers.SimpleMethodsTester0 > test058 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1459
+
+testers.SimpleMethodsTester0 > test062 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1600
+
+testers.SimpleMethodsTester0 > test063 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1620
+
+testers.SimpleMethodsTester0 > test065 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1704
+
+testers.SimpleMethodsTester0 > test066 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1737
+
+testers.SimpleMethodsTester0 > test067 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1778
+
+testers.SimpleMethodsTester0 > test069 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1826
+
+testers.SimpleMethodsTester0 > test071 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1889
+
+testers.SimpleMethodsTester0 > test072 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:1940
+
+testers.SimpleMethodsTester0 > test077 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2083
+
+testers.SimpleMethodsTester0 > test078 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2114
+
+testers.SimpleMethodsTester0 > test085 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2358
+
+testers.SimpleMethodsTester0 > test086 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2384
+
+testers.SimpleMethodsTester0 > test087 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2418
+
+testers.SimpleMethodsTester0 > test088 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2450
+
+testers.SimpleMethodsTester0 > test089 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2490
+
+testers.SimpleMethodsTester0 > test090 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2526
+
+testers.SimpleMethodsTester0 > test091 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2549
+
+testers.SimpleMethodsTester0 > test092 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2580
+
+testers.SimpleMethodsTester0 > test093 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2610
+
+testers.SimpleMethodsTester0 > test094 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2640
+
+testers.SimpleMethodsTester0 > test095 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2662
+
+testers.SimpleMethodsTester0 > test096 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2704
+
+testers.SimpleMethodsTester0 > test097 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2746
+
+testers.SimpleMethodsTester0 > test098 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2756
+
+testers.SimpleMethodsTester0 > test099 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2794
+
+testers.SimpleMethodsTester0 > test100 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2829
+
+testers.SimpleMethodsTester0 > test101 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2860
+
+testers.SimpleMethodsTester0 > test102 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2892
+
+testers.SimpleMethodsTester0 > test103 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2914
+
+testers.SimpleMethodsTester0 > test105 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2950
+
+testers.SimpleMethodsTester0 > test106 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:2982
+
+testers.SimpleMethodsTester0 > test107 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3014
+
+testers.SimpleMethodsTester0 > test108 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3068
+
+testers.SimpleMethodsTester0 > test111 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3146
+
+testers.SimpleMethodsTester0 > test112 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3180
+
+testers.SimpleMethodsTester0 > test113 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3220
+
+testers.SimpleMethodsTester0 > test115 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3270
+
+testers.SimpleMethodsTester0 > test116 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3304
+
+testers.SimpleMethodsTester0 > test117 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3338
+
+testers.SimpleMethodsTester0 > test118 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3379
+
+testers.SimpleMethodsTester0 > test119 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3406
+
+testers.SimpleMethodsTester0 > test120 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3434
+
+testers.SimpleMethodsTester0 > test121 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3460
+
+testers.SimpleMethodsTester0 > test122 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3500
+
+testers.SimpleMethodsTester0 > test123 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3556
+
+testers.SimpleMethodsTester0 > test124 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3570
+
+testers.SimpleMethodsTester0 > test125 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3606
+
+testers.SimpleMethodsTester0 > test126 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3634
+
+testers.SimpleMethodsTester0 > test127 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3692
+
+testers.SimpleMethodsTester0 > test130 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3774
+
+testers.SimpleMethodsTester0 > test131 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3816
+
+testers.SimpleMethodsTester0 > test132 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3840
+
+testers.SimpleMethodsTester0 > test133 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3854
+
+testers.SimpleMethodsTester0 > test134 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3891
+
+testers.SimpleMethodsTester0 > test135 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3925
+
+testers.SimpleMethodsTester0 > test136 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:3967
+
+testers.SimpleMethodsTester0 > test137 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4005
+
+testers.SimpleMethodsTester0 > test138 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4027
+
+testers.SimpleMethodsTester0 > test139 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4059
+
+testers.SimpleMethodsTester0 > test140 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4077
+
+testers.SimpleMethodsTester0 > test141 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4091
+
+testers.SimpleMethodsTester0 > test143 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4155
+
+testers.SimpleMethodsTester0 > test145 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4221
+
+testers.SimpleMethodsTester0 > test147 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4267
+
+testers.SimpleMethodsTester0 > test148 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4303
+
+testers.SimpleMethodsTester0 > test150 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4379
+
+testers.SimpleMethodsTester0 > test151 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4414
+
+testers.SimpleMethodsTester0 > test152 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4447
+
+testers.SimpleMethodsTester0 > test155 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4557
+
+testers.SimpleMethodsTester0 > test156 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4595
+
+testers.SimpleMethodsTester0 > test157 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4635
+
+testers.SimpleMethodsTester0 > test158 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4645
+
+testers.SimpleMethodsTester0 > test160 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4705
+
+testers.SimpleMethodsTester0 > test162 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4773
+
+testers.SimpleMethodsTester0 > test163 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4807
+
+testers.SimpleMethodsTester0 > test164 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4843
+
+testers.SimpleMethodsTester0 > test165 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4879
+
+testers.SimpleMethodsTester0 > test166 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4920
+
+testers.SimpleMethodsTester0 > test168 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:4985
+
+testers.SimpleMethodsTester0 > test169 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5015
+
+testers.SimpleMethodsTester0 > test170 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5055
+
+testers.SimpleMethodsTester0 > test171 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5083
+
+testers.SimpleMethodsTester0 > test176 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5226
+
+testers.SimpleMethodsTester0 > test177 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5257
+
+testers.SimpleMethodsTester0 > test179 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5313
+
+testers.SimpleMethodsTester0 > test180 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5355
+
+testers.SimpleMethodsTester0 > test181 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5384
+
+testers.SimpleMethodsTester0 > test182 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5414
+
+testers.SimpleMethodsTester0 > test183 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5448
+
+testers.SimpleMethodsTester0 > test184 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5484
+
+testers.SimpleMethodsTester0 > test185 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5512
+
+testers.SimpleMethodsTester0 > test186 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5554
+
+testers.SimpleMethodsTester0 > test187 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5580
+
+testers.SimpleMethodsTester0 > test188 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5625
+
+testers.SimpleMethodsTester0 > test189 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5658
+
+testers.SimpleMethodsTester0 > test190 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5676
+
+testers.SimpleMethodsTester0 > test191 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5704
+
+testers.SimpleMethodsTester0 > test192 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5740
+
+testers.SimpleMethodsTester0 > test193 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5790
+
+testers.SimpleMethodsTester0 > test195 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5840
+
+testers.SimpleMethodsTester0 > test196 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5874
+
+testers.SimpleMethodsTester0 > test197 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5908
+
+testers.SimpleMethodsTester0 > test198 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5968
+
+testers.SimpleMethodsTester0 > test199 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:5978
+
+testers.SimpleMethodsTester0 > test200 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6022
+
+testers.SimpleMethodsTester0 > test201 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6055
+
+testers.SimpleMethodsTester0 > test202 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6101
+
+testers.SimpleMethodsTester0 > test203 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6121
+
+testers.SimpleMethodsTester0 > test204 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6153
+
+testers.SimpleMethodsTester0 > test205 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6179
+
+testers.SimpleMethodsTester0 > test206 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6215
+
+testers.SimpleMethodsTester0 > test207 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6277
+
+testers.SimpleMethodsTester0 > test208 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6291
+
+testers.SimpleMethodsTester0 > test209 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6338
+
+testers.SimpleMethodsTester0 > test210 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6351
+
+testers.SimpleMethodsTester0 > test212 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6414
+
+testers.SimpleMethodsTester0 > test213 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6458
+
+testers.SimpleMethodsTester0 > test214 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6487
+
+testers.SimpleMethodsTester0 > test215 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6528
+
+testers.SimpleMethodsTester0 > test216 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6566
+
+testers.SimpleMethodsTester0 > test217 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6608
+
+testers.SimpleMethodsTester0 > test218 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6650
+
+testers.SimpleMethodsTester0 > test219 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6676
+
+testers.SimpleMethodsTester0 > test220 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6710
+
+testers.SimpleMethodsTester0 > test221 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6724
+
+testers.SimpleMethodsTester0 > test222 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6762
+
+testers.SimpleMethodsTester0 > test223 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6792
+
+testers.SimpleMethodsTester0 > test224 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6847
+
+testers.SimpleMethodsTester0 > test225 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6864
+
+testers.SimpleMethodsTester0 > test226 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6896
+
+testers.SimpleMethodsTester0 > test227 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6934
+
+testers.SimpleMethodsTester0 > test228 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:6994
+
+testers.SimpleMethodsTester0 > test229 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7004
+
+testers.SimpleMethodsTester0 > test230 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7054
+
+testers.SimpleMethodsTester0 > test231 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7102
+
+testers.SimpleMethodsTester0 > test232 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7118
+
+testers.SimpleMethodsTester0 > test234 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7188
+
+testers.SimpleMethodsTester0 > test235 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7220
+
+testers.SimpleMethodsTester0 > test236 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7258
+
+testers.SimpleMethodsTester0 > test237 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7280
+
+testers.SimpleMethodsTester0 > test238 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7327
+
+testers.SimpleMethodsTester0 > test239 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7354
+
+testers.SimpleMethodsTester0 > test240 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7382
+
+testers.SimpleMethodsTester0 > test242 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7458
+
+testers.SimpleMethodsTester0 > test243 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7488
+
+testers.SimpleMethodsTester0 > test244 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7523
+
+testers.SimpleMethodsTester0 > test245 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7562
+
+testers.SimpleMethodsTester0 > test246 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7624
+
+testers.SimpleMethodsTester0 > test247 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7640
+
+testers.SimpleMethodsTester0 > test248 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7704
+
+testers.SimpleMethodsTester0 > test250 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7733
+
+testers.SimpleMethodsTester0 > test251 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7761
+
+testers.SimpleMethodsTester0 > test252 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7821
+
+testers.SimpleMethodsTester0 > test253 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7835
+
+testers.SimpleMethodsTester0 > test254 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7853
+
+testers.SimpleMethodsTester0 > test255 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7901
+
+testers.SimpleMethodsTester0 > test257 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7941
+
+testers.SimpleMethodsTester0 > test258 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:7979
+
+testers.SimpleMethodsTester0 > test259 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8024
+
+testers.SimpleMethodsTester0 > test261 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8070
+
+testers.SimpleMethodsTester0 > test262 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8112
+
+testers.SimpleMethodsTester0 > test263 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8146
+
+testers.SimpleMethodsTester0 > test264 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8163
+
+testers.SimpleMethodsTester0 > test265 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8208
+
+testers.SimpleMethodsTester0 > test266 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8236
+
+testers.SimpleMethodsTester0 > test267 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8255
+
+testers.SimpleMethodsTester0 > test268 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8279
+
+testers.SimpleMethodsTester0 > test269 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8310
+
+testers.SimpleMethodsTester0 > test270 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8353
+
+testers.SimpleMethodsTester0 > test271 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8383
+
+testers.SimpleMethodsTester0 > test272 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8412
+
+testers.SimpleMethodsTester0 > test273 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8450
+
+testers.SimpleMethodsTester0 > test274 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8501
+
+testers.SimpleMethodsTester0 > test275 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8529
+
+testers.SimpleMethodsTester0 > test276 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8561
+
+testers.SimpleMethodsTester0 > test277 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8586
+
+testers.SimpleMethodsTester0 > test279 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8646
+
+testers.SimpleMethodsTester0 > test280 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8679
+
+testers.SimpleMethodsTester0 > test281 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8705
+
+testers.SimpleMethodsTester0 > test282 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8758
+
+testers.SimpleMethodsTester0 > test283 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8784
+
+testers.SimpleMethodsTester0 > test285 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8832
+
+testers.SimpleMethodsTester0 > test286 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8874
+
+testers.SimpleMethodsTester0 > test287 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8900
+
+testers.SimpleMethodsTester0 > test288 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:8944
+
+testers.SimpleMethodsTester0 > test289 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9013
+
+testers.SimpleMethodsTester0 > test290 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9023
+
+testers.SimpleMethodsTester0 > test291 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9059
+
+testers.SimpleMethodsTester0 > test292 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9101
+
+testers.SimpleMethodsTester0 > test293 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9132
+
+testers.SimpleMethodsTester0 > test294 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9166
+
+testers.SimpleMethodsTester0 > test295 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9207
+
+testers.SimpleMethodsTester0 > test296 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9249
+
+testers.SimpleMethodsTester0 > test297 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9269
+
+testers.SimpleMethodsTester0 > test300 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9388
+
+testers.SimpleMethodsTester0 > test301 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9428
+
+testers.SimpleMethodsTester0 > test302 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9438
+
+testers.SimpleMethodsTester0 > test303 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9469
+
+testers.SimpleMethodsTester0 > test304 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9503
+
+testers.SimpleMethodsTester0 > test305 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9541
+
+testers.SimpleMethodsTester0 > test306 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9574
+
+testers.SimpleMethodsTester0 > test307 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9613
+
+testers.SimpleMethodsTester0 > test308 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9674
+
+testers.SimpleMethodsTester0 > test309 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9689
+
+testers.SimpleMethodsTester0 > test310 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9721
+
+testers.SimpleMethodsTester0 > test311 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9757
+
+testers.SimpleMethodsTester0 > test312 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9795
+
+testers.SimpleMethodsTester0 > test313 FAILED
+    java.lang.NullPointerException at SimpleMethodsTester0.java:9835
+Results: FAILURE (557 tests, 292 successes, 265 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

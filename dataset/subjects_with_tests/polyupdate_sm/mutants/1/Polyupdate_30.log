@@ -1,0 +1,196 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.Polyupdate_ESTest STANDARD_OUT
+    08:21:00.461 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Polyupdate_ESTest
+    08:21:00.466 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Polyupdate_ESTest'.
+    08:21:00.513 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Polyupdate_ESTest_scaffolding
+    08:21:00.513 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Polyupdate_ESTest_scaffolding'.
+    08:21:00.518 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Polyupdate_ESTest_scaffolding
+    08:21:00.519 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Polyupdate_ESTest
+    08:21:00.714 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    08:21:00.714 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    08:21:00.714 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    08:21:00.714 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    08:21:00.714 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    08:21:00.714 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    08:21:00.714 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    08:21:00.715 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    08:21:00.715 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    08:21:00.715 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:53374 to /127.0.0.1:53373 workers Thread 2"
+    08:21:00.715 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:53374 to /127.0.0.1:53373 workers Thread 3"
+    08:21:00.823 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Polyupdate
+    08:21:00.823 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Polyupdate'.
+    08:21:00.857 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/Polyupdate
+    08:21:01.166 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/Polyupdate
+    08:21:01.167 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Polyupdate
+
+examples.Polyupdate_ESTest > test09 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:105
+
+examples.Polyupdate_ESTest > test08 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:98
+
+examples.Polyupdate_ESTest > test07 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:89
+
+examples.Polyupdate_ESTest > test01 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:34
+
+examples.Polyupdate_ESTest > test00 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:25
+
+examples.Polyupdate_ESTest > test10 FAILED
+    java.lang.ArithmeticException at Polyupdate_ESTest.java:111
+
+examples.Polyupdate_ESTest > test05 FAILED
+    java.lang.ArithmeticException at Polyupdate_ESTest.java:64
+
+examples.Polyupdate_ESTest > test04 FAILED
+    java.lang.AssertionError at Polyupdate_ESTest.java:57
+
+examples.Polyupdate_ESTest > test02 STANDARD_OUT
+    08:21:01.248 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.Polyupdate_ESTest > test02 FAILED
+    java.lang.ArithmeticException at Polyupdate_ESTest.java:43
+
+testers.PolyupdateTester0 > test004 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:42
+
+testers.PolyupdateTester0 > test013 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:143
+
+testers.PolyupdateTester0 > test014 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:158
+
+testers.PolyupdateTester0 > test015 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:171
+
+testers.PolyupdateTester0 > test016 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:180
+
+testers.PolyupdateTester0 > test035 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:414
+
+testers.PolyupdateTester0 > test042 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:502
+
+testers.PolyupdateTester0 > test056 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:683
+
+testers.PolyupdateTester0 > test061 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:756
+
+testers.PolyupdateTester0 > test076 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:941
+
+testers.PolyupdateTester0 > test088 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:1086
+
+testers.PolyupdateTester0 > test093 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:1158
+
+testers.PolyupdateTester0 > test096 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:1204
+
+testers.PolyupdateTester0 > test098 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:1224
+
+testers.PolyupdateTester0 > test120 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:1524
+
+testers.PolyupdateTester0 > test122 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:1556
+
+testers.PolyupdateTester0 > test128 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:1644
+
+testers.PolyupdateTester0 > test135 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:1734
+
+testers.PolyupdateTester0 > test136 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:1746
+
+testers.PolyupdateTester0 > test143 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:1845
+
+testers.PolyupdateTester0 > test147 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:1891
+
+testers.PolyupdateTester0 > test148 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:1906
+
+testers.PolyupdateTester0 > test159 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:2044
+
+testers.PolyupdateTester0 > test181 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:2353
+
+testers.PolyupdateTester0 > test183 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:2381
+
+testers.PolyupdateTester0 > test191 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:2485
+
+testers.PolyupdateTester0 > test192 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:2504
+
+testers.PolyupdateTester0 > test198 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:2575
+
+testers.PolyupdateTester0 > test200 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:2605
+
+testers.PolyupdateTester0 > test201 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:2622
+
+testers.PolyupdateTester0 > test202 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:2634
+
+testers.PolyupdateTester0 > test207 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:2708
+
+testers.PolyupdateTester0 > test209 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:2736
+
+testers.PolyupdateTester0 > test213 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:2790
+
+testers.PolyupdateTester0 > test226 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:2972
+
+testers.PolyupdateTester0 > test236 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:3109
+
+testers.PolyupdateTester0 > test238 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:3137
+
+testers.PolyupdateTester0 > test242 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:3186
+
+testers.PolyupdateTester0 > test248 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:3270
+
+testers.PolyupdateTester0 > test251 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:3316
+
+testers.PolyupdateTester0 > test255 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:3362
+
+testers.PolyupdateTester0 > test270 FAILED
+    java.lang.ArithmeticException at PolyupdateTester0.java:3570
+Results: FAILURE (282 tests, 231 successes, 51 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

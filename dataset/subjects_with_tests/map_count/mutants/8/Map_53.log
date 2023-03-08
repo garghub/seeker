@@ -1,0 +1,223 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.Map_ESTest STANDARD_OUT
+    01:26:41.408 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Map_ESTest
+    01:26:41.412 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Map_ESTest'.
+    01:26:41.459 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Map_ESTest_scaffolding
+    01:26:41.459 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Map_ESTest_scaffolding'.
+    01:26:41.464 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Map_ESTest_scaffolding
+    01:26:41.465 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Map_ESTest
+    01:26:41.829 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    01:26:41.829 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    01:26:41.830 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    01:26:41.830 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    01:26:41.830 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    01:26:41.830 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    01:26:41.830 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    01:26:41.830 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    01:26:41.830 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    01:26:41.830 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64694 to /127.0.0.1:64693 workers Thread 2"
+    01:26:41.830 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:64694 to /127.0.0.1:64693 workers Thread 3"
+    01:26:41.912 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.Map
+    01:26:41.912 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.Map'.
+    01:26:41.946 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/Map
+    01:26:42.229 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/Map
+    01:26:42.230 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.Map
+
+examples.Map_ESTest > test03 STANDARD_OUT
+    01:26:42.255 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.Map_ESTest > test03 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at Map_ESTest.java:63
+
+examples.Map_ESTest > test10 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at Map_ESTest.java:123
+
+RegressionTest > RegressionTest0.test40 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:695
+
+RegressionTest > RegressionTest0.test56 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:951
+
+RegressionTest > RegressionTest0.test58 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:983
+
+RegressionTest > RegressionTest0.test59 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:1006
+
+RegressionTest > RegressionTest0.test60 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:1024
+
+RegressionTest > RegressionTest0.test68 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:1169
+
+RegressionTest > RegressionTest0.test69 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:1189
+
+RegressionTest0 > test40 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:695
+
+RegressionTest0 > test56 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:951
+
+RegressionTest0 > test58 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:983
+
+RegressionTest0 > test59 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:1006
+
+RegressionTest0 > test60 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:1024
+
+RegressionTest0 > test68 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:1169
+
+RegressionTest0 > test69 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:1189
+
+testers.MapTester0 > test036 FAILED
+    java.lang.IllegalStateException at MapTester0.java:531
+
+testers.MapTester0 > test043 FAILED
+    java.lang.IllegalStateException at MapTester0.java:620
+
+testers.MapTester0 > test044 FAILED
+    java.lang.IllegalStateException at MapTester0.java:638
+
+testers.MapTester0 > test045 FAILED
+    java.lang.IllegalStateException at MapTester0.java:651
+
+testers.MapTester0 > test061 FAILED
+    java.lang.IllegalStateException at MapTester0.java:900
+
+testers.MapTester0 > test067 FAILED
+    java.lang.IllegalStateException at MapTester0.java:989
+
+testers.MapTester0 > test083 FAILED
+    java.lang.IllegalStateException at MapTester0.java:1232
+
+testers.MapTester0 > test094 FAILED
+    java.lang.IllegalStateException at MapTester0.java:1379
+
+testers.MapTester0 > test101 FAILED
+    java.lang.IllegalStateException at MapTester0.java:1493
+
+testers.MapTester0 > test114 FAILED
+    java.lang.IllegalStateException at MapTester0.java:1664
+
+testers.MapTester0 > test116 FAILED
+    java.lang.IllegalStateException at MapTester0.java:1696
+
+testers.MapTester0 > test125 FAILED
+    java.lang.IllegalStateException at MapTester0.java:1821
+
+testers.MapTester0 > test130 FAILED
+    java.lang.IllegalStateException at MapTester0.java:1898
+
+testers.MapTester0 > test131 FAILED
+    java.lang.IllegalStateException at MapTester0.java:1913
+
+testers.MapTester0 > test132 FAILED
+    java.lang.IllegalStateException at MapTester0.java:1926
+
+testers.MapTester0 > test137 FAILED
+    java.lang.IllegalStateException at MapTester0.java:1992
+
+testers.MapTester0 > test148 FAILED
+    java.lang.IllegalStateException at MapTester0.java:2155
+
+testers.MapTester0 > test149 FAILED
+    java.lang.IllegalStateException at MapTester0.java:2168
+
+testers.MapTester0 > test157 FAILED
+    java.lang.IllegalStateException at MapTester0.java:2262
+
+testers.MapTester0 > test160 FAILED
+    java.lang.IllegalStateException at MapTester0.java:2316
+
+testers.MapTester0 > test168 FAILED
+    java.lang.IllegalStateException at MapTester0.java:2430
+
+testers.MapTester0 > test174 FAILED
+    java.lang.IllegalStateException at MapTester0.java:2513
+
+testers.MapTester0 > test183 FAILED
+    java.lang.IllegalStateException at MapTester0.java:2645
+
+testers.MapTester0 > test197 FAILED
+    java.lang.IllegalStateException at MapTester0.java:2870
+
+testers.MapTester0 > test200 FAILED
+    java.lang.IllegalStateException at MapTester0.java:2915
+
+testers.MapTester0 > test207 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3022
+
+testers.MapTester0 > test211 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3071
+
+testers.MapTester0 > test213 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3097
+
+testers.MapTester0 > test219 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3178
+
+testers.MapTester0 > test220 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3201
+
+testers.MapTester0 > test223 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3240
+
+testers.MapTester0 > test233 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3375
+
+testers.MapTester0 > test245 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3547
+
+testers.MapTester0 > test247 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3575
+
+testers.MapTester0 > test248 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3595
+
+testers.MapTester0 > test265 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3827
+
+testers.MapTester0 > test267 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3859
+
+testers.MapTester0 > test268 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3875
+
+testers.MapTester0 > test274 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3958
+
+testers.MapTester0 > test275 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3971
+
+testers.MapTester0 > test276 FAILED
+    java.lang.IllegalStateException at MapTester0.java:3983
+
+testers.MapTester0 > test281 FAILED
+    java.lang.IllegalStateException at MapTester0.java:4054
+
+testers.MapTester0 > test284 FAILED
+    java.lang.IllegalStateException at MapTester0.java:4103
+
+testers.MapTester0 > test303 FAILED
+    java.lang.IllegalStateException at MapTester0.java:4345
+Results: FAILURE (490 tests, 430 successes, 60 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

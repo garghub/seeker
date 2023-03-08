@@ -1,0 +1,124 @@
+:clean
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.RingBuffer_ESTest STANDARD_OUT
+    15:39:07.339 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest
+    15:39:07.342 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest'.
+    15:39:07.395 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest_scaffolding
+    15:39:07.396 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest_scaffolding'.
+    15:39:07.400 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest_scaffolding
+    15:39:07.401 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest
+    15:39:07.758 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    15:39:07.758 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    15:39:07.759 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    15:39:07.759 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    15:39:07.759 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    15:39:07.759 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    15:39:07.759 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    15:39:07.762 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    15:39:07.762 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    15:39:07.762 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:54928 to /127.0.0.1:54927 workers Thread 2"
+    15:39:07.762 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:54928 to /127.0.0.1:54927 workers Thread 3"
+    15:39:07.835 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer
+    15:39:07.835 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer'.
+    15:39:07.857 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/RingBuffer
+    15:39:08.123 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/RingBuffer
+    15:39:08.124 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer
+
+examples.RingBuffer_ESTest > test08 STANDARD_OUT
+    15:39:08.148 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+examples.RingBuffer_ESTest > test09 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException
+
+examples.RingBuffer_ESTest > test06 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException
+
+examples.RingBuffer_ESTest > test16 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:198
+
+examples.RingBuffer_ESTest > test02 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:49
+
+examples.RingBuffer_ESTest > test00 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:23
+
+examples.RingBuffer_ESTest > test01 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException at RingBuffer_ESTest.java:36
+
+examples.RingBuffer_ESTest > test12 FAILED
+    org.evosuite.runtime.mock.java.lang.MockIllegalStateException
+
+RegressionTest > RegressionTest0.test43 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:620
+
+RegressionTest0 > test43 FAILED
+    java.lang.IllegalStateException at RegressionTest0.java:620
+
+testers.RingBufferTester0 > test101 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1403
+
+testers.RingBufferTester0 > test103 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1435
+
+testers.RingBufferTester0 > test104 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1453
+
+testers.RingBufferTester0 > test111 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1558
+
+testers.RingBufferTester0 > test121 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1704
+
+testers.RingBufferTester0 > test136 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1918
+
+testers.RingBufferTester0 > test139 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:1961
+
+testers.RingBufferTester0 > test146 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:2064
+
+testers.RingBufferTester0 > test173 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:2469
+
+testers.RingBufferTester0 > test227 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3223
+
+testers.RingBufferTester0 > test233 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3308
+
+testers.RingBufferTester0 > test242 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3456
+
+testers.RingBufferTester0 > test246 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3518
+
+testers.RingBufferTester0 > test247 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3533
+
+testers.RingBufferTester0 > test253 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3651
+
+testers.RingBufferTester0 > test271 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:3921
+
+testers.RingBufferTester0 > test286 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:4165
+
+testers.RingBufferTester0 > test287 FAILED
+    java.lang.IllegalStateException at RingBufferTester0.java:4185
+Results: FAILURE (426 tests, 399 successes, 27 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

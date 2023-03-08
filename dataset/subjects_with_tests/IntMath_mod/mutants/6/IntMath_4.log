@@ -1,0 +1,340 @@
+:clean
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+math.IntMath_ESTest STANDARD_OUT
+    22:31:18.196 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: math.IntMath_ESTest
+    22:31:18.200 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'math.IntMath_ESTest'.
+    22:31:18.251 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: math.IntMath_ESTest_scaffolding
+    22:31:18.251 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'math.IntMath_ESTest_scaffolding'.
+    22:31:18.255 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: math.IntMath_ESTest_scaffolding
+    22:31:18.256 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: math.IntMath_ESTest
+    22:31:18.635 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    22:31:18.636 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    22:31:18.636 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    22:31:18.636 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    22:31:18.636 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    22:31:18.636 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    22:31:18.636 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    22:31:18.636 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    22:31:18.636 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    22:31:18.636 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:62033 to /127.0.0.1:62032 workers Thread 2"
+    22:31:18.636 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:62033 to /127.0.0.1:62032 workers Thread 3"
+    22:31:18.724 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: math.IntMath
+    22:31:18.724 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'math.IntMath'.
+    22:31:18.753 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class math/IntMath
+    22:31:19.043 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class math/IntMath
+    22:31:19.043 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: math.IntMath
+
+math.IntMath_ESTest > test4 FAILED
+    java.lang.AssertionError at IntMath_ESTest.java:62
+
+RegressionTest > RegressionTest0.test03 FAILED
+    java.lang.AssertionError at RegressionTest0.java:42
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:58
+
+RegressionTest > RegressionTest0.test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:421
+
+RegressionTest > RegressionTest0.test33 FAILED
+    java.lang.AssertionError at RegressionTest0.java:472
+
+RegressionTest > RegressionTest0.test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:492
+
+RegressionTest > RegressionTest0.test61 FAILED
+    java.lang.AssertionError at RegressionTest0.java:913
+
+RegressionTest0 > test03 FAILED
+    java.lang.AssertionError at RegressionTest0.java:42
+
+RegressionTest0 > test04 FAILED
+    java.lang.AssertionError at RegressionTest0.java:58
+
+RegressionTest0 > test30 FAILED
+    java.lang.AssertionError at RegressionTest0.java:421
+
+RegressionTest0 > test33 FAILED
+    java.lang.AssertionError at RegressionTest0.java:472
+
+RegressionTest0 > test34 FAILED
+    java.lang.AssertionError at RegressionTest0.java:492
+
+RegressionTest0 > test61 FAILED
+    java.lang.AssertionError at RegressionTest0.java:913
+
+testers.IntMathTester0 > test010 FAILED
+    java.lang.AssertionError at IntMathTester0.java:124
+
+testers.IntMathTester0 > test011 FAILED
+    java.lang.AssertionError at IntMathTester0.java:139
+
+testers.IntMathTester0 > test013 FAILED
+    java.lang.AssertionError at IntMathTester0.java:168
+
+testers.IntMathTester0 > test016 FAILED
+    java.lang.AssertionError at IntMathTester0.java:207
+
+testers.IntMathTester0 > test018 FAILED
+    java.lang.AssertionError at IntMathTester0.java:235
+
+testers.IntMathTester0 > test020 FAILED
+    java.lang.AssertionError at IntMathTester0.java:266
+
+testers.IntMathTester0 > test023 FAILED
+    java.lang.AssertionError at IntMathTester0.java:312
+
+testers.IntMathTester0 > test024 FAILED
+    java.lang.AssertionError at IntMathTester0.java:327
+
+testers.IntMathTester0 > test028 FAILED
+    java.lang.AssertionError at IntMathTester0.java:381
+
+testers.IntMathTester0 > test031 FAILED
+    java.lang.AssertionError at IntMathTester0.java:424
+
+testers.IntMathTester0 > test032 FAILED
+    java.lang.AssertionError at IntMathTester0.java:441
+
+testers.IntMathTester0 > test034 FAILED
+    java.lang.AssertionError at IntMathTester0.java:466
+
+testers.IntMathTester0 > test035 FAILED
+    java.lang.AssertionError at IntMathTester0.java:487
+
+testers.IntMathTester0 > test040 FAILED
+    java.lang.AssertionError at IntMathTester0.java:550
+
+testers.IntMathTester0 > test043 FAILED
+    java.lang.AssertionError at IntMathTester0.java:592
+
+testers.IntMathTester0 > test048 FAILED
+    java.lang.AssertionError at IntMathTester0.java:668
+
+testers.IntMathTester0 > test049 FAILED
+    java.lang.AssertionError at IntMathTester0.java:689
+
+testers.IntMathTester0 > test050 FAILED
+    java.lang.AssertionError at IntMathTester0.java:709
+
+testers.IntMathTester0 > test051 FAILED
+    java.lang.AssertionError at IntMathTester0.java:724
+
+testers.IntMathTester0 > test053 FAILED
+    java.lang.AssertionError at IntMathTester0.java:757
+
+testers.IntMathTester0 > test058 FAILED
+    java.lang.AssertionError at IntMathTester0.java:825
+
+testers.IntMathTester0 > test062 FAILED
+    java.lang.AssertionError at IntMathTester0.java:892
+
+testers.IntMathTester0 > test063 FAILED
+    java.lang.AssertionError at IntMathTester0.java:908
+
+testers.IntMathTester0 > test064 FAILED
+    java.lang.AssertionError at IntMathTester0.java:927
+
+testers.IntMathTester0 > test065 FAILED
+    java.lang.AssertionError at IntMathTester0.java:943
+
+testers.IntMathTester0 > test069 FAILED
+    java.lang.AssertionError at IntMathTester0.java:996
+
+testers.IntMathTester0 > test071 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1027
+
+testers.IntMathTester0 > test073 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1061
+
+testers.IntMathTester0 > test074 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1076
+
+testers.IntMathTester0 > test076 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1113
+
+testers.IntMathTester0 > test077 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1128
+
+testers.IntMathTester0 > test090 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1308
+
+testers.IntMathTester0 > test091 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1324
+
+testers.IntMathTester0 > test096 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1408
+
+testers.IntMathTester0 > test101 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1475
+
+testers.IntMathTester0 > test106 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1552
+
+testers.IntMathTester0 > test108 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1585
+
+testers.IntMathTester0 > test109 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1606
+
+testers.IntMathTester0 > test113 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1670
+
+testers.IntMathTester0 > test115 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1703
+
+testers.IntMathTester0 > test124 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1823
+
+testers.IntMathTester0 > test125 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1841
+
+testers.IntMathTester0 > test127 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1871
+
+testers.IntMathTester0 > test128 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1886
+
+testers.IntMathTester0 > test134 FAILED
+    java.lang.AssertionError at IntMathTester0.java:1975
+
+testers.IntMathTester0 > test147 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2164
+
+testers.IntMathTester0 > test149 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2199
+
+testers.IntMathTester0 > test152 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2246
+
+testers.IntMathTester0 > test153 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2262
+
+testers.IntMathTester0 > test156 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2314
+
+testers.IntMathTester0 > test159 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2363
+
+testers.IntMathTester0 > test160 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2380
+
+testers.IntMathTester0 > test163 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2428
+
+testers.IntMathTester0 > test167 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2479
+
+testers.IntMathTester0 > test169 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2508
+
+testers.IntMathTester0 > test170 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2525
+
+testers.IntMathTester0 > test172 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2560
+
+testers.IntMathTester0 > test175 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2616
+
+testers.IntMathTester0 > test178 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2659
+
+testers.IntMathTester0 > test179 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2678
+
+testers.IntMathTester0 > test184 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2746
+
+testers.IntMathTester0 > test185 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2761
+
+testers.IntMathTester0 > test187 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2791
+
+testers.IntMathTester0 > test188 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2807
+
+testers.IntMathTester0 > test189 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2826
+
+testers.IntMathTester0 > test194 FAILED
+    java.lang.AssertionError at IntMathTester0.java:2900
+
+testers.IntMathTester0 > test206 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3081
+
+testers.IntMathTester0 > test207 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3098
+
+testers.IntMathTester0 > test223 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3321
+
+testers.IntMathTester0 > test230 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3413
+
+testers.IntMathTester0 > test235 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3482
+
+testers.IntMathTester0 > test236 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3497
+
+testers.IntMathTester0 > test237 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3516
+
+testers.IntMathTester0 > test241 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3576
+
+testers.IntMathTester0 > test242 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3596
+
+testers.IntMathTester0 > test243 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3614
+
+testers.IntMathTester0 > test245 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3644
+
+testers.IntMathTester0 > test246 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3662
+
+testers.IntMathTester0 > test248 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3694
+
+testers.IntMathTester0 > test264 FAILED
+    java.lang.AssertionError at IntMathTester0.java:3908
+
+testers.IntMathTester0 > test273 FAILED
+    java.lang.AssertionError at IntMathTester0.java:4038
+
+testers.IntMathTester0 > test281 FAILED
+    java.lang.AssertionError at IntMathTester0.java:4141
+
+testers.IntMathTester0 > test298 FAILED
+    java.lang.AssertionError at IntMathTester0.java:4377
+
+testers.IntMathTester0 > test302 FAILED
+    java.lang.AssertionError at IntMathTester0.java:4451
+
+testers.IntMathTester0 > test303 FAILED
+    java.lang.AssertionError at IntMathTester0.java:4469
+
+testers.IntMathTester0 > test317 FAILED
+    java.lang.AssertionError at IntMathTester0.java:4660
+
+testers.IntMathTester0 > test319 FAILED
+    java.lang.AssertionError at IntMathTester0.java:4687
+Results: FAILURE (455 tests, 355 successes, 100 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

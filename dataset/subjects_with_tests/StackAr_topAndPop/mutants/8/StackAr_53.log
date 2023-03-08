@@ -1,0 +1,395 @@
+:clean
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+DataStructures.StackAr_ESTest STANDARD_OUT
+    16:08:27.950 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr_ESTest
+    16:08:27.959 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr_ESTest'.
+    16:08:28.001 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr_ESTest_scaffolding
+    16:08:28.002 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr_ESTest_scaffolding'.
+    16:08:28.004 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr_ESTest_scaffolding
+    16:08:28.004 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr_ESTest
+    16:08:28.410 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    16:08:28.410 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    16:08:28.410 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    16:08:28.410 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    16:08:28.410 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    16:08:28.410 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    16:08:28.410 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    16:08:28.410 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    16:08:28.411 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    16:08:28.411 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:57955 to /127.0.0.1:57954 workers Thread 2"
+    16:08:28.411 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:57955 to /127.0.0.1:57954 workers Thread 3"
+    16:08:28.481 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.StackAr
+    16:08:28.481 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.StackAr'.
+    16:08:28.501 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/StackAr
+    16:08:28.754 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Found static initializer in class DataStructures/StackAr
+    16:08:28.756 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.StackAr
+    16:08:28.756 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Underflow
+    16:08:28.756 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Underflow'.
+    16:08:28.758 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Underflow
+    16:08:28.759 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Underflow
+    16:08:28.759 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Underflow
+    16:08:28.759 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: DataStructures.Overflow
+    16:08:28.759 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'DataStructures.Overflow'.
+    16:08:28.760 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class DataStructures/Overflow
+    16:08:28.761 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class DataStructures/Overflow
+    16:08:28.761 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: DataStructures.Overflow
+
+DataStructures.StackAr_ESTest > test09 FAILED
+    java.lang.AssertionError at StackAr_ESTest.java:107
+
+DataStructures.StackAr_ESTest > test01 STANDARD_OUT
+    16:08:28.812 [Test worker] INFO  o.e.runtime.thread.ThreadStopper - Found new thread
+
+testers.StackArTester0 > test008 FAILED
+    java.lang.AssertionError at StackArTester0.java:104
+
+testers.StackArTester0 > test014 FAILED
+    java.lang.AssertionError at StackArTester0.java:197
+
+testers.StackArTester0 > test015 FAILED
+    java.lang.AssertionError at StackArTester0.java:209
+
+testers.StackArTester0 > test019 FAILED
+    java.lang.AssertionError at StackArTester0.java:268
+
+testers.StackArTester0 > test021 FAILED
+    java.lang.AssertionError at StackArTester0.java:302
+
+testers.StackArTester0 > test022 FAILED
+    java.lang.AssertionError at StackArTester0.java:316
+
+testers.StackArTester0 > test028 FAILED
+    java.lang.AssertionError at StackArTester0.java:394
+
+testers.StackArTester0 > test030 FAILED
+    java.lang.AssertionError at StackArTester0.java:429
+
+testers.StackArTester0 > test035 FAILED
+    java.lang.AssertionError at StackArTester0.java:491
+
+testers.StackArTester0 > test036 FAILED
+    java.lang.AssertionError at StackArTester0.java:517
+
+testers.StackArTester0 > test038 FAILED
+    java.lang.AssertionError at StackArTester0.java:555
+
+testers.StackArTester0 > test043 FAILED
+    java.lang.AssertionError at StackArTester0.java:620
+
+testers.StackArTester0 > test044 FAILED
+    java.lang.AssertionError at StackArTester0.java:632
+
+testers.StackArTester0 > test049 FAILED
+    java.lang.AssertionError at StackArTester0.java:718
+
+testers.StackArTester0 > test050 FAILED
+    java.lang.AssertionError at StackArTester0.java:734
+
+testers.StackArTester0 > test052 FAILED
+    java.lang.AssertionError at StackArTester0.java:759
+
+testers.StackArTester0 > test054 FAILED
+    java.lang.AssertionError at StackArTester0.java:787
+
+testers.StackArTester0 > test055 FAILED
+    java.lang.AssertionError at StackArTester0.java:803
+
+testers.StackArTester0 > test061 FAILED
+    java.lang.AssertionError at StackArTester0.java:879
+
+testers.StackArTester0 > test064 FAILED
+    java.lang.AssertionError at StackArTester0.java:910
+
+testers.StackArTester0 > test065 FAILED
+    java.lang.AssertionError at StackArTester0.java:935
+
+testers.StackArTester0 > test066 FAILED
+    java.lang.AssertionError at StackArTester0.java:949
+
+testers.StackArTester0 > test068 FAILED
+    java.lang.AssertionError at StackArTester0.java:981
+
+testers.StackArTester0 > test069 FAILED
+    java.lang.AssertionError at StackArTester0.java:1001
+
+testers.StackArTester0 > test071 FAILED
+    java.lang.AssertionError at StackArTester0.java:1028
+
+testers.StackArTester0 > test081 FAILED
+    java.lang.AssertionError at StackArTester0.java:1141
+
+testers.StackArTester0 > test085 FAILED
+    java.lang.AssertionError at StackArTester0.java:1192
+
+testers.StackArTester0 > test087 FAILED
+    java.lang.AssertionError at StackArTester0.java:1227
+
+testers.StackArTester0 > test090 FAILED
+    java.lang.AssertionError at StackArTester0.java:1267
+
+testers.StackArTester0 > test092 FAILED
+    java.lang.AssertionError at StackArTester0.java:1304
+
+testers.StackArTester0 > test093 FAILED
+    java.lang.AssertionError at StackArTester0.java:1326
+
+testers.StackArTester0 > test095 FAILED
+    java.lang.AssertionError at StackArTester0.java:1352
+
+testers.StackArTester0 > test096 FAILED
+    java.lang.AssertionError at StackArTester0.java:1376
+
+testers.StackArTester0 > test101 FAILED
+    java.lang.AssertionError at StackArTester0.java:1440
+
+testers.StackArTester0 > test103 FAILED
+    java.lang.AssertionError at StackArTester0.java:1464
+
+testers.StackArTester0 > test104 FAILED
+    java.lang.AssertionError at StackArTester0.java:1480
+
+testers.StackArTester0 > test106 FAILED
+    java.lang.AssertionError at StackArTester0.java:1520
+
+testers.StackArTester0 > test107 FAILED
+    java.lang.AssertionError at StackArTester0.java:1537
+
+testers.StackArTester0 > test111 FAILED
+    java.lang.AssertionError at StackArTester0.java:1598
+
+testers.StackArTester0 > test113 FAILED
+    java.lang.AssertionError at StackArTester0.java:1624
+
+testers.StackArTester0 > test114 FAILED
+    java.lang.AssertionError at StackArTester0.java:1648
+
+testers.StackArTester0 > test115 FAILED
+    java.lang.AssertionError at StackArTester0.java:1665
+
+testers.StackArTester0 > test116 FAILED
+    java.lang.AssertionError at StackArTester0.java:1679
+
+testers.StackArTester0 > test120 FAILED
+    java.lang.AssertionError at StackArTester0.java:1738
+
+testers.StackArTester0 > test123 FAILED
+    java.lang.AssertionError at StackArTester0.java:1783
+
+testers.StackArTester0 > test125 FAILED
+    java.lang.AssertionError at StackArTester0.java:1813
+
+testers.StackArTester0 > test126 FAILED
+    java.lang.AssertionError at StackArTester0.java:1829
+
+testers.StackArTester0 > test127 FAILED
+    java.lang.AssertionError at StackArTester0.java:1844
+
+testers.StackArTester0 > test130 FAILED
+    java.lang.AssertionError at StackArTester0.java:1878
+
+testers.StackArTester0 > test131 FAILED
+    java.lang.AssertionError at StackArTester0.java:1891
+
+testers.StackArTester0 > test133 FAILED
+    java.lang.AssertionError at StackArTester0.java:1920
+
+testers.StackArTester0 > test135 FAILED
+    java.lang.AssertionError at StackArTester0.java:1955
+
+testers.StackArTester0 > test136 FAILED
+    java.lang.AssertionError at StackArTester0.java:1979
+
+testers.StackArTester0 > test138 FAILED
+    java.lang.AssertionError at StackArTester0.java:2019
+
+testers.StackArTester0 > test139 FAILED
+    java.lang.AssertionError at StackArTester0.java:2044
+
+testers.StackArTester0 > test141 FAILED
+    java.lang.AssertionError at StackArTester0.java:2065
+
+testers.StackArTester0 > test144 FAILED
+    java.lang.AssertionError at StackArTester0.java:2116
+
+testers.StackArTester0 > test145 FAILED
+    java.lang.AssertionError at StackArTester0.java:2136
+
+testers.StackArTester0 > test146 FAILED
+    java.lang.AssertionError at StackArTester0.java:2152
+
+testers.StackArTester0 > test147 FAILED
+    java.lang.AssertionError at StackArTester0.java:2173
+
+testers.StackArTester0 > test148 FAILED
+    java.lang.AssertionError at StackArTester0.java:2188
+
+testers.StackArTester0 > test149 FAILED
+    java.lang.AssertionError at StackArTester0.java:2201
+
+testers.StackArTester0 > test152 FAILED
+    java.lang.AssertionError at StackArTester0.java:2249
+
+testers.StackArTester0 > test154 FAILED
+    java.lang.AssertionError at StackArTester0.java:2283
+
+testers.StackArTester0 > test156 FAILED
+    java.lang.AssertionError at StackArTester0.java:2315
+
+testers.StackArTester0 > test158 FAILED
+    java.lang.AssertionError at StackArTester0.java:2358
+
+testers.StackArTester0 > test162 FAILED
+    java.lang.AssertionError at StackArTester0.java:2411
+
+testers.StackArTester0 > test164 FAILED
+    java.lang.AssertionError at StackArTester0.java:2445
+
+testers.StackArTester0 > test167 FAILED
+    java.lang.AssertionError at StackArTester0.java:2487
+
+testers.StackArTester0 > test169 FAILED
+    java.lang.AssertionError at StackArTester0.java:2516
+
+testers.StackArTester0 > test170 FAILED
+    java.lang.AssertionError at StackArTester0.java:2538
+
+testers.StackArTester0 > test171 FAILED
+    java.lang.AssertionError at StackArTester0.java:2549
+
+testers.StackArTester0 > test172 FAILED
+    java.lang.AssertionError at StackArTester0.java:2566
+
+testers.StackArTester0 > test174 FAILED
+    java.lang.AssertionError at StackArTester0.java:2601
+
+testers.StackArTester0 > test175 FAILED
+    java.lang.AssertionError at StackArTester0.java:2618
+
+testers.StackArTester0 > test177 FAILED
+    java.lang.AssertionError at StackArTester0.java:2650
+
+testers.StackArTester0 > test180 FAILED
+    java.lang.AssertionError at StackArTester0.java:2682
+
+testers.StackArTester0 > test181 FAILED
+    java.lang.AssertionError at StackArTester0.java:2702
+
+testers.StackArTester0 > test182 FAILED
+    java.lang.AssertionError at StackArTester0.java:2729
+
+testers.StackArTester0 > test189 FAILED
+    java.lang.AssertionError at StackArTester0.java:2809
+
+testers.StackArTester0 > test194 FAILED
+    java.lang.AssertionError at StackArTester0.java:2875
+
+testers.StackArTester0 > test196 FAILED
+    java.lang.AssertionError at StackArTester0.java:2914
+
+testers.StackArTester0 > test198 FAILED
+    java.lang.AssertionError at StackArTester0.java:2946
+
+testers.StackArTester0 > test200 FAILED
+    java.lang.AssertionError at StackArTester0.java:2974
+
+testers.StackArTester0 > test201 FAILED
+    java.lang.AssertionError at StackArTester0.java:2997
+
+testers.StackArTester0 > test202 FAILED
+    java.lang.AssertionError at StackArTester0.java:3015
+
+testers.StackArTester0 > test205 FAILED
+    java.lang.AssertionError at StackArTester0.java:3078
+
+testers.StackArTester0 > test208 FAILED
+    java.lang.AssertionError at StackArTester0.java:3120
+
+testers.StackArTester0 > test209 FAILED
+    java.lang.AssertionError at StackArTester0.java:3137
+
+testers.StackArTester0 > test211 FAILED
+    java.lang.AssertionError at StackArTester0.java:3169
+
+testers.StackArTester0 > test214 FAILED
+    java.lang.AssertionError at StackArTester0.java:3201
+
+testers.StackArTester0 > test222 FAILED
+    java.lang.AssertionError at StackArTester0.java:3295
+
+testers.StackArTester0 > test225 FAILED
+    java.lang.AssertionError at StackArTester0.java:3344
+
+testers.StackArTester0 > test226 FAILED
+    java.lang.AssertionError at StackArTester0.java:3374
+
+testers.StackArTester0 > test228 FAILED
+    java.lang.AssertionError at StackArTester0.java:3398
+
+testers.StackArTester0 > test229 FAILED
+    java.lang.AssertionError at StackArTester0.java:3413
+
+testers.StackArTester0 > test230 FAILED
+    java.lang.AssertionError at StackArTester0.java:3435
+
+testers.StackArTester0 > test234 FAILED
+    java.lang.AssertionError at StackArTester0.java:3516
+
+testers.StackArTester0 > test237 FAILED
+    java.lang.AssertionError at StackArTester0.java:3569
+
+testers.StackArTester0 > test239 FAILED
+    java.lang.AssertionError at StackArTester0.java:3602
+
+testers.StackArTester0 > test242 FAILED
+    java.lang.AssertionError at StackArTester0.java:3642
+
+testers.StackArTester0 > test246 FAILED
+    java.lang.AssertionError at StackArTester0.java:3687
+
+testers.StackArTester0 > test247 FAILED
+    java.lang.AssertionError at StackArTester0.java:3712
+
+testers.StackArTester0 > test251 FAILED
+    java.lang.AssertionError at StackArTester0.java:3769
+
+testers.StackArTester0 > test252 FAILED
+    java.lang.AssertionError at StackArTester0.java:3791
+
+testers.StackArTester0 > test255 FAILED
+    java.lang.AssertionError at StackArTester0.java:3826
+
+testers.StackArTester0 > test257 FAILED
+    java.lang.AssertionError at StackArTester0.java:3857
+
+testers.StackArTester0 > test258 FAILED
+    java.lang.AssertionError at StackArTester0.java:3876
+
+testers.StackArTester0 > test259 FAILED
+    java.lang.AssertionError at StackArTester0.java:3895
+
+testers.StackArTester0 > test260 FAILED
+    java.lang.AssertionError at StackArTester0.java:3909
+
+testers.StackArTester0 > test261 FAILED
+    java.lang.AssertionError at StackArTester0.java:3926
+
+testers.StackArTester0 > test262 FAILED
+    java.lang.AssertionError at StackArTester0.java:3940
+
+testers.StackArTester0 > test263 FAILED
+    java.lang.AssertionError at StackArTester0.java:3962
+Results: FAILURE (355 tests, 241 successes, 114 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed

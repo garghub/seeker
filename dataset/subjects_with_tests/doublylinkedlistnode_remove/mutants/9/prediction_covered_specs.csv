@@ -1,0 +1,8 @@
+"all n : DoublyLinkedListNode.*(left + right) : n = n.right.right",64
+"no n : DoublyLinkedListNode.^(left + right) : n != n.left",1
+"some n : DoublyLinkedListNode.*(left + right) : n = n.right.left",35
+"all n : DoublyLinkedListNode.*(left + right) : n = n.right",74
+"no n : DoublyLinkedListNode.*(left + right) : n != n.right",14
+"some n : DoublyLinkedListNode.^(left + right) : n = n.left.right",20
+"all n : DoublyLinkedListNode.^(left + right) : n = n.right",55
+"all n : DoublyLinkedListNode.^(left + right) : n = n.right.right",60

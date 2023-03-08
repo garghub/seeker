@@ -1,0 +1,409 @@
+:clean
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
+:compileJava
+:processResources NO-SOURCE
+:classes
+:compileTestJava
+:processTestResources NO-SOURCE
+:testClasses
+:jar
+:assemble
+:test
+
+examples.RingBuffer_ESTest STANDARD_OUT
+    16:01:16.099 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest
+    16:01:16.102 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest'.
+    16:01:16.131 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer_ESTest_scaffolding
+    16:01:16.131 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer_ESTest_scaffolding'.
+    16:01:16.133 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest_scaffolding
+    16:01:16.133 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer_ESTest
+    16:01:16.409 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+    16:01:16.409 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+    16:01:16.409 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+    16:01:16.409 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+    16:01:16.409 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+    16:01:16.409 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+    16:01:16.409 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Windows"
+    16:01:16.409 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+    16:01:16.409 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+    16:01:16.410 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:62635 to /127.0.0.1:62634 workers Thread 2"
+    16:01:16.410 [Test worker] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:62635 to /127.0.0.1:62634 workers Thread 3"
+    16:01:16.448 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: examples.RingBuffer
+    16:01:16.448 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'examples.RingBuffer'.
+    16:01:16.461 [Test worker] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class examples/RingBuffer
+    16:01:16.581 [Test worker] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class examples/RingBuffer
+    16:01:16.581 [Test worker] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: examples.RingBuffer
+
+examples.RingBuffer_ESTest > test08 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:94
+
+examples.RingBuffer_ESTest > test09 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:102
+
+examples.RingBuffer_ESTest > test06 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:77
+
+examples.RingBuffer_ESTest > test17 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:206
+
+examples.RingBuffer_ESTest > test07 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:86
+
+examples.RingBuffer_ESTest > test04 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:58
+
+examples.RingBuffer_ESTest > test05 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:66
+
+examples.RingBuffer_ESTest > test16 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:198
+
+examples.RingBuffer_ESTest > test02 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:39
+
+examples.RingBuffer_ESTest > test13 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:155
+
+examples.RingBuffer_ESTest > test03 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:47
+
+examples.RingBuffer_ESTest > test14 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:175
+
+examples.RingBuffer_ESTest > test00 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:21
+
+examples.RingBuffer_ESTest > test11 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:137
+
+examples.RingBuffer_ESTest > test01 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:31
+
+examples.RingBuffer_ESTest > test12 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:146
+
+examples.RingBuffer_ESTest > test10 FAILED
+    java.lang.NullPointerException at RingBuffer_ESTest.java:118
+
+RegressionTest > RegressionTest0.test03 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:36
+
+RegressionTest > RegressionTest0.test04 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:52
+
+RegressionTest > RegressionTest0.test05 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:65
+
+RegressionTest > RegressionTest0.test06 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:81
+
+RegressionTest > RegressionTest0.test07 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:97
+
+RegressionTest > RegressionTest0.test08 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:113
+
+RegressionTest > RegressionTest0.test09 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:127
+
+RegressionTest > RegressionTest0.test10 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:145
+
+RegressionTest > RegressionTest0.test11 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:152
+
+RegressionTest > RegressionTest0.test12 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:168
+
+RegressionTest > RegressionTest0.test13 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:179
+
+RegressionTest > RegressionTest0.test14 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:195
+
+RegressionTest > RegressionTest0.test15 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:206
+
+RegressionTest > RegressionTest0.test16 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:219
+
+RegressionTest > RegressionTest0.test17 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:226
+
+RegressionTest > RegressionTest0.test19 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:255
+
+RegressionTest > RegressionTest0.test20 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:278
+
+RegressionTest > RegressionTest0.test21 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:292
+
+RegressionTest > RegressionTest0.test22 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:307
+
+RegressionTest > RegressionTest0.test23 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:330
+
+RegressionTest > RegressionTest0.test24 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:340
+
+RegressionTest > RegressionTest0.test25 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:359
+
+RegressionTest > RegressionTest0.test26 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:380
+
+RegressionTest > RegressionTest0.test27 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:400
+
+RegressionTest > RegressionTest0.test28 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:417
+
+RegressionTest > RegressionTest0.test29 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:429
+
+RegressionTest > RegressionTest0.test30 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:439
+
+RegressionTest > RegressionTest0.test31 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:448
+
+RegressionTest > RegressionTest0.test33 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:474
+
+RegressionTest > RegressionTest0.test34 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:492
+
+RegressionTest > RegressionTest0.test35 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:511
+
+RegressionTest > RegressionTest0.test36 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:524
+
+RegressionTest > RegressionTest0.test37 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:539
+
+RegressionTest > RegressionTest0.test38 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:546
+
+RegressionTest > RegressionTest0.test39 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:566
+
+RegressionTest > RegressionTest0.test40 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:583
+
+RegressionTest > RegressionTest0.test41 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:596
+
+RegressionTest > RegressionTest0.test42 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:609
+
+RegressionTest > RegressionTest0.test43 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:622
+
+RegressionTest > RegressionTest0.test44 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:629
+
+RegressionTest > RegressionTest0.test45 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:644
+
+RegressionTest > RegressionTest0.test46 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:661
+
+RegressionTest > RegressionTest0.test47 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:679
+
+RegressionTest > RegressionTest0.test48 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:695
+
+RegressionTest > RegressionTest0.test49 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:713
+
+RegressionTest > RegressionTest0.test50 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:730
+
+RegressionTest > RegressionTest0.test51 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:746
+
+RegressionTest > RegressionTest0.test52 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:765
+
+RegressionTest > RegressionTest0.test53 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:784
+
+RegressionTest > RegressionTest0.test54 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:798
+
+RegressionTest > RegressionTest0.test55 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:811
+
+RegressionTest > RegressionTest0.test56 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:829
+
+RegressionTest > RegressionTest0.test57 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:842
+
+RegressionTest0 > test03 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:36
+
+RegressionTest0 > test04 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:52
+
+RegressionTest0 > test05 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:65
+
+RegressionTest0 > test06 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:81
+
+RegressionTest0 > test07 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:97
+
+RegressionTest0 > test08 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:113
+
+RegressionTest0 > test09 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:127
+
+RegressionTest0 > test10 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:145
+
+RegressionTest0 > test11 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:152
+
+RegressionTest0 > test12 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:168
+
+RegressionTest0 > test13 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:179
+
+RegressionTest0 > test14 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:195
+
+RegressionTest0 > test15 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:206
+
+RegressionTest0 > test16 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:219
+
+RegressionTest0 > test17 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:226
+
+RegressionTest0 > test19 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:255
+
+RegressionTest0 > test20 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:278
+
+RegressionTest0 > test21 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:292
+
+RegressionTest0 > test22 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:307
+
+RegressionTest0 > test23 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:330
+
+RegressionTest0 > test24 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:340
+
+RegressionTest0 > test25 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:359
+
+RegressionTest0 > test26 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:380
+
+RegressionTest0 > test27 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:400
+
+RegressionTest0 > test28 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:417
+
+RegressionTest0 > test29 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:429
+
+RegressionTest0 > test30 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:439
+
+RegressionTest0 > test31 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:448
+
+RegressionTest0 > test33 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:474
+
+RegressionTest0 > test34 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:492
+
+RegressionTest0 > test35 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:511
+
+RegressionTest0 > test36 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:524
+
+RegressionTest0 > test37 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:539
+
+RegressionTest0 > test38 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:546
+
+RegressionTest0 > test39 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:566
+
+RegressionTest0 > test40 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:583
+
+RegressionTest0 > test41 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:596
+
+RegressionTest0 > test42 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:609
+
+RegressionTest0 > test43 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:622
+
+RegressionTest0 > test44 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:629
+
+RegressionTest0 > test45 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:644
+
+RegressionTest0 > test46 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:661
+
+RegressionTest0 > test47 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:679
+
+RegressionTest0 > test48 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:695
+
+RegressionTest0 > test49 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:713
+
+RegressionTest0 > test50 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:730
+
+RegressionTest0 > test51 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:746
+
+RegressionTest0 > test52 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:765
+
+RegressionTest0 > test53 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:784
+
+RegressionTest0 > test54 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:798
+
+RegressionTest0 > test55 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:811
+
+RegressionTest0 > test56 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:829
+
+RegressionTest0 > test57 FAILED
+    java.lang.NullPointerException at RegressionTest0.java:842
+Results: FAILURE (132 tests, 9 successes, 123 failures, 0 skipped)
+:test FAILED
+4 actionable tasks: 4 executed
