@@ -1,0 +1,6 @@
+20:ROR:<(double,double):!=(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):111:x < 0 |==> x != 0
+22:ROR:<(double,double):FALSE(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):111:x < 0 |==> false
+23:ROR:!=(double,double):<(double,double):org.apache.commons.math3.util.FastMathNew@floor(double):111:y != x |==> y < x
+27:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.math3.util.FastMathNew@floor(double):111:x < 0 && y != x |==> false
+29:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.math3.util.FastMathNew@floor(double):111:x < 0 && y != x |==> y != x
+32:LVR:0:NEG:org.apache.commons.math3.util.FastMathNew@floor(double):116:0 |==> -1

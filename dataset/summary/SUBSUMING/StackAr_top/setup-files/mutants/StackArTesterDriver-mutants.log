@@ -1,0 +1,11 @@
+19:ROR:==(int,int):FALSE(int,int):DataStructures.StackAr@isFull():65:topOfStack == theArray.length - 1 |==> false
+28:AOR:+(int,int):/(int,int):DataStructures.StackAr@makeEmpty():74:topOfStack + 1 |==> topOfStack / 1
+32:STD:<ASSIGN>:<NO-OP>:DataStructures.StackAr@makeEmpty():75:topOfStack = -1 |==> <NO-OP>
+33:COR:isEmpty():TRUE:DataStructures.StackAr@top():86:isEmpty() |==> false
+34:COR:isEmpty():FALSE:DataStructures.StackAr@top():86:isEmpty() |==> true
+35:EVR:<ARRAY_ACCESS(java.lang.Object)>:<DEFAULT>:DataStructures.StackAr@top():89:theArray[topOfStack] |==> null
+37:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:DataStructures.StackAr@top():93:result |==> null
+43:AOR:-(int,int):%(int,int):DataStructures.StackAr@pop():105:topOfStack - 1 |==> topOfStack % 1
+45:AOR:-(int,int):+(int,int):DataStructures.StackAr@pop():105:topOfStack - 1 |==> topOfStack + 1
+46:AOR:-(int,int):/(int,int):DataStructures.StackAr@pop():105:topOfStack - 1 |==> topOfStack / 1
+47:STD:<ASSIGN>:<NO-OP>:DataStructures.StackAr@pop():105:topOfStack = topOfStack - 1 |==> <NO-OP>

@@ -1,0 +1,20 @@
+1:LVR:0:POS:examples.RingBuffer@<init>(int):47:0 |==> 1
+2:LVR:0:NEG:examples.RingBuffer@<init>(int):47:0 |==> -1
+3:ROR:>(int,int):!=(int,int):examples.RingBuffer@<init>(int):47:n > 0 |==> n != 0
+4:ROR:>(int,int):>=(int,int):examples.RingBuffer@<init>(int):47:n > 0 |==> n >= 0
+5:ROR:>(int,int):FALSE(int,int):examples.RingBuffer@<init>(int):47:n > 0 |==> false
+6:LVR:POS:0:examples.RingBuffer@<init>(int):49:1 |==> 0
+7:LVR:POS:NEG:examples.RingBuffer@<init>(int):49:1 |==> -1
+12:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):49:data = new ArrayList<G>(n + 1) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:examples.RingBuffer@<init>(int):50:data.add(null) |==> <NO-OP>
+14:LVR:POS:0:examples.RingBuffer@<init>(int):51:1 |==> 0
+15:LVR:POS:NEG:examples.RingBuffer@<init>(int):51:1 |==> -1
+16:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):51:start = 1 |==> <NO-OP>
+17:LVR:POS:0:examples.RingBuffer@<init>(int):52:1 |==> 0
+18:LVR:POS:NEG:examples.RingBuffer@<init>(int):52:1 |==> -1
+19:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):52:free = 1 |==> <NO-OP>
+20:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):53:capacity_ = n |==> <NO-OP>
+21:COR:isEmpty():TRUE:examples.RingBuffer@item():69:isEmpty() |==> false
+23:EVR:<METHOD_INVOCATION(G)>:<DEFAULT>:examples.RingBuffer@item():71:data.get(start) |==> null
+24:LVR:TRUE:FALSE:examples.RingBuffer@item():76:true |==> false
+25:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:examples.RingBuffer@item():77:result |==> null

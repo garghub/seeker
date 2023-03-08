@@ -1,0 +1,13 @@
+1:ROR:==(boolean,boolean):FALSE(boolean,boolean):lang3.BooleanUtils@compare(boolean,boolean):45:x == y |==> false
+2:ROR:==(boolean,boolean):LHS(boolean,boolean):lang3.BooleanUtils@compare(boolean,boolean):45:x == y |==> x
+3:ROR:==(boolean,boolean):RHS(boolean,boolean):lang3.BooleanUtils@compare(boolean,boolean):45:x == y |==> y
+4:LVR:0:POS:lang3.BooleanUtils@compare(boolean,boolean):46:0 |==> 1
+5:LVR:0:NEG:lang3.BooleanUtils@compare(boolean,boolean):46:0 |==> -1
+6:COR:x:TRUE:lang3.BooleanUtils@compare(boolean,boolean):48:x |==> false
+7:COR:x:FALSE:lang3.BooleanUtils@compare(boolean,boolean):48:x |==> true
+8:LVR:POS:0:lang3.BooleanUtils@compare(boolean,boolean):48:1 |==> 0
+9:LVR:POS:NEG:lang3.BooleanUtils@compare(boolean,boolean):48:1 |==> -1
+10:LVR:NEG:0:lang3.BooleanUtils@compare(boolean,boolean):48:-1 |==> 0
+11:LVR:NEG:POS:lang3.BooleanUtils@compare(boolean,boolean):48:-1 |==> 1
+12:LVR:TRUE:FALSE:lang3.BooleanUtils@compare(boolean,boolean):50:true |==> false
+13:EVR:<IDENTIFIER(int)>:<DEFAULT>:lang3.BooleanUtils@compare(boolean,boolean):51:result |==> 0

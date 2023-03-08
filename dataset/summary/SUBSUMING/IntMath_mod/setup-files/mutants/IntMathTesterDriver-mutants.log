@@ -1,0 +1,7 @@
+1:LVR:0:POS:math.IntMath@mod(int,int):39:0 |==> 1
+4:ROR:<=(int,int):==(int,int):math.IntMath@mod(int,int):39:m <= 0 |==> m == 0
+10:LVR:0:POS:math.IntMath@mod(int,int):46:0 |==> 1
+11:LVR:0:NEG:math.IntMath@mod(int,int):46:0 |==> -1
+12:ROR:>=(int,int):==(int,int):math.IntMath@mod(int,int):46:result1 >= 0 |==> result1 == 0
+13:ROR:>=(int,int):>(int,int):math.IntMath@mod(int,int):46:result1 >= 0 |==> result1 > 0
+15:EVR:<IDENTIFIER(int)>:<DEFAULT>:math.IntMath@mod(int,int):47:result1 |==> 0

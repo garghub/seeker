@@ -1,0 +1,14 @@
+1:STD:<CALL>:<NO-OP>:jts.Envelope@<init>(double,double,double,double):43:init(x1, x2, y1, y2) |==> <NO-OP>
+16:EVR:<MEMBER_SELECT(double)>:<DEFAULT>:jts.Envelope@maxExtent():102:this.minx |==> 0.0
+17:EVR:<MEMBER_SELECT(double)>:<DEFAULT>:jts.Envelope@maxExtent():104:this.maxx |==> 0.0
+18:EVR:<MEMBER_SELECT(double)>:<DEFAULT>:jts.Envelope@maxExtent():106:this.miny |==> 0.0
+20:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:jts.Envelope@maxExtent():110:this.isEnvelopeNull() |==> false
+21:EVR:<METHOD_INVOCATION(double)>:<DEFAULT>:jts.Envelope@maxExtent():112:this.getWidth() |==> 0.0
+22:EVR:<METHOD_INVOCATION(double)>:<DEFAULT>:jts.Envelope@maxExtent():114:this.getHeight() |==> 0.0
+24:COR:isEnvelopeNull():FALSE:jts.Envelope@maxExtent():116:isEnvelopeNull() |==> true
+25:LVR:0:POS:jts.Envelope@maxExtent():117:0.0 |==> 1.0
+28:EVR:<METHOD_INVOCATION(double)>:<DEFAULT>:jts.Envelope@maxExtent():120:getHeight() |==> 0.0
+30:ROR:>(double,double):>=(double,double):jts.Envelope@maxExtent():121:w > h |==> w >= h
+32:EVR:<IDENTIFIER(double)>:<DEFAULT>:jts.Envelope@maxExtent():122:w |==> 0.0
+33:EVR:<IDENTIFIER(double)>:<DEFAULT>:jts.Envelope@maxExtent():124:h |==> 0.0
+34:LVR:TRUE:FALSE:jts.Envelope@maxExtent():128:true |==> false

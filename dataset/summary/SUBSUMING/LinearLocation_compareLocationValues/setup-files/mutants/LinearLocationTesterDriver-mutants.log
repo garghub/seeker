@@ -1,0 +1,17 @@
+23:ROR:<(int,int):FALSE(int,int):jts.LinearLocation@compareLocationValues(int,int,double):87:componentIndex < componentIndex1 |==> false
+28:ROR:>(int,int):FALSE(int,int):jts.LinearLocation@compareLocationValues(int,int,double):89:componentIndex > componentIndex1 |==> false
+33:ROR:<(int,int):FALSE(int,int):jts.LinearLocation@compareLocationValues(int,int,double):91:segmentIndex < segmentIndex1 |==> false
+34:LVR:NEG:0:jts.LinearLocation@compareLocationValues(int,int,double):92:-1 |==> 0
+35:LVR:NEG:POS:jts.LinearLocation@compareLocationValues(int,int,double):92:-1 |==> 1
+38:ROR:>(int,int):FALSE(int,int):jts.LinearLocation@compareLocationValues(int,int,double):93:segmentIndex > segmentIndex1 |==> false
+41:ROR:<(double,double):!=(double,double):jts.LinearLocation@compareLocationValues(int,int,double):95:segmentFraction < segmentFraction1 |==> segmentFraction != segmentFraction1
+42:ROR:<(double,double):<=(double,double):jts.LinearLocation@compareLocationValues(int,int,double):95:segmentFraction < segmentFraction1 |==> segmentFraction <= segmentFraction1
+43:ROR:<(double,double):FALSE(double,double):jts.LinearLocation@compareLocationValues(int,int,double):95:segmentFraction < segmentFraction1 |==> false
+44:LVR:NEG:0:jts.LinearLocation@compareLocationValues(int,int,double):96:-1 |==> 0
+45:LVR:NEG:POS:jts.LinearLocation@compareLocationValues(int,int,double):96:-1 |==> 1
+47:ROR:>(double,double):>=(double,double):jts.LinearLocation@compareLocationValues(int,int,double):97:segmentFraction > segmentFraction1 |==> segmentFraction >= segmentFraction1
+48:ROR:>(double,double):FALSE(double,double):jts.LinearLocation@compareLocationValues(int,int,double):97:segmentFraction > segmentFraction1 |==> false
+49:LVR:POS:0:jts.LinearLocation@compareLocationValues(int,int,double):98:1 |==> 0
+50:LVR:POS:NEG:jts.LinearLocation@compareLocationValues(int,int,double):98:1 |==> -1
+51:LVR:0:POS:jts.LinearLocation@compareLocationValues(int,int,double):100:0 |==> 1
+52:LVR:0:NEG:jts.LinearLocation@compareLocationValues(int,int,double):100:0 |==> -1

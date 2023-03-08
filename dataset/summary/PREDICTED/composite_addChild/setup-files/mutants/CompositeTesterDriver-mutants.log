@@ -1,0 +1,13 @@
+1:STD:<ASSIGN>:<NO-OP>:examples.Composite@<init>(int):50:children = new LinkedList<Composite>() |==> <NO-OP>
+10:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):examples.Composite@addChild(examples.Composite):72:c == this |==> false
+11:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):examples.Composite@addChild(examples.Composite):72:c.parent != null |==> true
+12:COR:||(boolean,boolean):!=(boolean,boolean):examples.Composite@addChild(examples.Composite):72:(c == this) || (c.parent != null) |==> (c == this) != (c.parent != null)
+13:COR:||(boolean,boolean):LHS(boolean,boolean):examples.Composite@addChild(examples.Composite):72:(c == this) || (c.parent != null) |==> (c == this)
+14:COR:||(boolean,boolean):RHS(boolean,boolean):examples.Composite@addChild(examples.Composite):72:(c == this) || (c.parent != null) |==> (c.parent != null)
+15:COR:||(boolean,boolean):TRUE(boolean,boolean):examples.Composite@addChild(examples.Composite):72:(c == this) || (c.parent != null) |==> true
+16:COR:||(boolean,boolean):!=(boolean,boolean):examples.Composite@addChild(examples.Composite):72:(c == this) || (c.parent != null) || (!c.children.isEmpty()) |==> ((c == this) || (c.parent != null)) != (!c.children.isEmpty())
+17:COR:||(boolean,boolean):LHS(boolean,boolean):examples.Composite@addChild(examples.Composite):72:(c == this) || (c.parent != null) || (!c.children.isEmpty()) |==> (c == this) || (c.parent != null)
+18:COR:||(boolean,boolean):RHS(boolean,boolean):examples.Composite@addChild(examples.Composite):72:(c == this) || (c.parent != null) || (!c.children.isEmpty()) |==> (!c.children.isEmpty())
+19:COR:||(boolean,boolean):TRUE(boolean,boolean):examples.Composite@addChild(examples.Composite):72:(c == this) || (c.parent != null) || (!c.children.isEmpty()) |==> true
+20:STD:<CALL>:<NO-OP>:examples.Composite@addChild(examples.Composite):73:c.setParent(this) |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:examples.Composite@addChild(examples.Composite):74:children.add(c) |==> <NO-OP>

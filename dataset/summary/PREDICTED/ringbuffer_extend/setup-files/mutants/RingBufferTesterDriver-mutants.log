@@ -1,0 +1,8 @@
+8:AOR:+(int,int):%(int,int):examples.RingBuffer@<init>(int):49:n + 1 |==> n % 1
+13:STD:<CALL>:<NO-OP>:examples.RingBuffer@<init>(int):50:data.add(null) |==> <NO-OP>
+17:LVR:POS:0:examples.RingBuffer@<init>(int):52:1 |==> 0
+18:LVR:POS:NEG:examples.RingBuffer@<init>(int):52:1 |==> -1
+19:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):52:free = 1 |==> <NO-OP>
+75:COR:isFull():TRUE:examples.RingBuffer@extend(G):137:isFull() |==> false
+82:LVR:POS:NEG:examples.RingBuffer@extend(G):140:1 |==> -1
+84:LVR:POS:0:examples.RingBuffer@extend(G):142:1 |==> 0

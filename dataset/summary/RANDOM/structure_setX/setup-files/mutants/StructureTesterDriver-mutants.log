@@ -1,0 +1,10 @@
+2:LVR:POS:0:examples.Structure@<init>(int):12:1 |==> 0
+3:LVR:POS:NEG:examples.Structure@<init>(int):12:1 |==> -1
+4:AOR:+(int,int):%(int,int):examples.Structure@<init>(int):12:(x) + 1 |==> (x) % 1
+5:AOR:+(int,int):*(int,int):examples.Structure@<init>(int):12:(x) + 1 |==> (x) * 1
+20:LVR:POS:NEG:examples.Structure@setX(int):24:1 |==> -1
+21:AOR:+(int,int):%(int,int):examples.Structure@setX(int):24:(y) + 1 |==> (y) % 1
+22:AOR:+(int,int):*(int,int):examples.Structure@setX(int):24:(y) + 1 |==> (y) * 1
+23:AOR:+(int,int):-(int,int):examples.Structure@setX(int):24:(y) + 1 |==> (y) - 1
+25:STD:<ASSIGN>:<NO-OP>:examples.Structure@setX(int):24:var62 = ((y) + 1) |==> <NO-OP>
+26:LVR:TRUE:FALSE:examples.Structure@setX(int):25:true |==> false

@@ -1,0 +1,18 @@
+1:LVR:0:POS:examples.RingBuffer@<init>(int):47:0 |==> 1
+2:LVR:0:NEG:examples.RingBuffer@<init>(int):47:0 |==> -1
+4:ROR:>(int,int):>=(int,int):examples.RingBuffer@<init>(int):47:n > 0 |==> n >= 0
+5:ROR:>(int,int):FALSE(int,int):examples.RingBuffer@<init>(int):47:n > 0 |==> false
+6:LVR:POS:0:examples.RingBuffer@<init>(int):49:1 |==> 0
+7:LVR:POS:NEG:examples.RingBuffer@<init>(int):49:1 |==> -1
+8:AOR:+(int,int):%(int,int):examples.RingBuffer@<init>(int):49:n + 1 |==> n % 1
+11:AOR:+(int,int):/(int,int):examples.RingBuffer@<init>(int):49:n + 1 |==> n / 1
+12:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):49:data = new ArrayList<G>(n + 1) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:examples.RingBuffer@<init>(int):50:data.add(null) |==> <NO-OP>
+14:LVR:POS:0:examples.RingBuffer@<init>(int):51:1 |==> 0
+15:LVR:POS:NEG:examples.RingBuffer@<init>(int):51:1 |==> -1
+17:LVR:POS:0:examples.RingBuffer@<init>(int):52:1 |==> 0
+18:LVR:POS:NEG:examples.RingBuffer@<init>(int):52:1 |==> -1
+19:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):52:free = 1 |==> <NO-OP>
+20:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@<init>(int):53:capacity_ = n |==> <NO-OP>
+100:STD:<ASSIGN>:<NO-OP>:examples.RingBuffer@wipeOut():173:start = free |==> <NO-OP>
+101:LVR:TRUE:FALSE:examples.RingBuffer@wipeOut():174:true |==> false

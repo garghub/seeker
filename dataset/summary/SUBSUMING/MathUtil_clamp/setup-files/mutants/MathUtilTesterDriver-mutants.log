@@ -1,0 +1,5 @@
+1:ROR:<(int,int):!=(int,int):jts.MathUtil@clamp(int,int,int):43:x < min |==> x != min
+2:ROR:<(int,int):<=(int,int):jts.MathUtil@clamp(int,int,int):43:x < min |==> x <= min
+4:EVR:<IDENTIFIER(int)>:<DEFAULT>:jts.MathUtil@clamp(int,int,int):44:min |==> 0
+5:ROR:>(int,int):!=(int,int):jts.MathUtil@clamp(int,int,int):45:x > max |==> x != max
+9:EVR:<IDENTIFIER(int)>:<DEFAULT>:jts.MathUtil@clamp(int,int,int):48:x |==> 0

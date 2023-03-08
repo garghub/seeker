@@ -1,0 +1,6 @@
+2:ROR:==(long,long):>=(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):49:b == Long.MIN_VALUE |==> b >= Long.MIN_VALUE
+6:ROR:<(long,long):!=(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):50:a < 0 |==> a != 0
+8:ROR:<(long,long):FALSE(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):50:a < 0 |==> false
+9:AOR:-(long,long):%(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):51:a - b |==> a % b
+12:AOR:-(long,long):/(long,long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):51:a - b |==> a / b
+16:ORU:-(long):~(long):org.apache.commons.math3.util.ArithmeticUtilsNew@subAndCheck(long,long):57:-b |==> ~b

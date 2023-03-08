@@ -1,0 +1,5 @@
+3:SOR:>>>(int,int):<<(int,int):examples.SimpleMethods@abs(int):10:x >>> 31 |==> x << 31
+4:SOR:>>>(int,int):>>(int,int):examples.SimpleMethods@abs(int):10:x >>> 31 |==> x >> 31
+9:AOR:+(int,int):%(int,int):examples.SimpleMethods@abs(int):11:~i + 1 |==> ~i % 1
+14:LOR:^(int,int):|(int,int):examples.SimpleMethods@abs(int):11:x ^ (~i + 1) |==> x | (~i + 1)
+17:AOR:+(int,int):-(int,int):examples.SimpleMethods@abs(int):11:(x ^ (~i + 1)) + i |==> (x ^ (~i + 1)) - i

@@ -1,0 +1,5 @@
+10:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):examples.Composite@addChild(examples.Composite):72:c == this |==> false
+13:COR:||(boolean,boolean):LHS(boolean,boolean):examples.Composite@addChild(examples.Composite):72:(c == this) || (c.parent != null) |==> (c == this)
+14:COR:||(boolean,boolean):RHS(boolean,boolean):examples.Composite@addChild(examples.Composite):72:(c == this) || (c.parent != null) |==> (c.parent != null)
+16:COR:||(boolean,boolean):!=(boolean,boolean):examples.Composite@addChild(examples.Composite):72:(c == this) || (c.parent != null) || (!c.children.isEmpty()) |==> ((c == this) || (c.parent != null)) != (!c.children.isEmpty())
+17:COR:||(boolean,boolean):LHS(boolean,boolean):examples.Composite@addChild(examples.Composite):72:(c == this) || (c.parent != null) || (!c.children.isEmpty()) |==> (c == this) || (c.parent != null)
