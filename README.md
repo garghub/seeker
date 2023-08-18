@@ -1,10 +1,6 @@
-# *Seeker*
+# Enabling Efficient Assertion Inference
 
-This repo contains the source code and data set for the paper _Assertion Inferring Mutants_.
-
-The paper is available here: [![Paper](https://img.shields.io/badge/Paper-arXiv-blue)](https://arxiv.org/abs/2301.12284)
-
-The bib entry for citing the paper is available here: [![Cite](https://img.shields.io/badge/Cite-BibTex-green.svg)](seeker.bib)
+This repo contains the source code and data set for the paper _Enabling Efficient Assertion Inference_, **accepted** in the 34th IEEE International Symposium on Software Reliability Engineering (ISSRE 2023).
 
 ---
 
