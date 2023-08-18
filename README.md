@@ -92,6 +92,10 @@ PREPARESCALABILITYDATASET prepares the scalability dataset for model training.
 
 ---
 
+![Seekers_Prediction_Performance_across_40_projects](extra_plots/Seekers_Prediction_Performance_across_40_projects.png)
+
+---
+
 ## References
 
 <a id="1">[1]</a>
