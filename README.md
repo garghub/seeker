@@ -2,9 +2,11 @@
 
 This repo contains the source code and data set for the paper _Enabling Efficient Assertion Inference_, **accepted** in the 34th IEEE International Symposium on Software Reliability Engineering (ISSRE 2023).
 
-The pre-print version is available here: [![Paper](https://img.shields.io/badge/Pre--Print-PDF-blue)](https://rdegiovanni.github.io/publications/files/ISSRE23.pdf)
+The accepted paper is available here: [![Paper](https://img.shields.io/badge/Paper-blue.svg)](https://ieeexplore.ieee.org/document/10301231)
 
-The bib entry to cite the arXiv version is available here: [![Cite](https://img.shields.io/badge/Cite-BibTex-green.svg)](seeker.bib)
+The PDF version of this paper is available here: [![Paper](https://img.shields.io/badge/PDF-blue.svg)](https://rdegiovanni.github.io/publications/files/ISSRE23.pdf)
+
+The bib entry to cite this paper is available here: [![Cite](https://img.shields.io/badge/Cite-BibTex-green.svg)](seeker.bib)
 
 ---
 
