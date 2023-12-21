@@ -4,7 +4,7 @@ This repo contains the source code and data set for the paper _Enabling Efficien
 
 The accepted paper is available here: [![Paper](https://img.shields.io/badge/Paper-blue.svg)](https://ieeexplore.ieee.org/document/10301231)
 
-The PDF version of this paper is available here: [![Paper](https://img.shields.io/badge/PDF-blue.svg)](https://rdegiovanni.github.io/publications/files/ISSRE23.pdf)
+The PDF version of this paper is available here: [![Paper](https://img.shields.io/badge/PDF-blue.svg)](https://draayushgarg.github.io/files/Enabling_Efficient_Assertion_Inference.pdf)
 
 The bib entry to cite this paper is available here: [![Cite](https://img.shields.io/badge/Cite-BibTex-green.svg)](seeker.bib)
 
